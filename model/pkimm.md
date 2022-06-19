@@ -28,28 +28,32 @@ Each category can be separately assessed for its maturity level. Maturity levels
 
 The following categories of the PKI maturity model are defined with the appropriate weight based on the applicability and importance:
 
-| **Part**                       | **Short description**                                                                                                               | **Weight** |
-|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|------------|
-| **Strategy and vision**        | Responsibility matrix for the PKI and strategy for the PKI management over time to respond on trends and risks                      | 5          |
-| **Policies and documentation** | Formal policies and practice statements for PKI services and formal management of all agreement between parties involved in the PKI | 4          |
-| **Compliance**                 | Adherence to standards and applicable regulations and requirements for the PKI and trust services                                   | 2          |
-| **Processes and procedures**   | Processes and procedures related to PKI management tasks and operational activities                                                 | 3          |
-| **Key Management**             | Key management policy and procedures related to PKI cryptographic keys and its lifecycle                                            | 4          |
-| **Certificate Management**     | Certificate management policy and lifecycle                                                                                         | 4          |
-| **Interoperability**           | Application of interoperable protocols and standards, avoidance to vendor lock                                                      | 2          |
-| **Infrastructure Management**  | Infrastructure setup and high availability of the PKI services, environments                                                        | 1          |
-| **Change Management**          | Change management process, accepting requests and staging process                                                                   | 3          |
-| **Sourcing**                   | Availability of skilled resources to manage PKI                                                                                     | 5          |
-| **Knowledge and Training**     | Education of people and continuously gathering required knowledge                                                                   | 2          |
-| **Monitoring and Auditing**    | Measure the PKI attributes, provide evidence, monitoring and alerting of relevant issues, incident response management              | 2          |
-| **Automation**                 | Automation of certificate management, tooling                                                                                       | 1          |
-| **Visibility**                 | Visibility on certificates issued and used in the infrastructure and application to manage its compliance                           | 2          |
-| **Awareness**                  | Working with the certificates, awareness about the PKI in the organization                                                          | 3          |
-| **Resilience**                 | Quickly respond to potential attack and unavailability of PKI services or other related resources                                   | 4          |
+| Category                          | Weight |
+|-----------------------------------|--------|
+| **Strategy and vision**           | 5      |
+| **Policies and documentation**    | 4      |
+| **Compliance**                    | 2      |
+| **Processes and procedures**      | 3      |
+| **Key Management**                | 4      |
+| **Certificate Management**        | 4      |
+| **Interoperability**              | 2      |
+| **Infrastructure Management**     | 2      |
+| **Change Management and Agility** | 3      |
+| **Sourcing**                      | 4      |
+| **Knowledge and Training**        | 3      |
+| **Monitoring and Auditing**       | 2      |
+| **Automation**                    | 2      |
+| **Certificate discovery**         | 2      |
+| **Awareness**                     | 3      |
+| **Resilience**                    | 4      |
+
+For more information on categories, please refer to the [Categories Maturity Evaluation](../categories/pkimm-categories-overview.md).
+
+The weights of the categories are used to calculate the overall maturity level of the PKI.
 
 ### Overall maturity level
 
-Based on the nature of PKI part, these maturity levels are described accordingly. Overall maturity level is calculated as weighted average of maturity level of PKI parts.
+Based on the nature of PKI part, these maturity levels are described accordingly. Overall maturity level is calculated as weighted average of maturity level of PKI categories.
 
 There are defined the following overall maturity levels for the PKI Maturity Model:
 
