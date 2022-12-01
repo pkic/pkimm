@@ -21,15 +21,15 @@ Certificate management is the set of techniques and procedures supporting certif
 
 | #                      | Requirement                 | Weight     |
 |------------------------|-----------------------------|------------|
-| [1](#certificate-profiles-are-documented) | Certificate profiles are documented | *[Weight]* |
-| [2](#certificate-cipher-suites-are-documented-and-maintained) | Certificate cipher suites are documented and maintained| *[Weight]* |
-| [3](#process-and-protocols-for-certificate-generation-is-documented) | Process and protocols for certificate generation is documented | *[Weight]* |
-| [4](#methods-for-certificate-installation-are-documented) | Methods for certificate installation are documented | *[Weight]* |
-| [5](#inventory-of-issued-certificates-is-documented-and-maintained) | Inventory of issued certificates is documented and maintained | *[Weight]* |
-| [6](#certificate-expiration-is-documented-and-monitored) | Certificate expiration is documented and monitored | *[Weight]* |
-| [7](#certificate-revocation-process) | Certificate revocation process | *[Weight]* |
-| [8](#network-certificates-are-discovered) | Network certificates are discovered | *[Weight]* |
-| [9](#certificate-management-is-periodically-reviewed-and-updated) | Certificate management is periodically reviewed and updated | *[Weight]* |
+| [1](#certificate-profiles-are-documented) | Certificate profiles are documented | 2 |
+| [2](#certificate-cipher-suites-are-documented-and-maintained) | Certificate cipher suites are documented and maintained| 2 |
+| [3](#process-and-protocols-for-certificate-generation-is-documented) | Process and protocols for certificate generation is documented | 2 |
+| [4](#methods-for-certificate-installation-are-documented) | Methods for certificate installation are documented | 1 |
+| [5](#inventory-of-issued-certificates-is-documented-and-maintained) | Inventory of issued certificates is documented and maintained | 3 |
+| [6](#certificate-expiration-is-documented-and-monitored) | Certificate expiration is documented and monitored | 3 |
+| [7](#certificate-revocation-process) | Certificate revocation process | 2 |
+| [8](#network-certificates-are-discovered) | Network certificates are discovered | 2 |
+| [9](#certificate-management-is-periodically-reviewed-and-updated) | Certificate management is periodically reviewed and updated | 4 |
 
 
 > **Note**
