@@ -1,4 +1,4 @@
-# PKI MM - Key Management
+# PKI MM - *Key Management*
 
 ## Overview
 
@@ -15,43 +15,16 @@ The key management is important for the public key infrastructure to maintain tr
 
 | #                   | Requirement                                                                    | Weight |
 |---------------------|--------------------------------------------------------------------------------|--------|
-| [1](#requirement-1) | Key management policy is documented and integrated                             | 4      |
-| [2](#requirement-2) | Key management roles and responsibilities are documented and formally assigned | 2      |
-| [3](#requirement-3) | Inventory of cryptographic keys is documented and maintained                   | 2      |
-| [4](#requirement-4) | Inventory of cryptographic devices is documented and maintained                | 1      |
-| [5](#requirement-5) | Each cryptographic key is defined and has documented lifecycle procedures      | 2      |
-| [6](#requirement-6) | Cryptographic cipher suites and protocols are documented and maintained        | 2      |
-| [7](#requirement-7) | Key management is periodically reviewed and updated                            | 3      |
+| [1](#requirement-1) | Key management roles and responsibilities are documented and formally assigned | 2      |
+| [2](#requirement-2) | Inventory of cryptographic keys is documented and maintained                   | 2      |
+| [3](#requirement-3) | Inventory of cryptographic devices is documented and maintained                | 1      |
+| [4](#requirement-4) | Each cryptographic key is defined and has documented lifecycle procedures      | 2      |
+| [5](#requirement-5) | Cryptographic cipher suites and protocols are documented and maintained        | 2      |
+| [6](#requirement-6) | Key management is periodically reviewed and updated                            | 3      |
 
 ## Details
 
 <a name="requirement-1"></a>
-### Key management policy is documented and integrated
-
-#### Guidance
-
-The key management policy is a high-level statement of organizational key management policies that identifies high-level structure, responsibilities, governing standards and guidelines, organizational dependencies and other relationships, and security policies.
-
-Key management is defined within the context of a specific key management policy. The policy affects the stringency of cryptographic requirements, depending on the susceptibility of the environment in question to various types of attack. Security policies typically also specify:
-- practices and procedures to be followed in carrying out technical and administrative aspects of key management, both automated and manual;
-- the responsibilities and accountability of each party involved; and
-- the types of records (audit trail information) to be kept, to support subsequent reports or reviews of security-related events.
-
-The key management policy describes basic principles adopted like dual control, split knowledge, separation of duties, boundaries for the management of cryptographic keys, as well as requirements on the hardware security.
-
-#### Assessment
-
-- Determine the scope of applicability
-- Documented and approved key management policy
-- Content of the key management policy is complete
-- Key management policy is integrated in oraganization
-
-#### References
-
-- [NIST SP 800-57 Recommendation for Key Management](https://csrc.nist.gov/projects/key-management/key-management-guidelines)
-- [ISO/IEC 11770 Key Management](https://www.iso.org/standard/53456.html)
-
-<a name="requirement-2"></a>
 ### Key management roles and responsibilities are documented and formally assigned
 
 #### Guidance
@@ -79,7 +52,7 @@ Naming or assignment record should contain relevant information such as:
 
 - [ISO/IEC 27001 and related standards](https://www.iso.org/isoiec-27001-information-security.html)
 
-<a name="requirement-3"></a>
+<a name="requirement-2"></a>
 ### Inventory of cryptographic keys is documented and maintained
 
 #### Guidance
@@ -105,7 +78,7 @@ Inventory should follow procedures and business as usual activities to keep it a
 - [NIST SP 800-57 Recommendation for Key Management](https://csrc.nist.gov/projects/key-management/key-management-guidelines)
 - [ISO/IEC 11770 Key Management](https://www.iso.org/standard/53456.html)
 
-<a name="requirement-4"></a>
+<a name="requirement-3"></a>
 ### Inventory of cryptographic devices is documented and maintained
 
 #### Guidance
@@ -133,7 +106,7 @@ The inventory of cryptographic devices should contain relevant information such 
 - [NIST SP 800-57 Recommendation for Key Management](https://csrc.nist.gov/projects/key-management/key-management-guidelines)
 - [ISO/IEC 11770 Key Management](https://www.iso.org/standard/53456.html)
 
-<a name="requirement-5"></a>
+<a name="requirement-4"></a>
 ### Each cryptographic key is defined and has documented lifecycle procedures
 
 #### Guidance
@@ -159,7 +132,7 @@ The lifecycle phases contains appropriate description of the procedure such as:
 - [NIST SP 800-57 Recommendation for Key Management](https://csrc.nist.gov/projects/key-management/key-management-guidelines)
 - [ISO/IEC 11770 Key Management](https://www.iso.org/standard/53456.html)
 
-<a name="requirement-6"></a>
+<a name="requirement-5"></a>
 ### Cryptographic cipher suites and protocols are documented and maintained
 
 #### Guidance
@@ -183,7 +156,7 @@ Cipher suites and protocols should be regularly checked against the implemented 
 - [ISO/IEC 11770 Key Management](https://www.iso.org/standard/53456.html)
 - [NIST SP 800-131A Transitioning the Use of Cryptographic Algorithms and Key Lengths](https://csrc.nist.gov/publications/detail/sp/800-131a/rev-2/final)
 
-<a name="requirement-7"></a>
+<a name="requirement-6"></a>
 ### Key management is periodically reviewed and updated
 
 #### Guidance
