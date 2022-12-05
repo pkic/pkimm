@@ -54,7 +54,6 @@ The following categories of the PKI maturity model are defined with the appropri
 | **Knowledge and Training**        | 3      |
 | **Monitoring and Auditing**       | 2      |
 | **Automation**                    | 2      |
-| **Certificate discovery**         | 2      |
 | **Awareness**                     | 3      |
 | **Resilience**                    | 4      |
 
@@ -66,9 +65,9 @@ The weights of the categories are used to calculate the overall maturity level o
 
 Each module consists of specific categories related to them:
 
-| Governance                                                                                                                   | Management                                                                                                                                                                   | Operations                                                                                               | Resources                                                                   |
-|------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| <ul><li>Strategy and vision</li><li>Policies and documentation</li><li>Compliance</li><li>Processes and procedures</li></ul> | <ul><li>Key Management</li><li>Certificate Management (include the Certificate Discovery?)</li><li>Infrastructure Management</li><li>Change Management and Agility</li></ul> | <ul><li>Resilience</li><li>Automation</li><li>Interoperability</li><li>Monitoring and Auditing</li></ul> | <ul><li>Sourcing</li><li>Knowledge and Training</li><li>Awareness</li></ul> |
+| Governance                                                                                                                   | Management                                                                                                                              | Operations                                                                                               | Resources                                                                   |
+|------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| <ul><li>Strategy and vision</li><li>Policies and documentation</li><li>Compliance</li><li>Processes and procedures</li></ul> | <ul><li>Key Management</li><li>Certificate Management</li><li>Infrastructure Management</li><li>Change Management and Agility</li></ul> | <ul><li>Resilience</li><li>Automation</li><li>Interoperability</li><li>Monitoring and Auditing</li></ul> | <ul><li>Sourcing</li><li>Knowledge and Training</li><li>Awareness</li></ul> |
 
 ### Overall maturity level
 
