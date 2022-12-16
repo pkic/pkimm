@@ -16,10 +16,10 @@ Certificate management is the set of techniques and procedures supporting certif
 |---------------------|----------------------------------------------------------------|--------|
 | [1](#requirement-1) | Certificate profiles are documented                            | 2      |
 | [2](#requirement-2) | Certificate cipher suites are documented                       | 2      |
-| [3](#requirement-3) | Certificate Life Cycle Management is documented                | 2      |
-| [5](#requirement-4) | Inventory of issued certificates is documented                 | 3      |
-| [8](#requirement-5) | Certificate discovery process is documented                    | 2      |
-| [9](#requirement-6) | Certificate management is periodically reviewed and updated    | 4      |
+| [3](#requirement-3) | Certificate Life Cycle Management is documented                | 4      |
+| [4](#requirement-4) | Inventory of issued certificates is documented                 | 3      |
+| [5](#requirement-5) | Certificate discovery process is documented                    | 2      |
+| [6](#requirement-6) | Certificate management is periodically reviewed and updated    | 4      |
 
 ## Details
 
