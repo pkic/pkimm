@@ -15,14 +15,11 @@ Certificate management is the set of techniques and procedures supporting certif
 | #                   | Requirement                                                    | Weight |
 |---------------------|----------------------------------------------------------------|--------|
 | [1](#requirement-1) | Certificate profiles are documented                            | 2      |
-| [2](#requirement-2) | Certificate cipher suites are documented and maintained        | 2      |
-| [3](#requirement-3) | Process and protocols for certificate generation is documented | 2      |
-| [4](#requirement-4) | Methods for certificate installation are documented            | 1      |
-| [5](#requirement-5) | Inventory of issued certificates is documented and maintained  | 3      |
-| [6](#requirement-6) | Certificate expiration is documented and monitored             | 3      |
-| [7](#requirement-7) | Certificate revocation process                                 | 2      |
-| [8](#requirement-8) | Network certificates are discovered                            | 2      |
-| [9](#requirement-9) | Certificate management is periodically reviewed and updated    | 4      |
+| [2](#requirement-2) | Certificate cipher suites are documented                       | 2      |
+| [3](#requirement-3) | Certificate Life Cycle Management is documented                | 2      |
+| [5](#requirement-4) | Inventory of issued certificates is documented                 | 3      |
+| [8](#requirement-5) | Certificate discovery process is documented                    | 2      |
+| [9](#requirement-6) | Certificate management is periodically reviewed and updated    | 4      |
 
 ## Details
 
@@ -57,9 +54,11 @@ Most certificate profiles aim for compatibility with RFC 5280 for maximum intero
 * [ETSI Qualified Certificate Profiles](https://portal.etsi.org/TB-SiteMap/ESI/Trust-Service-Providers)
 * [ETSI 319-411-1](https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/01.03.01_60/en_31941101v010301p.pdf)
 * [ETSI 319-411-2](https://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.03.01_60/en_31941102v020301p.pdf)
+* [3GPP 33.310 - Network Domain Security (NDS); Authentication Framework (AF)](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2293)
+* [UNISIG SUBSET-137](https://www.era.europa.eu/system/files/2022-11/index083_-_subset-137_v100.pdf)
 
 <a name="requirement-2"></a>
-### Certificate cipher suites are documented and maintained
+### Certificate cipher suites are documented
 
 #### Guidance
 
@@ -69,55 +68,71 @@ Cipher suites, for certificates specifically defining key algorithms, key securi
 
 * Determine the scope of applicability
 * Documented and approved cipher suites with rationale for inclusion of algorithms
-* Documented agile path for migration to other algorithms if needed
+* Documented agile path for migration to other algorithms when needed
 * Cipher suites are enforced by certificate authority
 
 #### References
 
 * [RFC 5280 - Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile](https://datatracker.ietf.org/doc/html/rfc5280)
 * [SOG-IS crypto algorithms](https://www.sogis.eu/uk/supporting_doc_en.html)
-* NIST approved algorithms [CNSA 2.0](https://media.defense.gov/2022/Sep/07/2003071834/-1/-1/0/CSA_CNSA_2.0_ALGORITHMS_.PDF) and [Suite B](https://apps.nsa.gov/iaarchive/programs/iad-initiatives/cnsa-suite.cfm)
+* NIST [Suite B](https://apps.nsa.gov/iaarchive/programs/iad-initiatives/cnsa-suite.cfm)
+* NIST approved algorithms [CNSA 2.0](https://media.defense.gov/2022/Sep/07/2003071834/-1/-1/0/CSA_CNSA_2.0_ALGORITHMS_.PDF)
 * [NIST SP 800-208 - Recommendation for Stateful Hash-Based Signature Schemes](https://csrc.nist.gov/publications/detail/sp/800-208/final)
 
 <a name="requirement-3"></a>
-### Process and protocols for certificate generation is documented
+### Certificate Life Cycle Management is documented
 
 #### Guidance
 
-Issuance of certificates follow specific procedures, be it manual processes or automated processes using a standard or non-standard PKI protocol. An organization should be clear about:
-* Validation procedures used for issuing certificates, by RAs and CAs
-* On-line or off-line protocols used for enrollment
+Issuance of certificates follow specific procedures, be it manual processes or automated processes using standard or non-standard PKI protocol. An organization should be clear about the full life cycle management of certificates:
+1. Certificate Application and the validation procedures used, by RAs and CAs
+2. Certificate Issuance and protocols used for enrollment, on-line and off-line
+3. Certificate Renewal, Re-key and Modification, upon exiration or other causes
+** Certificate expirations are historically a case of severe and costly outages. Proper process of renewal and monitoring expiring certificates prevents common issues
+4. Certificate Revocation
+** When certificates need to be revoked it is important to have a well-defined certificate revocation process:
+*** Where subjects can contact to get a certificate revoked
+*** Where misuse of certificates can be reported
+*** How long after a revocation request it takes for a certificate to be revoked
+*** How revocation information is disseminated to relying parties
+5. Certificate status dissemination
+6. Key escrow and recovery
+7. Trust anchor management
 
 #### Assessment
 
-* Documented automated / manual process for issuing certificates
-* Documented validation rules for certification requests
-* Documented on-line protocols for issuing certificates, and the configuration of protocols
+* Documented application and validation rules
+* Documented process for issuing certificates
+** configuration of protocols
+* Documented Certificate Acceptance and certificate subject installation procedures
+* Documented renewal criteria, where re-key is nessecary and which certificate modifications are allowed
+** Documented criticality of expiration for different use cases
+** Automated monitoring and alerting of expiration for critical systems
+** Automated certificate renewal
+* Documented revocation process
+** Documented revocation procedures, both for subjects and administrators
+** If suspension is used the un-revocation process
+** Documented contact points for reports in the organizations or from relying parties
+** List of relying parties that depend on updated revocation information
+* Documented Certificate status service
+** OCSP and/or CRLs
+** Documentation how relying parties get access to revocation information
+* Documented process for key escrow and recovery when encryption keys need to be stored centrally
+* Documented trust anchor management
+** Distribution of new and updated trust anchors (Root CA certificates)
 
 #### References
 
-Some examples of protocols and profiled usage of protocols are:
+Examples of process, protocols and profiled usage:
 * [RFC 4210 - Internet X.509 Public Key Infrastructure
   Certificate Management Protocol (CMP)](https://datatracker.ietf.org/doc/html/rfc4210/)
+* [CA/B Forum baseline requirements](https://cabforum.org/baseline-requirements/)
 * [3GPP 33.310 - Network Domain Security (NDS); Authentication Framework (AF)](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2293)
-* [UNISIG SUBSET-137](https://web.archive.org/web/20180917143529/https://www.era.europa.eu/filebrowser/download/542_en)
+* [UNISIG SUBSET-137](https://www.era.europa.eu/system/files/2022-11/index083_-_subset-137_v100.pdf)
+
 
 <a name="requirement-4"></a>
-### Methods for certificate installation are documented
-
-#### Guidance
-
-When certificates are issued, they must also be installed. This can be done manually or automated.
-
-#### Assessment
-
-* Documented certificate subject installation procedures
-* User guidance
-
-#### References
-
-<a name="requirement-5"></a>
-### Inventory of certificates is documented and maintained
+### Inventory of certificates is documented
 
 #### Guidance
 
@@ -143,45 +158,10 @@ The certificate inventory therefore consists of information related to certifica
   Certificate Policy and Certification Practices Framework - Certificate Life-Cycle Operational Requirements](https://datatracker.ietf.org/doc/html/rfc3647/#section-4.4)
 * [NIST SP 800-57 Part 1 Rev. 5 - certificate inventory management](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf)
 
-<a name="requirement-6"></a>
-### Certificate expiration is documented and monitored
 
-#### Guidance
 
-Certificate expirations are historically a case of severe and costly outages, and expired certificates can be a subject of various vulnerabilities and attacks. Proper process of monitoring expiring certificates prevents common issues that can break trust between relying parties. Owner of the certificate should always provide information about the certificate renewal process or termination of its operation.
-
-#### Assessment
- 
-* Documented criticality of expiration for different use cases
-* Automated monitoring and alerting of expiration for critical systems
-* Automated certificate renewal
-* Distribution of renewed certificate to all locations where it should replace expiring certificate
-* Decommissioning of expired certificate in case it is not renewed
-
-#### References
-
-<a name="requirement-7"></a>
-### Certificate revocation process
-
-#### Guidance
-
-When certificates need to be revoked it is important to have a well-defined certificate revocation process:
-* Where subjects can contact to get a certificate revoked
-* Where misuse of certificates can be reported
-* How long after a revocation request it takes for a certificate to be revoked
-* How revocation information is disseminated to relying parties
-
-#### Assessment
-
-* Documented revocation procedures, both for subjects and administrators
-* Documented contact points for reports in the organizations or from relying parties
-* List of relying parties that depend on updated revocation information
-* Documentation how relying parties get access to revocation information
-
-#### References
-
-<a name="requirement-8"></a>
-### Certificate discovery process is documented and implemented
+<a name="requirement-5"></a>
+### Certificate discovery process is documented
 
 #### Guidance
 
@@ -200,7 +180,7 @@ Discovery process should be run frequently on the specified locations and the ce
 
 #### References
 
-<a name="requirement-9"></a>
+<a name="requirement-6"></a>
 ### Certificate management is periodically reviewed and updated
 
 #### Guidance
