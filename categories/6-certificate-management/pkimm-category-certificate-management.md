@@ -88,13 +88,13 @@ Issuance of certificates follow specific procedures, be it manual processes or a
 1. Certificate Application and the validation procedures used, by RAs and CAs
 2. Certificate Issuance and protocols used for enrollment, on-line and off-line
 3. Certificate Renewal, Re-key and Modification, upon exiration or other causes
-** Certificate expirations are historically a case of severe and costly outages. Proper process of renewal and monitoring expiring certificates prevents common issues
+  * Certificate expirations are historically a case of severe and costly outages. Proper process of renewal and monitoring expiring certificates prevents common issues
 4. Certificate Revocation
-** When certificates need to be revoked it is important to have a well-defined certificate revocation process:
-*** Where subjects can contact to get a certificate revoked
-*** Where misuse of certificates can be reported
-*** How long after a revocation request it takes for a certificate to be revoked
-*** How revocation information is disseminated to relying parties
+  * When certificates need to be revoked it is important to have a well-defined certificate revocation process:
+    * Where subjects can contact to get a certificate revoked
+    * Where misuse of certificates can be reported
+    * How long after a revocation request it takes for a certificate to be revoked
+    * How revocation information is disseminated to relying parties
 5. Certificate status dissemination
 6. Key escrow and recovery
 7. Trust anchor management
