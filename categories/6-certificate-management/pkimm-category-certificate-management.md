@@ -88,13 +88,13 @@ Issuance of certificates follow specific procedures, be it manual processes or a
 1. Certificate Application and the validation procedures used, by RAs and CAs
 2. Certificate Issuance and protocols used for enrollment, on-line and off-line
 3. Certificate Renewal, Re-key and Modification, upon exiration or other causes
-  * Certificate expirations are historically a case of severe and costly outages. Proper process of renewal and monitoring expiring certificates prevents common issues
+   * Certificate expirations are historically a case of severe and costly outages. Proper process of renewal and monitoring expiring certificates prevents common issues
 4. Certificate Revocation
-  * When certificates need to be revoked it is important to have a well-defined certificate revocation process:
-    * Where subjects can contact to get a certificate revoked
-    * Where misuse of certificates can be reported
-    * How long after a revocation request it takes for a certificate to be revoked
-    * How revocation information is disseminated to relying parties
+   * When certificates need to be revoked it is important to have a well-defined certificate revocation process:
+     * Where subjects can contact to get a certificate revoked
+     * Where misuse of certificates can be reported
+     * How long after a revocation request it takes for a certificate to be revoked
+     * How revocation information is disseminated to relying parties
 5. Certificate status dissemination
 6. Key escrow and recovery
 7. Trust anchor management
@@ -103,23 +103,23 @@ Issuance of certificates follow specific procedures, be it manual processes or a
 
 * Documented application and validation rules
 * Documented process for issuing certificates
-** configuration of protocols
+  * configuration of protocols
 * Documented Certificate Acceptance and certificate subject installation procedures
 * Documented renewal criteria, where re-key is nessecary and which certificate modifications are allowed
-** Documented criticality of expiration for different use cases
-** Automated monitoring and alerting of expiration for critical systems
-** Automated certificate renewal
+  * Documented criticality of expiration for different use cases
+  * Automated monitoring and alerting of expiration for critical systems
+  * Automated certificate renewal
 * Documented revocation process
-** Documented revocation procedures, both for subjects and administrators
-** If suspension is used the un-revocation process
-** Documented contact points for reports in the organizations or from relying parties
-** List of relying parties that depend on updated revocation information
+  * Documented revocation procedures, both for subjects and administrators
+  * If suspension is used the un-revocation process
+  * Documented contact points for reports in the organizations or from relying parties
+  * List of relying parties that depend on updated revocation information
 * Documented Certificate status service
-** OCSP and/or CRLs
-** Documentation how relying parties get access to revocation information
+  * OCSP and/or CRLs
+  * Documentation how relying parties get access to revocation information
 * Documented process for key escrow and recovery when encryption keys need to be stored centrally
 * Documented trust anchor management
-** Distribution of new and updated trust anchors (Root CA certificates)
+  * Distribution of new and updated trust anchors (Root CA certificates)
 
 #### References
 
