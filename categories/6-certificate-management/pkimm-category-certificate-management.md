@@ -94,10 +94,11 @@ Issuance of certificates follow specific procedures, be it manual processes or a
      * Where subjects can contact to get a certificate revoked
      * Where misuse of certificates can be reported
      * How long after a revocation request it takes for a certificate to be revoked
-     * How revocation information is disseminated to relying parties
 5. Certificate status dissemination
+   * How revocation information is disseminated to relying parties
 6. Key escrow and recovery
 7. Trust anchor management
+   * Trust anchors on machines and devices are a key point of trust management in the organization. Unmanaged trust stores can cause both outages and security issues.
 
 #### Assessment
 
@@ -136,10 +137,10 @@ Examples of process, protocols and profiled usage:
 
 #### Guidance
 
-Certificate inventory consists of all known certificates and provides an overview of the managed and unmanaged certificates in the infrastructure. Without knowing certificates. it is not possible to track their life cycle, revoke, or renew on time. The certificate inventory is important for the organization because:
-- it provides immediate access to the current status of certificate
+Certificate inventory consists of all known certificates and provides an overview of known certifiates in the organization. Certificates in inventory are subject to certificate lifecycle management. The certificate inventory is important for the organization because:
+- it provides immediate access to the current status of certificates
 - provides possibility to react on certificate-related events (compromise, change, expiration, etc.)
-- we understand impact of lifecycle changes 
+- understand impact of lifecycle changes
 - it gives information on all locations of certificates
 - can enforce and maintain ownership of certificates
 
@@ -147,7 +148,8 @@ The certificate inventory therefore consists of information related to certifica
 
 #### Assessment
 
-* Documented criticality of inventory for different use cases
+* Documented inventory
+  * how inventory is maintained across the organization
 * Documented certificate inventory management
 * Validation of certificate inventory records
 * Effectiveness of the certificate inventory implementation
@@ -159,23 +161,22 @@ The certificate inventory therefore consists of information related to certifica
 * [NIST SP 800-57 Part 1 Rev. 5 - certificate inventory management](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf)
 
 
-
 <a name="requirement-5"></a>
 ### Certificate discovery process is documented
 
 #### Guidance
 
-Certificate discovery process protect organization from unknown certificates that may be deployed in the infrastructure. Unknown certificates may be further issued by unauthorized certification authorities and mislead users of services. Certificate discovery helps to maintain current inventory of certificates. Certificate discovery process should be implemented based on supported certificates and use-cases, for example:
-- to scan the network for certificates used on known protocols and ports to discover certificates that can potentially cause service outage or breach 
-- search for the certificates on the file system to discover unauthorized or unsecured certificates
+Certificate discovery process protect organization from unknown certificates that may be deployed in the infrastructure. Unknown certificates may be further issued by unauthorized certification authorities and mislead users of services. Certificate discovery helps to maintain current inventory of certificates, but does not depend on the inventory and is not nessecary to maintain an inventory. Certificate discovery process should be implemented based on supported certificates and use-cases, for example:
+- to scan the network for certificates used on known protocols and ports to discover certificates that can potentially cause service outage or breach
+- search for the certificates on file system to discover unauthorized or unsecured certificates
 
 Discovery process should be run frequently on the specified locations and the certificate inventory should be updated based on the results of the certificate discovery to keep it current.
 
 #### Assessment
 
 * Documented certificate discovery requirements
-* Documented certificate discovery process and its frequency
-* Effectiveness of the supporting tools for the certificate discovery
+* Documented certificate discovery process and frequency
+* The supporting tools for the certificate discovery
 * Certificate inventory is updated with discovered certificates
 
 #### References
