@@ -15,11 +15,12 @@ Certificate management is the set of techniques and procedures supporting certif
 | #                   | Requirement                                                    | Weight |
 |---------------------|----------------------------------------------------------------|--------|
 | [1](#requirement-1) | Certificate profiles are documented                            | 2      |
-| [2](#requirement-2) | Certificate cipher suites are documented                       | 2      |
+| [2](#requirement-2) | Certificate cipher suites are documented                       | 3      |
 | [3](#requirement-3) | Certificate Life Cycle Management is documented                | 4      |
 | [4](#requirement-4) | Inventory of issued certificates is documented                 | 3      |
 | [5](#requirement-5) | Certificate discovery process is documented                    | 2      |
 | [6](#requirement-6) | Certificate management is periodically reviewed and updated    | 4      |
+| [7](#requirement-7) | Organizational PKI Governance                                  | 2      |
 
 ## Details
 
@@ -200,3 +201,22 @@ It provides also assurance that the expected controls are active and working as 
 #### References
 
 - [ISO/IEC 27001 and related standards](https://www.iso.org/isoiec-27001-information-security.html)
+
+<a name="requirement-7"></a>
+### Organizational PKI Governance
+
+#### Guidance
+
+Large organization commonly have several PKI systems spread out in the organization. Some can be consolidated, but in many cases PKI different PKI silos exists for good reasons. Having a central governance of PKI across the organization will help to maintain best practices, ensure secure PKI operations, re-use PKI knowledge in the organization, ensure consistent profiles and avoid unessecary double work.
+#### Assessment
+
+* Documented PKIs used in the organization
+  * Different PKI technologies used
+  * Installed PKI instances
+* Documented PKI best practises
+  * Installation procedures to avoid re-learning the same issues in different part of the organization
+  * Configuration to ensure consistent and interoperable certificates
+  * Security to maintain a security base line across the whole organization
+
+#### References
+
