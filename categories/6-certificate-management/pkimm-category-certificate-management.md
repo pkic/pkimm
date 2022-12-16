@@ -55,6 +55,8 @@ Most certificate profiles aim for compatibility with RFC 5280 for maximum intero
 * [RFC 5280 - Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile](https://datatracker.ietf.org/doc/html/rfc5280)
 * [CA/B Forum baseline requirements](https://cabforum.org/baseline-requirements/)
 * [ETSI Qualified Certificate Profiles](https://portal.etsi.org/TB-SiteMap/ESI/Trust-Service-Providers)
+* [ETSI 319-411-1](https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/01.03.01_60/en_31941101v010301p.pdf)
+* [ETSI 319-411-2](https://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.03.01_60/en_31941102v020301p.pdf)
 
 <a name="requirement-2"></a>
 ### Certificate cipher suites are documented and maintained
