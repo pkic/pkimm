@@ -30,7 +30,7 @@ See the full list of [Categories](./categories/pkimm-categories-overview.md).
 
 ## Assessment methodology
 
-[Assessment methodology](./assessment/pkimm-assessment.md) should give the consistent and convenient approach to assess maturity level of any PKI based on the pre-defined set of deterministic questions.
+[Assessment methodology](./assessment/pkimm-assessment-methodology.md) should give the consistent and convenient approach to assess maturity level of any PKI based on the pre-defined set of deterministic questions.
 
 The methodology defines the self-assessment questionnaire and reporting template to support the comparable results of the PKI assessment between companies of the same size or the same industry.
 
