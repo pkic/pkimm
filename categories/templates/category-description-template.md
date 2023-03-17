@@ -42,13 +42,6 @@ The calculation of the overall maturity level for the category follows the weigh
 > **Note**
 > Details about each requirement in consistent structure, containing guidance for the users how to assess the requirements and what is required to have.
 
-| #                      | Requirement                 | References                                                                                        | Guidance                                                                                 | Assessment                                                                                                                               |
-|------------------------|-----------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| *[Requirement number]* | *[Requirement description]* | *[Optional reference to standards that may be applicable, like ISO, NIST, WebTrust, eIDAS, etc.]* | *[Guidance on what is the purpose of the requirement, clarification of the requirement]* | *[Details about how the assessment of the requirement should be performed. It may include samples of evidence that should be available]* |
-
-> **Note**
-> The above described table may be used for the description of details, or you can choose different format containing the same information Guidance, Assessment, and References. 
-
 ### *[Requirement description]*
 #### Guidance
 *[Guidance on what is the purpose of the requirement, clarification of the requirement]*
