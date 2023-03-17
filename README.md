@@ -4,6 +4,12 @@ This repository is part of the [PKI Consortium](https://pkic.org/) PKI Maturity 
 
 You can find more information about the working group and its goal in the [PKI Maturity Model Working Group Charter](https://pkic.org/wg/pkimm/charter/).
 
+## Applicability
+
+The PKI Maturity Model is intended for all entities that operates public key infrastructure, regardless of the size, industry, or use-case.
+
+Whether the entity would like to follow this model is at discretion of the entity. The model is not mandatory and does not impose any requirements on the entity.
+
 ## Goal
 
 Our goal is to build a PKI maturity model that will be recognized around the globe as a standard for evaluation, planning, and comparison between different PKI implementations. It can also serve as a basis for additional services connected with the model, like PKI maturity assessment, or implementation and action plans definition for PKI environments.
