@@ -1,6 +1,6 @@
 # PKI Maturity Model Assessment Methodology
 
-The following document describes the methodology how is the maturity assessment done based on the [PKI Maturity Model](../model/pkimm.md).
+The following document describes the methodology how is the maturity assessment done based on the [PKI Maturity Model](../model/).
 
 ## Assessment methods
 

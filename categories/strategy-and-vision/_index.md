@@ -1,6 +1,13 @@
+---
+date: 2023-03-21T7:00:00Z
+title: Strategy and vision
+weight: 1
+
+---
+
 # Strategy and vision - PKI maturity model category
 
-The purpose of this document is to provide information on maturity model and assessment questions for the strategy and vision category of the [PKI maturity model](../../model/pkimm.md).
+The purpose of this document is to provide information on maturity model and assessment questions for the strategy and vision category of the [PKI maturity model](../../model/).
 
 It consists of the following parts:
 - Maturity model
