@@ -2,7 +2,7 @@
 
 This is the PKI Maturity Model of the PKI Consortium, the current version is located at https://pkic.org/pkimm.
 
-[PKIMM](_index.md)
+[PKIMM](../_index.md)
 
 ## How to contribute
 
