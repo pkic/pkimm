@@ -9,6 +9,11 @@ weight: 2
 
 > **Warning**
 > TBD
+{class="callout-warning"}
+
+> **Info**
+> TBD
+{class="callout-info"}
 
 ## Overview
 
@@ -52,7 +57,7 @@ The key management policy describes basic principles adopted like dual control, 
 - Determine the scope of applicability
 - Documented and approved key management policy
 - Content of the key management policy is complete
-- Key management policy is integrated in oraganization
+- Key management policy is integrated in organization
 
 #### References
 
