@@ -1,7 +1,7 @@
 ---
 date: 2023-03-21T7:00:00Z
 title: PKI Maturity Model
-
+sideMenu: true
 ---
 
 # PKI Maturity Model
@@ -36,10 +36,10 @@ See the full list of [Categories](./categories/).
 
 ## Assessment methodology
 
-[Assessment methodology](./assessment/) should give the consistent and convenient approach to assess maturity level of any PKI based on the pre-defined set of deterministic questions.
+[Assessment methodology](./assessment/methodology/) should give the consistent and convenient approach to assess maturity level of any PKI based on the pre-defined set of deterministic questions.
 
 The methodology defines the self-assessment questionnaire and reporting template to support the comparable results of the PKI assessment between companies of the same size or the same industry.
 
 ## Reporting
 
-[Reporting tools](./report/) are defined to provide consistent results across different PKI implementations.
+[Reporting tools](./assessment/report/) are defined to provide consistent results across different PKI implementations.

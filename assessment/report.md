@@ -1,6 +1,6 @@
 ---
 date: 2023-03-21T7:00:00Z
-title: Assessment Report
+title: Report
 
 ---
 
@@ -49,4 +49,4 @@ The detailed assessment report should contain the following:
 
 ## Sample chart
 
-![Sample chart](images/sample-chart.png)
+![Sample chart](../images/sample-chart.png)
