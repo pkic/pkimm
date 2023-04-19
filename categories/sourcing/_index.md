@@ -1,3 +1,10 @@
+---
+date: 2023-04-19T8:52:00Z
+title: Sourcing
+weight: 10
+
+---
+
 # PKI MM - *Sourcing*
 
 ## Overview
