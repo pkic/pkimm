@@ -1,3 +1,9 @@
+---
+date: 2023-03-21T7:00:00Z
+title: PKI Maturity Model
+sideMenu: true
+---
+
 # PKI Maturity Model
 
 This repository is part of the [PKI Consortium](https://pkic.org/) PKI Maturity Model working group.
@@ -20,20 +26,20 @@ The adoption of the PKI maturity model must be very easy and therefore the model
 
 ## Model
 
-The [PKI Maturity Model](./model/pkimm.md) defines 5 levels of the PKI maturity based on different indicators and associated risks.
+The [PKI Maturity Model](./model/) defines 5 levels of the PKI maturity based on different indicators and associated risks.
 
 ## Categories
 
 The maturity model consists of several categories that covers aspects and activities related to the PKI (people, process, technology). The overall maturity level is determined based on the maturity of the categories.
 
-See the full list of [Categories](./categories/pkimm-categories-overview.md).
+See the full list of [Categories](./categories/).
 
 ## Assessment methodology
 
-[Assessment methodology](./assessment/pkimm-assessment.md) should give the consistent and convenient approach to assess maturity level of any PKI based on the pre-defined set of deterministic questions.
+[Assessment methodology](./assessment/methodology/) should give the consistent and convenient approach to assess maturity level of any PKI based on the pre-defined set of deterministic questions.
 
 The methodology defines the self-assessment questionnaire and reporting template to support the comparable results of the PKI assessment between companies of the same size or the same industry.
 
 ## Reporting
 
-[Reporting tools](./report/pkimm-report.md) are defined to provide consistent results across different PKI implementations.
+[Reporting tools](./assessment/report/) are defined to provide consistent results across different PKI implementations.

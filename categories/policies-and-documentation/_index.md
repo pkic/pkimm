@@ -1,7 +1,19 @@
-# PKI MM - *Policies and documentation*
+---
+date: 2023-03-21T7:00:00Z
+title: Policies and documentation
+weight: 2
+
+---
+
+# Policies and documentation
 
 > **Warning**
 > TBD
+{class="callout-warning"}
+
+> **Info**
+> TBD
+{class="callout-info"}
 
 ## Overview
 
@@ -45,7 +57,7 @@ The key management policy describes basic principles adopted like dual control, 
 - Determine the scope of applicability
 - Documented and approved key management policy
 - Content of the key management policy is complete
-- Key management policy is integrated in oraganization
+- Key management policy is integrated in organization
 
 #### References
 

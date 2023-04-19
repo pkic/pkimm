@@ -1,6 +1,12 @@
-# PKI Maturity Model Assessment Methodology
+---
+date: 2023-03-21T7:00:00Z
+title: Methodology
 
-The following document describes the methodology how is the maturity assessment done based on the [PKI Maturity Model](../model/pkimm.md).
+---
+
+# Assessment Methodology
+
+The following document describes the methodology how is the maturity assessment done based on the [PKI Maturity Model](../model/).
 
 ## Assessment methods
 

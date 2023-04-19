@@ -1,3 +1,10 @@
+---
+date: 2023-03-21T7:00:00Z
+title: Template
+draft: true
+
+---
+
 # Category description template
 
 This document serves as a template for the category description within the framework and definition of the PKI Maturity Model.
@@ -10,10 +17,11 @@ The calculation of the overall maturity level for the category follows the weigh
 - Create new file for the category description
 - Copy and paste the template below and replace parts written in *Italic*
 - Remove comments and notes
+- Remove the 'draft' boolean in the header
 
 ---
 
-# PKI MM - *[Category name]*
+# [Category name]
 
 ## Overview
 
@@ -35,7 +43,7 @@ The calculation of the overall maturity level for the category follows the weigh
 > The weights can be evenly distributed to have each requirement with the same impact.
 
 > **Note**
-> Maturity level for each catogry is selected based on the assessment result and for the values refer to [Maturity Levels](../../model/pkimm.md#maturity-levels).
+> Maturity level for each category is selected based on the assessment result and for the values refer to [Maturity Levels](../../model/#maturity-levels).
 
 ## Details
 
@@ -43,9 +51,13 @@ The calculation of the overall maturity level for the category follows the weigh
 > Details about each requirement in consistent structure, containing guidance for the users how to assess the requirements and what is required to have.
 
 ### *[Requirement description]*
+
 #### Guidance
 *[Guidance on what is the purpose of the requirement, clarification of the requirement]*
+
 #### Assessment
 *[Details about how the assessment of the requirement should be performed. It may include samples of evidence that should be available]*
-#### Refences
+References
+
+#### References
 *[Optional reference to standards that may be applicable, like ISO, NIST, WebTrust, eIDAS, etc.]*
