@@ -1,4 +1,10 @@
-# PKI Maturity Model Scoping
+---
+date: 2023-04-20T7:57:00Z
+title: Scoping
+
+---
+
+# Scoping
 
 The PKI MM is applicable to any entity that uses PKI. It is not limited to any particular industry or sector. However, each PKI environment is unique and the maturity model is not intended to be a one-size-fits-all solution. The maturity model is intended to be used as a tool to evaluate the maturity of the PKI environment and to identify areas for improvement.
 

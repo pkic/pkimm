@@ -1,13 +1,19 @@
-# PKI Maturity Model Assessment Process
+---
+date: 2023-04-20T7:55:00Z
+title: Process
+
+---
+
+# Assessment Process
 
 The PKI Maturity Model assessment process consists of the following steps:
 
-| Step | Name       | Description                                                                                                                                                                    | Reference                                                 |
-|------|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
-| 1    | Scoping    | The scope definition is the first step of the assessment process. The scope defines the boundaries of the assessment and the applicability of the requirements.                | [Scoping](pkimm-scoping.md)                               |
-| 2    | Assessment | The assessment is the process of evaluating the maturity of the PKI environment against the requirements defined in the maturity model within the boundaries of defined scope. | [Assessment Methodology](pkimm-assessment-methodology.md) |
-| 3    | Evaluation | The evaluation is the process of analyzing the results of the assessment and determining the maturity level of the PKI environment.                                            | [Evaluation](pkimm-evaluation.md)                         |
-| 4    | Reporting  | The reporting is the process of documenting the results of the assessment and evaluation.                                                                                      | [Reporting](pkimm-report.md)                              |
+| Step | Name       | Description                                                                                                                                                                    | Reference                                |
+|------|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| 1    | Scoping    | The scope definition is the first step of the assessment process. The scope defines the boundaries of the assessment and the applicability of the requirements.                | [Scoping](scoping.md)              |
+| 2    | Assessment | The assessment is the process of evaluating the maturity of the PKI environment against the requirements defined in the maturity model within the boundaries of defined scope. | [Assessment Methodology](../methodology.md) |
+| 3    | Evaluation | The evaluation is the process of analyzing the results of the assessment and determining the maturity level of the PKI environment.                                            | [Evaluation](pkimm-evaluation.md)        |
+| 4    | Reporting  | The reporting is the process of documenting the results of the assessment and evaluation.                                                                                      | [Reporting](pkimm-report.md)             |
 
 ```mermaid
 flowchart LR

@@ -1,3 +1,9 @@
+---
+date: 2023-03-21T7:00:00Z
+title: PKI Maturity Model
+
+---
+
 # PKI Maturity Model
 
 The objective of this document is to provide a definition of the PKI maturity model and what is the maturity assessment process and procedures in order to rate the current maturity level according the model and track progress.
@@ -57,7 +63,7 @@ The following categories of the PKI maturity model are defined with the appropri
 | **Awareness**                     | 3      |
 | **Resilience**                    | 4      |
 
-For more information on categories, please refer to the [Categories Maturity Evaluation](../categories/pkimm-categories-overview.md).
+For more information on categories, please refer to the [Categories Maturity Evaluation](../categories/).
 
 The weights of the categories are used to calculate the overall maturity level of the PKI.
 

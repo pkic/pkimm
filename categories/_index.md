@@ -1,0 +1,46 @@
+---
+date: 2023-03-21T7:00:00Z
+title: Categories Maturity Evaluation
+
+---
+
+# Categories Maturity Evaluation
+
+For the evaluation of the maturity level of the category, the following formula is applied:
+
+```
+Category maturity level = floor ( ( Q1(score) + … + Qn(score) ) / n )
+```
+
+Where `n` is the number of questions in the category.
+
+## List of categories
+
+The following categories are recognized as part of the PKI maturity assessment:
+
+| #   | Category                                                        | Description                                                                                                                                                                                                                                 | Inputs and evidence                                                                                                                                                      |
+|-----|-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | **[Strategy and vision](./strategy-and-vision/)**               | Responsibility for the PKI management and strategy over the time to respond on trends, threats and risks.                                                                                                                                   | <ul><li>Responsibility matrix</li><li>Formal assignment fo the responsibilities</li><li>Documented PKI purpose and strategy</li></ul>                                    |
+| 2   | **[Policies and documentation](./policies-and-documentation/)** | Formal policies and practice statements for supported PKI services and use-cases. Formal management of agreements between parties involved in the PKI.                                                                                      | <ul><li>Documented certification policies and practice statements</li><li>Documented PKI disclosure statement</li><li>Availability and maintenance of policies</li></ul> |
+| 3   | **Compliance**                                                  | Adherence to standards and applicable regulations and requirements for the PKI and trust services. Standards and regulations may be internal or external, country specific or purpose specific.                                             | <ul><li>List of standards and regulations that PKI must comply with</li><li>Responsibility for the compliance management</li></ul>                                       |
+| 4   | **Processes and procedures**                                    | Processes and procedures related to PKI management tasks and operational activities. This includes also the supply chain procedures and processes that includes delivery of the HW and SW related to the PKI.                               | <ul><li>Documented processes and procedures</li><li>Description of the supply chain</li><li>Validation of the integrity</li></ul>                                        |
+| 5   | **[Key Management](./key-management/)**                         | Key management policy and procedures related to PKI cryptographic keys and its lifecycle. Inventory of cryptographic keys. Secure and trusted key ceremonies. Key escrow and key recovery if applicable.                                    | <ul><li>Documented key management policy and procedures</li><li>Inventory of cryptographic keys</li></ul>                                                                |
+| 6   | **[Certificate Management](./certificate-management/)**         | Certificate management policy and lifecycle. Inventory of certificates. Definition of the certificate profiles and supported states of the certificate including the transitions between the states. Proper validation fo the certificates. | <ul><li>Documented certificate profiles and lifecycle</li><li>Inventory of certificates</li></ul>                                                                        |
+| 7   | **Interoperability**                                            | Interoperability between applications, implementations, and technologies. Application of interoperable protocols and standards. Transparency and vendor lock avoidance strategy.                                                            | <ul><li>Integration guidance</li><li>Supported protocols and priorities in usage of protocols</li><li>Requirements for the vendor lock avoidance</li></ul>               |
+| 8   | **Infrastructure Management**                                   | Availability of the PKI services, infrastructure setup to achieve availability goals. PKI continuity testing and infrastructure recovery. Infrastructure security controls.                                                                 | <ul><li>Description of the availability requirements</li><li>High availability and failover design</li><li>Recovery procedures</li><li>Network segmentation</li></ul>    |
+| 9   | **Change Management and Agility**                               | Secure and controlled process for the change management. Formal process to request changes in the PKI, approval, staging, roll-back.                                                                                                        | <ul><li>Documented change management process</li><li>Sample change requests</li></ul>                                                                                    |
+| 10  | **[Sourcing](./sourcing/)**                                     | Availability of skilled resources to manage PKI. Processes and procedures to maintain the required resources in time, monitoring of the skills.                                                                                             | <ul><li>Roles and responsibilities to operate PKI</li><li>Requirements for the skills</li><li>Regular monitoring of the resource availability</li></ul>                  |
+| 11  | **Knowledge and Training**                                      | Education of people and continuously gathering required knowledge and skills to manage PKI. Training plans and improvement.                                                                                                                 | <ul><li>Training plan</li><li>Continuous education of the personnel</li></ul>                                                                                            |
+| 12  | **Monitoring and Auditing**                                     | Measurement of the PKI metrics, collecting evidence, monitoring and alerting of relevant issues, incident response management.                                                                                                              | <ul><li>Description of metrics</li><li>Collecting of logs and records</li><li>Incident response plans</li></ul>                                                          |
+| 13  | **Automation**                                                  | Automation of certificate lifecycle management. Technology and tools for the automation. Monitoring of automated certificate operations.                                                                                                    | <ul><li>Automation needs</li><li>Tooling</li><li>Automation monitoring</li></ul>                                                                                         |
+| 14  | **Certificate discovery**                                       | Discovery of certificates issued and used in the infrastructure and application to manage its compliance. Processes and procedure to maintain discovery and respond on discovered certificates.                                             | <ul><li>Discovery locations</li><li>Rules for management of discovered certificates</li><li>Authorized certificates</li></ul>                                            |
+| 15  | **Awareness**                                                   | Providing awareness about the PKI in the organization and its purpose. Awareness how to apply the PKI in a trusted and secure way.                                                                                                          | <ul><li>Awareness plan</li><li>Awareness program</li><li>Q&A</li></ul>                                                                                                   |
+| 16  | **Resilience**                                                  | Quickly respond to potential attack and unavailability of the PKI services or other related resources.                                                                                                                                      | <ul><li>Vulnerability management</li><li>Business continuity plans</li><li>Future proofing</li></ul>                                                                     |
+
+## Example
+
+```
+Q1(score) = 3, Q2(score) = 4, Q3(score) = 1, Q4(score) = 5, Q5(score) = 5
+
+Category maturity level = floor(3+4+1+5+5) / 5 = floor(3,6) = 3 (Advanced)
+```
