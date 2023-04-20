@@ -1,7 +1,7 @@
 ---
 date: 2023-04-20T7:57:00Z
 title: Scoping Examples
-
+weight: 10
 ---
 
 # Scoping Examples

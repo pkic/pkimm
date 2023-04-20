@@ -1,7 +1,7 @@
 ---
 date: 2023-04-20T7:57:00Z
 title: Scoping
-
+weight: 1
 ---
 
 # Scoping
