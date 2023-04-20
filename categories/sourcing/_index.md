@@ -5,7 +5,7 @@ weight: 10
 
 ---
 
-# PKI MM - *Sourcing*
+# Sourcing
 
 ## Overview
 
