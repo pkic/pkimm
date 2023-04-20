@@ -63,7 +63,7 @@ The following categories of the PKI maturity model are defined with the appropri
 | **Awareness**                     | 3      |
 | **Resilience**                    | 4      |
 
-For more information on categories, please refer to the [Categories Maturity Evaluation](../categories/pkimm-categories-overview.md).
+For more information on categories, please refer to the [Categories Maturity Evaluation](../categories/).
 
 The weights of the categories are used to calculate the overall maturity level of the PKI.
 

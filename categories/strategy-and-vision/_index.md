@@ -16,8 +16,8 @@ It consists of the following parts:
 
 ## Maturity model
 
-| **1 -   Initial**  | **2 -   Basic** | **3 -   Advanced** | **4 -   Managed** | **5 –   Optimized** |
-|--------------------|-----------------|--------------------|-------------------|---------------------|
+| **1 -   Initial**                                                                         | **2 -   Basic**                                                                                            | **3 -   Advanced**                                                                                                                    | **4 -   Managed**                                                           | **5 –   Optimized**                                                                                                                         |
+|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | <ul> <li>No responsibilities</li> <li>No vision</li> <li>Ad-hoc implementation</li> </ul> | <ul> <li>Basic vision has been developed but not followed</li> <li>PKI is enforced, not managed</li> </ul> | <ul> <li>There is a responsible sponsor of the PKI</li> <li>Vision has been defined and approved but not fully implemented</li> </ul> | <ul> <li>Strategy and vision are followed and regularly measured</li> </ul> | <ul> <li>Strategy and vision are fully in line with the organizational strategy and helps business to achieve future development</li> </ul> |
 
 ## Assessment questions
