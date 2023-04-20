@@ -29,7 +29,7 @@ weight: 10
 | 3   | **Compliance**                                                                 |                 |
 | 4   | **Processes and procedures**                                                   |                 |
 | 5   | **[Key Management](../../categories/key-management/)**                         |                 |
-| 6   | **[Certificate Management](../../categories/certificate-management/)**         | :blue_circle:   |
+| 6   | **[Certificate Management](../../categories/certificate-management/)**         | :green_circle:  |
 | 7   | **Interoperability**                                                           |                 |
 | 8   | **Infrastructure Management**                                                  |                 |
 | 9   | **Change Management and Agility**                                              |                 |
