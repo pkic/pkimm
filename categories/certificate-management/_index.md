@@ -17,6 +17,8 @@ Certificate management is the set of techniques and procedures supporting certif
 * State management of certificates, i.e. expiration and revocation
 * Discovery of certificates
 
+The techniques can be applied to an organization that makes use of PKI, or from an organization (or part of an organization) that operates a PKI for others. This category primarily targets an organization from a usage perspective, albeit the certificate lifecycle management is equally important for an organization that operates a PKI for someone else.
+
 ## Requirements
 
 | #                   | Requirement                                                    | Weight |
@@ -37,7 +39,7 @@ Certificate management is the set of techniques and procedures supporting certif
 #### Guidance
 
 Certificate profiles specify the contents of certificates for one or more use cases. It defines things such as:
-* Certificate use case(s) for certificates covered by a specific profiles
+* Certificate use case(s) for certificates covered by specific profiles
 * Naming standards for subject distinguished name and subject alternative names, which are allowed and mandatory fields.
 * Certificate validity periods
 * Certificate extensions, mandatory and allowed extensions, their criticality and possible values
@@ -46,11 +48,11 @@ Certificate profiles specify the contents of certificates for one or more use ca
 
 #### Assessment
 
-* Determine the scope of applicability
+* Documented scope of applicability
 * Documented and approved certificate profiles
 * Content of the profiles is complete and unambiguous
-* Certificate profiles are implemented in certificate authority
-* Certificate profiles are enforced by certificate authority
+* Certificate profiles are implemented in certificattion authority
+* Certificate profiles are enforced by certification authority
 * Certificate profiles are compatible with RFC5280, or deviations are well documented
 * Profiles for CRLs and/or OCSP usage, i.e. validity periods, issuance intervals, max revocation time delay, etc
 
@@ -77,7 +79,7 @@ Cipher suites, for certificates specifically defining key algorithms, key securi
 * Determine the scope of applicability
 * Documented and approved cipher suites with rationale for inclusion of algorithms
 * Documented agile path for migration to other algorithms when needed
-* Cipher suites are enforced by certificate authority
+* Cipher suites are enforced by certification authority
 
 #### References
 
@@ -95,13 +97,13 @@ Cipher suites, for certificates specifically defining key algorithms, key securi
 Issuance of certificates follow specific procedures, be it manual processes or automated processes using standard or non-standard PKI protocol. An organization should be clear about the full life cycle management of certificates:
 1. Certificate Application and the validation procedures used, by RAs and CAs
 2. Certificate Issuance and protocols used for enrollment, on-line and off-line
-3. Certificate Renewal, Re-key and Modification, upon exiration or other causes
-   * Certificate expirations are historically a case of severe and costly outages. Proper process of renewal and monitoring expiring certificates prevents common issues
+3. Certificate Renewal, Re-key and Modification, upon expiration or other causes
+   * Process of monitoring certificates for expiration and timely renewal processes prevent common issues
 4. Certificate Revocation
    * When certificates need to be revoked it is important to have a well-defined certificate revocation process:
-     * Where subjects can contact to get a certificate revoked
-     * Where misuse of certificates can be reported
-     * How long after a revocation request it takes for a certificate to be revoked
+     * How subjects can request a certificate be revoked
+     * How to report misuse of certificates
+     * Expected time for revocation to be completed after a revocation request
 5. Certificate status dissemination
    * How revocation information is disseminated to relying parties
 6. Key escrow and recovery
@@ -120,7 +122,7 @@ Issuance of certificates follow specific procedures, be it manual processes or a
   * Automated certificate renewal
 * Documented revocation process
   * Documented revocation procedures, both for subjects and administrators
-  * If suspension is used the un-revocation process
+  * If suspension is used the process to lift (or remove) suspension
   * Documented contact points for reports in the organizations or from relying parties
   * List of relying parties that depend on updated revocation information
 * Documented Certificate status service
@@ -145,7 +147,7 @@ Examples of process, protocols and profiled usage:
 
 #### Guidance
 
-Certificate inventory consists of all known certificates and provides an overview of known certifiates in the organization. Certificates in inventory are subject to certificate lifecycle management. The certificate inventory is important for the organization because:
+Certificate inventory consists of all known certificates and provides an overview of known certificates in the organization. Certificates in inventory are subject to certificate lifecycle management. The certificate inventory is important for the organization because:
 - it provides immediate access to the current status of certificates
 - provides possibility to react on certificate-related events (compromise, change, expiration, etc.)
 - understand impact of lifecycle changes
@@ -174,7 +176,7 @@ The certificate inventory therefore consists of information related to certifica
 
 #### Guidance
 
-Certificate discovery process protect organization from unknown certificates that may be deployed in the infrastructure. Unknown certificates may be further issued by unauthorized certification authorities and mislead users of services. Certificate discovery helps to maintain current inventory of certificates, but does not depend on the inventory and is not nessecary to maintain an inventory. Certificate discovery process should be implemented based on supported certificates and use-cases, for example:
+Certificate discovery process protects an organization from unknown certificates that may be deployed in the infrastructure. Unknown certificates may be further issued by unauthorized certification authorities and mislead users of services. Certificate discovery helps to maintain current inventory of certificates, but does not depend on the inventory and is not nessecary to maintain an inventory. Certificate discovery process should be implemented based on supported certificates and use-cases, for example:
 - to scan the network for certificates used on known protocols and ports to discover certificates that can potentially cause service outage or breach
 - search for the certificates on file system to discover unauthorized or unsecured certificates
 
@@ -194,10 +196,10 @@ Discovery process should be run frequently on the specified locations and the ce
 
 #### Guidance
 
-No certificate issuance and management system works over long periods of time without changes to use-cases, processes, protocols and algorithms. It is important that the certificate management is periodically review and updated to avoid gaps. The frequency of review should be based on the organizational risks and needs to be protected against current and future trends.
+No certificate issuance and management system works over long periods of time without changes to use-cases, processes, protocols and algorithms. It is important that the certificate management is periodically reviewed and updated to avoid gaps. The frequency of review should be based on the organizational risks and needs to be protected against current and future trends.
 
 Periodical review helps to keep the certificate management accurate and helps to maintain required skills and knowledge.
-It provides also assurance that the expected controls are active and working as intended.
+It also provides assurance that the expected controls are active and working as intended.
 
 #### Assessment
 
@@ -214,14 +216,14 @@ It provides also assurance that the expected controls are active and working as 
 
 #### Guidance
 
-Large organization commonly have several PKI systems spread out in the organization. Some can be consolidated, but in many cases PKI different PKI silos exists for good reasons. Having a central governance of PKI across the organization will help to maintain best practices, ensure secure PKI operations, re-use PKI knowledge in the organization, ensure consistent profiles and avoid unessecary double work.
+Large organization commonly have several PKI systems spread out in the organization. Some can be consolidated, but in many cases different PKI silos exists for good reasons. Having a central governance of PKI across the organization will help to maintain best practices, ensure secure PKI operations, re-use PKI knowledge in the organization, ensure consistent profiles and avoid unessecary duplication of effort.
 #### Assessment
 
 * Documented PKIs used in the organization
   * Different PKI technologies used
   * Installed PKI instances
 * Documented PKI best practises
-  * Installation procedures to avoid re-learning the same issues in different part of the organization
+  * Installation procedures to avoid re-learning the same issues in different parts of the organization
   * Configuration to ensure consistent and interoperable certificates
   * Security to maintain a security base line across the whole organization
 
