@@ -21,15 +21,15 @@ The techniques can be applied to an organization that makes use of PKI, or from 
 
 ## Requirements
 
-| #                   | Requirement                                                    | Weight |
-|---------------------|----------------------------------------------------------------|--------|
-| [1](#requirement-1) | Certificate profiles are documented                            | 2      |
-| [2](#requirement-2) | Certificate cipher suites are documented                       | 3      |
-| [3](#requirement-3) | Certificate Life Cycle Management is documented                | 4      |
-| [4](#requirement-4) | Inventory of issued certificates is documented                 | 3      |
-| [5](#requirement-5) | Certificate discovery process is documented                    | 2      |
-| [6](#requirement-6) | Certificate management is periodically reviewed and updated    | 4      |
-| [7](#requirement-7) | Organizational PKI Governance                                  | 2      |
+| #                                                                 | Requirement                                                 | Weight |
+|-------------------------------------------------------------------|-------------------------------------------------------------|--------|
+| [1](#certificate-profiles-are-documented)                         | Certificate profiles are documented                         | 2      |
+| [2](#certificate-cipher-suites-are-documented)                    | Certificate cipher suites are documented                    | 3      |
+| [3](#certificate-lifecycle-management-is-documented)              | Certificate lifecycle management is documented              | 4      |
+| [4](#inventory-of-issued-certificates-is-documented)              | Inventory of issued certificates is documented              | 3      |
+| [5](#certificate-discovery-process-is-documented)                 | Certificate discovery process is documented                 | 2      |
+| [6](#certificate-management-is-periodically-reviewed-and-updated) | Certificate management is periodically reviewed and updated | 4      |
+| [7](#organizational-PKI-governance)                               | Organizational PKI governance                               | 2      |
 
 ## Details
 
@@ -90,7 +90,7 @@ Cipher suites, for certificates specifically defining key algorithms, key securi
 * [NIST SP 800-208 - Recommendation for Stateful Hash-Based Signature Schemes](https://csrc.nist.gov/publications/detail/sp/800-208/final)
 
 <a name="requirement-3"></a>
-### Certificate Life Cycle Management is documented
+### Certificate lifecycle management is documented
 
 #### Guidance
 
@@ -143,7 +143,7 @@ Examples of process, protocols and profiled usage:
 
 
 <a name="requirement-4"></a>
-### Inventory of certificates is documented
+### Inventory of issued certificates is documented
 
 #### Guidance
 
@@ -212,7 +212,7 @@ It also provides assurance that the expected controls are active and working as 
 - [ISO/IEC 27001 and related standards](https://www.iso.org/isoiec-27001-information-security.html)
 
 <a name="requirement-7"></a>
-### Organizational PKI Governance
+### Organizational PKI governance
 
 #### Guidance
 

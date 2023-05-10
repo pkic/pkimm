@@ -20,14 +20,14 @@ The key management is important for the public key infrastructure to maintain tr
 
 ## Requirements
 
-| #                   | Requirement                                                                    | Weight |
-|---------------------|--------------------------------------------------------------------------------|--------|
-| [1](#requirement-1) | Key management roles and responsibilities are documented and formally assigned | 2      |
-| [2](#requirement-2) | Inventory of cryptographic keys is documented and maintained                   | 2      |
-| [3](#requirement-3) | Inventory of cryptographic devices is documented and maintained                | 1      |
-| [4](#requirement-4) | Each cryptographic key is defined and has documented lifecycle procedures      | 2      |
-| [5](#requirement-5) | Cryptographic cipher suites and protocols are documented and maintained        | 2      |
-| [6](#requirement-6) | Key management is periodically reviewed and updated                            | 3      |
+| #                                                                                    | Requirement                                                                    | Weight |
+|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------|
+| [1](#key-management-roles-and-responsibilities-are-documented-and-formally-assigned) | Key management roles and responsibilities are documented and formally assigned | 2      |
+| [2](#inventory-of-cryptographic-keys-is-documented-and-maintained)                   | Inventory of cryptographic keys is documented and maintained                   | 2      |
+| [3](#inventory-of-cryptographic-devices-is-documented-and-maintained)                | Inventory of cryptographic devices is documented and maintained                | 1      |
+| [4](#each-cryptographic-key-is-defined-and-has-documented-lifecycle-procedures)      | Each cryptographic key is defined and has documented lifecycle procedures      | 2      |
+| [5](#cryptographic-cipher-suites-and-protocols-are-documented-and-maintained)        | Cryptographic cipher suites and protocols are documented and maintained        | 2      |
+| [6](#key-management-is-periodically-reviewed-and-updated)                            | Key management is periodically reviewed and updated                            | 3      |
 
 ## Details
 
