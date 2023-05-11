@@ -29,12 +29,12 @@ Proper documentation, policies, and related processes and procedures keeps the P
 
 ## Requirements
 
-| #                   | Requirement                                                        | Weight |
-|---------------------|--------------------------------------------------------------------|--------|
-| [1](#requirement-1) | Certificate policy (CP) is documented and published                | 5      |
-| [2](#requirement-2) | Certification practice statement (CPS) is documented and published | 5      |
-| [3](#requirement-3) | Key management policy is documented and integrated                 | 3      |
-| [4](#requirement-4) | Policies are periodically reviewed and updated                     | 3      |
+|                   # | Requirement                                                        | Weight |
+| ------------------: | ------------------------------------------------------------------ | -----: |
+| [1](#requirement-1) | Certificate policy (CP) is documented and published                |      5 |
+| [2](#requirement-2) | Certification practice statement (CPS) is documented and published |      5 |
+| [3](#requirement-3) | Key management policy is documented and integrated                 |      3 |
+| [4](#requirement-4) | Policies are periodically reviewed and updated                     |      3 |
 
 ## Details
 

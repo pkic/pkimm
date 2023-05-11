@@ -16,13 +16,13 @@ Each personnel should be aware of the PKI policies and procedures, and should be
 
 ## Requirements
 
-| #                                            | Requirement                            | Weight |
-|----------------------------------------------|----------------------------------------|--------|
-| [1](#establish-training-plan)                | Establish training plan                | 2      |
-| [2](#responsible-personnel-receive-training) | Responsible personnel receive training | 2      |
-| [3](#perform-security-awareness-training)    | Perform security awareness training    | 2      |
-| [4](#establish-education-plan)               | Establish education plan               | 1      |
-| [5](#periodically-review-knowledge)          | Periodically review knowledge          | 2      |
+|                                            # | Requirement                            | Weight |
+| -------------------------------------------: | -------------------------------------- | -----: |
+|                [1](#establish-training-plan) | Establish training plan                |      2 |
+| [2](#responsible-personnel-receive-training) | Responsible personnel receive training |      2 |
+|    [3](#perform-security-awareness-training) | Perform security awareness training    |      2 |
+|               [4](#establish-education-plan) | Establish education plan               |      1 |
+|          [5](#periodically-review-knowledge) | Periodically review knowledge          |      2 |
 
 ## Details
 

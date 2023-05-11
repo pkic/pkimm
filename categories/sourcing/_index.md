@@ -19,12 +19,12 @@ The sourcing is a process of defining the required resources and their specifica
 
 ## Requirements
 
-| #                                             | Requirement                                                               | Weight |
-|-----------------------------------------------|---------------------------------------------------------------------------|--------|
-| [1](#resources-are-identified-and-documented) | Resources are identified and documented                                   | 5      |
-| [2](#resources-are-clearly-defined)           | Resources are clearly defined                                             | 3      |
-| [3](#availability-of-resources)               | Availability of resources                                                 | 4      |
-| [4](#resources-are-periodically-reviewed)     | Resources are periodically reviewed                                       | 3      |
+|                                             # | Requirement                             | Weight |
+| --------------------------------------------: | --------------------------------------- | -----: |
+| [1](#resources-are-identified-and-documented) | Resources are identified and documented |      5 |
+|           [2](#resources-are-clearly-defined) | Resources are clearly defined           |      3 |
+|               [3](#availability-of-resources) | Availability of resources               |      4 |
+|     [4](#resources-are-periodically-reviewed) | Resources are periodically reviewed     |      3 |
 
 ## Details
 

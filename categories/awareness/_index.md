@@ -16,12 +16,12 @@ The awareness is important for all PKI participants to know how to handle except
 
 ## Requirements
 
-| #                                              | Requirement                              | Weight |
-|------------------------------------------------|------------------------------------------|--------|
-| [1](#establish-and-maintain-awareness-plan)    | Establish and maintain awareness plan    | 2      |
-| [2](#disclose-pki-information)                 | Disclose PKI information                 | 2      |
-| [3](#establish-single-point-of-contact)        | Establish single point of contact        | 1      |
-| [4](#timely-communicate-important-information) | Timely communicate important information | 2      |
+|                                              # | Requirement                              | Weight |
+| ---------------------------------------------: | ---------------------------------------- | -----: |
+|    [1](#establish-and-maintain-awareness-plan) | Establish and maintain awareness plan    |      2 |
+|                 [2](#disclose-pki-information) | Disclose PKI information                 |      2 |
+|        [3](#establish-single-point-of-contact) | Establish single point of contact        |      1 |
+| [4](#timely-communicate-important-information) | Timely communicate important information |      2 |
 
 ## Details
 
