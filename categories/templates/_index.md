@@ -35,8 +35,8 @@ The calculation of the overall maturity level for the category follows the weigh
 > **Note**
 > The overview of requirements can be also used for quick assessment and reporting, because it contains references to requirements and may be filled with the assessment level.
 
-| #                      | Requirement                 | Weight     |
-|------------------------|-----------------------------|------------|
+|                      # | Requirement                 |     Weight |
+| ---------------------: | --------------------------- | ---------: |
 | *[Requirement number]* | *[Requirement description]* | *[Weight]* |
 
 > **Note**
