@@ -5,39 +5,112 @@ weight: 1
 
 ---
 
-# Strategy and vision - PKI maturity model category
+# Strategy and vision
 
-The purpose of this document is to provide information on maturity model and assessment questions for the strategy and vision category of the [PKI maturity model](../../model/).
+Trusted and secure PKI must be properly managed and supported by the organization. The existence of strategy and vision of the PKI is one of key factors for the success of the PKI and contributes to the overall maturity. The strategy and vision should be aligned with the organizational goals and approach and should be followed and measured regularly.
 
-It consists of the following parts:
-- Maturity model
-- Assessment questions
-- Maturity evaluation
+Formal documentation about the business drivers, scope, and design of the PKI helps to ensure that the PKI is properly aligned and understood to support the organizational. The documentation should be reviewed and updated regularly to ensure that the PKI is aligned with the organizational goals and needs.
 
-## Maturity model
+Undefined or unclear understanding and leadership can cause losing the established trust and can lead to the failure of the PKI quickly.
 
-| **1 -   Initial**                                                                         | **2 -   Basic**                                                                                            | **3 -   Advanced**                                                                                                                    | **4 -   Managed**                                                           | **5 –   Optimized**                                                                                                                         |
-| ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| <ul> <li>No responsibilities</li> <li>No vision</li> <li>Ad-hoc implementation</li> </ul> | <ul> <li>Basic vision has been developed but not followed</li> <li>PKI is enforced, not managed</li> </ul> | <ul> <li>There is a responsible sponsor of the PKI</li> <li>Vision has been defined and approved but not fully implemented</li> </ul> | <ul> <li>Strategy and vision are followed and regularly measured</li> </ul> | <ul> <li>Strategy and vision are fully in line with the organizational strategy and helps business to achieve future development</li> </ul> |
+## Requirements
 
-## Assessment questions
+|                                                 # | Requirement                                 | Weight |
+|--------------------------------------------------:|---------------------------------------------|-------:|
+|          [1](#organizational-sponsor-and-support) | Organizational sponsor and support          |      3 |
+| [2](#formal-assignment-of-responsible-leadership) | Formal assignment of responsible leadership |      2 |
+|          [3](#scope-and-business-drivers-for-PKI) | Scope and business drivers for PKI          |      2 |
+|          [4](#architecture-and-design-of-the-PKI) | Architecture and design of the PKI          |      1 |
 
-1. Is sponsor responsible for the PKI assigned?
+## Details
 
-| **Answer**                                                                             | **Maturity score** |
-| -------------------------------------------------------------------------------------- | -----------------: |
-| Sponsor is formally assigned and responsible for the PKI management                    |                  5 |
-| Sponsor is assigned and regularly measure the PKI management metrics                   |                  4 |
-| Sponsor is assigned but the resources are assigned based on the current needs          |                  3 |
-| No sponsor is assigned, and resources are assigned based on request for PKI management |                  2 |
-| No sponsor is defined                                                                  |                  1 |
+### Organizational sponsor and support
 
-2. Is PKI part of risk management process?
+#### Guidance
 
-| **Answer**                                                                           | **Maturity score** |
-| ------------------------------------------------------------------------------------ | -----------------: |
-| PKI is regularly assessed and included in the overall risk management process        |                  5 |
-| Assessment are measuring the risk associated with the PKI once a time                |                  4 |
-| PKI risk management is performed according organizational standards for all services |                  3 |
-| Risk management is performed on the PKI based on the project request                 |                  2 |
-| Not at all                                                                           |                  1 |
+The success of the PKI implementation highly depends on the organization top management support. Top management typically also acts as a sponsor of the PKI, meaning that they allocate and approve budget needed to build and maintain PKI.
+
+The basic assumption is that the established digital trust is going to be maintained and developed for years, and therefore it is important to have a long-term vision and strategy for the PKI. The strategy and vision should be aligned with the overall organizational goals and approach.
+
+#### Assessment
+
+The following is sample evidence that can be used to assess the requirement:
+- interview with the top management
+- documented strategy and vision
+- documented organizational goals and approach
+- understanding why the PKI is needed and what is the value for the organization
+- support and sponsorship of the top management
+
+#### References
+
+- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+
+### Formal assignment of responsible leadership
+
+#### Guidance
+
+Proper leadership and responsible person should be assigned by the management to fulfil the role of the establishment, maintenance, and development of the PKI according to the strategy and vision. The responsible person should be able to make decisions and take actions to ensure the PKI is aligned with the organizational goals and needs.
+
+#### Assessment
+
+The formal assignment of the responsible person should be documented and approved by the management. Formal document should contains identification of the person and understanding of the role and responsibilities.
+Interview with the responsible should confirm the understanding of the role and responsibilities, driving the PKI implementation according to the organizational strategy.
+
+#### References
+
+- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+
+### Scope and business drivers for PKI
+
+#### Guidance
+
+The scope of the PKI should be clearly defined and documented. The scope should be defined in terms of the use-cases that the PKI is going to support. Each use-case can have a different requirements and therefore different strategy. The use-cases should be defined in terms of the business drivers that are going to be supported by the PKI. Business drivers helps to document alignment with the overall organizational goals.
+
+The scope and business drivers can be considered as a formal high-level overview of the PKI strategy and vision.
+Its purpose is also to create a common understanding of the organizational PKI and to provide direction for the detailed design and implementation.
+The target audience consists typically of architects, experts, advisors, management, and sponsors.
+
+#### Assessment
+
+The following is sample evidence that can be used to assess the requirement:
+- documented scope of the PKI
+- documented business drivers
+- documented use-cases
+- documented alignment with the organizational goals
+
+#### References
+
+- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+- [The Open Group Architecture Framework (TOGAF)](https://www.opengroup.org/togaf)
+
+### Architecture and design of the PKI
+
+#### Guidance
+
+The architecture and design of the PKI should be documented to provide a clear understanding of the implementation and technologies that are involved. The architecture and design should be aligned with the scope and business drivers for the PKI and should be reviewed and updated regularly.
+
+The architecture and design typically consists of the following:
+- Functional and technical design description
+- Description of logical components
+- Network infrastructure design
+- Technology involved
+- Integration requirements and interfaces (APIs)
+- Support systems (such as IAM, logging, monitoring, etc.)
+- Operational requirements
+- Security requirements
+- Deployment options
+- Staging and testing
+
+The architecture and design is further used for the implementation of the PKI and serves as an input for the PKI team. It can be also used for the procurement of the PKI components and services that are needed for the implementation.
+
+#### Assessment
+
+The following is sample evidence that can be used to assess the requirement:
+- documented architecture and design
+- alignment with the scope and business drivers
+- interview with the PKI team to confirm the understanding of the architecture and design
+
+#### References
+
+- [ETSI EN 319 401 - General Policy Requirements for Trust Service Providers](https://www.etsi.org/deliver/etsi_en/319400_319499/319401/02.03.01_60/en_319401v020301p.pdf)
+- [The Open Group Architecture Framework (TOGAF)](https://www.opengroup.org/togaf)
