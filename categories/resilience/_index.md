@@ -1,7 +1,7 @@
 ---
 date: 2023-05-10T9:00:00Z
 title: Resilience
-weight: 16
+weight: 15
 
 ---
 
