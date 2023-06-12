@@ -69,7 +69,7 @@ classDiagram
     class Management["Management module"]{
         Key Management
         Certificate ManagementIn
-        frastructure Management
+        Infrastructure Management
         Change Management and Agility
     }
     class Operations["Operations module"]{

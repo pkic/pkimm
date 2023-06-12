@@ -1,11 +1,11 @@
 ---
 date: 2023-03-21T7:00:00Z
-title: Levels description
+title: Categories
 weight: 2
 
 ---
 
-# Levels description
+# Categories
 
 The following categories of the PKI maturity model are defined with the appropriate weight based on the applicability and importance:
 
