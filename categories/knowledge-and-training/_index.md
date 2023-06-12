@@ -1,11 +1,11 @@
 ---
 date: 2023-03-21T7:00:00Z
-title: Knowledge and Training
+title: 11 - Knowledge and training
 weight: 11
 
 ---
 
-# Knowledge and Training
+# 11 - Knowledge and training
 
 ## Overview
 
@@ -17,7 +17,7 @@ Each personnel should be aware of the PKI policies and procedures, and should be
 ## Requirements
 
 |                                            # | Requirement                            | Weight |
-| -------------------------------------------: | -------------------------------------- | -----: |
+|---------------------------------------------:|----------------------------------------|-------:|
 |                [1](#establish-training-plan) | Establish training plan                |      2 |
 | [2](#responsible-personnel-receive-training) | Responsible personnel receive training |      2 |
 |    [3](#perform-security-awareness-training) | Perform security awareness training    |      2 |
@@ -69,8 +69,8 @@ The responsible personnel should be aware of the current policies and procedures
 Training is provided in accordance to the current and approved training plan.
 
 Methods and training content can vary, depending on personnel roles and covers:
-- new hires as part of the onboarding process
-- periodic training for all personnel (the frequency of the training depends on the role and responsibilities)
+- New hires as part of the onboarding process
+- Periodic training for all personnel (the frequency of the training depends on the role and responsibilities)
 
 For each training, the attendance should be recorded and documented, and in case the training is not completed, the reason should be documented.
 In case there are requirements for score or threshold to be achieved, the results should be documented.
@@ -99,10 +99,10 @@ Security awareness education is an ongoing activity. The security awareness prog
 Security awareness should ensure that personnel are knowledgeable about the threat landscape, their responsibility for the operation of relevant security controls, and are able to access assistance and guidance when required.
 
 Different methods can be applied to provide security awareness, for example:
-- posters and letters with the specific topic
-- team meetings and webinars
-- security incentives and rewards
-- training and education
+- Posters and letters with the specific topic
+- Team meetings and webinars
+- Security incentives and rewards
+- Training and education
 
 #### Assessment
 
@@ -131,10 +131,10 @@ The education plan should establish a robust base for the personnel to gain rele
 - Approach to monitor and assess the education results
 
 Methods to provide education can vary:
-- internal or external courses
-- incentives and rewards
-- mentoring, coaching, and shadowing
-- competitions and challenges
+- Internal or external courses
+- Incentives and rewards
+- Mentoring, coaching, and shadowing
+- Competitions and challenges
 
 #### Assessment
 

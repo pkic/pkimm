@@ -1,10 +1,11 @@
 ---
 date: 2023-04-20T7:55:00Z
-title: Assessment
+title: Assessment process
+weight: 5
 
 ---
 
-# Assessment Process
+# Assessment process
 
 The PKI Maturity Model assessment process consists of the following steps:
 

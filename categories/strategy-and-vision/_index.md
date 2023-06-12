@@ -1,11 +1,11 @@
 ---
 date: 2023-03-21T7:00:00Z
-title: Strategy and vision
+title: 1 - Strategy and vision
 weight: 1
 
 ---
 
-# Strategy and vision
+# 1 - Strategy and vision
 
 Trusted and secure PKI must be properly managed and supported by the organization. The existence of strategy and vision of the PKI is one of key factors for the success of the PKI and contributes to the overall maturity. The strategy and vision should be aligned with the organizational goals and approach and should be followed and measured regularly.
 
@@ -35,11 +35,11 @@ The basic assumption is that the established digital trust is going to be mainta
 #### Assessment
 
 The following is sample evidence that can be used to assess the requirement:
-- interview with the top management
-- documented strategy and vision
-- documented organizational goals and approach
-- understanding why the PKI is needed and what is the value for the organization
-- support and sponsorship of the top management
+- Interview with the top management
+- Documented strategy and vision
+- Documented organizational goals and approach
+- Understanding why the PKI is needed and what is the value for the organization
+- Support and sponsorship of the top management
 
 #### References
 
@@ -73,10 +73,10 @@ The target audience consists typically of architects, experts, advisors, managem
 #### Assessment
 
 The following is sample evidence that can be used to assess the requirement:
-- documented scope of the PKI
-- documented business drivers
-- documented use-cases
-- documented alignment with the organizational goals
+- Documented scope of the PKI
+- Documented business drivers
+- Documented use-cases
+- Documented alignment with the organizational goals
 
 #### References
 
@@ -106,9 +106,9 @@ The architecture and design is further used for the implementation of the PKI an
 #### Assessment
 
 The following is sample evidence that can be used to assess the requirement:
-- documented architecture and design
-- alignment with the scope and business drivers
-- interview with the PKI team to confirm the understanding of the architecture and design
+- Documented architecture and design
+- Alignment with the scope and business drivers
+- Interview with the PKI team to confirm the understanding of the architecture and design
 
 #### References
 

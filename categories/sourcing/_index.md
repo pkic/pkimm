@@ -1,26 +1,26 @@
 ---
 date: 2023-04-19T8:52:00Z
-title: Sourcing
+title: 10 - Sourcing
 weight: 10
 
 ---
 
-# Sourcing
+# 10 - Sourcing
 
 ## Overview
 
 PKI is a complex system that requires a lot of resources to be managed and maintained. Proper sourcing of the resources is one of key factors for the of mature infrastructure that can maintain and improve trust over the time. The resources can be:
-- financial resources needed to maintain the PKI
-- computing resources like hardware, software, tools, technologies
-- human resources (personnel)
-- management resources like processes and procedures 
+- Financial resources needed to maintain the PKI
+- Computing resources like hardware, software, tools, technologies
+- Human resources (personnel)
+- Management resources like processes and procedures 
 
 The sourcing is a process of defining the required resources and their specification, availability, and management. The sourcing requires monitoring and periodic review of the resources needed and alignment with the overall strategy of the organization and scope of the PKI.
 
 ## Requirements
 
 |                                             # | Requirement                             | Weight |
-| --------------------------------------------: | --------------------------------------- | -----: |
+|----------------------------------------------:|-----------------------------------------|-------:|
 | [1](#resources-are-identified-and-documented) | Resources are identified and documented |      5 |
 |           [2](#resources-are-clearly-defined) | Resources are clearly defined           |      3 |
 |               [3](#availability-of-resources) | Availability of resources               |      4 |
@@ -28,7 +28,6 @@ The sourcing is a process of defining the required resources and their specifica
 
 ## Details
 
-<a name="requirement-1"></a>
 ### Resources are identified and documented
 
 #### Guidance
@@ -45,9 +44,8 @@ The following is sample evidence that can be used to assess the requirement:
 
 #### References
 
+N/A
 
-
-<a name="requirement-2"></a>
 ### Resources are clearly defined
 
 #### Guidance
@@ -75,7 +73,6 @@ The following is a sample evidence that can be used to assess the requirement:
 
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
 
-<a name="requirement-3"></a>
 ### Availability of resources
 
 #### Guidance
@@ -94,7 +91,6 @@ Identified and defined resources should be available at the required capacity. T
 
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
 
-<a name="requirement-4"></a>
 ### Resources are periodically reviewed
 
 Resource should be periodically reviewed to ensure the accurate use the resources and secure the operations. Frequency of the review depends on the complexity and criticality of the infrastructure. Good practice is to perform review at least once a year.
@@ -115,3 +111,4 @@ Review includes the following (but not limited to)
 
 #### References
 
+N/A

@@ -57,7 +57,6 @@ The calculation of the overall maturity level for the category follows the weigh
 
 #### Assessment
 *[Details about how the assessment of the requirement should be performed. It may include samples of evidence that should be available]*
-References
 
 #### References
 *[Optional reference to standards that may be applicable, like ISO, NIST, WebTrust, eIDAS, etc.]*

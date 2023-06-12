@@ -1,11 +1,11 @@
 ---
 date: 2023-03-21T7:00:00Z
-title: Certificate Management
+title: 6 - Certificate management
 weight: 6
 
 ---
 
-# Certificate Management
+# 6 - Certificate management
 
 ## Overview
 
@@ -22,7 +22,7 @@ The techniques can be applied to an organization that makes use of PKI, or from 
 ## Requirements
 
 |                                                                 # | Requirement                                                 | Weight |
-| ----------------------------------------------------------------: | ----------------------------------------------------------- | -----: |
+|------------------------------------------------------------------:|-------------------------------------------------------------|-------:|
 |                         [1](#certificate-profiles-are-documented) | Certificate profiles are documented                         |      2 |
 |                    [2](#certificate-cipher-suites-are-documented) | Certificate cipher suites are documented                    |      3 |
 |              [3](#certificate-lifecycle-management-is-documented) | Certificate lifecycle management is documented              |      4 |
@@ -33,7 +33,6 @@ The techniques can be applied to an organization that makes use of PKI, or from 
 
 ## Details
 
-<a name="requirement-1"></a>
 ### Certificate profiles are documented
 
 #### Guidance
@@ -67,7 +66,6 @@ Most certificate profiles aim for compatibility with RFC 5280 for maximum intero
 * [3GPP 33.310 - Network Domain Security (NDS); Authentication Framework (AF)](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2293)
 * [UNISIG SUBSET-137](https://www.era.europa.eu/system/files/2022-11/index083_-_subset-137_v100.pdf)
 
-<a name="requirement-2"></a>
 ### Certificate cipher suites are documented
 
 #### Guidance
@@ -89,7 +87,6 @@ Cipher suites, for certificates specifically defining key algorithms, key securi
 * NIST approved algorithms [CNSA 2.0](https://media.defense.gov/2022/Sep/07/2003071834/-1/-1/0/CSA_CNSA_2.0_ALGORITHMS_.PDF)
 * [NIST SP 800-208 - Recommendation for Stateful Hash-Based Signature Schemes](https://csrc.nist.gov/publications/detail/sp/800-208/final)
 
-<a name="requirement-3"></a>
 ### Certificate lifecycle management is documented
 
 #### Guidance
@@ -141,8 +138,6 @@ Examples of process, protocols and profiled usage:
 * [3GPP 33.310 - Network Domain Security (NDS); Authentication Framework (AF)](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2293)
 * [UNISIG SUBSET-137](https://www.era.europa.eu/system/files/2022-11/index083_-_subset-137_v100.pdf)
 
-
-<a name="requirement-4"></a>
 ### Inventory of issued certificates is documented
 
 #### Guidance
@@ -159,7 +154,7 @@ The certificate inventory therefore consists of information related to certifica
 #### Assessment
 
 * Documented inventory
-  * how inventory is maintained across the organization
+  * How inventory is maintained across the organization
 * Documented certificate inventory management
 * Validation of certificate inventory records
 * Effectiveness of the certificate inventory implementation
@@ -170,8 +165,6 @@ The certificate inventory therefore consists of information related to certifica
   Certificate Policy and Certification Practices Framework - Certificate Life-Cycle Operational Requirements](https://datatracker.ietf.org/doc/html/rfc3647/#section-4.4)
 * [NIST SP 800-57 Part 1 Rev. 5 - certificate inventory management](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf)
 
-
-<a name="requirement-5"></a>
 ### Certificate discovery process is documented
 
 #### Guidance
@@ -191,7 +184,6 @@ Discovery process should be run frequently on the specified locations and the ce
 
 #### References
 
-<a name="requirement-6"></a>
 ### Certificate management is periodically reviewed and updated
 
 #### Guidance
@@ -211,7 +203,6 @@ It also provides assurance that the expected controls are active and working as 
 
 - [ISO/IEC 27001 and related standards](https://www.iso.org/isoiec-27001-information-security.html)
 
-<a name="requirement-7"></a>
 ### Organizational PKI governance
 
 #### Guidance

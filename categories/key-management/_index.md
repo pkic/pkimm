@@ -1,27 +1,27 @@
 ---
 date: 2023-03-21T7:00:00Z
-title: Key Management
+title: 5 - Key management
 weight: 5
 
 ---
 
-# Key Management
+# 5 - Key management
 
 ## Overview
 
 Key management is the set of techniques and procedures supporting the establishment and maintenance of keying relationships between parties and components in the public key infrastructure. Key management encompasses techniques and procedures supporting:
-- initialization of system users and components;
-- generation, distribution, and installation of keying material;
-- controlling the use of keying material;
-- update, revocation, and destruction of keying material; and
-- storage, backup/recovery, and archival of keying material.
+- Initialization of system users and components;
+- Generation, distribution, and installation of keying material;
+- Controlling the use of keying material;
+- Update, revocation, and destruction of keying material; and
+- Storage, backup/recovery, and archival of keying material.
 
 The key management is important for the public key infrastructure to maintain trust. It should be integral part of the PKI procedures. Proper key management is one of the basic stones on which the PKI stands and relies on.
 
 ## Requirements
 
 |                                                                                    # | Requirement                                                                    | Weight |
-| -----------------------------------------------------------------------------------: | ------------------------------------------------------------------------------ | -----: |
+|-------------------------------------------------------------------------------------:|--------------------------------------------------------------------------------|-------:|
 | [1](#key-management-roles-and-responsibilities-are-documented-and-formally-assigned) | Key management roles and responsibilities are documented and formally assigned |      2 |
 |                   [2](#inventory-of-cryptographic-keys-is-documented-and-maintained) | Inventory of cryptographic keys is documented and maintained                   |      2 |
 |                [3](#inventory-of-cryptographic-devices-is-documented-and-maintained) | Inventory of cryptographic devices is documented and maintained                |      1 |
@@ -31,7 +31,6 @@ The key management is important for the public key infrastructure to maintain tr
 
 ## Details
 
-<a name="requirement-1"></a>
 ### Key management roles and responsibilities are documented and formally assigned
 
 #### Guidance
@@ -41,11 +40,11 @@ Proper definition of roles and responsibilities for key management operations es
 Personnel should be formally assigned to the role based on appropriate skills, and background check to ensure that there are no external risks associated that can cause potential compromise of key management.
 
 Naming or assignment record should contain relevant information such as:
-- identification of personnel
-- role to be assigned
-- date of appointment
-- confirmation of required skills
-- acknowledgment of responsibilities
+- Identification of personnel
+- Role to be assigned
+- Date of appointment
+- Confirmation of required skills
+- Acknowledgment of responsibilities
 
 #### Assessment
 
@@ -59,15 +58,14 @@ Naming or assignment record should contain relevant information such as:
 
 - [ISO/IEC 27001 and related standards](https://www.iso.org/isoiec-27001-information-security.html)
 
-<a name="requirement-2"></a>
 ### Inventory of cryptographic keys is documented and maintained
 
 #### Guidance
 
 Inventory of cryptographic keys is important and strategic database for organization to:
-- monitor cryptographic key status and compliance
-- quickly react on changes and incidents (deprecation of algorithms, compromise, new attacks and vulnerabilities)
-- understand impact of lifecycle changes, migration and using keys
+- Monitor cryptographic key status and compliance
+- Quickly react on changes and incidents (deprecation of algorithms, compromise, new attacks and vulnerabilities)
+- Understand impact of lifecycle changes, migration and using keys
 
 Although cryptographic key inventory may be implemented and maintained using various tools and approaches, it should serve the purpose of having consistent and accurate map of all cryptographic keys deployed in organization with details like algorithm, key length, usage, storage, location, generation and distribution method, backup and recovery, key check value, fingerprint, number of share or components, owner or responsible person, uniqueness, crypto-periods, or any other application attributes and properties of the key.
 
@@ -85,7 +83,6 @@ Inventory should follow procedures and business as usual activities to keep it a
 - [NIST SP 800-57 Recommendation for Key Management](https://csrc.nist.gov/projects/key-management/key-management-guidelines)
 - [ISO/IEC 11770 Key Management](https://www.iso.org/standard/53456.html)
 
-<a name="requirement-3"></a>
 ### Inventory of cryptographic devices is documented and maintained
 
 #### Guidance
@@ -95,11 +92,11 @@ Sensitive cryptographic keys are protected by hardware security modules that can
 The approved ways of protecting cryptographic keys should have defined rules, which can be specified by the key management policy and followed using the key management procedures. Cryptographic devices that protect keys may be quickly identified using inventory of cryptographic keys with reference to inventory of cryptographic devices.
 
 The inventory of cryptographic devices should contain relevant information such as:
-- vendor and device model identification
-- serial numbers
-- hardware / firmware / software versions
-- security certification and expiration dates
-- locations
+- Vendor and device model identification
+- Serial numbers
+- Hardware / firmware / software versions
+- Security certification and expiration dates
+- Locations
 
 #### Assessment
 
@@ -113,7 +110,6 @@ The inventory of cryptographic devices should contain relevant information such 
 - [NIST SP 800-57 Recommendation for Key Management](https://csrc.nist.gov/projects/key-management/key-management-guidelines)
 - [ISO/IEC 11770 Key Management](https://www.iso.org/standard/53456.html)
 
-<a name="requirement-4"></a>
 ### Each cryptographic key is defined and has documented lifecycle procedures
 
 #### Guidance
@@ -123,9 +119,9 @@ Each cryptographic key type that is defined and used for specific use-case shoul
 The key can have various lifecycle phases, such as generation, registration, initialization, distribution, loading, storage, archiving, backup, recovery, revocation, removal, destruction, or other applicable for the key.
 
 The lifecycle phases contains appropriate description of the procedure such as:
-- prerequisites for execution
-- required roles and permissions
-- procedure and records
+- Prerequisites for execution
+- Required roles and permissions
+- Procedure and records
 
 #### Assessment
 
@@ -139,7 +135,6 @@ The lifecycle phases contains appropriate description of the procedure such as:
 - [NIST SP 800-57 Recommendation for Key Management](https://csrc.nist.gov/projects/key-management/key-management-guidelines)
 - [ISO/IEC 11770 Key Management](https://www.iso.org/standard/53456.html)
 
-<a name="requirement-5"></a>
 ### Cryptographic cipher suites and protocols are documented and maintained
 
 #### Guidance
@@ -163,7 +158,6 @@ Cipher suites and protocols should be regularly checked against the implemented 
 - [ISO/IEC 11770 Key Management](https://www.iso.org/standard/53456.html)
 - [NIST SP 800-131A Transitioning the Use of Cryptographic Algorithms and Key Lengths](https://csrc.nist.gov/publications/detail/sp/800-131a/rev-2/final)
 
-<a name="requirement-6"></a>
 ### Key management is periodically reviewed and updated
 
 #### Guidance
