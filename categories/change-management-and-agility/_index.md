@@ -1,11 +1,11 @@
 ---
 date: 2023-06-10T9:00:00Z
-title: Change Management and Agility
+title: 9 - Change management and agility
 weight: 9
 
 ---
 
-# Change Management and Agility
+# 9 - Change management and agility
 
 Change management and agility is important to control the PKI implementation and configuration changes, adjustments, modifications, and improvements. Technologies are changing fast and the PKI needs to be able to adapt to the changes.
  The same applies for security vulnerabilities, deprecation of algorithms, and other changes that can significantly affect the PKI.
@@ -35,21 +35,21 @@ The policy for change management and agility should be documented and approved b
 The PKI may have specific requirements for change management and agility, and therefore it can be recommended to have a separate policy for the PKI implementation. The policy should be aligned with the organizational policy and should be approved by the responsible personnel for the PKI.
 
 The policy contains the following information:
-- approach to the change management and agility
-- principles and boundaries for the change management and agility
-- roles and responsibilities
-- requirements for the change management and agility
-- tools and technologies used for the change management
-- and other relevant information
+- Approach to the change management and agility
+- Principles and boundaries for the change management and agility
+- Roles and responsibilities
+- Requirements for the change management and agility
+- Tools and technologies used for the change management
+- And other relevant information
 
 #### Assessment
 
 The following is sample evidence that can be used to assess the requirement:
-- documented policy for change management and agility
-- alignment with the organizational policy
-- approval by the management
-- understanding of the policy by the PKI personnel
-- and other relevant evidence
+- Documented policy for change management and agility
+- Alignment with the organizational policy
+- Approval by the management
+- Understanding of the policy by the PKI personnel
+- And other relevant evidence
 
 #### References
 
@@ -70,20 +70,20 @@ Request for change can contain any change that can affect the PKI implementation
 - Changes in the algorithms and protocols
 
 Request for change structure should cover the following information:
-- description of the change
-- scope of the change
-- category of the change
-- impacted systems and services
-- back-out procedure in case of failure
-- testing requirements
-- and other relevant information
+- Description of the change
+- Scope of the change
+- Category of the change
+- Impacted systems and services
+- Back-out procedure in case of failure
+- Testing requirements
+- And other relevant information
 
 #### Assessment
 
 The following is sample evidence that can be used to assess the requirement:
-- documented request for change structure
-- sample of change request
-- review implemented changes and compare with the request for change
+- Documented request for change structure
+- Sample of change request
+- Review implemented changes and compare with the request for change
 
 #### References
 
@@ -102,10 +102,10 @@ Change management process should be documented, communicated, and integrated int
 #### Assessment
 
 The following is sample evidence that can be used to assess the requirement:
-- documented change management process
-- sample of change request
-- steps involved in the change management process
-- interview with the responsible personnel
+- Documented change management process
+- Sample of change request
+- Steps involved in the change management process
+- Interview with the responsible personnel
 
 #### References
 
@@ -126,11 +126,11 @@ Identification of requirements where agility is needed is important to ensure th
 #### Assessment
 
 The following is sample evidence that can be used to assess the requirement:
-- agility requirements of the PKI implementation
-- configuration changes
-- changes in the operational environment
-- changes in the technologies
-- and other relevant evidence
+- Agility requirements of the PKI implementation
+- Configuration changes
+- Changes in the operational environment
+- Changes in the technologies
+- And other relevant evidence
 
 #### References
 
@@ -146,9 +146,9 @@ The change management and agility requirements should be periodically reviewed t
 
 #### Assessment
 
-- change management review frequency
-- implementation of review process and documentation
-- interview with the responsible personnel
+- Change management review frequency
+- Implementation of review process and documentation
+- Interview with the responsible personnel
 
 #### References
 

@@ -1,11 +1,11 @@
 ---
 date: 2023-03-21T7:00:00Z
-title: Awareness
+title: 14 - Awareness
 weight: 14
 
 ---
 
-# Awareness
+# 14 - Awareness
 
 ## Overview
 
@@ -13,11 +13,10 @@ Providing awareness about the PKI and its purpose in the organization and outsid
 
 The awareness is important for all PKI participants to know how to handle exceptional situations and how to react on them. It is also important to know how to communicate and when and to not misunderstand any issues or incidents.
 
-
 ## Requirements
 
 |                                              # | Requirement                              | Weight |
-| ---------------------------------------------: | ---------------------------------------- | -----: |
+|-----------------------------------------------:|------------------------------------------|-------:|
 |    [1](#establish-and-maintain-awareness-plan) | Establish and maintain awareness plan    |      2 |
 |                 [2](#disclose-pki-information) | Disclose PKI information                 |      2 |
 |        [3](#establish-single-point-of-contact) | Establish single point of contact        |      1 |
@@ -30,11 +29,11 @@ The awareness is important for all PKI participants to know how to handle except
 #### Guidance
 
 Awareness plan should be established and maintained to ensure that the PKI participants are aware of all relevant events related to the PKI implementation and its purpose in the organization and outside. It should cover at lease the following information:
-- how organization discloses information for PKI participants
-- contact information
-- how are changes communicated
-- who is responsible for accurate awareness
-- resolving communication issues and incidents
+- How organization discloses information for PKI participants
+- Contact information
+- How are changes communicated
+- Who is responsible for accurate awareness
+- Resolving communication issues and incidents
 
 Every PKI participant should receive information and relevant resource in a timely manner according to the awareness plan.
 
@@ -92,10 +91,10 @@ The single point of contact (SPOC) provides convenient way for any PKI participa
 
 Contact information for the SPOC should be disclosed to all PKI participants.
 The SPOC may be reached through different communication channels, such as:
-- email
-- phone
-- web site form
-- other
+- Email
+- Phone
+- Web site form
+- Other
 
 #### Assessment
 

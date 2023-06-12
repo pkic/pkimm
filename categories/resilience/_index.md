@@ -1,11 +1,11 @@
 ---
 date: 2023-05-10T9:00:00Z
-title: Resilience
+title: 15 - Resilience
 weight: 15
 
 ---
 
-# Resilience
+# 15 - Resilience
 
 ## Overview
 
@@ -15,14 +15,14 @@ Robust resilience framework helps organizations future-proof their PKI oriented 
 
 ## Requirements
 
-| #                                                        | Requirement                                        | Weight |
-|----------------------------------------------------------|----------------------------------------------------|--------|
-| [1](#risk-assessment-and-business-impact-analysis)       | Risk assessment and business impact analysis       | 6      |
-| [2](#cyber-security-management-and-incident-planning)    | Cyber-security management and incident planning    | 4      |
-| [3](#business-continuity-planning-and-disaster-recovery) | Business continuity planning and disaster recovery | 5      |
-| [4](#technology-future-proofing)                         | Technology future proofing                         | 3      |
-| [5](#competence-and-information-sharing)                 | Competence and information sharing                 | 3      |
-| [6](#continual-review-and-improvement)                   | Continual review and improvement                   | 4      |
+|                                                        # | Requirement                                        | Weight |
+|---------------------------------------------------------:|----------------------------------------------------|-------:|
+|       [1](#risk-assessment-and-business-impact-analysis) | Risk assessment and business impact analysis       |      6 |
+|    [2](#cyber-security-management-and-incident-planning) | Cyber-security management and incident planning    |      4 |
+| [3](#business-continuity-planning-and-disaster-recovery) | Business continuity planning and disaster recovery |      5 |
+|                         [4](#technology-future-proofing) | Technology future proofing                         |      3 |
+|                 [5](#competence-and-information-sharing) | Competence and information sharing                 |      3 |
+|                   [6](#continual-review-and-improvement) | Continual review and improvement                   |      4 |
 
 ## Details
 

@@ -1,11 +1,11 @@
 ---
 date: 2023-06-11T9:00:00Z
-title: Infrastructure Management
+title: 8 - Infrastructure management
 weight: 8
 
 ---
 
-# Infrastructure Management
+# 8 - Infrastructure management
 
 The PKI implementation is a combination of software, hardware, network service, and resources that are needed to operate and manage the environment.
 The environment can be hosted on-premise, in the cloud, or in a hybrid environment.
@@ -37,22 +37,22 @@ The network and deployment infrastructure should be aligned with the architectur
 
 The network and deployment infrastructure should be properly documented and maintained. The documentation should include the following:
 - PKI components and their dependencies
-- facilities and equipment
-- deployment infrastructure description
-- clustering and load balancing
-- network topology and diagram
-- communication and open ports requirements
-- supported cloud providers and services
-- supporting systems and services (identity management, access control, logging, monitoring, etc.)
+- Facilities and equipment
+- Deployment infrastructure description
+- Clustering and load balancing
+- Network topology and diagram
+- Communication and open ports requirements
+- Supported cloud providers and services
+- Supporting systems and services (identity management, access control, logging, monitoring, etc.)
 
 #### Assessment
 
 The following is sample evidence that can be used to assess the requirement:
-- network topology and diagram
-- deployment documentation
-- sample configuration of network to compare with the documentation
-- integration with supporting and other systems
-- interview with the network administrators
+- Network topology and diagram
+- Deployment documentation
+- Sample configuration of network to compare with the documentation
+- Integration with supporting and other systems
+- Interview with the network administrators
 
 #### References
 
@@ -67,9 +67,9 @@ The following is sample evidence that can be used to assess the requirement:
 The PKI environment should be properly separated and segmented from other environments and systems. The separation and segmentation should be applied on all levels, including network, infrastructure, and application. The separation and segmentation should be applied based on the security requirements and risk assessment.
 
 Segmentation isolates the PKI environment from the remaining environment and reduces the risk of unauthorized access and data leakage. It also helps to reduce the impact of a potential compromise of the PKI environment from other systems and environments. Segmentation can be achieved using a number of physical or logical methods, such as:
-- properly configured internal network security controls
-- routers with strong access control lists
-- other technologies that restrict access to a particular segment of a network
+- Properly configured internal network security controls
+- Routers with strong access control lists
+- Other technologies that restrict access to a particular segment of a network
 
 For the proper maintenance of the infrastructure and deployed PKI components, the staging/testing environment should be available in the same configuration as the production environment. If needed, development environment can be used for testing and development purposes.
 Production, staging, and development environments should be logically separated and isolated from each other, including data that is used in the environments.
@@ -77,12 +77,12 @@ Production, staging, and development environments should be logically separated 
 #### Assessment
 
 The following is sample evidence that can be used to assess the requirement:
-- network topology and diagram
-- implementation of network isolation
-- separation of production and testing environments
-- sample data
-- interview with the network administrators
-- 
+- Network topology and diagram
+- Implementation of network isolation
+- Separation of production and testing environments
+- Sample data
+- Interview with the network administrators
+
 #### References
 
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
@@ -95,19 +95,19 @@ The following is sample evidence that can be used to assess the requirement:
 The network vulnerability management is a process that is used to identify, classify, remediate, and mitigate vulnerabilities in the network infrastructure and protects PKI implementation from potential attacks. The process should be implemented and maintained in order to ensure that the network infrastructure is properly secured and protected from potential attacks.
 
 The network vulnerability management should include the following:
-- included in the overall vulnerability management process
-- periodical scanning of the network infrastructure
-- identification of vulnerabilities
-- categorization and prioritization of vulnerabilities and remediation
-- updating and patching requirements
+- Included in the overall vulnerability management process
+- Periodical scanning of the network infrastructure
+- Identification of vulnerabilities
+- Categorization and prioritization of vulnerabilities and remediation
+- Updating and patching requirements
 
 #### Assessment
 
 The following is sample evidence that can be used to assess the requirement:
-- network vulnerability management process
-- results from last network vulnerability scan
-- remediation plan
-- interview with the network administrators
+- Network vulnerability management process
+- Results from last network vulnerability scan
+- Remediation plan
+- Interview with the network administrators
 
 #### References
 
@@ -126,10 +126,10 @@ The infrastructure should be frequently backed up and the backups should be stor
 #### Assessment
 
 The following is sample evidence that can be used to assess the requirement:
-- infrastructure recovery objectives
-- backup and recovery plan
-- infrastructure configuration as a code
-- interview with the infrastructure administrators
+- Infrastructure recovery objectives
+- Backup and recovery plan
+- Infrastructure configuration as a code
+- Interview with the infrastructure administrators
 
 #### References
 
@@ -146,21 +146,21 @@ Periodical review helps to keep the infrastructure management accurate and helps
 It provides also assurance that the expected controls are active and working as intended.
 
 The review can include the following:
-- changes made to the infrastructure
-- regular check of firewall rules
-- review of the network topology
-- review of the network segmentation
-- regular check of access control lists
-- vulnerability reports and timely remediation
-- review and correlation of logs
-- and other activities related to the infrastructure management
+- Changes made to the infrastructure
+- Regular check of firewall rules
+- Review of the network topology
+- Review of the network segmentation
+- Regular check of access control lists
+- Vulnerability reports and timely remediation
+- Review and correlation of logs
+- And other activities related to the infrastructure management
 
 #### Assessment
 
 The following is sample evidence that can be used to assess the requirement:
-- infrastructure management activities review frequency
-- organizational implementation of review process
-- validation of documentation, reports, records, and reviews
+- Infrastructure management activities review frequency
+- Organizational implementation of review process
+- Validation of documentation, reports, records, and reviews
 
 #### References
 

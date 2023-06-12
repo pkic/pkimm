@@ -1,11 +1,11 @@
 ---
 date: 2023-06-05T9:00:00Z
-title: Automation
+title: 13 - Automation
 weight: 13
 
 ---
 
-# Automation
+# 13 - Automation
 
 ## Overview
 
@@ -86,10 +86,10 @@ No automation is perfect and covers everything. There can be edge cases and othe
 It may happen that some certificates are required to be handled manually and therefore the exception should be approved and documented. 
 
 Handling of exceptional situation should be covered in the documentation, stating what should be done in case of an exception or incident:
-- communication of the exception
-- approval of the exception
-- incident handling and reporting
-- any other relevant information
+- Communication of the exception
+- Approval of the exception
+- Incident handling and reporting
+- Any other relevant information
 
 The handling of exceptions should be tested and verified on regular basis to ensure that the process is working as expected.
 
