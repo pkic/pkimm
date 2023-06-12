@@ -46,7 +46,6 @@ The following diagram shows the structure of the model:
 ```mermaid
 classDiagram
     direction TB
-    
     class PKIMM["PKI maturity levels"]{
         Initial
         Basic
@@ -100,7 +99,6 @@ classDiagram
         Awareness
         Resilience
     }
-    
     PKIMM <-- Modules
     Modules <-- Governance
     Modules <-- Management

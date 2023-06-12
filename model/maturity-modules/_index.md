@@ -22,42 +22,40 @@ Each module consists of specific categories related to them:
 
 ```mermaid
 classDiagram
-    direction TB
-    
-    class Modules["Modules"]{
-        Governance
-        Management
-        Operations
-        Resources
-    }
-    class Governance["Governance module"]{
-        Strategy and vision
-        Policies and documentation
-        Compliance
-        Processes and procedures
-    }
-    class Management["Management module"]{
-        Key Management
-        Certificate ManagementIn
-        frastructure Management
-        Change Management and Agility
-    }
-    class Operations["Operations module"]{
-        Resilience
-        Automation
-        Interoperability
-        Monitoring and Auditing
-    }
-    class Resources["Resources module"]{
-        Sourcing
-        Knowledge and Training
-        Awareness
-    }
-    
-    Modules <-- Governance
-    Modules <-- Management
-    Modules <-- Operations
-    Modules <-- Resources
+  direction TB
+  class Modules["Modules"]{
+    Governance
+    Management
+    Operations
+    Resources
+  }
+  class Governance["Governance module"]{
+    Strategy and vision
+    Policies and documentation
+    Compliance
+    Processes and procedures
+  }
+  class Management["Management module"]{
+    Key Management
+    Certificate ManagementIn
+    Infrastructure Management
+    Change Management and Agility
+  }
+  class Operations["Operations module"]{
+    Resilience
+    Automation
+    Interoperability
+    Monitoring and Auditing
+  }
+  class Resources["Resources module"]{
+    Sourcing
+    Knowledge and Training
+    Awareness
+  }
+  Modules <-- Governance
+  Modules <-- Management
+  Modules <-- Operations
+  Modules <-- Resources
 ```
 
 For more information about the categories, see the [Categories](../maturity-categories/).
