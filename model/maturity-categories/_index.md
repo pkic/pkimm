@@ -1,7 +1,7 @@
 ---
 date: 2023-03-21T7:00:00Z
 title: Categories
-weight: 2
+weight: 3
 
 ---
 
@@ -27,6 +27,6 @@ The following categories of the PKI maturity model are defined with the appropri
 | **Awareness**                     |      3 |
 | **Resilience**                    |      4 |
 
-For more information on categories, please refer to the [Categories Maturity Evaluation](../../categories/).
+For more information on categories, please refer to the [Categories description](../../categories/).
 
 The weights of the categories are used to calculate the overall maturity level of the PKI.
