@@ -23,7 +23,7 @@ The maturity model consists of several categories which are directly associated 
 
 Each category can be separately assessed for its maturity level. Maturity levels are generally defined as follows:
 
-| **Maturity level** | **Short description (general)**                                                                              |
+| **Maturity level** | **Short description**                                                                                        |
 |--------------------|--------------------------------------------------------------------------------------------------------------|
 | **Initial**        | Unpredictable process with poor control and always reactive                                                  |
 | **Basic**          | Process is characterized by each particular case or project and controls are often reactive                  |

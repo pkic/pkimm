@@ -1,11 +1,11 @@
 ---
 date: 2023-03-21T7:00:00Z
-title: Categories maturity evaluation
+title: Categories description
 weight: 3
 
 ---
 
-# Categories maturity evaluation
+# Categories description
 
 For the evaluation of the maturity level of the category, the following formula is applied:
 

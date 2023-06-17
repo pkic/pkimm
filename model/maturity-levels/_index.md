@@ -1,23 +1,102 @@
 ---
 date: 2023-03-21T7:00:00Z
-title: Levels description
-weight: 3
+title: Levels
+weight: 1
 
 ---
 
-# Levels description
+# Levels
 
 Based on the nature of PKI part, these maturity levels are described accordingly. Overall maturity level is calculated as weighted average of maturity level of PKI categories.
 
 There are defined the following overall maturity levels for the PKI Maturity Model:
 
-| **Maturity level** | **Indicators**                                                                                                                                                                                                                                                                                                                                    | **Associated risks**                                                                                                       |
-|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| **1 – Initial**    | <ul> <li>PKI is ad-hoc managed, reactive</li> <li>There are minimum processes and procedures, which are typically not followed and</li> <li>There is no approach how to address certificate related issues</li> <li>PKI does not take into account any industry standards or regulations</li> <li>Insufficient resources and knowledge</li> </ul> | <ul> <li>High probability of compromise</li> <li>High probability of operational issues</li> <li>No trust</li> </ul>       |
-| **2 - Basic**      | <ul> <li>PKI is ad-hoc managed, often reactive</li> <li>There are defined processes and procedures which are followed</li> <li>PKI is not managed according industry standards and regulations</li> <li>Insufficient knowledge</li> </ul>                                                                                                         | <ul> <li>High probability of operational issues</li> <li>Medium probability of compromise</li> <li>No trust</li> </ul>     |
-| **3 – Advanced**   | <ul> <li>Certificate services are not consistent</li> <li>Procedures are defined and followed</li> <li>CP and CPS partially exist</li> <li>Partially available resources and knowledge</li> </ul>                                                                                                                                                 | <ul> <li>Medium probability of operational issues</li> <li>Low probability of compromise</li> </ul>                        |
-| **4 – Managed**    | <ul> <li>PKI is consistently managed</li> <li>Well defined CP and CPS for provided services</li> <li>Available skilled resources</li> <li>Documented processes and procedures to manage certificates and related keys</li> <li>Inconsistent approach to certificate related activities</li> </ul>                                                 | <ul> <li>Low probability of operational issues</li> <li>Low probability of compromise and loosing trust</li> </ul>         |
-| **5 – Optimized**  | <ul> <li>Well defined CP and CPS</li> <li>Effective procedures for certificate management exists</li> <li>Resources with knowledge and experience available</li> <li>Consistent PKI with alignment to current practice and regulation</li> <li>Future proof</li> </ul>                                                                            | <ul> <li>Minimal probability of operational issues</li> <li>Minimal probability of compromise and loosing trust</li> </ul> |
+| # | **Maturity level**                         | **Short description**                                                                                        |
+|---|--------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| 1 | **[Initial](#initial-maturity-level)**     | Unpredictable process with poor control and always reactive                                                  |
+| 2 | **[Basic](#basic-maturity-level)**         | Process is characterized by each particular case or project and controls are often reactive                  |
+| 3 | **[Advanced](#advanced-maturity-level)**   | Process is characterized by organizational standards and controls are proactive                              |
+| 4 | **[Managed](#managed-maturity-level)**     | Processes are measured and controlled, proactive approach                                                    |
+| 5 | **[Optimized](#optimized-maturity-level)** | Continuous improvement of the processes and procedures, proactive approach for future technology improvement |
+
+Each maturity level is described in more detail with associated indicators and risks. Indicators describes the current state of the PKI and associated risks are used to determine impact on the PKI.
+
+## Initial maturity level
+
+### Indicators
+
+- PKI is ad-hoc managed, reactive
+- There are minimum processes and procedures, which are typically not followed and
+- There is no approach how to address certificate related issues
+- PKI does not take into account any industry standards or regulations
+- Insufficient resources and knowledge
+
+### Associated risks
+
+- High probability of compromise
+- High probability of operational issues
+- No trust
+
+## Basic maturity level
+
+### Indicators
+
+- PKI is ad-hoc managed, often reactive
+- There are defined processes and procedures which are followed
+- PKI is not managed according industry standards and regulations
+- Insufficient knowledge
+
+### Associated risks
+
+- High probability of operational issues
+- Medium probability of compromise
+- No trust
+
+## Advanced maturity level
+
+### Indicators
+
+- Certificate services are not consistent
+- Procedures are defined and followed
+- CP and CPS partially exist
+- Partially available resources and knowledge
+
+### Associated risks
+
+- Medium probability of operational issues
+- Low probability of compromise
+
+## Managed maturity level
+
+### Indicators
+
+- PKI is consistently managed
+- Well defined CP and CPS for provided services
+- Available skilled resources
+- Documented processes and procedures to manage certificates and related keys
+- Inconsistent approach to certificate related activities
+
+### Associated risks
+
+- Low probability of operational issues
+- Low probability of compromise and loosing trust
+
+## Optimized maturity level
+
+### Indicators
+
+- Well defined CP and CPS
+- Effective procedures for certificate management exists
+- Resources with knowledge and experience available
+- Consistent PKI with alignment to current practice and regulation
+- Future proof
+
+### Associated risks
+
+- Minimal probability of operational issues
+- Minimal probability of compromise and loosing trust
+
+## Maturity levels diagram
 
 ```mermaid
 classDiagram

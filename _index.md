@@ -4,15 +4,15 @@ title: Overview
 sideMenu: true
 ---
 
-# PKI Maturity Model
+# Overview
 
-This repository is part of the [PKI Consortium](https://pkic.org/) PKI Maturity Model working group.
+This repository is part of the [PKI Consortium](https://pkic.org/) PKI maturity model (PKIMM) working group.
 
 You can find more information about the working group and its goal in the [PKI Maturity Model Working Group Charter](https://pkic.org/wg/pkimm/charter/).
 
 ## Applicability
 
-The PKI Maturity Model is intended for all entities that operates public key infrastructure, regardless of the size, industry, or use-case.
+The PKI maturity model is intended for all entities that operates public key infrastructure, regardless of the size, industry, or use-case.
 
 Whether the entity would like to follow this model is at discretion of the entity. The model is not mandatory and does not impose any requirements on the entity.
 
@@ -28,18 +28,40 @@ The adoption of the PKI maturity model must be very easy and therefore the model
 
 The [PKI Maturity Model](./model/) defines 5 levels of the PKI maturity based on different indicators and associated risks.
 
-## Categories
+Model is divided into **4** [Modules](./model/maturity-modules/) and **15** [Categories](./model/maturity-categories) that covers aspects and activities related to the PKI (people, process, technology). The overall maturity level is determined based on the maturity of the categories.
 
-The maturity model consists of several categories that covers aspects and activities related to the PKI (people, process, technology). The overall maturity level is determined based on the maturity of the categories.
+## Assessment process
 
-See the full list of [Categories](./categories/).
+[Assessment process](./assessment/) should give the consistent and convenient approach to assess maturity level of any PKI implementation and use case.
 
-## Assessment methodology
+The assessment process defines steps to scope, assess, evaluate, and report the maturity level of the PKI implementation, including continuous improvement.
 
-[Assessment methodology](./assessment/methodology/) should give the consistent and convenient approach to assess maturity level of any PKI based on the pre-defined set of deterministic questions.
+## Assessment tools
 
-The methodology defines the self-assessment questionnaire and reporting template to support the comparable results of the PKI assessment between companies of the same size or the same industry.
+The following assessment tools are available to support the assessment process:
+- [PKI maturity assessment tool](./tools/) - Excel spreadsheet that can be used to perform the assessment and generate the report
 
-## Reporting
 
-[Reporting tools](./assessment/report/) are defined to provide consistent results across different PKI implementations.
+```mermaid
+mindmap
+  root((Maturity))
+    {{Governance}}
+      Strategy and vision
+      Policies and documentation
+      Compliance
+      Processes and procedures
+    {{Management}}
+      Key Management
+      Certificate ManagementIn
+      Infrastructure Management
+      Change Management and Agility
+    {{Operations}}
+      Resilience
+      Automation
+      Interoperability
+      Monitoring and Auditing
+    {{Resources}}
+      Sourcing
+      Knowledge and Training
+      Awareness
+```
