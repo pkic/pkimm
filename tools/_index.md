@@ -1,13 +1,13 @@
 ---
 date: 2023-06-17T7:00:00Z
-title: Assessment tools
+title: Tools
 weight: 7
 
 ---
 
-# Assessment tools
+# Tools
 
-The following tools are available to assess the maturity of the PKI:
+The following tools are available to support the PKI maturity model:
 
 | Tool                         | Description                                                                                                                                                                                                                                                                 |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
