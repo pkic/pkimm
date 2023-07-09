@@ -60,6 +60,7 @@ The requirements can typically include:
 
 - [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
+- [ISO/IEC 27099 - Public key infrastructure](https://www.iso.org/standard/56590.html)
 
 ### Event logs from systems are collected
 
@@ -68,6 +69,8 @@ The requirements can typically include:
 The event logs from systems should be collected and available for analysis, including correlation with other records. Centralized logging is recommended to ensure that the logs are collected and stored consistently. Solution like security information and event management (SIEM) can be used to collect and analyze the logs.
 
 The availability of records for analysis depends on understanding logging format and interpretation of the information, therefore each system should provide logs in a consistent format that can be further processed and analyzed (or automated).
+
+Logs and events should be collected from all systems that are relevant for the PKI implementation, such as key life cycle management events.
 
 The event should contain sufficient information to identify the event, including:
 - User identification
@@ -91,6 +94,7 @@ The event should contain sufficient information to identify the event, including
 - [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
 - [NIST - Guide to Computer Security Log Management](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-92.pdf)
+- [ISO/IEC 27099 - Public key infrastructure](https://www.iso.org/standard/56590.html)
 
 ### Audit trail can be reconstructed from audit logs
 
@@ -120,19 +124,20 @@ Typically, the following events are important for security of the PKI implementa
 - [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://tools.ietf.org/html/rfc3647)
 - [NIST - Guide to Computer Security Log Management](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-92.pdf)
 - [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+- [ISO/IEC 27099 - Public key infrastructure](https://www.iso.org/standard/56590.html)
 
 ### Monitoring of operational and security events is implemented
 
 #### Guidance
 
-Monitoring of operational and security events should be implemented to ensure that the PKI implementation is operating as expected and that the security events are detected and responded to in a timely manner. The monitoring should be implemented for all critical systems and components, including the CA, RA, OCSP, HSM, and other relevant systems.
+Monitoring of operational and security events should be implemented to ensure that the PKI implementation is operating as expected and that the security events are detected and responded to in a timely manner and that evidence of any malicious event is identified. The monitoring should be implemented for all critical systems and components, including the CA, RA, OCSP, HSM, and other relevant systems.
 
 Monitoring should be aligned with the monitoring and auditing requirements defined in the certificate policy, certification practice statement, or other relevant documents. The monitoring should be implemented to ensure that the requirements are met.
 
 #### Assessment
 
 - Monitoring of operational and security events is implemented according the requirements
-- Review of monitoring implementation
+- Review of monitoring implementation, including CA key life cycle management related events, security sensitive events, and other relevant events
 - Review of monitoring events and alerts
 - Interviews with personnel responsible for monitoring
 
@@ -140,6 +145,7 @@ Monitoring should be aligned with the monitoring and auditing requirements defin
 
 - [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
+- [ISO/IEC 27099 - Public key infrastructure](https://www.iso.org/standard/56590.html)
 
 ### Critical events are immediately alerted and resolved according to incident response plans
 
@@ -149,7 +155,7 @@ Critical events should be immediately alerted and resolved according to incident
 
 #### Assessment
 
-- Review of requirements for alerting on critical event
+- Review of requirements for alerting on critical event, including security sensitive events
 - Review of monitoring implementation
 - Review of documentation on critical events
 - Interviews with personnel to check the understanding of critical events and their handling
@@ -158,6 +164,7 @@ Critical events should be immediately alerted and resolved according to incident
 
 - [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
+- [ISO/IEC 27099 - Public key infrastructure](https://www.iso.org/standard/56590.html)
 
 ### Review of events and logs is periodically performed
 
@@ -179,3 +186,4 @@ The review of logs and events should be performed periodically and the frequency
 - [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
 - [NIST - Guide to Computer Security Log Management](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-92.pdf)
+- [ISO/IEC 27099 - Public key infrastructure](https://www.iso.org/standard/56590.html)
