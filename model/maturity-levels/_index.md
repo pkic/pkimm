@@ -7,9 +7,9 @@ weight: 1
 
 # Levels
 
-Based on the nature of PKI part, these maturity levels are described accordingly. Overall maturity level is calculated as weighted average of maturity level of PKI categories.
+Based on the nature of PKI part, these maturity levels are described accordingly. Overall maturity level is calculated as weighted average of the maturity level of all PKI categories.
 
-There are defined the following overall maturity levels for the PKI Maturity Model:
+Following overall maturity levels are defined for the PKI maturity model:
 
 | # | **Maturity level**                         | **Short description**                                                                                        |
 |---|--------------------------------------------|--------------------------------------------------------------------------------------------------------------|
@@ -43,7 +43,7 @@ Each maturity level is described in more detail with associated indicators and r
 
 - PKI is ad-hoc managed, often reactive
 - There are defined processes and procedures which are followed
-- PKI is not managed according industry standards and regulations
+- PKI is not managed according to industry standards and regulations
 - Insufficient knowledge
 
 ### Associated risks
@@ -56,9 +56,9 @@ Each maturity level is described in more detail with associated indicators and r
 
 ### Indicators
 
-- Certificate services are not consistent
+- Certificate services are not consistently managed
 - Procedures are defined and followed
-- CP and CPS partially exist
+- CP and CPS partially exist but not followed
 - Partially available resources and knowledge
 
 ### Associated risks
@@ -85,8 +85,8 @@ Each maturity level is described in more detail with associated indicators and r
 
 ### Indicators
 
-- Well defined CP and CPS
-- Effective procedures for certificate management exists
+- Well-defined CP and CPS
+- Effective procedures for certificate management exist and are followed
 - Resources with knowledge and experience available
 - Consistent PKI with alignment to current practice and regulation
 - Future proof
@@ -124,7 +124,7 @@ classDiagram
     class Basic_Indicators["Basic level indicators"]{
         PKI is ad-hoc managed, often reactive
         There are defined processes and procedures which are followed
-        PKI is not managed according industry standards and regulations
+        PKI is not managed according to industry standards and regulations
         Insufficient knowledge
     }
     class Basic_Risks["Basic level risks"]{
@@ -133,9 +133,9 @@ classDiagram
         No trust
     }
     class Advanced_Indicators["Advanced level indicators"]{
-        Certificate services are not consistent
+        Certificate services are not consistently managed
         Procedures are defined and followed
-        CP and CPS partially exist
+        CP and CPS partially exist but not followed
         Partially available resources and knowledge
     }
     class Advanced_Risks["Advanced level risks"]{
@@ -155,7 +155,7 @@ classDiagram
     }
     class Optimized_Indicators["Optimized level indicators"]{
         Well defined CP and CPS
-        Effective procedures for certificate management exists
+        Effective procedures for certificate management exist and are followed
         Resources with knowledge and experience available
         Consistent PKI with alignment to current practice and regulation
         Future proof

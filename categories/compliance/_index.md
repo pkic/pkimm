@@ -7,9 +7,9 @@ weight: 3
 
 # 3 - Compliance
 
-Compliance refers to the ability of an organization to adhere to relevant laws, regulations, and standards related to the scope of the public key infrastructure. A properly implemented PKI Compliance program ensures that an organization's PKI is protected from threats and risks that could result in financial loss, reputation damage, legal liabilities, or eventually in the loss of trust.
+Compliance refers to the ability of an organization to adhere to relevant laws, regulations, and standards related to the scope of the PKI. A properly implemented PKI Compliance program ensures that an organization's PKI is protected from threats and risks that could result in financial loss, reputational damage, legal liabilities, or eventually in the loss of trust.
 
-Compliance process helps to manage PKI in a way that meets legal and regulatory requirements, and that information is used and protected appropriately, according to defined and documented policies and practices statements.
+The compliance process helps to manage a PKI in a way that meets legal and regulatory requirements, and ensures information is used and protected appropriately, according to defined and documented policies and practices statements.
 
 Compliance is important for several reasons, including:
 - It supports the risk management process associated with the PKI assets
@@ -21,12 +21,12 @@ Overall, compliance and related procedures help to ensure that the PKI is manage
 
 ## Requirements
 
-|                                                                           # | Requirement                                                            | Weight |
-|----------------------------------------------------------------------------:|------------------------------------------------------------------------|-------:|
-|          [1](#compliance-policies-are-defined-implemented-and-communicated) | Compliance policies are defined, implemented, and communicated         |      3 |
-|      [2](#a-program-to-monitor-compliance-with-the-policies-is-established) | A program to monitor compliance with the policies is established       |      4 |
-| [3](#responsibilities-for-the-compliance-are-formally-defined-and-assigned) | Responsibilities for the compliance are formally defined and assigned  |      3 |
-|   [4](#list-of-relevant-laws-regulations-standards-exist-and-is-maintained) | List of relevant laws, regulations, standards, exist and is maintained |      5 |
+|                                                                             # | Requirement                                                                | Weight |
+|------------------------------------------------------------------------------:|----------------------------------------------------------------------------|-------:|
+|            [1](#compliance-policies-are-defined-implemented-and-communicated) | Compliance policies are defined, implemented, and communicated             |      3 |
+|        [2](#a-program-to-monitor-compliance-with-the-policies-is-established) | A program to monitor compliance with the policies is established           |      4 |
+|   [3](#responsibilities-for-the-compliance-are-formally-defined-and-assigned) | Responsibilities for the compliance are formally defined and assigned      |      3 |
+| [4](#list-of-relevant-laws-regulations-and-standards-exist-and-is-maintained) | List of relevant laws, regulations, and standards, exist and is maintained |      5 |
 
 ## Details
 
@@ -98,7 +98,7 @@ Documenting specifically "who" shall be responsible for ensuring PKI policies ar
 - [ISO 37301 - Compliance management systems and related standard](https://www.iso.org/standard/75080.html)
 - [NIST Risk Management Framework](https://csrc.nist.gov/Projects/risk-management)
 
-### List of relevant laws, regulations, standards, exist and is maintained
+### List of relevant laws, regulations, and standards, exist and is maintained
 
 To better understand the relevance to PKI, one should understand the differences between laws, regulations, and standards.
 

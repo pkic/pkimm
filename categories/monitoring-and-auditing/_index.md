@@ -37,7 +37,7 @@ The outputs from the monitoring and auditing activities are typically used as in
 
 #### Guidance
 
-The monitoring and logging requirements should be defined and documented in the certificate policy, certification practice statement, or other relevant documents. The requirements should be aligned with the overall PKI policies and statements, and should be based on the risk assessment and management activities.
+The monitoring and logging requirements should be defined and documented in the CP, CPS, or other relevant documents. The requirements should be aligned with the overall PKI policies and statements, and should be based on the risk assessment and management activities.
 
 The requirements can typically include:
 - Events to be monitored
@@ -100,7 +100,7 @@ The event should contain sufficient information to identify the event, including
 
 #### Guidance
 
-Audit logging should be implemented to ensure that the audit trail can be reconstructed from audit logs any time. Audit logs are typically recorder for any user executed events that are important for security of the PKI implementation. Audit logs should be stored in a secure location. The audit logs should be protected against unauthorized access, modification, and deletion.
+Audit logging should be implemented to ensure that the audit trail can be reconstructed from audit logs any time. Audit logs are typically recorded for any user executed events that are important for security of the PKI implementation. Audit logs should be stored in a secure location. The audit logs should be protected against unauthorized access, modification, and deletion.
 
 Typically, the following events are important for security of the PKI implementation:
 - All individual user accesses to sensitive data
@@ -132,11 +132,11 @@ Typically, the following events are important for security of the PKI implementa
 
 Monitoring of operational and security events should be implemented to ensure that the PKI implementation is operating as expected and that the security events are detected and responded to in a timely manner and that evidence of any malicious event is identified. The monitoring should be implemented for all critical systems and components, including the CA, RA, OCSP, HSM, and other relevant systems.
 
-Monitoring should be aligned with the monitoring and auditing requirements defined in the certificate policy, certification practice statement, or other relevant documents. The monitoring should be implemented to ensure that the requirements are met.
+Monitoring should be aligned with the monitoring and auditing requirements defined in the CP, CPS, and other relevant documents. The monitoring should be implemented to ensure that the requirements are met.
 
 #### Assessment
 
-- Monitoring of operational and security events is implemented according the requirements
+- Monitoring of operational and security events is implemented according to the requirements
 - Review of monitoring implementation, including CA key life cycle management related events, security sensitive events, and other relevant events
 - Review of monitoring events and alerts
 - Interviews with personnel responsible for monitoring
@@ -151,13 +151,13 @@ Monitoring should be aligned with the monitoring and auditing requirements defin
 
 #### Guidance
 
-Critical events should be immediately alerted and resolved according to incident response plans. Monitoring implementation should ensure that the critical events are detected and alerted in a timely manner. This can be done manually or in automated way. 
+Critical events should be immediately alerted and resolved according to incident response plans. Monitoring implementation should ensure that critical events are detected and alerted in a timely manner. This can be done manually or in an automated way. 
 
 #### Assessment
 
 - Review of requirements for alerting on critical event, including security sensitive events
 - Review of monitoring implementation
-- Review of documentation on critical events
+- Review of documentation of critical events
 - Interviews with personnel to check the understanding of critical events and their handling
 
 #### References
@@ -170,7 +170,7 @@ Critical events should be immediately alerted and resolved according to incident
 
 #### Guidance
 
-Logs and events should be reviewed frequently, preferably automatically, to determine security related issues, potential systems failure, identify anomalies or suspected activity. Regular review should be confirmed by authorized personnel and can proactively identify issues before they become problems.
+Logs and events should be reviewed frequently, preferably automatically, to determine security related issues, potential systems failure, identify anomalies or suspected activity. Regular review should be confirmed by authorized personnel who can proactively identify issues before they become problems.
 
 The review of logs and events should be performed periodically and the frequency should be based on the risk assessment. Any potential issues should be reported and resolved according to the incident response plans.
 

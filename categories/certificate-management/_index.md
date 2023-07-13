@@ -191,7 +191,7 @@ Discovery process should be run frequently on the specified locations and the ce
 No certificate issuance and management system works over long periods of time without changes to use-cases, processes, protocols and algorithms. It is important that the certificate management is periodically reviewed and updated to avoid gaps. The frequency of review should be based on the organizational risks and needs to be protected against current and future trends.
 
 Periodical review helps to keep the certificate management accurate and helps to maintain required skills and knowledge.
-It also provides assurance that the expected controls are active and working as intended.
+It provides assurance that the expected controls are active and working as intended.
 
 #### Assessment
 
@@ -207,16 +207,18 @@ It also provides assurance that the expected controls are active and working as 
 
 #### Guidance
 
-Large organization commonly have several PKI systems spread out in the organization. Some can be consolidated, but in many cases different PKI silos exists for good reasons. Having a central governance of PKI across the organization will help to maintain best practices, ensure secure PKI operations, re-use PKI knowledge in the organization, ensure consistent profiles and avoid unessecary duplication of effort.
+Large organizations commonly have several PKI systems spread out in the organization. Some can be consolidated, but in many cases different PKI silos exists for good reasons. Having a central governance of PKIs across the organization will help to maintain best practices, ensure secure PKI operations, re-use PKI knowledge in the organization, ensure consistent profiles and avoid unnecessary duplication of effort.
+
 #### Assessment
 
 * Documented PKIs used in the organization
   * Different PKI technologies used
   * Installed PKI instances
-* Documented PKI best practises
+* Documented PKI best practices
   * Installation procedures to avoid re-learning the same issues in different parts of the organization
-  * Configuration to ensure consistent and interoperable certificates
+  * Configuration to ensure consistent and interoperable certificates where applicable
   * Security to maintain a security base line across the whole organization
 
 #### References
 
+N/A

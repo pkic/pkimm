@@ -9,10 +9,10 @@ weight: 11
 
 ## Overview
 
-The purpose of this category is to ensure that the PKI personnel has the required knowledge and skills to perform their duties and responsibilities.
-Education and continuously gathering of required knowledge and skills to manage PKI is important to be aware and properly react on the current trends and threats that have impact on the public key infrastructure.
+The purpose of this category is to ensure that the PKI personnel have the required knowledge and skills to perform their duties and responsibilities.
+Education and continuous gathering of required knowledge and skills to manage the PKI is important to be aware and properly react to current trends and threats that may impact the PKI.
 
-Each personnel should be aware of the PKI policies and procedures, and should be able to perform their duties and responsibilities in accordance with the PKI policies and procedures.
+Each of the personnel should be aware of the PKI policies and procedures, and should be able to perform their duties and responsibilities in accordance with the PKI policies and procedures.
 
 ## Requirements
 
@@ -30,7 +30,7 @@ Each personnel should be aware of the PKI policies and procedures, and should be
 
 #### Guidance
 
-The training plan should be established and maintained to ensure that the personnel has the required knowledge and skills to perform their duties and responsibilities. It should reflect the current state of the PKI implementation and be updated when the PKI implementation changes, and provide necessary information for all personnel that is involved in the PKI implementation.
+The training plan should be established and maintained to ensure that personnel have the required knowledge and skills to perform their duties and responsibilities. It should reflect the current state of the PKI implementation and be updated when the PKI implementation changes, and provide necessary information for all personnel that are involved in the PKI implementation.
 
 Training plan is built with PKI needs and requirements in mind and should cover:
 - Training prerequisites
@@ -46,6 +46,7 @@ There can be different methods of training, depending on the needs and requireme
 - Coaching
 - Self-paced training
 - Online resources
+- Shadowing or reverse-shadowing
 
 #### Assessment
 
@@ -64,15 +65,15 @@ There can be different methods of training, depending on the needs and requireme
 
 #### Guidance
 
-The responsible personnel should be aware of the current policies and procedures that are related to the context of the PKI implementation. The training should be provided to the personnel that is responsible for the management, operation, and administration of the PKI.
+The responsible personnel should be aware of the current policies and procedures that are related to the context of the PKI implementation. Training should be provided to personnel that are responsible for the management, operation, and administration of the PKI.
 
-Training is provided in accordance to the current and approved training plan.
+Training is provided in accordance with the current and approved training plan.
 
 Methods and training content can vary, depending on personnel roles and covers:
 - New hires as part of the onboarding process
 - Periodic training for all personnel (the frequency of the training depends on the role and responsibilities)
 
-For each training, the attendance should be recorded and documented, and in case the training is not completed, the reason should be documented.
+For each training, attendance should be recorded and documented, and in case the training is not completed, the reason should be documented.
 In case there are requirements for score or threshold to be achieved, the results should be documented.
 
 #### Assessment
@@ -81,7 +82,7 @@ In case there are requirements for score or threshold to be achieved, the result
 - Review documented training results
 - Review training records
 - Relevancy of the training content
-- Training is provided in accordance to the training plan
+- Training is provided in accordance with the training plan
 - Training completeness
 
 #### References
@@ -94,7 +95,7 @@ In case there are requirements for score or threshold to be achieved, the result
 
 #### Guidance
 
-Security awareness education is an ongoing activity. The security awareness program is implemented to make all personnel aware of their role in protecting the the security and establish trust by the PKI implementation. It should stay up to date to reflect latest security trends, threats, and challenges.
+Security awareness education is an ongoing activity. The security awareness program is implemented to make all personnel aware of their role in protecting the security and establishing trust by the PKI implementation. It should stay up to date to reflect latest security trends, threats, and challenges.
 
 Security awareness should ensure that personnel are knowledgeable about the threat landscape, their responsibility for the operation of relevant security controls, and are able to access assistance and guidance when required.
 
@@ -109,7 +110,7 @@ Different methods can be applied to provide security awareness, for example:
 - Examine security awareness program
 - Interview personnel to verify that they are aware of their responsibilities
 - Review security awareness training records
-- Security awareness training is provided in accordance to the training plan
+- Security awareness training is provided in accordance with the training plan
 - Review content of the security awareness training
 
 #### References
@@ -123,9 +124,9 @@ Different methods can be applied to provide security awareness, for example:
 
 #### Guidance
 
-Proper education plan is required to stay up to date with the development of the latest technologies, security practices, and controls that have impact on the public key infrastructure and its future development. 
+Proper education plan is required to stay up to date with the development of the latest technologies, security practices, and controls that have impact on the PKI and its future development. 
 
-The education plan should establish a robust base for the personnel to gain relevant knowledge that are out of scope of the internal training plan, but it should be aligned with it to ensure that the personnel is able to perform their duties and responsibilities. The education plan should cover:
+The education plan should establish a robust base for the personnel to gain relevant knowledge that are out of scope of the internal training plan, but should be aligned with it to ensure that the personnel are able to perform their duties and responsibilities. The education plan should cover:
 - Education requirements and prerequisites
 - Recommended education approach and methods
 - Approach to monitor and assess the education results
@@ -138,7 +139,7 @@ Methods to provide education can vary:
 
 #### Assessment
 
-- Review education plan and it alignment with the training plan
+- Review education plan and its alignment with the training plan
 - Interview personnel to verify their educational goals
 - Validate education records
 
@@ -155,7 +156,7 @@ Methods to provide education can vary:
 The training plan should be reviewed and updated periodically to ensure that it is up-to-date and covers all aspects of the specific PKI implementation.
 
 Periodical review of the training plans helps to maintain required skills and knowledge for the responsible personnel.
-It provides also assurance that the expected controls are active and working as intended.
+It provides assurance that the expected controls are active and working as intended.
 
 #### Assessment
 

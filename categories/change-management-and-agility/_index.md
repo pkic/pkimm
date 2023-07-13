@@ -32,21 +32,21 @@ Agility means that the PKI is able to adapt to the changes quickly and efficient
 
 The policy for change management and agility should be documented and approved by the management. The policy contains principles and boundaries for the implementation of the change management and agility requirements. Typically, it can be documented on the organizational level and applied to all systems and services, including the PKI implementation.
 
-The PKI may have specific requirements for change management and agility, and therefore it can be recommended to have a separate policy for the PKI implementation. The policy should be aligned with the organizational policy and should be approved by the responsible personnel for the PKI.
+The PKI may have specific requirements for change management and agility, and therefore it may be recommended to have a separate policy for the PKI implementation. The policy should be aligned with organizational policy and should be approved by the responsible personnel for the PKI.
 
 The policy contains the following information:
-- Approach to the change management and agility
-- Principles and boundaries for the change management and agility
+- Approach to change management and agility
+- Principles and boundaries for change management and agility
 - Roles and responsibilities
-- Requirements for the change management and agility
-- Tools and technologies used for the change management
+- Requirements for change management and agility
+- Tools and technologies used for change management
 - And other relevant information
 
 #### Assessment
 
 The following is sample evidence that can be used to assess the requirement:
 - Documented policy for change management and agility
-- Alignment with the organizational policy
+- Alignment with organizational policy
 - Approval by the management
 - Understanding of the policy by the PKI personnel
 - And other relevant evidence
@@ -61,7 +61,7 @@ The following is sample evidence that can be used to assess the requirement:
 
 #### Guidance
 
-The request for change structure is the basic stone of each change management process. It provides information about the change, its scope, and other relevant data. The request for change structure should be formally documented and followed by all stakeholders involved.
+The request for change structure is the basic stone of each change management process. It provides information about a change, its scope, and other relevant data. The request for change structure should be formally documented and followed by all stakeholders involved.
 
 Request for change can contain any change that can affect the PKI implementation, including:
 - PKI upgrades, updates, and patches
@@ -95,9 +95,9 @@ The following is sample evidence that can be used to assess the requirement:
 
 #### Guidance
 
-The change management process is the core of the change management and agile system. It provides a robust and reliable process to ensure that every change is properly assessed, approved, implemented, and eventually reviewed.
+The change management process is the core of the change management and agile systems. It provides a robust and reliable process to ensure that every change is properly assessed, approved, implemented, and eventually reviewed.
 
-Change management process should be documented, communicated, and integrated into the organization. The process states how the request for change can be submitted and how it is processed, which includes assessment and approval of the change, implementation of the change, functional testing after the change, and review of the change.
+The change management process should be documented, communicated, and integrated into the organization. The process states how a request for change can be submitted and how it is processed, which includes assessment and approval of the change, implementation of the change, functional testing after the change, and review of the change.
 
 #### Assessment
 
@@ -117,11 +117,11 @@ The following is sample evidence that can be used to assess the requirement:
 
 #### Guidance
 
-Agility provides the ability to adapt to the changes quickly and efficiently. Agility and change management are closely related and should be considered together. The future-proof PKI implementation should be able to identify the requirements for agility and implement them in a timely manner.
+Agility provides the ability to adapt to changes quickly and efficiently. Agility and change management are closely related and should be considered together. The future-proof PKI implementation should be able to identify the requirements for agility and implement them in a timely manner.
 
-Agility can be considered on operational and technical levels. Operational agility means that the PKI is able to adapt to the changes in the operational environment, including the changes in the organizational structure, processes, and other operational aspects. Technical agility means that the PKI is able to adapt to the changes in the technologies, algorithms, protocols, and other technical aspects.
+Agility can be considered on operational and technical levels. Operational agility means that the PKI is able to adapt to changes in the operational environment, including any changes to the organizational structure, processes, and other operational aspects. Technical agility means that the PKI is able to adapt to changes in the technologies, algorithms, protocols, and other technical aspects.
 
-Identification of requirements where agility is needed is important to ensure the changes are implemented when needed.
+Identification of requirements where agility is needed is important to ensure changes are implemented when needed.
 
 #### Assessment
 
@@ -142,7 +142,7 @@ The following is sample evidence that can be used to assess the requirement:
 
 #### Guidance
 
-The change management and agility requirements should be periodically reviewed to ensure that they are still valid and relevant. The review should be performed by the responsible personnel and should be documented. The good practice is to review the change management and agility requirements at least once a year, however, the frequency of the review can be different depending on the PKI implementation.
+The change management and agility requirements should be periodically reviewed to ensure that they are still valid and relevant. The review should be performed by the responsible personnel and should be documented. A good practice is to review the change management and agility requirements at least once a year, however, the frequency of the review can be different depending on the PKI implementation.
 
 #### Assessment
 

@@ -7,11 +7,11 @@ weight: 1
 
 # 1 - Strategy and vision
 
-Trusted and secure PKI must be properly managed and supported by the organization. The existence of strategy and vision of the PKI is one of key factors for the success of the PKI and contributes to the overall maturity. The strategy and vision should be aligned with the organizational goals and approach and should be followed and measured regularly.
+Trusted and secure PKI must be properly managed and supported by the organization. The existence of a strategy and vision for the PKI is one of the key factors for the success of the PKI and contributes to the overall maturity. The strategy and vision should be aligned with the organizational goals and approach and should be followed and measured regularly.
 
 Formal documentation about the business drivers, scope, and design of the PKI helps to ensure that the PKI is properly aligned and understood to support the organizational. The documentation should be reviewed and updated regularly to ensure that the PKI is aligned with the organizational goals and needs.
 
-Undefined or unclear understanding and leadership can cause losing the established trust and can lead to the failure of the PKI quickly.
+Undefined or unclear understanding and leadership can cause loss of the established trust and can lead to the failure of the PKI quickly.
 
 ## Requirements
 
@@ -28,7 +28,7 @@ Undefined or unclear understanding and leadership can cause losing the establish
 
 #### Guidance
 
-The success of the PKI implementation highly depends on the organization top management support. Top management typically also acts as a sponsor of the PKI, meaning that they allocate and approve budget needed to build and maintain PKI.
+The success of the PKI implementation highly depends on the organization top management support. Top management typically also acts as a sponsor of the PKI, meaning that they allocate and approve budget needed to build and maintain the PKI.
 
 The basic assumption is that the established digital trust is going to be maintained and developed for years, and therefore it is important to have a long-term vision and strategy for the PKI. The strategy and vision should be aligned with the overall organizational goals and approach.
 
@@ -38,7 +38,7 @@ The following is sample evidence that can be used to assess the requirement:
 - Interview with the top management
 - Documented strategy and vision
 - Documented organizational goals and approach
-- Understanding why the PKI is needed and what is the value for the organization
+- Understanding of why the PKI is needed and what is the value for the organization
 - Support and sponsorship of the top management
 
 #### References
@@ -49,12 +49,12 @@ The following is sample evidence that can be used to assess the requirement:
 
 #### Guidance
 
-Proper leadership and responsible person should be assigned by the management to fulfil the role of the establishment, maintenance, and development of the PKI according to the strategy and vision. The responsible person should be able to make decisions and take actions to ensure the PKI is aligned with the organizational goals and needs.
+Proper leadership and responsible person should be assigned by the management to fulfil the role for the establishment, maintenance, and development of the PKI according to the strategy and vision. The responsible person should be able to make decisions and take actions to ensure the PKI is aligned with the organizational goals and needs.
 
 #### Assessment
 
 The formal assignment of the responsible person should be documented and approved by the management. Formal document should contains identification of the person and understanding of the role and responsibilities.
-Interview with the responsible should confirm the understanding of the role and responsibilities, driving the PKI implementation according to the organizational strategy.
+Interview with the responsible person should confirm the understanding of the role and responsibilities, driving the PKI implementation according to the organizational strategy.
 
 #### References
 
@@ -101,7 +101,7 @@ The architecture and design typically consists of the following:
 - Deployment options
 - Staging and testing
 
-The architecture and design is further used for the implementation of the PKI and serves as an input for the PKI team. It can be also used for the procurement of the PKI components and services that are needed for the implementation.
+The architecture and design are further used for the implementation of the PKI and serves as an input for the PKI team. It can be also used for the procurement of the PKI components and services that are needed for the implementation.
 
 #### Assessment
 

@@ -9,7 +9,12 @@ weight: 3
 
 For the evaluation of the maturity level of the category, the following formula is applied:
 
-$$\bar{x} = \frac{ \sum\limits_{i=1}^n w_i x_i}{\sum\limits_{i=1}^n w_i}$$
+```
+category maturity level = (r1w1 + r2w2 + r3w3 + ... + rnwn) / (w1 + w2 + w3 + ... + wn)
+```
+where:
+- `(r1,r2,r3,...,rn)` represents category requirements
+- and `(w1,w2,w3,...,wn)` represents corresponding non-negative weights
 
 ## Category description
 
@@ -23,7 +28,7 @@ Each category is described separately in the following sections. The description
 
 ### Details
 
-The details about each requirement provides guidance for the users how to assess the requirements and what is required to have. The details are structured in the following way:
+The details are structured in the following way:
 
 | Part           | Purpose                                                                                                                               |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------|

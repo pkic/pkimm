@@ -7,7 +7,7 @@ weight: 2
 
 # 2 - Policies and documentation
 
-Documented policies plays important role in the secure and consistent management of the public key infrastructure. The goal is to minimize financial and operational threats and risks in the digital world. Well-described policies and security measures increase overall trust in the ecosystem of trust services and are conditional to be able to operate. The basis for these matters lies in relevant laws and regulations, international standards and best practices.
+Documented policies plays an important role in the secure and consistent management of the PKI. The goal is to minimize financial and operational threats and risks in the digital world. Well-described policies and security measures increase overall trust in the ecosystem of trust services and are a condition for successful operation. The basis for these matters lies in relevant laws and regulations, international standards and best practices.
 
 It consists of:
 - formal policies and practice statements for supported PKI services and use-cases
@@ -20,15 +20,15 @@ It consists of:
 
 Properly documented policies keeps the PKI assets trusted over the time and serves as a basis for integrated processes and procedures. It is a living management system that is continuously updated and changed as technologies, security, and compliance requirements change.
 
-The certificate policy (CP) defines the overall policies and requirements of a PKI, the certification practice statement (CPS) provides detailed operational procedures followed by the certification authority, and the disclosure statement offers transparency about the CA's identity and services to relying parties.
+The Certificate Policy (CP) defines the overall policies and requirements of a PKI, the Certification Practice Statement (CPS) provides detailed operational procedures followed by the Certification Authority (CA), and the disclosure statement offers transparency about the CA's identity and services to relying parties.
 
 ## Requirements
 
 |                                                                  # | Requirement                                                  | Weight |
 |-------------------------------------------------------------------:|--------------------------------------------------------------|-------:|
 |              [1](#the-scope-of-policies-is-defined-and-documented) | The scope of policies is defined and documented              |      2 |
-|               [2](#certificate-policy-is-documented-and-published) | Certificate policy is documented and published               |      5 |
-| [3](#certification-practice-statement-is-documented-and-published) | Certification practice statement is documented and published |      5 |
+|               [2](#certificate-policy-is-documented-and-published) | Certificate Policy is documented and published               |      5 |
+| [3](#certification-practice-statement-is-documented-and-published) | Certification Practice Statement is documented and published |      5 |
 |             [4](#disclosure-statement-is-documented-and-published) | Disclosure statement is documented and published             |      4 |
 |               [5](#policies-are-periodically-reviewed-and-updated) | Policies are periodically reviewed and updated               |      3 |
 
@@ -63,11 +63,11 @@ The scope can include the following:
 
 #### Guidance
 
-Certificate policy (CP) is used to establish the controls of the issuing party and the roles and responsibilities of its entities for the specific PKI implementation and use case. Its used to provide assurance to partners and show the trustworthiness by the use of standards. It can be considered as a high level contract between the parties involved in the PKI and therefore should be published and available to all parties involved.
+Certificate Policy (CP) is used to establish the controls of the issuing party and the roles and responsibilities of its entities for the specific PKI implementation and use case. It's used to provide assurance to partners and show the trustworthiness by the use of standards. It can be considered as a high level contract between the parties involved in the PKI and therefore should be published and available to all parties involved.
 
 CPs are described in a document form where the content may differ. Multiple policies can be part of a single document for different use cases. A CP contains a set of rules that indicates the applicability of a certificate to a particular community and/or class of applications with common security requirements or level of security (for instance certificates for the purpose of: persons, domains, organizations, authenticity and confidentiality, services). To uniquely identify the purpose of the certificates the CP contains unique numbers (Object Identifier, OID) which needs to be registered.
 
-In general CP is addressing the following items:
+In general a CP addresses the following items:
 -	Types of certificates
 -	Document name and identification
 -	PKI participants
@@ -79,7 +79,7 @@ In general CP is addressing the following items:
 -	Certificate life-cycle operational requirements
 -	Facility management and operational controls
 -	Technical security controls
--	Certificate CRL and OCSP profiles
+-	Certificate, CRL, and OCSP profiles
 -	Compliance audit and other assessments
 -	Other business and legal matters
 
@@ -88,7 +88,7 @@ In general CP is addressing the following items:
 - The CP is properly documented in its full scope
 - The CP clearly defines the scope of the policy, such as the purpose of the security and assurance levels, the type and use of its certificates and parties involved
 - The legal rights and responsibilities of parties are described in the CP
-- CP has listed correct object identifiers for the purpose its used for
+- CP has listed correct object identifiers for the purpose it's used for
 - Verify that the CP is published and available to all parties involved
 - Interview with the management and PKI responsible personnel to confirm the CP is accurate and followed
 
@@ -102,9 +102,9 @@ In general CP is addressing the following items:
 
 #### Guidance
 
-In addition to CP, there is typically a certification practice statement (CPS). While a CP is more at a strategic level, detailed information about how things should be carried out is part of a CPS (tactical level). In most cases the CP and CPS are combined into a single managed document, however they can be split in case needed.
+In addition to a CP, there is typically a Certification Practice Statement (CPS). While a CP is more at a strategic level, detailed information about how things should be carried out is part of a CPS (tactical level). The CP and CPS can be combined into a single managed document, however they are typically split for most of the PKI implementations for better orientation.
 
-The CPS covers the same items as the CP, but in a technical detail to let know how the CP is implemented. All parties involved in the PKI should be aware of the CPS and follow it. The CPS is a living document that is continuously updated and changed as technologies, security, and compliance requirements change.
+The CPS covers the same items as the CP, but includes technical detail of how the CP is implemented. All parties involved in the PKI should be aware of the CPS and follow it. The CPS is a living document that is continuously updated and changed as technologies, security, and compliance requirements change.
 
 #### Assessment
 

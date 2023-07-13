@@ -16,7 +16,7 @@ Key management is the set of techniques and procedures supporting the establishm
 - Update, revocation, and destruction of keying material; and
 - Storage, backup/recovery, and archival of keying material.
 
-The key management is important for the public key infrastructure to maintain trust. It should be integral part of the PKI procedures. Proper key management is one of the basic stones on which the PKI stands and relies on.
+The key management is important for the PKI to maintain trust. It should be an integral part of the PKI procedures. Proper key management is one of the basic stones on which the PKI stands and relies on.
 
 ## Requirements
 
@@ -39,7 +39,7 @@ Proper definition of roles and responsibilities for key management operations es
 
 Personnel should be formally assigned to the role based on appropriate skills, and background check to ensure that there are no external risks associated that can cause potential compromise of key management.
 
-Naming or assignment record should contain relevant information such as:
+Naming or assignment records should contain relevant information such as:
 - Identification of personnel
 - Role to be assigned
 - Date of appointment
@@ -52,7 +52,7 @@ Naming or assignment record should contain relevant information such as:
 - Signed naming protocol of personnel to role(s)
 - Roles and responsibilities matrix (that may be used to cross-check if there are any conflicting roles)
 - Validation of required knowledge and skills
-- Review according the key management policy
+- Review according to the key management policy
 
 #### References
 
@@ -62,12 +62,12 @@ Naming or assignment record should contain relevant information such as:
 
 #### Guidance
 
-Inventory of cryptographic keys is important and strategic database for organization to:
+Inventory of cryptographic keys is important and a strategic database for organizations to:
 - Monitor cryptographic key status and compliance
-- Quickly react on changes and incidents (deprecation of algorithms, compromise, new attacks and vulnerabilities)
-- Understand impact of lifecycle changes, migration and using keys
+- Quickly react to changes and incidents (deprecation of algorithms, compromise, new attacks and vulnerabilities)
+- Understand impact of lifecycle changes, migration and use of keys
 
-Although cryptographic key inventory may be implemented and maintained using various tools and approaches, it should serve the purpose of having consistent and accurate map of all cryptographic keys deployed in organization with details like algorithm, key length, usage, storage, location, generation and distribution method, backup and recovery, key check value, fingerprint, number of share or components, owner or responsible person, uniqueness, crypto-periods, or any other application attributes and properties of the key.
+Although the cryptographic key inventory may be implemented and maintained using various tools and approaches, it should serve the purpose of having a consistent and accurate map of all cryptographic keys deployed in the organization with details like algorithm, key length, usage, storage, location, generation and distribution method, backup and recovery, key check value, fingerprint, number of share or components, owner or responsible person, uniqueness, crypto-periods, or any other applicable attributes and properties of the key.
 
 Inventory should follow procedures and business as usual activities to keep it accurate and updated in time.
 
@@ -76,7 +76,7 @@ Inventory should follow procedures and business as usual activities to keep it a
 - Documented inventory of cryptographic keys
 - Accuracy and consistency 
 - Completeness of inventory
-- Validation od cryptographic key records
+- Validation of cryptographic key records
 
 #### References
 
@@ -87,9 +87,9 @@ Inventory should follow procedures and business as usual activities to keep it a
 
 #### Guidance
 
-Sensitive cryptographic keys are protected by hardware security modules that can have various forms and complies with security standards such as FIPS 140-3 or Common Criteria Protection Profiles. The keys may be in some case software-protected when there is no high risk associated with its compromise.
+Sensitive cryptographic keys are protected by hardware security modules that can have various forms and comply with security standards such as FIPS 140-3 or Common Criteria Protection Profiles. The keys may be in some case software-protected when there is no high risk associated with its compromise.
 
-The approved ways of protecting cryptographic keys should have defined rules, which can be specified by the key management policy and followed using the key management procedures. Cryptographic devices that protect keys may be quickly identified using inventory of cryptographic keys with reference to inventory of cryptographic devices.
+The approved ways of protecting cryptographic keys should have defined rules, which can be specified by the key management policy and followed using the key management procedures. Cryptographic devices that protect keys may be quickly identified using the inventory of cryptographic keys with reference to an inventory of cryptographic devices.
 
 The inventory of cryptographic devices should contain relevant information such as:
 - Vendor and device model identification
@@ -100,7 +100,7 @@ The inventory of cryptographic devices should contain relevant information such 
 
 #### Assessment
 
-- Documented requirements on cryptographic devices
+- Documented requirements for cryptographic devices
 - Documented inventory of cryptographic devices
 - Completeness, accuracy, and consistency of inventory
 - Validation of records
@@ -114,9 +114,9 @@ The inventory of cryptographic devices should contain relevant information such 
 
 #### Guidance
 
-Each cryptographic key type that is defined and used for specific use-case should have complete description of its lifecycle. Each lifecycle phase has proper description of process and is backed up with the procedure that is executed when needed.
+Each cryptographic key type that is defined and used for specific use-case should have a complete description of its lifecycle. Each lifecycle phase has a proper description of the process and is backed up with the procedure that is executed when needed.
 
-The key can have various lifecycle phases, such as generation, registration, initialization, distribution, loading, storage, archiving, backup, recovery, revocation, removal, destruction, or other applicable for the key.
+The key can have various lifecycle phases, such as generation, registration, initialization, distribution, loading, storage, archiving, backup, recovery, revocation, removal, destruction, or others applicable for the key.
 
 The lifecycle phases contains appropriate description of the procedure such as:
 - Prerequisites for execution
@@ -128,7 +128,7 @@ The lifecycle phases contains appropriate description of the procedure such as:
 - Examine the definition of cryptographic key
 - Documented key lifecycle phases
 - Documented procedures and related records for the key lifecycle
-- Lifecycle is integrated and followed in organization
+- Lifecycle is integrated and followed in the organization
 
 #### References
 
@@ -139,11 +139,11 @@ The lifecycle phases contains appropriate description of the procedure such as:
 
 #### Guidance
 
-Protocols and encryption strengths may quickly change or be deprecated due to identification of vulnerabilities or design flaws. In order to support current and future data security needs, organization should know where cryptography is used and understand how they would be able to respond rapidly to changes impacting the strength of their cryptographic implementations.
+Protocols and encryption strengths may quickly change or be deprecated due to identification of vulnerabilities or design flaws. In order to support current and future data security needs, the organization should know where cryptography is used and understand how they would be able to respond rapidly to changes impacting the strength of their cryptographic implementations.
 
 Specific rules and boundaries to be applied for cryptographic cipher suites and protocols should be documented in encryption management policy that reflect the current status of cryptography practice.
 
-Cipher suites and protocols should be regularly checked against the implemented technology and configuration. The deviation from the documented and allowed protocols should be fixed.
+Cipher suites and protocols should be regularly checked against the implemented technology and configuration. Any deviation from the documented and allowed protocols should be fixed.
 
 #### Assessment
 
@@ -165,7 +165,7 @@ Cipher suites and protocols should be regularly checked against the implemented 
 Key management policy, processes and procedures related to cryptographic keys, inventory and lifecycle should be periodically reviewed, updated and approved. The frequency of review should be based on the organizational risks and needs to be protected against current and future trends.
 
 Periodical review helps to keep the key management accurate and helps to maintain required skills and knowledge.
-It provides also assurance that the expected controls are active and working as intended.
+It provides assurance that the expected controls are active and working as intended.
 
 #### Assessment
 

@@ -10,12 +10,12 @@ weight: 8
 The PKI implementation is a combination of software, hardware, network service, and resources that are needed to operate and manage the environment.
 The environment can be hosted on-premise, in the cloud, or in a hybrid environment.
 
-Independently on the hosting model, the PKI environment needs to be properly managed and maintained, which requires resources and processes.
+Independent of the hosting model, the PKI environment needs to be properly managed and maintained, which requires resources and processes.
 The infrastructure management refers to management of the technical and operational components of the PKI environment, which includes software, hardware, network, equipment, facilities, and other related resources.
 
 The PKI components may be distributed across multiple locations and managed by different teams. Therefore, it is important to have a clear description of the operational infrastructure with all dependencies and prerequisites. The infrastructure management should be aligned with the overall strategy of the organization and the scope of the PKI.
 
-When the infrastructure and environment where the PKI is implemented are not effectively managed and maintained, the complexity of the environment increases and the risk of failure increases as well. The infrastructure is often one of key targets for attackers, therefore it is important to ensure that it is properly secured and available.
+When the infrastructure and environment where the PKI is implemented are not effectively managed and maintained, the complexity of the environment increases and the risk of failure increases as well. The infrastructure is often one of the key targets for attackers, therefore it is important to ensure that it is properly secured and available.
 
 ## Requirements
 
@@ -24,7 +24,7 @@ When the infrastructure and environment where the PKI is implemented are not eff
 |            [1](#network-and-deployment-infrastructure-is-documented) | Network and deployment infrastructure is documented            |      4 |
 |             [2](#separation-and-segmentation-principles-are-applied) | Separation and segmentation principles are applied             |      3 |
 | [3](#network-vulnerability-management-is-implemented-and-maintained) | Network vulnerability management is implemented and maintained |      3 |
-|                     [4](#infrastructure-recovery-objectives-control) | Infrastructure recovery objectives control                     |      1 |
+|                    [4](#infrastructure-recovery-objectives-controls) | Infrastructure recovery objectives controls                    |      1 |
 |            [5](#infrastructure-activities-are-periodically-reviewed) | Infrastructure activities are periodically reviewed            |      2 |
 
 ## Details
@@ -33,7 +33,7 @@ When the infrastructure and environment where the PKI is implemented are not eff
 
 #### Guidance
 
-The network and deployment infrastructure should be aligned with the architecture and design of the PKI. In that terms, it provides details about how is the implementation done in the real environment.
+The network and deployment documentation of the infrastructure should be aligned with the architecture and design of the PKI. In other terms, it provides details about how the implementation is done in the real environment.
 
 The network and deployment infrastructure should be properly documented and maintained. The documentation should include the following:
 - PKI components and their dependencies
@@ -42,7 +42,7 @@ The network and deployment infrastructure should be properly documented and main
 - Clustering and load balancing
 - Network topology and diagram
 - Communication and open ports requirements
-- Supported cloud providers and services
+- Supporting cloud providers and services
 - Supporting systems and services (identity management, access control, logging, monitoring, etc.)
 
 #### Assessment
@@ -71,8 +71,8 @@ Segmentation isolates the PKI environment from the remaining environment and red
 - Routers with strong access control lists
 - Other technologies that restrict access to a particular segment of a network
 
-For the proper maintenance of the infrastructure and deployed PKI components, the staging/testing environment should be available in the same configuration as the production environment. If needed, development environment can be used for testing and development purposes.
-Production, staging, and development environments should be logically separated and isolated from each other, including data that is used in the environments.
+For the proper maintenance of the infrastructure and deployed PKI components, the staging/testing environment should be available in the same configuration as the production environment. If needed, development environments can be used for testing and development purposes.
+Production, staging, and development environments should be logically separated and isolated from each other, including the data that is used in the environments.
 
 #### Assessment
 
@@ -115,13 +115,13 @@ The following is sample evidence that can be used to assess the requirement:
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
 - [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
 
-### Infrastructure recovery objectives control
+### Infrastructure recovery objectives controls
 
 #### Guidance
 
 In case of issues with the infrastructure, it should be possible to quickly identify the root cause and recover the infrastructure to the operational state. The recovery objectives should be defined and aligned with the overall business continuity and disaster recovery strategy of the organization.
 
-The infrastructure should be frequently backed up and the backups should be stored in a secure location. The backups should be tested and validated on a regular basis. The infrastructure managed as a code may help to reduce complexity and increase the speed of recovery.
+The infrastructure should be frequently backed up and the backups should be stored in a secure location. The backups should be tested and validated on a regular basis. Infrastructure managed as code may help to reduce complexity and increase the speed of recovery.
 
 #### Assessment
 
@@ -143,14 +143,14 @@ The following is sample evidence that can be used to assess the requirement:
 Infrastructure management related activities should be periodically reviewed, updated and approved. The frequency of review should be based on the organizational risks and needs to be protected against current and future trends.
 
 Periodical review helps to keep the infrastructure management accurate and helps to maintain required skills and knowledge.
-It provides also assurance that the expected controls are active and working as intended.
+It provides assurance that the expected controls are active and working as intended.
 
 The review can include the following:
 - Changes made to the infrastructure
-- Regular check of firewall rules
+- Regular checks of firewall rules
 - Review of the network topology
 - Review of the network segmentation
-- Regular check of access control lists
+- Regular checks of access control lists
 - Vulnerability reports and timely remediation
 - Review and correlation of logs
 - And other activities related to the infrastructure management
