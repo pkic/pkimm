@@ -9,18 +9,18 @@ weight: 14
 
 ## Overview
 
-Providing awareness about the PKI and its purpose in the organization and outside ensures that ech PKI participant understands it properly and is timely informed about any important events that may have impact on the participant.
+Providing awareness about the PKI and its purpose in the organization and outside ensures that each PKI participant understands it properly and is timely informed about any important events that may impact the participant.
 
-The awareness is important for all PKI participants to know how to handle exceptional situations and how to react on them. It is also important to know how to communicate and when and to not misunderstand any issues or incidents.
+The awareness is important for all PKI participants to know how to handle exceptional situations and how to react to them. It is also important to know how to communicate and when so as to not misunderstand any issues or incidents.
 
 ## Requirements
 
-|                                              # | Requirement                              | Weight |
-|-----------------------------------------------:|------------------------------------------|-------:|
-|    [1](#establish-and-maintain-awareness-plan) | Establish and maintain awareness plan    |      2 |
-|                 [2](#disclose-pki-information) | Disclose PKI information                 |      2 |
-|        [3](#establish-single-point-of-contact) | Establish single point of contact        |      1 |
-| [4](#timely-communicate-important-information) | Timely communicate important information |      2 |
+|                                                   # | Requirement                                   | Weight |
+|----------------------------------------------------:|-----------------------------------------------|-------:|
+|         [1](#establish-and-maintain-awareness-plan) | Establish and maintain awareness plan         |      2 |
+|                      [2](#disclose-pki-information) | Disclose PKI information                      |      2 |
+|             [3](#establish-single-point-of-contact) | Establish single point of contact             |      1 |
+| [4](#timely-communication-of-important-information) | Timely communication of important information |      2 |
 
 ## Details
 
@@ -29,7 +29,7 @@ The awareness is important for all PKI participants to know how to handle except
 #### Guidance
 
 Awareness plan should be established and maintained to ensure that the PKI participants are aware of all relevant events related to the PKI implementation and its purpose in the organization and outside. It should cover at lease the following information:
-- How organization discloses information for PKI participants
+- How the organization discloses information to PKI participants
 - Contact information
 - How are changes communicated
 - Who is responsible for accurate awareness
@@ -43,7 +43,7 @@ Every PKI participant should receive information and relevant resource in a time
 - Awareness plan is up-to-date
 - Review awareness content to ensure that it is contains relevant information
 - Awareness plan is approved and communicated to all PKI participants
-- Awareness plan is integrated in organization
+- Awareness plan is integrated in the organization
 
 #### References
 
@@ -56,9 +56,9 @@ Every PKI participant should receive information and relevant resource in a time
 
 Information about the policies, processes, and procedures that are maintained by the PKI should be disclosed to the PKI participants. This information should be available on a timely basis and in a form that is understandable to the PKI participants.
 
-Organization maintaining the PKI implementation should disclose the following information on web site or other appropriate media that can be reached by the PKI participants:
-- Certificate policy
-- Certification practice statement
+Organization maintaining the PKI implementation should disclose the following information on a website or other appropriate media that can be reached by the PKI participants:
+- Certificate Policy
+- Certification Practice Statement
 - Revocation information
 - Valid CA certificates
 - Vulnerability reports
@@ -87,7 +87,7 @@ Organization maintaining the PKI implementation should disclose the following in
 
 #### Guidance
 
-The single point of contact (SPOC) provides convenient way for any PKI participant to contact the organization and responsible personnel of the PKI implementation. The single point of contact should be available 24/7 and should be able to provide relevant information and trigger appropriate procedures if needed based on the situation.
+The single point of contact (SPOC) provides a convenient way for any PKI participant to contact the organization and responsible personnel of the PKI implementation. The single point of contact should be available 24/7 and should be able to provide relevant information and trigger appropriate procedures if needed based on the situation.
 
 Contact information for the SPOC should be disclosed to all PKI participants.
 The SPOC may be reached through different communication channels, such as:
@@ -107,16 +107,16 @@ The SPOC may be reached through different communication channels, such as:
 - [RFC 3647 Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://datatracker.ietf.org/doc/html/rfc3647)
 - [ETSI EN 319 401 - General Policy Requirements for Trust Service Providers](https://www.etsi.org/deliver/etsi_en/319400_319499/319401/02.03.01_60/en_319401v020301p.pdf)
 
-## Timely communicate important information
+## Timely communication of important information
 
 #### Guidance
 
-In the event with high impact on the security and established trust by the PKI implementation, the organization should communicate the information to the PKI participants in a timely manner to avoid increased escalation of the event and inform participant for further actions that may be required to execute.
+In the event of an incident with high impact to the security and established trust of the PKI implementation, the organization should communicate the information to the PKI participants in a timely manner to avoid increased escalation of the event and inform participants of further actions that may be required to execute.
 
 Example of events that require timely communication may be:
 - Compromise of the private key
-- Changes in the certificate policy
-- Changes in the certification practice statement
+- Changes in the Certificate Policy
+- Changes in the Certification Practice Statement
 - Security breach
 - Other events that may require immediate action by the PKI participants
 

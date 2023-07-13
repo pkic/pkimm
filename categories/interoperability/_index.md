@@ -9,9 +9,9 @@ weight: 7
 
 Interoperability means the ability of two or more systems or components to exchange information and to use the information that has been exchanged.
 
-The PKI is composed of multiple components, which are often provided by different vendors, or can be developed and maintained in-house. Interoperability keeps the PKI components working together and allows the PKI to function properly in the long term.
+A PKI is composed of multiple components, which are often provided by different vendors, or can be developed and maintained in-house. Interoperability keeps the PKI components working together and allows the PKI to function properly in the long term.
 
-Adopting open standards and protocols helps to ensure interoperability between PKI components and avoid vendor lock-in that may lead to interoperability issues in the future, especially when the PKI needs to be trusted for a long time and needs to be scaled.
+Adopting open standards and protocols helps to ensure interoperability between PKI components and Relying Party (RP) applications and avoids vendor lock-in that may lead to interoperability issues in the future, especially when the PKI needs to be trusted for a long time, may have no control over RPs or needs to be scaled.
 
 Interoperability includes the following aspects:
 - Interface specifications
@@ -59,9 +59,9 @@ PKI interoperability strategy should be maintained, documented, and integrated i
 
 The following evidence should be available for the assessment of the requirement:
 - Documented and approved interoperability strategy
-- Interoperability strategy is integrated in organization
-- Interview with the responsible person to verify understanding of the interoperability strategy
-- Tender documentation for PKI components to verify the requirements for interoperability
+- Interoperability strategy is integrated in the organization
+- Interview with the responsible person(s) to verify understanding of the interoperability strategy
+- Review documentation for PKI components to verify the requirements for interoperability
 
 #### References
 
@@ -105,8 +105,8 @@ The adoption of open standards significant increase interoperability and reduce 
 #### Assessment
 
 The following evidence should be available for the assessment of the requirement:
-- Documented list of open standards used in the PKI
-- Policies requiring to use open standards
+- Documented list of open standards used by the PKI
+- Policies requiring the use of open standards
 - Interview with the responsible person to verify understanding of the open standards
 - Review of training materials
 

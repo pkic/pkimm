@@ -29,7 +29,7 @@ Justified, well-designed, and documented automation of certificate lifecycle man
 
 #### Guidance
 
-Every automated certificate management process should be properly described and documented. The documentation should contain information relevant to the process automation and understanding the reasons for automation. Monitoring, auditing, and potential measures and controls would be ineffective without proper description and understanding of automation process.
+Every automated certificate management process should be properly described and documented. The documentation should contain information relevant to the process automation and understanding the reasons for automation. Monitoring, auditing, and potential measures and controls would be ineffective without proper description and understanding of the automation process.
 
 The description can include for example the following:
 - Use-case or process to be automated
@@ -60,12 +60,12 @@ N/A
 
 The automated process of certificate management can cause significant damage if misused or misconfigured. The monitoring and auditing of the automated process is essential to prevent the risk of misuse and to detect any potential issues, inefficiencies, or exceptions.
 
-The monitoring and auditing should be performed on regular basis and should be aligned with the overall monitoring and auditing strategy of the organization.
-It should provide sufficient information to detect any potential issues with the automated process. For a successful detection of identification of issues, proper expectations should be set from the description of the automated process.
+The monitoring and auditing should be performed on a regular basis and should be aligned with the overall monitoring and auditing strategy of the organization.
+It should provide sufficient information to detect any potential issues with the automated process. For successful detection or identification of issues, proper expectations should be based on the description of the automated process.
 
 #### Assessment
 
-Monitoring of automated process should be supported by monitoring tools and technologies that can provide necessary overview, reporting, and potential alerting in case of issues.
+Monitoring of automated processes should be supported by monitoring tools and technologies that can provide the necessary overview, reporting, and potential alerting in case of issues.
 The following is sample evidence that can be used to assess the requirement:
 - Documented monitoring and auditing measures
 - Monitoring and auditing tools and technologies applied
@@ -81,23 +81,23 @@ N/A
 
 #### Guidance
 
-No automation is perfect and covers everything. There can be edge cases and other situation that were not part of the initial analysis or were simply forgotten. Therefore, there will be always exceptions and incidents that will require manual intervention. The automated process should be able to handle such exceptions and incidents in a way that will not cause any significant damage or disruption to the service.
+No automation is perfect and covers everything. There can be edge cases and other situations that were not part of the initial analysis or were simply forgotten. Therefore, there will always be exceptions and incidents that will require manual intervention. The automated process should be able to handle such exceptions and incidents in a way that will not cause any significant damage or disruption to the service.
 
 It may happen that some certificates are required to be handled manually and therefore the exception should be approved and documented. 
 
-Handling of exceptional situation should be covered in the documentation, stating what should be done in case of an exception or incident:
+Handling of exceptional situations should be covered in the documentation, stating what should be done in case of an exception or incident:
 - Communication of the exception
 - Approval of the exception
 - Incident handling and reporting
 - Any other relevant information
 
-The handling of exceptions should be tested and verified on regular basis to ensure that the process is working as expected.
+The handling of exceptions should be tested and verified on a regular basis to ensure that the process is working as expected.
 
 #### Assessment
 
 The following is sample evidence that can be used to assess the requirement:
 - Documented exceptions
-- Interview with responsible personnel how to handle exceptions or incidents
+- Interview with responsible personnel about how to handle exceptions or incidents
 
 #### References
 

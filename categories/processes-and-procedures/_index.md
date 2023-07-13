@@ -13,14 +13,14 @@ Process is a set of activities that are performed in a specific order to achieve
 
 Procedure is a set of instructions that describe how to perform a specific task. The procedure should be also documented and can be used as a reference for the process. Procedure can include specific instructions for the process, such as how to perform a specific task, or how to use a specific tool.
 
-Processes and procedure typically cover (but is not limited) the following areas:
+Processes and procedure typically cover (but are not limited to) the following areas:
 - infrastructure management
 - data privacy and security
 - business continuity, disaster recovery, contingency planning
 - supply chain management
 - physical security and access control
 - incident management
-- audit and compliance, recoding and reporting, archiving
+- audit and compliance, evidence and reporting, archiving
 - risk management and assessment
 
 ## Requirements
@@ -63,16 +63,16 @@ The following is a sample evidence and information that can be collected during 
 
 Identified processes and procedures needs to be properly designed and documented with all relevant information like scope, purpose, inputs, outputs, roles and responsibilities, and other. The processes and procedures should be also reviewed and approved by the management.
 
-Once the processes and procedures are trained, they should be followed by the PKI management and staff. Without following the processes and procedures, the PKI can be exposed to the risks and threats, and eventually lose the establish trust.
+Once the processes and procedures are published, appropriate training is required to ensure they are followed by the PKI management and staff. Without following the processes and procedures, the PKI can be exposed to the risks and threats, and eventually lose any established trust.
 
 #### Assessment
 
-The following is a sample evidence and information that can be collected during the assessment:
+The following is sample evidence and information that can be collected during the assessment:
 - Documented processes and procedures
-- Completeness of the processes and procedures
+- Completeness of the processes and procedures documentation
 - Evidence of the processes and procedures usage
 - Interview with the PKI management and staff
-- Training materials containing parts about processes and procedures
+- Training materials covering the processes and procedures
 
 #### References
 
@@ -83,15 +83,15 @@ The following is a sample evidence and information that can be collected during 
 
 #### Guidance
 
-Recurring activities are the activities that are performed on regular basis, such as certificate management operations, backup procedures, security reviews, risk assessment, reviews of logs and security events, and other.
+Recurring activities are the activities that are performed on a regular basis, such as certificate management operations, backup procedures, security reviews, risk assessment, reviews of logs and security events, and other.
 
-Each activity should be tracked and have a frequency defined, for example, some activities may be performed daily, weekly, monthly, quarterly, or yearly. The activities should be performed on time, and the delays should be properly tracked and reported.
+Each activity should be tracked and have a frequency defined, for example, some activities may be performed daily, weekly, monthly, quarterly, or yearly. The activities should be performed on time, and any delays should be properly tracked and reported.
 
 Recurring activities needs to be incorporated into the processes and procedures to support the PKI implementation.
 
 #### Assessment
 
-The following is a sample evidence and information that can be collected during the assessment:
+The following is sample evidence and information that can be collected during the assessment:
 - Documented business as usual activities
 - Evidence of the business as usual activities execution
 - Business as usual activities tracking and reporting
@@ -113,7 +113,7 @@ The evidence can be collected and maintained in various forms, such as logs, rep
 
 #### Assessment
 
-The following is a sample evidence and information that can be collected during the assessment:
+The following is sample evidence and information that can be collected during the assessment:
 - Evidence of the execution of the processes and procedures
 - Interview with the PKI management and staff
 - Logs, reports, notes, screenshots, and other evidence
@@ -128,13 +128,13 @@ The following is a sample evidence and information that can be collected during 
 
 #### Guidance
 
-The processes and procedures should be reviewed and updated on regular basis, based on the feedback, risk assessment, audit, or other. The review should be performed by the management, and the updates should be approved by the management.
+The processes and procedures should be reviewed and updated on a regular basis, based on the feedback, risk assessment, audit, or other. The review should be performed by the management, and the updates should be approved by the management.
 
 The review and update of the processes and procedures helps to keep the PKI implementation up to date, and helps to ensure that the processes and procedures are effective and efficient.
 
 #### Assessment
 
-The following is a sample evidence and information that can be collected during the assessment:
+The following is sample evidence and information that can be collected during the assessment:
 - Documented review and update process
 - Evidence of the review and update of the processes and procedures
 - Interview with the PKI management and staff

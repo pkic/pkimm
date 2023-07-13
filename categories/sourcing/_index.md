@@ -9,13 +9,13 @@ weight: 10
 
 ## Overview
 
-PKI is a complex system that requires a lot of resources to be managed and maintained. Proper sourcing of the resources is one of key factors for the of mature infrastructure that can maintain and improve trust over the time. The resources can be:
+PKI is a complex system that requires a lot of resources to be managed and maintained. Proper sourcing of the resources is one of the key factors of a mature infrastructure that can maintain and improve trust over the time. The resources can be:
 - Financial resources needed to maintain the PKI
 - Computing resources like hardware, software, tools, technologies
 - Human resources (personnel)
 - Management resources like processes and procedures 
 
-The sourcing is a process of defining the required resources and their specification, availability, and management. The sourcing requires monitoring and periodic review of the resources needed and alignment with the overall strategy of the organization and scope of the PKI.
+Sourcing is a process of defining the required resources and their specification, availability, and management. Sourcing requires monitoring and periodic review of the resources needed and alignment with the overall strategy of the organization and scope of the PKI.
 
 ## Requirements
 
@@ -32,7 +32,7 @@ The sourcing is a process of defining the required resources and their specifica
 
 #### Guidance
 
-Resources needed for proper management of the PKI are identified and documented. Resources should be aligned with the PKI scope and use-case that should be supported. The main question to answer here is "Do we know what resources we need to manage the PKI?". 
+Resources needed for proper management of the PKI are identified and documented. Resources should be aligned with the PKI scope and use-case(s) that should be supported. The main question to answer here is "Do we know what resources we need to manage the PKI?". 
 
 #### Assessment
 
@@ -93,11 +93,11 @@ Identified and defined resources should be available at the required capacity. T
 
 ### Resources are periodically reviewed
 
-Resource should be periodically reviewed to ensure the accurate use the resources and secure the operations. Frequency of the review depends on the complexity and criticality of the infrastructure. Good practice is to perform review at least once a year.
+Resource should be periodically reviewed to ensure the accurate use of the resources and secure operations. Frequency of the review depends on the complexity and criticality of the infrastructure. Good practice is to perform reviews at least once a year.
 
 Review includes the following (but not limited to)
 - Analysis that the resources continue to match with the scope and capacity required to provide the services
-- Review of the specifications for the resources to continue support the PKI
+- Review of the specifications of the resources to continue support of the PKI
 - Review announcements and technology trends (for example “end of life” plans for a technology)
 - Documentation of any remediation plan, updates to sourcing of the PKI, that should be approved by the management
 
@@ -105,7 +105,7 @@ Review includes the following (but not limited to)
 
 - Review of changes to the PKI scope
 - Review of the capacity or available resources
-- Vendor announcement
+- Vendor announcements
 - Technology trends
 - Skills and knowledge of the personnel
 
