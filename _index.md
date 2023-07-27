@@ -52,7 +52,7 @@ mindmap
       Processes and procedures
     {{Management}}
       Key Management
-      Certificate ManagementIn
+      Certificate Management
       Infrastructure Management
       Change Management and Agility
     {{Operations}}
