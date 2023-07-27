@@ -100,6 +100,8 @@ Documenting specifically "who" shall be responsible for ensuring PKI policies ar
 
 ### List of relevant laws, regulations, and standards, exist and is maintained
 
+#### Guidance
+
 To better understand the relevance to PKI, one should understand the differences between laws, regulations, and standards.
 
 Laws are legal rules that are enacted by a governing body, such as a federal, state or local government.  They are binding and enforceable by the legal system within the jurisdiction of the governing body that enacted them.  Violating law can lead to legal consequences, such as fines or imprisonment.

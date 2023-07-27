@@ -68,20 +68,20 @@ Certificate Policy (CP) is used to establish the controls of the issuing party a
 CPs are described in a document form where the content may differ. Multiple policies can be part of a single document for different use cases. A CP contains a set of rules that indicates the applicability of a certificate to a particular community and/or class of applications with common security requirements or level of security (for instance certificates for the purpose of: persons, domains, organizations, authenticity and confidentiality, services). To uniquely identify the purpose of the certificates the CP contains unique numbers (Object Identifier, OID) which needs to be registered.
 
 In general a CP addresses the following items:
--	Types of certificates
--	Document name and identification
--	PKI participants
--	Certificate usage
--	Policy administration
--	Definitions
--	Publication and repository responsibilities
--	Identification and authentication
--	Certificate life-cycle operational requirements
--	Facility management and operational controls
--	Technical security controls
--	Certificate, CRL, and OCSP profiles
--	Compliance audit and other assessments
--	Other business and legal matters
+- Types of certificates
+- Document name and identification
+- PKI participants
+- Certificate usage
+- Policy administration
+- Definitions
+- Publication and repository responsibilities
+- Identification and authentication
+- Certificate life-cycle operational requirements
+- Facility management and operational controls
+- Technical security controls
+- Certificate, CRL, and OCSP profiles
+- Compliance audit and other assessments
+- Other business and legal matters
 
 #### Assessment
 

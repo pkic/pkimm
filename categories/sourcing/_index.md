@@ -93,6 +93,8 @@ Identified and defined resources should be available at the required capacity. T
 
 ### Resources are periodically reviewed
 
+#### Guidance
+
 Resource should be periodically reviewed to ensure the accurate use of the resources and secure operations. Frequency of the review depends on the complexity and criticality of the infrastructure. Good practice is to perform reviews at least once a year.
 
 Review includes the following (but not limited to)

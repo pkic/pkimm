@@ -83,7 +83,7 @@ Organization maintaining the PKI implementation should disclose the following in
 - [RFC 3647 Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://datatracker.ietf.org/doc/html/rfc3647)
 - [ETSI EN 319 401 - General Policy Requirements for Trust Service Providers](https://www.etsi.org/deliver/etsi_en/319400_319499/319401/02.03.01_60/en_319401v020301p.pdf)
 
-## Establish single point of contact
+### Establish single point of contact
 
 #### Guidance
 
@@ -107,7 +107,7 @@ The SPOC may be reached through different communication channels, such as:
 - [RFC 3647 Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://datatracker.ietf.org/doc/html/rfc3647)
 - [ETSI EN 319 401 - General Policy Requirements for Trust Service Providers](https://www.etsi.org/deliver/etsi_en/319400_319499/319401/02.03.01_60/en_319401v020301p.pdf)
 
-## Timely communication of important information
+### Timely communication of important information
 
 #### Guidance
 
