@@ -13,6 +13,16 @@ Formal documentation about the business drivers, scope, and design of the PKI he
 
 Undefined or unclear understanding and leadership can cause loss of the established trust and can lead to the failure of the PKI quickly.
 
+## Category maturity levels description
+
+| Maturity level    | Description                                                                                                                                             |
+|:------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1 - Initial**   | There are no leadership responsibilities and vision defined. The design is managed ad-hoc.                                                              |
+| **2 - Basic**     | Basic vision has been developed but not followed. The scope and business drivers are not fully documented and understood.                               |
+| **3 - Advanced**  | There is a responsible sponsor of the PKI. Strategy has been defined and approved.                                                                      |
+| **4 - Managed**   | Strategy and vision are followed and regularly measured to improve. The scope, business drivers, and design are documented and reviewed regularly.      |
+| **5 - Optimized** | Strategy and vision are fully in line with the organizational strategy and helps business to achieve future development through continuous improvement. |
+
 ## Requirements
 
 |                                                 # | Requirement                                 | Weight |

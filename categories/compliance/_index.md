@@ -19,6 +19,16 @@ Compliance is important for several reasons, including:
 
 Overall, compliance and related procedures help to ensure that the PKI is managed and maintained according to the relevant laws, regulations, and standards. This minimizes the risk of loss of trust and provides assurance to PKI participants.
 
+## Category maturity levels description
+
+| Maturity level    | Description                                                                                                                                                                                     |
+|:------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1 - Initial**   | There is no compliance program in place. The organization is not aware of the relevant laws, regulations, and standards, and is exposed to significant risks.                                   |
+| **2 - Basic**     | The compliance responsibility is established and assigned. The organization is aware of the relevant laws, regulations, and standards that should be followed.                                  |
+| **3 - Advanced**  | Compliance policy is defined, implemented, and communicated. Compliance program is established.                                                                                                 |
+| **4 - Managed**   | Compliance program and policy is established and maintained by responsible personnel. Procedures are in place and followed to ensure compliance with relevant laws, regulations, and standards. |
+| **5 - Optimized** | Organization is aware of the relevant laws, regulations, and standards and is able to demonstrate compliance over the time. Compliance program is continuously maintained and improved.         |
+
 ## Requirements
 
 |                                                                             # | Requirement                                                                | Weight |

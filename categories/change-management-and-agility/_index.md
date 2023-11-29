@@ -14,6 +14,16 @@ The change management should provide a robust and reliable process to ensure tha
 
 Agility means that the PKI is able to adapt to the changes quickly and efficiently. Agility is applied to technologies, processes, algorithms, and other parts of the PKI implementation. Efficient adaptation to the changes makes the PKI more reliable and trustworthy, reducing operational risks.
 
+## Category maturity levels description
+
+| Maturity level    | Description                                                                                                                                                                            |
+|:------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1 - Initial**   | Change management is not defined and agility is not considered and applied.                                                                                                            |
+| **2 - Basic**     | Change management does not have documented and followed structure and is often ad-hoc. Agility is not formally cosnidered, however, it is applied in some cases.                       |
+| **3 - Advanced**  | Processes for change management and agility are defined and designed to support the PKI implementation. The procedures and not always followed.                                        |
+| **4 - Managed**   | Change management is integrated with the organizational change management process. Requirements for the agility are identified and implemented. Procedures are followed and monitored. |
+| **5 - Optimized** | Approved change management policy and agility processes are followed and monitored. It is continuously improved and adapted to the changes.                                            |
+
 ## Requirements
 
 |                                                                 # | Requirement                                                 | Weight |

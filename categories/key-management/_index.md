@@ -18,6 +18,16 @@ Key management is the set of techniques and procedures supporting the establishm
 
 The key management is important for the PKI to maintain trust. It should be an integral part of the PKI procedures. Proper key management is one of the basic stones on which the PKI stands and relies on.
 
+## Category maturity levels description
+
+| Maturity level    | Description                                                                                                                                                                                                                                                      |
+|:------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1 - Initial**   | No key management is defined. There are no key management responsibilities defined and assigned.                                                                                                                                                                 |
+| **2 - Basic**     | Responsibilities and roles for key management are defined. Key management is managed ad-hoc and there is no documentation and inventory of cryptographic keys maintained.                                                                                        |
+| **3 - Advanced**  | Key management and lifecycle is documented and maintained. Inventory of cryptographic keys and devices is avaialble. Procedures are formally followed.                                                                                                           |
+| **4 - Managed**   | Encryption and key management policies are documented, followed, and integrated in the organization. Inventory of cryptographic keys and devices is maintained and validated. Responsibilities and roles are assigned and aware of all processes and procedures. |
+| **5 - Optimized** | Key management is periodically reviewed and updated. Inventory of cryptographic keys and devices is complete, maintained and frequently validated. Process and procedures are formally approved, integrated and followed in the organization.                    |
+
 ## Requirements
 
 |                                                                                    # | Requirement                                                                    | Weight |

@@ -20,6 +20,16 @@ Monitoring and auditing provide reasonable assurance that:
 
 The outputs from the monitoring and auditing activities are typically used as inputs for the risk assessment and management activities, including incident response management and investigation of high impact events.
 
+## Category maturity levels description
+
+| Maturity level    | Description                                                                                                                                                                                                                                  |
+|:------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1 - Initial**   | There is no or limited monitoring and auditing capabilities in place.                                                                                                                                                                        |
+| **2 - Basic**     | Logs are collected, however, they are not reviewed, nor correlated with other records.                                                                                                                                                       |
+| **3 - Advanced**  | Documeneted requirements for monitoring and auditing are defined and implemented. Logs are centrally collected and correlated with other records.                                                                                            | 
+| **4 - Managed**   | Centrally collected logs are reviewed and monitored periodically according to documented policy and requirements. Audit trail can be constructed for critical events from audit logs.                                                        |
+| **5 - Optimized** | Monitoring and auditing requirements are periodically reviewed and improved. Documented policy and system requirements are in place and followed. Critical events are immediately alerted and resolved according to incident response plans. |
+
 ## Requirements
 
 |                                                                                               # | Requirement                                                                               | Weight |

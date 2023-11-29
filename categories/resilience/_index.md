@@ -13,6 +13,16 @@ Resilience is the key for any organization wanting to thrive in an ever-changing
 
 A robust resilience framework helps organizations future-proof their PKI oriented business, detailing key principles, attributes and activities that are followed to ensure that the PKI implementation will be trusted, secure, and effective all the time.
 
+## Category maturity levels description
+
+| Maturity level    | Description                                                                                                                                                                                                                                                                                      |
+|:------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1 - Initial**   | There is no resilience strategy or requirements in place.                                                                                                                                                                                                                                        |
+| **2 - Basic**     | Risk assessment and business impact analysis is performed. Results are documented and used to develop resilience strategy, however, the strategy is not fully defined and implemented.                                                                                                           |
+| **3 - Advanced**  | Resilience strategy is defined and implemented. Business continuity planning and disaster recovery is executed on a regular basis.                                                                                                                                                               |
+| **4 - Managed**   | The infrastructure resilience is often proven and tested through the competence management and results are used to improve the resilience planning and documentation.                                                                                                                            |
+| **5 - Optimized** | Analysis and assessment is regularly updated with the latest information and used to improve the resilience strategy. Incident response plans are tested and improved, including disaster recovery plans and procedures. Resilience is fully aligned with the organizational goals and policies. | 
+
 ## Requirements
 
 |                                                        # | Requirement                                        | Weight |

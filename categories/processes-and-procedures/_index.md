@@ -23,6 +23,16 @@ Processes and procedure typically cover (but are not limited to) the following a
 - audit and compliance, evidence and reporting, archiving
 - risk management and assessment
 
+## Category maturity levels description
+
+| Maturity level    | Description                                                                                                                                                                      |
+|:------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1 - Initial**   | Processes and procedures are not formally defined and documented. Ad-hoc reactions to the events.                                                                                |
+| **2 - Basic**     | Processes and procedures are formally defined and documented, but not in the full scope and fully implemented and followed.                                                      |
+| **3 - Advanced**  | The scope of the processes and procedures covers entire PKI implementation and policies, and is documented and followed.                                                         |
+| **4 - Managed**   | The evidence from the processes and procedures is collected and maintained. Recurring activities are defined and executed by responsible roles.                                  |
+| **5 - Optimized** | The processes and procedures, that are aligned with policies and organizational goals, are reviewed and updated on a regular basis. Evidence is properly managed and controlled. |
+
 ## Requirements
 
 |                                                                   # | Requirement                                                   | Weight |

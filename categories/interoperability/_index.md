@@ -29,6 +29,16 @@ Main principles of interoperability are:
 - Sustainability
 - Portability and extensibility
 
+## Category maturity levels description
+
+| Maturity level    | Description                                                                                                                                                                                                                                          |
+|:------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1 - Initial**   | There is no interoperability strategy or requirements.                                                                                                                                                                                               |
+| **2 - Basic**     | Interoperability strategy is not completely defined and formal. Some integration guidance is available but not maintained.                                                                                                                           |
+| **3 - Advanced**  | Interoperability strategy is defined and integrated within the infrastructure, covering all necessary components.                                                                                                                                    |
+| **4 - Managed**   | Interoperability strategy is defined, integrated and maintained, with open standards and protocols applied to avoid vendor lock-in.                                                                                                                  |
+| **5 - Optimized** | Interoperability requirements, strategy and guidance are well defined, integrated and maintained. Adoption of open standards and protocols is applied to avoid vendor lock-in, where possible. Interoperability is periodically tested and improved. |
+
 ## Requirements
 
 |                                                # | Requirement                                | Weight |

@@ -17,6 +17,16 @@ PKI is a complex system that requires a lot of resources to be managed and maint
 
 Sourcing is a process of defining the required resources and their specification, availability, and management. Sourcing requires monitoring and periodic review of the resources needed and alignment with the overall strategy of the organization and scope of the PKI.
 
+## Category maturity levels description
+
+| Maturity level    | Description                                                                                                                                                 |
+|:------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1 - Initial**   | The resources needed for the PKI are not defined and documented. There is a risk of unavailable resources causing the PKI to be unavailable.                |
+| **2 - Basic**     | Resource are identified and documented. The resources and their specification are not clearly defined, which can lead to misuse of resources.               |
+| **3 - Advanced**  | Resources are identified, documented, and clearly defined. The capacity of resources is aligned with the PKI scope and use-case(s).                         |
+| **4 - Managed**   | Resources are identified, documented, and clearly defined. Resource management process ensures that the resources are available when needed.                |
+| **5 - Optimized** | Resources are periodically reviewed and updated to ensure that the required capacity is available and aligned with the PKI scope and organization strategy. |
+
 ## Requirements
 
 |                                             # | Requirement                             | Weight |

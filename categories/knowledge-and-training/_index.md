@@ -14,6 +14,16 @@ Education and continuous gathering of required knowledge and skills to manage th
 
 Each of the personnel should be aware of the PKI policies and procedures, and should be able to perform their duties and responsibilities in accordance with the PKI policies and procedures.
 
+## Category maturity levels description
+
+| Maturity level    | Description                                                                                                                                                                                                                        |
+|:------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1 - Initial**   | There is no training plan or education plan for the PKI personnel.                                                                                                                                                                 |
+| **2 - Basic**     | Training plan is defined, however, there is no responsibility for the execution of the plan.                                                                                                                                       |
+| **3 - Advanced**  | Training plan is defined and integrated in the organization. PKI personnel are aware of the training plan and their responsibilities.                                                                                              |                                    
+| **4 - Managed**   | Training plan is defined, maintained and integrated in the organization. It is executed and requirements on the knowledge and proficiency are monitored.                                                                           |
+| **5 - Optimized** | Training plan is periodically reviewed and updated. Education plan is defined and maintained. PKI personnel are aware of the training plan and their responsibilities that are fully aligned with the PKI policies and procedures. |
+
 ## Requirements
 
 |                                            # | Requirement                            | Weight |

@@ -17,6 +17,16 @@ The PKI components may be distributed across multiple locations and managed by d
 
 When the infrastructure and environment where the PKI is implemented are not effectively managed and maintained, the complexity of the environment increases and the risk of failure increases as well. The infrastructure is often one of the key targets for attackers, therefore it is important to ensure that it is properly secured and available.
 
+## Category maturity levels description
+
+| Maturity level    | Description                                                                                                                                                                                                                     |
+|:------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1 - Initial**   | Flat network with no segmentation. No separation of environments. No network vulnerability management. No infrastructure recovery objectives. No periodic review of infrastructure activities.                                  |
+| **2 - Basic**     | Network and deployment infrastructure is documented and known by the infrastructure team.                                                                                                                                       |
+| **3 - Advanced**  | Infrastructure is documented and managed. Network vulnerability management is implemented. Responsibility for infrastructure is defined and approved by the management.                                                         |
+| **4 - Managed**   | The infrastructure is properly design, documented, and maintained, including procedures for vulnerability management, recovery and continuity.                                                                                  |
+| **5 - Optimized** | Processes and procedures are formally followed and periodically reviewed. The infrastructure is properly designed, documented, and maintained by responsible personnel and integrated into the overall organizational strategy. |
+
 ## Requirements
 
 |                                                                    # | Requirement                                                    | Weight |
