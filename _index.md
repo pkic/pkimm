@@ -1,7 +1,15 @@
 ---
 date: 2023-03-21T7:00:00Z
-title: Overview
+title: PKI Maturity Model (PKIMM)
+summary: The PKI Maturity Model draws inspiration from the renowned Capability Maturity Model Integration (CMMI) developed by Carnegie Mellon University. It provides organizations with the tools to gGain swift insight into the current capabilities and performance of their PKI, facilitate confidential benchmarking against similar entities based on size or industry, receive actionable guidance to enhance PKI capabilities, and elevate overall PKI performance.
 sideMenu: true
+
+heroTitle: PKI Maturity Model (PKIMM)
+heroDescription: The PKI Maturity Model draws inspiration from the renowned Capability Maturity Model Integration (CMMI) developed by Carnegie Mellon University. It provides organizations with the tools to gGain swift insight into the current capabilities and performance of their PKI, facilitate confidential benchmarking against similar entities based on size or industry, receive actionable guidance to enhance PKI capabilities, and elevate overall PKI performance.
+
+tags:
+  - resource
+
 ---
 
 # Overview
