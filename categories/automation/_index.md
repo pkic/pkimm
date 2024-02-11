@@ -15,6 +15,16 @@ On the other hand the automation can introduce new risks and challenges. The aut
 
 Justified, well-designed, and documented automation of certificate lifecycle management can significantly contribute to the efficiency of the PKI management while reducing the risk of human error. However, automation is not a silver bullet and should be controlled, monitored, and audited to prevent the risk of misuse.
 
+## Category maturity levels description
+
+| Maturity level    | Description                                                                                                                                                                                                   |
+|:------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1 - Initial**   | No automation in place.                                                                                                                                                                                       |
+| **2 - Basic**     | Automation is used for some tasks, however, it is not described and it is not reliable or repeatable.                                                                                                         |
+| **3 - Advanced**  | Automation is used for most of the tasks, where it makes sense. Automation is described but not monitoring or audited.                                                                                        |
+| **4 - Managed**   | Automation is used for all tasks, where it makes sense. Automation is described, followed and monitored or audited.                                                                                           |
+| **5 - Optimized** | Automation is analyzed and designed to apply the best practices. Automation is described, followed, monitored, and audited. Procedures are in place to handle exceptions and incidents related to automation. |
+
 ## Requirements
 
 |                                                  # | Requirement                                  | Weight |

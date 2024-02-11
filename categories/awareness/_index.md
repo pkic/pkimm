@@ -13,6 +13,16 @@ Providing awareness about the PKI and its purpose in the organization and outsid
 
 The awareness is important for all PKI participants to know how to handle exceptional situations and how to react to them. It is also important to know how to communicate and when so as to not misunderstand any issues or incidents.
 
+## Category maturity levels description
+
+| Maturity level    | Description                                                                                                                                                                                                                                                |
+|:------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1 - Initial**   | No awareness is provided. No program is established.                                                                                                                                                                                                       |
+| **2 - Basic**     | Incomplete awareness plan is defined, and it is not often followed and communicated. It is mainly ad-hoc and not maintained, without proper planning and monitoring.                                                                                       |
+| **3 - Advanced**  | The awareness plan is defined, followed and communicated to all PKI participants. The awareness is not integrated in the organization and is not periodically reviewed and improved.                                                                       |                               
+| **4 - Managed**   | The awareness program is designed to support the PKI participants. The awareness plan is defined, followed and communicated to all PKI participants. It is maintained and monitored over the time.                                                         | 
+| **5 - Optimized** | Information is disclosed and properly communicated to all PKI participant according to the awareness plan. The awareness plan is well designed and continuously improved. Participant are properly informed about important information and how to behave. |   
+
 ## Requirements
 
 |                                                   # | Requirement                                   | Weight |

@@ -22,6 +22,16 @@ Properly documented policies keeps the PKI assets trusted over the time and serv
 
 The Certificate Policy (CP) defines the overall policies and requirements of a PKI, the Certification Practice Statement (CPS) provides detailed operational procedures followed by the Certification Authority (CA), and the disclosure statement offers transparency about the CA's identity and services to relying parties.
 
+## Category maturity levels description
+
+| Maturity level    | Description                                                                                                                                                                                                     |
+|:------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1 - Initial**   | There are no or limited policies and documentation.                                                                                                                                                             |
+| **2 - Basic**     | The scope of policies is defined. Documented policies are not in the full scope and are not fully implemented and followed.                                                                                     |
+| **3 - Advanced**  | Documentation and policies are in the full scope implemented, including CP and CPS.                                                                                                                             |
+| **4 - Managed**   | Disclosure of information contains all relevant policies and documentation. CP and CPS are published and available. There is a documentation management in place that covers the policies and documentation.    |  
+| **5 - Optimized** | Policies are periodically reviewed and updated according to the changes in the PKI and its environment, and organizational strategy and goals. Policies are followed and enforced, communicated and understood. |
+
 ## Requirements
 
 |                                                                  # | Requirement                                                  | Weight |

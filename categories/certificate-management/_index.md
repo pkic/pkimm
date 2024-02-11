@@ -19,6 +19,16 @@ Certificate management is the set of techniques and procedures supporting certif
 
 The techniques can be applied to an organization that makes use of PKI, or from an organization (or part of an organization) that operates a PKI for others. This category primarily targets an organization from a usage perspective, albeit the certificate lifecycle management is equally important for an organization that operates a PKI for someone else.
 
+## Category maturity levels description
+
+| Maturity level    | Description                                                                                                                                                                                                                                                                                                                                                           |
+|:------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1 - Initial**   | Certificates are ad-hoc managed, without proper control and always reactive. Inventory is not available.                                                                                                                                                                                                                                                              |
+| **2 - Basic**     | Certificates are managed, but not according to industry standards and regulations. Inventory of certificates is not maintained.                                                                                                                                                                                                                                       |
+| **3 - Advanced**  | Certificate profiles and attributes are documented and enforced. Certificate lifecycle management is documented and followed. Inventory of certificates is maintained with up-to-date information. Certificate management procedures and controls on are in place but not fully followed and understood.                                                              |
+| **4 - Managed**   | Certificate profiles, attributes, cipher suites, and tooling is properly documented and applied in the organization. Certificate management procedures are well designed and followed to maintain up-to-date inventory of certificates, including its state and location.                                                                                             |
+| **5 - Optimized** | Certificate lifecycle is properly documented and maintained. Up-to-date inventory is available and periodically updated according to defined procedures and certificate management controls. Discovery of certificates is often executed to provide assurance of the inventory completeness. Certificate management is integrated with the organizational governance. |
+
 ## Requirements
 
 |                                                                 # | Requirement                                                 | Weight |

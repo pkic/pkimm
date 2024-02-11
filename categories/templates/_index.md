@@ -27,6 +27,18 @@ The calculation of the overall maturity level for the category follows the weigh
 
 *[High-level description of the category, its purpose and applicability]*
 
+## Category maturity levels description
+
+*[Description of the category maturity levels, for a quick understanding and self-assessment of the category, without calculating the maturity level using weights and requirements.]*
+
+| Maturity level    | Description     |
+|:------------------|:----------------|
+| **1 - Initial**   | *[Description]* |
+| **2 - Basic**     | *[Description]* |
+| **3 - Advanced**  | *[Description]* |
+| **4 - Managed**   | *[Description]* |
+| **5 - Optimized** | *[Description]* |
+
 ## Requirements
 
 > **Note**

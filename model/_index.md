@@ -11,7 +11,7 @@ The objective of this document is to provide a definition of the PKI maturity mo
 
 ## Maturity model
 
-The maturity model is based on the Capability Maturity Model Integration ([CMMI](https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration)) developed by Carnegie Mellon University. It should provide the following::
+The maturity model is based on the Capability Maturity Model Integration ([CMMI](https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration)) developed by Carnegie Mellon University. It should provide the following:
 - Quickly understand the current level of capabilities and performance of the PKI
 - Support comparison of PKI maturity with similar organizations based on size or industry (anonymized)
 - Guidance on how to improve the capabilities of the current PKI
