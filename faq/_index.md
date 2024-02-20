@@ -26,14 +26,14 @@ Below you can find answers to frequently asked questions about the PKI maturity 
 
 ## How can I benefit from PKI MM?
 
-PKI MM (Public Key Infrastructure Maturity Model) offers a structured framework to assess and improve the maturity of organization's PKI implementation. By utilizing PKI MM, you can identify areas for improvement, enhance the security and efficiency of your PKI, mitigate risks, and align your PKI practices with industry standards and best practices.
+PKI MM (Public Key Infrastructure Maturity Model) provides guidance on how to improve the maturity of your PKI, including best practices, recommendations, and resources to help you address the identified areas for improvement. It can be used as a roadmap to guide your organization through the process of enhancing the maturity of your PKI.
+
+PKI MM offers a structured framework to assess and improve the maturity of an organization's PKI implementation. By utilizing PKI MM, you can identify areas for improvement, enhance the security and efficiency of your PKI, mitigate risks, and align your PKI practices with industry standards and best practices.
 
 As a service provider, you can use PKI MM to evaluate the maturity of your PKI and demonstrate the quality of your PKI services to your customers. As a consultant or auditor, you can use PKI MM to evaluate the maturity of your clients' PKI and provide recommendations for improvement.
 
 You can also use PKI MM to benchmark your PKI against other organizations and gain insights into the best practices and trends in PKI management.
 The PKI MM is designed to be flexible and adaptable to different types of organizations and PKI implementations, and it can be used to assess and improve the maturity of both internal and external PKIs.
-
-PKI MM provides guidance on how to improve the maturity of your PKI, including best practices, recommendations, and resources to help you address the identified areas for improvement. It can be used as a roadmap to guide your organization through the process of enhancing the maturity of your PKI.
 
 ## Who is the intended audience for PKI MM?
 
