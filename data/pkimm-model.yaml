@@ -478,6 +478,10 @@ modules:
               - [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
               - [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://tools.ietf.org/html/rfc3647)
               - [ENISA Publications](https://www.enisa.europa.eu/publications)
+            references: |
+              - [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+              - [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://tools.ietf.org/html/rfc3647)
+              - [ENISA Publications](https://www.enisa.europa.eu/publications)
           - id: "5"
             weight: 2
             description: Processes and procedures are reviewed and updated
@@ -494,7 +498,6 @@ modules:
               - [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
               - [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://tools.ietf.org/html/rfc3647)
               - [ENISA Publications](https://www.enisa.europa.eu/publications)
-
   - id: "M"
     name: "Management"
     description: |
@@ -811,7 +814,8 @@ modules:
               - Documented certificate discovery process and frequency
               - The supporting tools for the certificate discovery
               - Certificate inventory is updated with discovered certificates
-            # references: |
+            references: |
+              N/A
           - id: "6"
             weight: 4
             description: Certificate management is periodically reviewed and updated
@@ -841,7 +845,6 @@ modules:
                 - Security to maintain a security base line across the whole organization
             references: |
               N/A
-
       - id: "7"
         weight: 2
         name: "Infrastructure management"
@@ -960,6 +963,9 @@ modules:
               - Infrastructure configuration as a code
               - Interview with the infrastructure administrators
               
+              - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
+              - [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+            references: |
               - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
               - [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
           - id: "5"
@@ -1125,7 +1131,6 @@ modules:
               - [COBIT (Control Objectives for Information and Related Technologies)](https://www.isaca.org/resources/cobit)
               - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
               - [The Information Technology Infrastructure Library (ITIL)](https://www.axelos.com/best-practice-solutions/itil)
-
   - id: "O"
     name: "Operations"
     description: |
@@ -1179,7 +1184,6 @@ modules:
               - [ISO/IEC 27005 - Guidance on managing information security risks](https://www.iso.org/standard/80585.html)
               - [NIST Risk Management Framework](https://csrc.nist.gov/Projects/risk-management)
               - [ISO/TS 22317 - Guidelines for business impact analysis](https://www.iso.org/standard/79000.html)
-
           - id: "2"
             weight: 4
             description: Cyber-security management and incident planning
@@ -1202,7 +1206,6 @@ modules:
               - [Common Vulnerabilities and Exposures (CVE) Program](https://www.cve.org/About/Overview)
               - [NIST Special Publication 800-61 Revision 2 - Computer Security Incident Handling Guide](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final)
               - [SANS Guide to Security Operations](https://www.sans.org/posters/guide-to-security-operations/)
-
           - id: "3"
             weight: 5
             description: Business continuity planning and disaster recovery
@@ -1231,7 +1234,6 @@ modules:
             references: |
               - [ISO/IEC 22301 - Business continuity management systems](https://www.iso.org/standard/50056.html)
               - [NIST Special Publication 800-34 Revision 1 - Contingency Planning Guide for Federal Information Systems](https://csrc.nist.gov/publications/detail/sp/800-34/rev-1/final)
-
           - id: "4"
             weight: 3
             description: Technology future proofing
@@ -1627,7 +1629,6 @@ modules:
               - [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
               - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
               - [ISO/IEC 27099 - Public key infrastructure](https://www.iso.org/standard/56590.html)
-
           - id: "5"
             weight: 3
             description: Critical events are immediately alerted and resolved according to incident response plans
@@ -1659,7 +1660,6 @@ modules:
               - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
               - [NIST - Guide to Computer Security Log Management](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-92.pdf)
               - [ISO/IEC 27099 - Public key infrastructure](https://www.iso.org/standard/56590.html)
-
   - id: "R"
     name: "Resources"
     description: |

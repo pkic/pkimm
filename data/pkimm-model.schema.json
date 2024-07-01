@@ -1,0 +1,64 @@
+{
+  "type": "object",
+  "required": ["modules"],
+  "properties": {
+    "modules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "description", "categories"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[GMOR]$"
+          },
+          "name": {
+            "type": "string",
+            "pattern": "^(Governance|Management|Operations|Resources)$"
+          },
+          "description": { "type": "string" },
+          "categories": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "weight", "name", "description"],
+              "properties": {
+                "id": { "type": "string" },
+                "weight": { "type": "integer" },
+                "name": { "type": "string" },
+                "description": { "type": "string" },
+                "levels": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["number", "name", "description"],
+                    "properties": {
+                      "number": { "type": "integer" },
+                      "name": { "type": "string" },
+                      "description": { "type": "string" }
+                    }
+                  }
+                },
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["id", "weight", "description", "guidance", "assessment", "references"],
+                    "properties": {
+                      "id": { "type": "string" },
+                      "weight": { "type": "integer" },
+                      "description": { "type": "string" },
+                      "guidance": { "type": "string" },
+                      "assessment": { "type": "string" },
+                      "references": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
