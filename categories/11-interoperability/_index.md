@@ -1,11 +1,11 @@
 ---
 date: 2023-06-10T9:00:00Z
-title: 7 - Interoperability
-weight: 7
+title: 11 - Interoperability
+weight: 11
 
 ---
 
-# 7 - Interoperability
+# 11 - Interoperability
 
 Interoperability means the ability of two or more systems or components to exchange information and to use the information that has been exchanged.
 

@@ -1,11 +1,11 @@
 ---
 date: 2023-06-05T9:00:00Z
-title: 13 - Automation
-weight: 13
+title: 10 - Automation
+weight: 10
 
 ---
 
-# 13 - Automation
+# 10 - Automation
 
 ## Overview
 

@@ -1,11 +1,11 @@
 ---
 date: 2023-06-11T9:00:00Z
-title: 8 - Infrastructure management
-weight: 8
+title: 7 - Infrastructure management
+weight: 7
 
 ---
 
-# 8 - Infrastructure management
+# 7 - Infrastructure management
 
 The PKI implementation is a combination of software, hardware, network service, and resources that are needed to operate and manage the environment.
 The environment can be hosted on-premise, in the cloud, or in a hybrid environment.
