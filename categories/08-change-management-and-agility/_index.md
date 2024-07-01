@@ -1,11 +1,11 @@
 ---
 date: 2023-06-10T9:00:00Z
-title: 9 - Change management and agility
-weight: 9
+title: 8 - Change management and agility
+weight: 8
 
 ---
 
-# 9 - Change management and agility
+# 8 - Change management and agility
 
 Change management and agility is important to control the PKI implementation and configuration changes, adjustments, modifications, and improvements. Technologies are changing fast and the PKI needs to be able to adapt to the changes.
  The same applies for security vulnerabilities, deprecation of algorithms, and other changes that can significantly affect the PKI.
