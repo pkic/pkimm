@@ -769,8 +769,7 @@ modules:
                 - Distribution of new and updated trust anchors (Root CA certificates)
             references: |
               Examples of process, protocols and profiled usage:
-              - [RFC 4210 - Internet X.509 Public Key Infrastructure
-                Certificate Management Protocol (CMP)](https://datatracker.ietf.org/doc/html/rfc4210/)
+              - [RFC 4210 - Internet X.509 Public Key Infrastructure Certificate Management Protocol (CMP)](https://datatracker.ietf.org/doc/html/rfc4210/)
               - [CA/B Forum baseline requirements](https://cabforum.org/baseline-requirements/)
               - [3GPP 33.310 - Network Domain Security (NDS); Authentication Framework (AF)](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2293)
               - [UNISIG SUBSET-137](https://www.era.europa.eu/system/files/2022-11/index083_-_subset-137_v100.pdf)
