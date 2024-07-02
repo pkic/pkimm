@@ -474,10 +474,6 @@ modules:
               - Evidence of the execution of the processes and procedures
               - Interview with the PKI management and staff
               - Logs, reports, notes, screenshots, and other evidence
-              
-              - [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
-              - [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://tools.ietf.org/html/rfc3647)
-              - [ENISA Publications](https://www.enisa.europa.eu/publications)
             references: |
               - [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
               - [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://tools.ietf.org/html/rfc3647)
@@ -962,9 +958,6 @@ modules:
               - Backup and recovery plan
               - Infrastructure configuration as a code
               - Interview with the infrastructure administrators
-              
-              - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
-              - [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
             references: |
               - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
               - [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
