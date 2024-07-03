@@ -1,0 +1,1960 @@
+G.1,Strategy and Vision,"Trusted and secure PKI must be properly managed and supported by the organization. The existence of a strategy and vision for the PKI is one of the key factors for the success of the PKI and contributes to the overall maturity. The strategy and vision should be aligned with the organizational goals and approach and should be followed and measured regularly.
+
+Formal documentation about the business drivers, scope, and design of the PKI helps to ensure that the PKI is properly aligned and understood to support the organizational. The documentation should be reviewed and updated regularly to ensure that the PKI is aligned with the organizational goals and needs.
+
+Undefined or unclear understanding and leadership can cause loss of the established trust and can lead to the failure of the PKI quickly.
+",G.1.1,Organizational sponsor and support,"The success of the PKI implementation highly depends on the organization top management support. Top management typically also acts as a sponsor of the PKI, meaning that they allocate and approve budget needed to build and maintain the PKI.
+
+The basic assumption is that the established digital trust is going to be maintained and developed for years, and therefore it is important to have a long-term vision and strategy for the PKI. The strategy and vision should be aligned with the overall organizational goals and approach.
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Interview with the top management
+- Documented strategy and vision
+- Documented organizational goals and approach
+- Understanding of why the PKI is needed and what is the value for the organization
+- Support and sponsorship of the top management
+
+References
+- ISO/IEC 27001 - Information security management systems
+"
+G.1,Strategy and Vision,"Trusted and secure PKI must be properly managed and supported by the organization. The existence of a strategy and vision for the PKI is one of the key factors for the success of the PKI and contributes to the overall maturity. The strategy and vision should be aligned with the organizational goals and approach and should be followed and measured regularly.
+
+Formal documentation about the business drivers, scope, and design of the PKI helps to ensure that the PKI is properly aligned and understood to support the organizational. The documentation should be reviewed and updated regularly to ensure that the PKI is aligned with the organizational goals and needs.
+
+Undefined or unclear understanding and leadership can cause loss of the established trust and can lead to the failure of the PKI quickly.
+",G.1.2,Formal assignment of responsible leadership,"Proper leadership and responsible person should be assigned by the management to fulfil the role for the establishment, maintenance, and development of the PKI according to the strategy and vision. The responsible person should be able to make decisions and take actions to ensure the PKI is aligned with the organizational goals and needs.
+","Assessment
+The formal assignment of the responsible person should be documented and approved by the management. Formal document should contains identification of the person and understanding of the role and responsibilities.
+Interview with the responsible person should confirm the understanding of the role and responsibilities, driving the PKI implementation according to the organizational strategy.
+
+References
+- ISO/IEC 27001 - Information security management systems
+"
+G.1,Strategy and Vision,"Trusted and secure PKI must be properly managed and supported by the organization. The existence of a strategy and vision for the PKI is one of the key factors for the success of the PKI and contributes to the overall maturity. The strategy and vision should be aligned with the organizational goals and approach and should be followed and measured regularly.
+
+Formal documentation about the business drivers, scope, and design of the PKI helps to ensure that the PKI is properly aligned and understood to support the organizational. The documentation should be reviewed and updated regularly to ensure that the PKI is aligned with the organizational goals and needs.
+
+Undefined or unclear understanding and leadership can cause loss of the established trust and can lead to the failure of the PKI quickly.
+",G.1.3,Scope and business drivers for PKI,"The scope of the PKI should be clearly defined and documented. The scope should be defined in terms of the use-cases that the PKI is going to support. Each use-case can have a different requirements and therefore different strategy. The use-cases should be defined in terms of the business drivers that are going to be supported by the PKI. Business drivers helps to document alignment with the overall organizational goals.
+
+The scope and business drivers can be considered as a formal high-level overview of the PKI strategy and vision.
+Its purpose is also to create a common understanding of the organizational PKI and to provide direction for the detailed design and implementation.
+The target audience consists typically of architects, experts, advisors, management, and sponsors.
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Documented scope of the PKI
+- Documented business drivers
+- Documented use-cases
+- Documented alignment with the organizational goals
+
+References
+- ISO/IEC 27001 - Information security management systems
+- The Open Group Architecture Framework (TOGAF)
+"
+G.1,Strategy and Vision,"Trusted and secure PKI must be properly managed and supported by the organization. The existence of a strategy and vision for the PKI is one of the key factors for the success of the PKI and contributes to the overall maturity. The strategy and vision should be aligned with the organizational goals and approach and should be followed and measured regularly.
+
+Formal documentation about the business drivers, scope, and design of the PKI helps to ensure that the PKI is properly aligned and understood to support the organizational. The documentation should be reviewed and updated regularly to ensure that the PKI is aligned with the organizational goals and needs.
+
+Undefined or unclear understanding and leadership can cause loss of the established trust and can lead to the failure of the PKI quickly.
+",G.1.4,Architecture and design of the PKI,"The architecture and design of the PKI should be documented to provide a clear understanding of the implementation and technologies that are involved. The architecture and design should be aligned with the scope and business drivers for the PKI and should be reviewed and updated regularly.
+
+The architecture and design typically consists of the following:
+- Functional and technical design description
+- Description of logical components
+- Network infrastructure design
+- Technology involved
+- Integration requirements and interfaces (APIs)
+- Support systems (such as IAM, logging, monitoring, etc.)
+- Operational requirements
+- Security requirements
+- Deployment options
+- Staging and testing
+
+The architecture and design are further used for the implementation of the PKI and serves as an input for the PKI team. It can be also used for the procurement of the PKI components and services that are needed for the implementation.
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Documented architecture and design
+- Alignment with the scope and business drivers
+- Interview with the PKI team to confirm the understanding of the architecture and design
+
+References
+- ETSI EN 319 401 - General Policy Requirements for Trust Service Providers
+- The Open Group Architecture Framework (TOGAF)
+"
+G.2,Policies and documentation,"Documented policies plays an important role in the secure and consistent management of the PKI. The goal is to minimize financial and operational threats and risks in the digital world. Well-described policies and security measures increase overall trust in the ecosystem of trust services and are a condition for successful operation. The basis for these matters lies in relevant laws and regulations, international standards and best practices.
+
+It consists of:
+- formal policies and practice statements for supported PKI services and use-cases
+- formal management of agreements between parties involved in the PKI
+- certificate and key management rules
+- roles and responsibilities in the management of the PKI
+- documented disclosure statements
+- maintenance and review of policies and documentation
+- code of practice for information security management, techniques and risk management
+
+Properly documented policies keeps the PKI assets trusted over the time and serves as a basis for integrated processes and procedures. It is a living management system that is continuously updated and changed as technologies, security, and compliance requirements change.
+
+The Certificate Policy (CP) defines the overall policies and requirements of a PKI, the Certification Practice Statement (CPS) provides detailed operational procedures followed by the Certification Authority (CA), and the disclosure statement offers transparency about the CA's identity and services to relying parties.
+",G.2.1,he scope of policies is defined and documented,"Each PKI implementation and use case is different, therefore it requires different care. The scope of policies that are applicable for the implementation should be defined and documented. When the proper description of the policies scope is provided, it helps all parties involved to understand the purpose of the policies and their applicability.
+
+The scope can include the following:
+- Identification of the policies required for the implementation
+- Reasoning why the policies are required or not required
+- Structure of policies and documentation
+- List of policies with references, versions, etc.
+- Any other relevant information
+","Assessment
+- The scope of policies is defined and documented
+- The scope of policies is complete
+- Interview with the management and PKI responsible personnel to confirm the scope
+
+References
+- RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework
+- ISO/IEC 27001 - Information security management systems
+- ETSI EN 319 401 - General Policy Requirements for Trust Service Providers
+"
+G.2,Policies and documentation,"Documented policies plays an important role in the secure and consistent management of the PKI. The goal is to minimize financial and operational threats and risks in the digital world. Well-described policies and security measures increase overall trust in the ecosystem of trust services and are a condition for successful operation. The basis for these matters lies in relevant laws and regulations, international standards and best practices.
+
+It consists of:
+- formal policies and practice statements for supported PKI services and use-cases
+- formal management of agreements between parties involved in the PKI
+- certificate and key management rules
+- roles and responsibilities in the management of the PKI
+- documented disclosure statements
+- maintenance and review of policies and documentation
+- code of practice for information security management, techniques and risk management
+
+Properly documented policies keeps the PKI assets trusted over the time and serves as a basis for integrated processes and procedures. It is a living management system that is continuously updated and changed as technologies, security, and compliance requirements change.
+
+The Certificate Policy (CP) defines the overall policies and requirements of a PKI, the Certification Practice Statement (CPS) provides detailed operational procedures followed by the Certification Authority (CA), and the disclosure statement offers transparency about the CA's identity and services to relying parties.
+",G.2.2,Certificate policy is documented and published,"Certificate Policy (CP) is used to establish the controls of the issuing party and the roles and responsibilities of its entities for the specific PKI implementation and use case. It's used to provide assurance to partners and show the trustworthiness by the use of standards. It can be considered as a high level contract between the parties involved in the PKI and therefore should be published and available to all parties involved.
+
+CPs are described in a document form where the content may differ. Multiple policies can be part of a single document for different use cases. A CP contains a set of rules that indicates the applicability of a certificate to a particular community and/or class of applications with common security requirements or level of security (for instance certificates for the purpose of: persons, domains, organizations, authenticity and confidentiality, services). To uniquely identify the purpose of the certificates the CP contains unique numbers (Object Identifier, OID) which needs to be registered.
+
+In general a CP addresses the following items:
+- Types of certificates
+- Document name and identification
+- PKI participants
+- Certificate usage
+- Policy administration
+- Definitions
+- Publication and repository responsibilities
+- Identification and authentication
+- Certificate life-cycle operational requirements
+- Facility management and operational controls
+- Technical security controls
+- Certificate, CRL, and OCSP profiles
+- Compliance audit and other assessments
+  - Other business and legal matters
+","Assessment
+- The CP is properly documented in its full scope
+- The CP clearly defines the scope of the policy, such as the purpose of the security and assurance levels, the type and use of its certificates and parties involved
+- The legal rights and responsibilities of parties are described in the CP
+- CP has listed correct object identifiers for the purpose it's used for
+- Verify that the CP is published and available to all parties involved
+- Interview with the management and PKI responsible personnel to confirm the CP is accurate and followed
+
+References
+- RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework
+- ISO/IEC 27001 - Information security management systems
+- ETSI EN 319 411-1 - Policy and security requirements for Trust Service Providers issuing certificates
+"
+G.2,Policies and documentation,"Documented policies plays an important role in the secure and consistent management of the PKI. The goal is to minimize financial and operational threats and risks in the digital world. Well-described policies and security measures increase overall trust in the ecosystem of trust services and are a condition for successful operation. The basis for these matters lies in relevant laws and regulations, international standards and best practices.
+
+It consists of:
+- formal policies and practice statements for supported PKI services and use-cases
+- formal management of agreements between parties involved in the PKI
+- certificate and key management rules
+- roles and responsibilities in the management of the PKI
+- documented disclosure statements
+- maintenance and review of policies and documentation
+- code of practice for information security management, techniques and risk management
+
+Properly documented policies keeps the PKI assets trusted over the time and serves as a basis for integrated processes and procedures. It is a living management system that is continuously updated and changed as technologies, security, and compliance requirements change.
+
+The Certificate Policy (CP) defines the overall policies and requirements of a PKI, the Certification Practice Statement (CPS) provides detailed operational procedures followed by the Certification Authority (CA), and the disclosure statement offers transparency about the CA's identity and services to relying parties.
+",G.2.3,Certification practice statement is documented and published,"In addition to a CP, there is typically a Certification Practice Statement (CPS). While a CP is more at a strategic level, detailed information about how things should be carried out is part of a CPS (tactical level). The CP and CPS can be combined into a single managed document, however they are typically split for most of the PKI implementations for better orientation.
+
+The CPS covers the same items as the CP, but includes technical detail of how the CP is implemented. All parties involved in the PKI should be aware of the CPS and follow it. The CPS is a living document that is continuously updated and changed as technologies, security, and compliance requirements change.
+","Assessment
+- The CPS is properly documented in its full scope
+- CPS is published and available to all parties involved
+- Interview with the management and PKI responsible personnel to confirm the CPS is accurate and followed
+- Confirm that the information in the CPS is consistent with the information in the CP
+
+References
+- RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework
+- ISO/IEC 27001 - Information security management systems
+- ETSI EN 319 411-1 - Policy and security requirements for Trust Service Providers issuing certificates
+"
+G.2,Policies and documentation,"Documented policies plays an important role in the secure and consistent management of the PKI. The goal is to minimize financial and operational threats and risks in the digital world. Well-described policies and security measures increase overall trust in the ecosystem of trust services and are a condition for successful operation. The basis for these matters lies in relevant laws and regulations, international standards and best practices.
+
+It consists of:
+- formal policies and practice statements for supported PKI services and use-cases
+- formal management of agreements between parties involved in the PKI
+- certificate and key management rules
+- roles and responsibilities in the management of the PKI
+- documented disclosure statements
+- maintenance and review of policies and documentation
+- code of practice for information security management, techniques and risk management
+
+Properly documented policies keeps the PKI assets trusted over the time and serves as a basis for integrated processes and procedures. It is a living management system that is continuously updated and changed as technologies, security, and compliance requirements change.
+
+The Certificate Policy (CP) defines the overall policies and requirements of a PKI, the Certification Practice Statement (CPS) provides detailed operational procedures followed by the Certification Authority (CA), and the disclosure statement offers transparency about the CA's identity and services to relying parties.
+",G.2.4,Disclosure statement is documented and published,"The disclosure statement (DS) is a document that describes the PKI and its services. It refers to a document that discloses the relevant information about the CA and its services to the relying parties.
+
+It typically includes information like:
+- CA's identity, legal status, and contact information
+- Certificate types, verification procedures and compliance with standards
+- Reliance limits
+- Obligations of the CA and the relying parties
+- Warranty and liability limitations
+- Agreement, CP and CPS
+- Privacy policy
+- Refund policy and claims
+- Information on audit and compliance
+
+The purpose of a DS is to provide transparency to relying parties, allowing them to assess the trustworthiness and reliability of the CA before relying on its certificates.
+","Assessment
+- The DS is properly documented in its full scope
+- DS is published and available to all parties involved
+- Interview with the management and PKI responsible personnel to confirm the DS is accurate
+- Confirm that the information in the DS is consistent with the information in the CP and CPS
+
+References
+- ETSI EN 319 411-1 - Policy and security requirements for Trust Service Providers issuing certificates
+"
+G.2,Policies and documentation,"Documented policies plays an important role in the secure and consistent management of the PKI. The goal is to minimize financial and operational threats and risks in the digital world. Well-described policies and security measures increase overall trust in the ecosystem of trust services and are a condition for successful operation. The basis for these matters lies in relevant laws and regulations, international standards and best practices.
+
+It consists of:
+- formal policies and practice statements for supported PKI services and use-cases
+- formal management of agreements between parties involved in the PKI
+- certificate and key management rules
+- roles and responsibilities in the management of the PKI
+- documented disclosure statements
+- maintenance and review of policies and documentation
+- code of practice for information security management, techniques and risk management
+
+Properly documented policies keeps the PKI assets trusted over the time and serves as a basis for integrated processes and procedures. It is a living management system that is continuously updated and changed as technologies, security, and compliance requirements change.
+
+The Certificate Policy (CP) defines the overall policies and requirements of a PKI, the Certification Practice Statement (CPS) provides detailed operational procedures followed by the Certification Authority (CA), and the disclosure statement offers transparency about the CA's identity and services to relying parties.
+",G.2.5,Policies are periodically reviewed and updated,"Policies are living documents that are continuously updated and changed as technologies, security, and compliance requirements change. The policies should be reviewed and updated periodically. The frequency of review should be determined by the organization. Good practice is to review policies at least annually or when there are significant changes in the PKI or its environment.
+","Assessment
+- The policies are reviewed and updated periodically
+- Check the last review date of the policies
+- Implementation of review process
+- Validation of documentation and reviews
+- Interview with the management and PKI responsible personnel to confirm the policies are reviewed and updated periodically
+
+References
+- RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework
+- ISO/IEC 27001 - Information security management systems
+- ETSI EN 319 401 - General Policy Requirements for Trust Service Providers
+"
+G.3,Compliance,"Compliance refers to the ability of an organization to adhere to relevant laws, regulations, and standards related to the scope of the PKI. A properly implemented PKI Compliance program ensures that an organization's PKI is protected from threats and risks that could result in financial loss, reputational damage, legal liabilities, or eventually in the loss of trust.
+
+The compliance process helps to manage a PKI in a way that meets legal and regulatory requirements, and ensures information is used and protected appropriately, according to defined and documented policies and practices statements.
+
+Compliance is important for several reasons, including:
+- It supports the risk management process associated with the PKI assets
+- Minimize reputation issues that can lead to the loss of trust
+- Provides assurance for the relying parties and subscribers
+- Proves adherence to legal requirements
+
+Overall, compliance and related procedures help to ensure that the PKI is managed and maintained according to the relevant laws, regulations, and standards. This minimizes the risk of loss of trust and provides assurance to PKI participants.
+",G.3.1,"Compliance policies are defined, implemented, and communicated","Compliance policies are a critical component of an organization’s risk management strategy to help ensure that the PKI system is secure, reliable, trustworthy, and meets any applicable regulatory requirements.
+
+By defining appropriate policies and related procedures and communicating these to all stakeholders who rely on the PKI, the organization can ensure that administrators, operators, and users are properly authenticated and authorized to access the system and that appropriate controls are in place to prevent unauthorized access or misuse of the PKI.
+
+Having a sound set of compliance policies defined, implemented, and communicated can help to demonstrate that the organization took reasonable steps to protect the PKI and may result in reduced legal liability in the event of a breach due to improper or malicious use of the PKI.
+
+The compliance policies typically include:
+- Laws, industry regulations and government legislation that apply to the organization business and PKI
+- Roles and responsibilities
+- Compliance program management requirements
+- Reporting and auditing requirements
+- References to relevant documents (anti-trust, anti-fraud, anti-bribery, anti-money laundering, due diligence, etc.)
+- Any other relevant information that rule compliance
+","Assessment
+- Documented audit and accountability policies
+- Documented communication plan for informing stakeholders of the policies
+- Formalized process for stakeholder acknowledgement upon receipt of the policies
+
+References
+- ISO 37301 - Compliance management systems and related standard
+- NIST Risk Management Framework
+"
+G.3,Compliance,"Compliance refers to the ability of an organization to adhere to relevant laws, regulations, and standards related to the scope of the PKI. A properly implemented PKI Compliance program ensures that an organization's PKI is protected from threats and risks that could result in financial loss, reputational damage, legal liabilities, or eventually in the loss of trust.
+
+The compliance process helps to manage a PKI in a way that meets legal and regulatory requirements, and ensures information is used and protected appropriately, according to defined and documented policies and practices statements.
+
+Compliance is important for several reasons, including:
+- It supports the risk management process associated with the PKI assets
+- Minimize reputation issues that can lead to the loss of trust
+- Provides assurance for the relying parties and subscribers
+- Proves adherence to legal requirements
+
+Overall, compliance and related procedures help to ensure that the PKI is managed and maintained according to the relevant laws, regulations, and standards. This minimizes the risk of loss of trust and provides assurance to PKI participants.
+",G.3.2,A program to monitor compliance with the policies is established,"A PKI compliance monitoring program typically involves ongoing monitoring and testing of the controls and procedures to detect potential compliance violations associated with rules and regulations that govern the issuance, update, or revocation of certificates.
+
+These programs often include a risk assessment to identify and assess potential risks that could lead to non-compliance, including regulatory changes, operational changes, or employee turnover.
+
+The monitoring process may include reviewing documentation, conducting interviews with key stakeholders, and reporting any issues or compliance violations.  Reporting from compliance monitoring should be communicated to those stakeholders who committed the violation(s) and those stakeholders who are empowered to take corrective action to address the violations observed.
+","Assessment
+- Documented practices regarding periodic and aperiodic compliance assessments
+- Documented practices for regularly review and reporting of security issues
+- Documented and implemented processes for investigation and response to suspicious activities
+
+References
+- ISO 37301 - Compliance management systems and related standard
+- NIST Risk Management Framework
+"
+G.3,Compliance,"Compliance refers to the ability of an organization to adhere to relevant laws, regulations, and standards related to the scope of the PKI. A properly implemented PKI Compliance program ensures that an organization's PKI is protected from threats and risks that could result in financial loss, reputational damage, legal liabilities, or eventually in the loss of trust.
+
+The compliance process helps to manage a PKI in a way that meets legal and regulatory requirements, and ensures information is used and protected appropriately, according to defined and documented policies and practices statements.
+
+Compliance is important for several reasons, including:
+- It supports the risk management process associated with the PKI assets
+- Minimize reputation issues that can lead to the loss of trust
+- Provides assurance for the relying parties and subscribers
+- Proves adherence to legal requirements
+
+Overall, compliance and related procedures help to ensure that the PKI is managed and maintained according to the relevant laws, regulations, and standards. This minimizes the risk of loss of trust and provides assurance to PKI participants.
+",G.3.3,Responsibilities for the compliance are formally defined and assigned,"Within the organization, there should exist clear and well documented guidelines outlining which individual, group or team is responsible for ensuring that PKI policies are being followed. This applies to governance and oversight in addition to operational policies and procedures.
+
+Documenting specifically ""who"" shall be responsible for ensuring PKI policies are being enforced enhances accountability and trustworthiness of the PKI by enforcing the mentality that ""someone is watching"".  This will help to mitigate risks associated with improper or malicious acts.
+","Assessment
+- For each defined procedure, a specific individual or team is identified and assigned to perform the tasks associated with the procedure
+- Interview with the personnel to confirm understanding of the role and responsibilities
+
+References
+- ISO 37301 - Compliance management systems and related standard
+- NIST Risk Management Framework
+"
+G.3,Compliance,"Compliance refers to the ability of an organization to adhere to relevant laws, regulations, and standards related to the scope of the PKI. A properly implemented PKI Compliance program ensures that an organization's PKI is protected from threats and risks that could result in financial loss, reputational damage, legal liabilities, or eventually in the loss of trust.
+
+The compliance process helps to manage a PKI in a way that meets legal and regulatory requirements, and ensures information is used and protected appropriately, according to defined and documented policies and practices statements.
+
+Compliance is important for several reasons, including:
+- It supports the risk management process associated with the PKI assets
+- Minimize reputation issues that can lead to the loss of trust
+- Provides assurance for the relying parties and subscribers
+- Proves adherence to legal requirements
+
+Overall, compliance and related procedures help to ensure that the PKI is managed and maintained according to the relevant laws, regulations, and standards. This minimizes the risk of loss of trust and provides assurance to PKI participants.
+",G.3.4,"List of relevant laws, regulations, and standards, exist and is maintained","To better understand the relevance to PKI, one should understand the differences between laws, regulations, and standards.
+
+Laws are legal rules that are enacted by a governing body, such as a federal, state or local government.  They are binding and enforceable by the legal system within the jurisdiction of the governing body that enacted them.  Violating law can lead to legal consequences, such as fines or imprisonment.
+
+Regulations are derived from laws and are often meant to supplement and clarify the broader provisions outlined in the laws.  Compliance with regulations is mandatory and non-compliance can result in penalties or other legal consequences.
+
+Standards are voluntary guidelines or specifications typically established by a particular industry group or standards organization.  Standards usually define best practices, technical specifications, quality benchmarks, and other criteria and are meant as a means of ensuring consistency, interoperability, and quality.  Typically, compliance with standards is not legally required, however, lack of conformance to standards can lead to diminished interoperability and reduced trust.
+
+With respect to PKI, it is very important to understand what laws, regulations and standards are relevant to the PKI and its ancillary systems.  For example, given that PKI involves cryptography, one must be certain to adhere to government laws regarding use and deployment of cryptographic products and solutions.
+
+And, many times, a PKI will make use of hardware cryptographic modules for key generation and storage.  Therefore, it’s critical to ensure that the hardware cryptographic modules comply with the relevant standards. There are many laws, regulations and standards that apply to PKI.  As such, it is necessary to maintain a list of the ones that are relevant to your organization to help ensure that none are being overlooked.
+","Assessment
+- Documented list of applicable laws, regulations and standards is maintained
+- Procedures established for periodic review of the laws, regulations and standards
+- Procedures established to remediate any deficiencies or non-compliance issues identified
+- Procedures established to communicate results of the periodic reviews
+
+References
+- ISO 37301 - Compliance management systems and related standard
+- NIST Risk Management Framework
+"
+G.4,Processes and procedures,"Proper and effective processes and procedures related to PKI operations and management are essential for the successful implementation of the PKI. The processes and procedures should be aligned with the overall organizational policies and statements.
+
+Process is a set of activities that are performed in a specific order to achieve a specific goal. The process should be documented and measured. The process is also repeatable and can be improved over time, based on the evaluation, feedback, or risk assessment. The scope of the processes is defined by the policies.
+
+Procedure is a set of instructions that describe how to perform a specific task. The procedure should be also documented and can be used as a reference for the process. Procedure can include specific instructions for the process, such as how to perform a specific task, or how to use a specific tool.
+
+Processes and procedure typically cover (but are not limited to) the following areas:
+- infrastructure management
+- data privacy and security
+- business continuity, disaster recovery, contingency planning
+- supply chain management
+- physical security and access control
+- incident management
+- audit and compliance, evidence and reporting, archiving
+- risk management and assessment
+",G.4.1,Scope of processes and procedure is aligned with policies,"The scope of the processes and procedures should be aligned with the policies and statements. Each implementation and use case can have different scope, but the scope should be defined and documented, with all applicable processes, procedures, and eventually instructions.
+
+The alignment with the policies helps to ensure that the processes and procedures are aligned with the PKI implementation goals and needs, and can be effectively trusted over the time. A simple matrix can be used to ensure that all applicable policies and statements are covered by the processes and procedures.
+
+The completeness of the processes and procedures can be evaluated by the risk assessment, audit, or by the feedback from the users.
+","Assessment
+The following is a sample evidence and information that can be collected during the assessment:
+- Documented scope of the processes and procedures
+- Alignment with the PKI policies and statements
+- Interview with the PKI management
+
+References
+- RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework
+- ISO/IEC 27001 - Information security management systems
+"
+G.4,Processes and procedures,"Proper and effective processes and procedures related to PKI operations and management are essential for the successful implementation of the PKI. The processes and procedures should be aligned with the overall organizational policies and statements.
+
+Process is a set of activities that are performed in a specific order to achieve a specific goal. The process should be documented and measured. The process is also repeatable and can be improved over time, based on the evaluation, feedback, or risk assessment. The scope of the processes is defined by the policies.
+
+Procedure is a set of instructions that describe how to perform a specific task. The procedure should be also documented and can be used as a reference for the process. Procedure can include specific instructions for the process, such as how to perform a specific task, or how to use a specific tool.
+
+Processes and procedure typically cover (but are not limited to) the following areas:
+- infrastructure management
+- data privacy and security
+- business continuity, disaster recovery, contingency planning
+- supply chain management
+- physical security and access control
+- incident management
+- audit and compliance, evidence and reporting, archiving
+- risk management and assessment
+",G.4.2,Processes and procedures are formally documented and followed,"Identified processes and procedures needs to be properly designed and documented with all relevant information like scope, purpose, inputs, outputs, roles and responsibilities, and other. The processes and procedures should be also reviewed and approved by the management.
+Once the processes and procedures are published, appropriate training is required to ensure they are followed by the PKI management and staff. Without following the processes and procedures, the PKI can be exposed to the risks and threats, and eventually lose any established trust.
+","Assessment
+The following is sample evidence and information that can be collected during the assessment:
+- Documented processes and procedures
+- Completeness of the processes and procedures documentation
+- Evidence of the processes and procedures usage
+- Interview with the PKI management and staff
+- Training materials covering the processes and procedures
+
+References
+- ISO/IEC 27001 - Information security management systems
+- ENISA Publications
+"
+G.4,Processes and procedures,"Proper and effective processes and procedures related to PKI operations and management are essential for the successful implementation of the PKI. The processes and procedures should be aligned with the overall organizational policies and statements.
+
+Process is a set of activities that are performed in a specific order to achieve a specific goal. The process should be documented and measured. The process is also repeatable and can be improved over time, based on the evaluation, feedback, or risk assessment. The scope of the processes is defined by the policies.
+
+Procedure is a set of instructions that describe how to perform a specific task. The procedure should be also documented and can be used as a reference for the process. Procedure can include specific instructions for the process, such as how to perform a specific task, or how to use a specific tool.
+
+Processes and procedure typically cover (but are not limited to) the following areas:
+- infrastructure management
+- data privacy and security
+- business continuity, disaster recovery, contingency planning
+- supply chain management
+- physical security and access control
+- incident management
+- audit and compliance, evidence and reporting, archiving
+- risk management and assessment
+",G.4.3,Recurring activities are executed on time,"Recurring activities are the activities that are performed on a regular basis, such as certificate management operations, backup procedures, security reviews, risk assessment, reviews of logs and security events, and other.
+
+Each activity should be tracked and have a frequency defined, for example, some activities may be performed daily, weekly, monthly, quarterly, or yearly. The activities should be performed on time, and any delays should be properly tracked and reported.
+
+Recurring activities needs to be incorporated into the processes and procedures to support the PKI implementation.
+","Assessment
+The following is sample evidence and information that can be collected during the assessment:
+- Documented business as usual activities
+- Evidence of the business as usual activities execution
+- Business as usual activities tracking and reporting
+- Calendar of activities
+- Interview with the PKI management and staff
+
+References
+- ISO/IEC 27001 - Information security management systems
+- RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework
+"
+G.4,Processes and procedures,"Proper and effective processes and procedures related to PKI operations and management are essential for the successful implementation of the PKI. The processes and procedures should be aligned with the overall organizational policies and statements.
+
+Process is a set of activities that are performed in a specific order to achieve a specific goal. The process should be documented and measured. The process is also repeatable and can be improved over time, based on the evaluation, feedback, or risk assessment. The scope of the processes is defined by the policies.
+
+Procedure is a set of instructions that describe how to perform a specific task. The procedure should be also documented and can be used as a reference for the process. Procedure can include specific instructions for the process, such as how to perform a specific task, or how to use a specific tool.
+
+Processes and procedure typically cover (but are not limited to) the following areas:
+- infrastructure management
+- data privacy and security
+- business continuity, disaster recovery, contingency planning
+- supply chain management
+- physical security and access control
+- incident management
+- audit and compliance, evidence and reporting, archiving
+- risk management and assessment
+",G.4.4,Evidence from procedures is collected and maintained,"Each process, procedure, instruction, or activity would not be effective without evidence confirming that it was performed. The evidence should be descriptive with all relevant information, such as date and time, who performed the activity, what was the result, and other information, if needed. 
+
+The evidence can be collected and maintained in various forms, such as logs, reports, notes, screenshots, etc. The evidence should be collected and maintained for the defined period of time, and should be available for the audit or other purposes.
+","Assessment
+The following is sample evidence and information that can be collected during the assessment:
+- Evidence of the execution of the processes and procedures
+- Interview with the PKI management and staff
+- Logs, reports, notes, screenshots, and other evidence
+
+References
+- ISO/IEC 27001 - Information security management systems
+- RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework
+- ENISA Publications
+"
+G.4,Processes and procedures,"Proper and effective processes and procedures related to PKI operations and management are essential for the successful implementation of the PKI. The processes and procedures should be aligned with the overall organizational policies and statements.
+
+Process is a set of activities that are performed in a specific order to achieve a specific goal. The process should be documented and measured. The process is also repeatable and can be improved over time, based on the evaluation, feedback, or risk assessment. The scope of the processes is defined by the policies.
+
+Procedure is a set of instructions that describe how to perform a specific task. The procedure should be also documented and can be used as a reference for the process. Procedure can include specific instructions for the process, such as how to perform a specific task, or how to use a specific tool.
+
+Processes and procedure typically cover (but are not limited to) the following areas:
+- infrastructure management
+- data privacy and security
+- business continuity, disaster recovery, contingency planning
+- supply chain management
+- physical security and access control
+- incident management
+- audit and compliance, evidence and reporting, archiving
+- risk management and assessment
+",G.4.5,Processes and procedures are reviewed and updated,"The processes and procedures should be reviewed and updated on a regular basis, based on the feedback, risk assessment, audit, or other. The review should be performed by the management, and the updates should be approved by the management.
+
+The review and update of the processes and procedures helps to keep the PKI implementation up to date, and helps to ensure that the processes and procedures are effective and efficient.
+","Assessment
+The following is sample evidence and information that can be collected during the assessment:
+- Documented review and update process
+- Evidence of the review and update of the processes and procedures
+- Interview with the PKI management and staff
+
+References
+- ISO/IEC 27001 - Information security management systems
+- RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework
+- ENISA Publications
+"
+M.5,Key management,"Key management is the set of techniques and procedures supporting the establishment and maintenance of keying relationships between parties and components in the public key infrastructure. Key management encompasses techniques and procedures supporting:
+- Initialization of system users and components;
+- Generation, distribution, and installation of keying material;
+- Controlling the use of keying material;
+- Update, revocation, and destruction of keying material; and
+- Storage, backup/recovery, and archival of keying material.
+
+The key management is important for the PKI to maintain trust. It should be an integral part of the PKI procedures. Proper key management is one of the basic stones on which the PKI stands and relies on.
+",M.5.1,Key management roles and responsibilities are documented and formally assigned,"Proper definition of roles and responsibilities for key management operations establishes a good basis for accountability and auditing. The roles and responsibilities should follow key management policy, principles, and boundaries.
+
+Personnel should be formally assigned to the role based on appropriate skills, and background check to ensure that there are no external risks associated that can cause potential compromise of key management.
+
+Naming or assignment records should contain relevant information such as:
+- Identification of personnel
+- Role to be assigned
+- Date of appointment
+- Confirmation of required skills
+- Acknowledgment of responsibilities
+","Assessment
+- Documented roles and responsibilities
+- Signed naming protocol of personnel to role(s)
+- Roles and responsibilities matrix (that may be used to cross-check if there are any conflicting roles)
+- Validation of required knowledge and skills
+- Review according to the key management policy
+
+References
+- ISO/IEC 27001 and related standards
+"
+M.5,Key management,"Key management is the set of techniques and procedures supporting the establishment and maintenance of keying relationships between parties and components in the public key infrastructure. Key management encompasses techniques and procedures supporting:
+- Initialization of system users and components;
+- Generation, distribution, and installation of keying material;
+- Controlling the use of keying material;
+- Update, revocation, and destruction of keying material; and
+- Storage, backup/recovery, and archival of keying material.
+
+The key management is important for the PKI to maintain trust. It should be an integral part of the PKI procedures. Proper key management is one of the basic stones on which the PKI stands and relies on.
+",M.5.2,Inventory of cryptographic keys is documented and maintained,"Inventory of cryptographic keys is important and a strategic database for organizations to:
+- Monitor cryptographic key status and compliance
+- Quickly react to changes and incidents (deprecation of algorithms, compromise, new attacks and vulnerabilities)
+- Understand impact of lifecycle changes, migration and use of keys
+
+Although the cryptographic key inventory may be implemented and maintained using various tools and approaches, it should serve the purpose of having a consistent and accurate map of all cryptographic keys deployed in the organization with details like algorithm, key length, usage, storage, location, generation and distribution method, backup and recovery, key check value, fingerprint, number of share or components, owner or responsible person, uniqueness, crypto-periods, or any other applicable attributes and properties of the key.
+
+Inventory should follow procedures and business as usual activities to keep it accurate and updated in time.
+","Assessment
+- Documented inventory of cryptographic keys
+- Accuracy and consistency 
+- Completeness of inventory
+- Validation of cryptographic key records
+
+References
+- NIST SP 800-57 Recommendation for Key Management
+- ISO/IEC 11770 Key Management
+"
+M.5,Key management,"Key management is the set of techniques and procedures supporting the establishment and maintenance of keying relationships between parties and components in the public key infrastructure. Key management encompasses techniques and procedures supporting:
+- Initialization of system users and components;
+- Generation, distribution, and installation of keying material;
+- Controlling the use of keying material;
+- Update, revocation, and destruction of keying material; and
+- Storage, backup/recovery, and archival of keying material.
+
+The key management is important for the PKI to maintain trust. It should be an integral part of the PKI procedures. Proper key management is one of the basic stones on which the PKI stands and relies on.
+",M.5.3,Inventory of cryptographic devices is documented and maintained,"Sensitive cryptographic keys are protected by hardware security modules that can have various forms and comply with security standards such as FIPS 140-3 or Common Criteria Protection Profiles. The keys may be in some case software-protected when there is no high risk associated with its compromise.
+
+The approved ways of protecting cryptographic keys should have defined rules, which can be specified by the key management policy and followed using the key management procedures. Cryptographic devices that protect keys may be quickly identified using the inventory of cryptographic keys with reference to an inventory of cryptographic devices.
+
+The inventory of cryptographic devices should contain relevant information such as:
+- Vendor and device model identification
+- Serial numbers
+- Hardware / firmware / software versions
+- Security certification and expiration dates
+- Locations
+","Assessment
+- Documented requirements for cryptographic devices
+- Documented inventory of cryptographic devices
+- Completeness, accuracy, and consistency of inventory
+- Validation of records
+
+References
+- NIST SP 800-57 Recommendation for Key Management
+- ISO/IEC 11770 Key Management
+"
+M.5,Key management,"Key management is the set of techniques and procedures supporting the establishment and maintenance of keying relationships between parties and components in the public key infrastructure. Key management encompasses techniques and procedures supporting:
+- Initialization of system users and components;
+- Generation, distribution, and installation of keying material;
+- Controlling the use of keying material;
+- Update, revocation, and destruction of keying material; and
+- Storage, backup/recovery, and archival of keying material.
+
+The key management is important for the PKI to maintain trust. It should be an integral part of the PKI procedures. Proper key management is one of the basic stones on which the PKI stands and relies on.
+",M.5.4,Each cryptographic key is defined and has documented lifecycle procedures,"Each cryptographic key type that is defined and used for specific use-case should have a complete description of its lifecycle. Each lifecycle phase has a proper description of the process and is backed up with the procedure that is executed when needed.
+
+The key can have various lifecycle phases, such as generation, registration, initialization, distribution, loading, storage, archiving, backup, recovery, revocation, removal, destruction, or others applicable for the key.
+
+The lifecycle phases contains appropriate description of the procedure such as:
+- Prerequisites for execution
+- Required roles and permissions
+- Procedure and records
+","Assessment
+- Examine the definition of cryptographic key
+- Documented key lifecycle phases
+- Documented procedures and related records for the key lifecycle
+- Lifecycle is integrated and followed in the organization
+
+References
+- NIST SP 800-57 Recommendation for Key Management
+- ISO/IEC 11770 Key Management
+"
+M.5,Key management,"Key management is the set of techniques and procedures supporting the establishment and maintenance of keying relationships between parties and components in the public key infrastructure. Key management encompasses techniques and procedures supporting:
+- Initialization of system users and components;
+- Generation, distribution, and installation of keying material;
+- Controlling the use of keying material;
+- Update, revocation, and destruction of keying material; and
+- Storage, backup/recovery, and archival of keying material.
+
+The key management is important for the PKI to maintain trust. It should be an integral part of the PKI procedures. Proper key management is one of the basic stones on which the PKI stands and relies on.
+",M.5.5,Cryptographic cipher suites and protocols are documented and maintained,"Protocols and encryption strengths may quickly change or be deprecated due to identification of vulnerabilities or design flaws. In order to support current and future data security needs, the organization should know where cryptography is used and understand how they would be able to respond rapidly to changes impacting the strength of their cryptographic implementations.
+
+Specific rules and boundaries to be applied for cryptographic cipher suites and protocols should be documented in encryption management policy that reflect the current status of cryptography practice.
+
+Cipher suites and protocols should be regularly checked against the implemented technology and configuration. Any deviation from the documented and allowed protocols should be fixed.
+","Assessment
+- Documented encryption management policy
+- Validation of implementation and used protocols against what is documented
+- Accuracy of the description
+- Security and vulnerabilities of applicable cipher suites and protocols
+
+References
+- NIST SP 800-57 Recommendation for Key Management
+- ISO/IEC 11770 Key Management
+- NIST SP 800-131A Transitioning the Use of Cryptographic Algorithms and Key Lengths
+"
+M.5,Key management,"Key management is the set of techniques and procedures supporting the establishment and maintenance of keying relationships between parties and components in the public key infrastructure. Key management encompasses techniques and procedures supporting:
+- Initialization of system users and components;
+- Generation, distribution, and installation of keying material;
+- Controlling the use of keying material;
+- Update, revocation, and destruction of keying material; and
+- Storage, backup/recovery, and archival of keying material.
+
+The key management is important for the PKI to maintain trust. It should be an integral part of the PKI procedures. Proper key management is one of the basic stones on which the PKI stands and relies on.
+",M.5.6,Key management is periodically reviewed and updated,"Key management policy, processes and procedures related to cryptographic keys, inventory and lifecycle should be periodically reviewed, updated and approved. The frequency of review should be based on the organizational risks and needs to be protected against current and future trends.
+
+Periodical review helps to keep the key management accurate and helps to maintain required skills and knowledge.
+It provides assurance that the expected controls are active and working as intended.
+","Assessment
+- Risk management and review frequency
+- Implementation of review process
+- Validation of documentation and reviews
+
+References
+- ISO/IEC 27001 and related standards
+"
+M.6,Certificate management,"Certificate management is the set of techniques and procedures supporting certificate lifecycle management. Certificate management encompasses techniques and procedures supporting:
+- Definition of certificate profiles
+- Generation of certificates
+- Installation and orchestration of certificates
+- Inventory of certificates
+- State management of certificates, i.e. expiration and revocation
+- Discovery of certificates
+
+The techniques can be applied to an organization that makes use of PKI, or from an organization (or part of an organization) that operates a PKI for others. This category primarily targets an organization from a usage perspective, albeit the certificate lifecycle management is equally important for an organization that operates a PKI for someone else.
+",M.6.1,Certificate profiles are documented,"Certificate profiles specify the contents of certificates for one or more use cases. It defines things such as:
+- Certificate use case(s) for certificates covered by specific profiles
+- Naming standards for subject distinguished name and subject alternative names, which are allowed and mandatory fields.
+- Certificate validity periods
+- Certificate extensions, mandatory and allowed extensions, their criticality and possible values
+- Allowed key types and signature algorithms
+- Revocation profiles, i.e. CRL and/or OCSP
+","Assessment
+- Documented scope of applicability
+- Documented and approved certificate profiles
+- Content of the profiles is complete and unambiguous
+- Certificate profiles are implemented in certificattion authority
+- Certificate profiles are enforced by certification authority
+- Certificate profiles are compatible with RFC5280, or deviations are well documented
+- Profiles for CRLs and/or OCSP usage, i.e. validity periods, issuance intervals, max revocation time delay, etc
+
+References
+Most certificate profiles aim for compatibility with RFC 5280 for maximum interoperability. Some examples of specific profiles are given below.
+- RFC 5280 - Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile
+- CA/B Forum baseline requirements
+- ETSI Qualified Certificate Profiles
+- ETSI 319-411-1
+- ETSI 319-411-2
+- 3GPP 33.310 - Network Domain Security (NDS); Authentication Framework (AF)
+- UNISIG SUBSET-137
+"
+M.6,Certificate management,"Certificate management is the set of techniques and procedures supporting certificate lifecycle management. Certificate management encompasses techniques and procedures supporting:
+- Definition of certificate profiles
+- Generation of certificates
+- Installation and orchestration of certificates
+- Inventory of certificates
+- State management of certificates, i.e. expiration and revocation
+- Discovery of certificates
+
+The techniques can be applied to an organization that makes use of PKI, or from an organization (or part of an organization) that operates a PKI for others. This category primarily targets an organization from a usage perspective, albeit the certificate lifecycle management is equally important for an organization that operates a PKI for someone else.
+",M.6.2,Certificate cipher suites are documented,"Cipher suites, for certificates specifically defining key algorithms, key security levels and signature algorithms are important to be crypto agile. For example, the change of the cipher suites can be required when the cryptographic algorithm becomes broken, or deprecated. An organization should have a clear rationale to the usage of specific algorithms, and how long they will be valid and what may replace them in the future.
+","Assessment
+- Determine the scope of applicability
+- Documented and approved cipher suites with rationale for inclusion of algorithms
+- Documented agile path for migration to other algorithms when needed
+- Cipher suites are enforced by certification authority
+
+References
+- RFC 5280 - Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile
+- SOG-IS crypto algorithms
+- NIST Suite B
+- NIST approved algorithms CNSA 2.0
+- NIST SP 800-208 - Recommendation for Stateful Hash-Based Signature Schemes
+"
+M.6,Certificate management,"Certificate management is the set of techniques and procedures supporting certificate lifecycle management. Certificate management encompasses techniques and procedures supporting:
+- Definition of certificate profiles
+- Generation of certificates
+- Installation and orchestration of certificates
+- Inventory of certificates
+- State management of certificates, i.e. expiration and revocation
+- Discovery of certificates
+
+The techniques can be applied to an organization that makes use of PKI, or from an organization (or part of an organization) that operates a PKI for others. This category primarily targets an organization from a usage perspective, albeit the certificate lifecycle management is equally important for an organization that operates a PKI for someone else.
+",M.6.3,Certificate lifecycle management is documented,"Issuance of certificates follow specific procedures, be it manual processes or automated processes using standard or non-standard PKI protocol. An organization should be clear about the full life cycle management of certificates:
+1. Certificate Application and the validation procedures used, by RAs and CAs
+2. Certificate Issuance and protocols used for enrollment, on-line and off-line
+3. Certificate Renewal, Re-key and Modification, upon expiration or other causes
+  - Process of monitoring certificates for expiration and timely renewal processes prevent common issues
+4. Certificate Revocation
+  - When certificates need to be revoked it is important to have a well-defined certificate revocation process:
+    - How subjects can request a certificate be revoked
+    - How to report misuse of certificates
+    - Expected time for revocation to be completed after a revocation request
+5. Certificate status dissemination
+  - How revocation information is disseminated to relying parties
+6. Key escrow and recovery
+7. Trust anchor management
+  - Trust anchors on machines and devices are a key point of trust management in the organization. Unmanaged trust stores can cause both outages and security issues.
+","Assessment
+- Documented application and validation rules
+- Documented process for issuing certificates
+  - configuration of protocols
+- Documented Certificate Acceptance and certificate subject installation procedures
+- Documented renewal criteria, where re-key is nessecary and which certificate modifications are allowed
+  - Documented criticality of expiration for different use cases
+  - Automated monitoring and alerting of expiration for critical systems
+  - Automated certificate renewal
+- Documented revocation process
+  - Documented revocation procedures, both for subjects and administrators
+  - If suspension is used the process to lift (or remove) suspension
+  - Documented contact points for reports in the organizations or from relying parties
+  - List of relying parties that depend on updated revocation information
+- Documented Certificate status service
+  - OCSP and/or CRLs
+  - Documentation how relying parties get access to revocation information
+- Documented process for key escrow and recovery when encryption keys need to be stored centrally
+- Documented trust anchor management
+  - Distribution of new and updated trust anchors (Root CA certificates)
+
+References
+Examples of process, protocols and profiled usage:
+- RFC 4210 - Internet X.509 Public Key Infrastructure Certificate Management Protocol (CMP)
+- CA/B Forum baseline requirements
+- 3GPP 33.310 - Network Domain Security (NDS); Authentication Framework (AF)
+- UNISIG SUBSET-137
+"
+M.6,Certificate management,"Certificate management is the set of techniques and procedures supporting certificate lifecycle management. Certificate management encompasses techniques and procedures supporting:
+- Definition of certificate profiles
+- Generation of certificates
+- Installation and orchestration of certificates
+- Inventory of certificates
+- State management of certificates, i.e. expiration and revocation
+- Discovery of certificates
+
+The techniques can be applied to an organization that makes use of PKI, or from an organization (or part of an organization) that operates a PKI for others. This category primarily targets an organization from a usage perspective, albeit the certificate lifecycle management is equally important for an organization that operates a PKI for someone else.
+",M.6.4,Inventory of issued certificates is documented,"Certificate inventory consists of all known certificates and provides an overview of known certificates in the organization. Certificates in inventory are subject to certificate lifecycle management. The certificate inventory is important for the organization because:
+- It provides immediate access to the current status of certificates
+- Provides possibility to react on certificate-related events (compromise, change, expiration, etc.)
+- Understand impact of lifecycle changes
+- It gives information on all locations of certificates
+- Can enforce and maintain ownership of certificates
+
+The certificate inventory therefore consists of information related to certificate like certificate attributes, validity and validation information, fingerprint and serial number, trust chain, owner, public key, signature algorithm, certificate type, compliance information, certificate locations, change history, or any other attributes and properties of the certificates that is required.
+","Assessment
+- Documented inventory
+  - How inventory is maintained across the organization
+- Documented certificate inventory management
+- Validation of certificate inventory records
+- Effectiveness of the certificate inventory implementation
+
+References
+- RFC 3647 - Internet X.509 Public Key Infrastructure
+  Certificate Policy and Certification Practices Framework - Certificate Life-Cycle Operational Requirements
+- NIST SP 800-57 Part 1 Rev. 5 - certificate inventory management
+"
+M.6,Certificate management,"Certificate management is the set of techniques and procedures supporting certificate lifecycle management. Certificate management encompasses techniques and procedures supporting:
+- Definition of certificate profiles
+- Generation of certificates
+- Installation and orchestration of certificates
+- Inventory of certificates
+- State management of certificates, i.e. expiration and revocation
+- Discovery of certificates
+
+The techniques can be applied to an organization that makes use of PKI, or from an organization (or part of an organization) that operates a PKI for others. This category primarily targets an organization from a usage perspective, albeit the certificate lifecycle management is equally important for an organization that operates a PKI for someone else.
+",M.6.5,Certificate discovery process is documented,"Certificate discovery process protects an organization from unknown certificates that may be deployed in the infrastructure. Unknown certificates may be further issued by unauthorized certification authorities and mislead users of services. Certificate discovery helps to maintain current inventory of certificates, but does not depend on the inventory and is not nessecary to maintain an inventory. Certificate discovery process should be implemented based on supported certificates and use-cases, for example:
+- To scan the network for certificates used on known protocols and ports to discover certificates that can potentially cause service outage or breach
+- Search for the certificates on file system to discover unauthorized or unsecured certificates
+
+Discovery process should be run frequently on the specified locations and the certificate inventory should be updated based on the results of the certificate discovery to keep it current.
+","Assessment
+- Documented certificate discovery requirements
+- Documented certificate discovery process and frequency
+- The supporting tools for the certificate discovery
+- Certificate inventory is updated with discovered certificates
+
+References
+N/A
+"
+M.6,Certificate management,"Certificate management is the set of techniques and procedures supporting certificate lifecycle management. Certificate management encompasses techniques and procedures supporting:
+- Definition of certificate profiles
+- Generation of certificates
+- Installation and orchestration of certificates
+- Inventory of certificates
+- State management of certificates, i.e. expiration and revocation
+- Discovery of certificates
+
+The techniques can be applied to an organization that makes use of PKI, or from an organization (or part of an organization) that operates a PKI for others. This category primarily targets an organization from a usage perspective, albeit the certificate lifecycle management is equally important for an organization that operates a PKI for someone else.
+",M.6.6,Certificate management is periodically reviewed and updated,"No certificate issuance and management system works over long periods of time without changes to use-cases, processes, protocols and algorithms. It is important that the certificate management is periodically reviewed and updated to avoid gaps. The frequency of review should be based on the organizational risks and needs to be protected against current and future trends.
+
+Periodical review helps to keep the certificate management accurate and helps to maintain required skills and knowledge.
+It provides assurance that the expected controls are active and working as intended.
+","Assessment
+- Documented process for reviewing the certificate management process and systems
+- Ability to implement updates to certificate management system
+- Document management system and validation of review
+
+References
+- ISO/IEC 27001 and related standards
+"
+M.6,Certificate management,"Certificate management is the set of techniques and procedures supporting certificate lifecycle management. Certificate management encompasses techniques and procedures supporting:
+- Definition of certificate profiles
+- Generation of certificates
+- Installation and orchestration of certificates
+- Inventory of certificates
+- State management of certificates, i.e. expiration and revocation
+- Discovery of certificates
+
+The techniques can be applied to an organization that makes use of PKI, or from an organization (or part of an organization) that operates a PKI for others. This category primarily targets an organization from a usage perspective, albeit the certificate lifecycle management is equally important for an organization that operates a PKI for someone else.
+",M.6.7,Organizational PKI governance,"Large organizations commonly have several PKI systems spread out in the organization. Some can be consolidated, but in many cases different PKI silos exists for good reasons. Having a central governance of PKIs across the organization will help to maintain best practices, ensure secure PKI operations, re-use PKI knowledge in the organization, ensure consistent profiles and avoid unnecessary duplication of effort.
+","Assessment
+- Documented PKIs used in the organization
+  - Different PKI technologies used
+  - Installed PKI instances
+- Documented PKI best practices
+  - Installation procedures to avoid re-learning the same issues in different parts of the organization
+  - Configuration to ensure consistent and interoperable certificates where applicable
+  - Security to maintain a security base line across the whole organization
+
+References
+N/A
+"
+M.7,Infrastructure management,"The PKI implementation is a combination of software, hardware, network service, and resources that are needed to operate and manage the environment.
+The environment can be hosted on-premise, in the cloud, or in a hybrid environment.
+
+Independent of the hosting model, the PKI environment needs to be properly managed and maintained, which requires resources and processes.
+The infrastructure management refers to management of the technical and operational components of the PKI environment, which includes software, hardware, network, equipment, facilities, and other related resources.
+
+The PKI components may be distributed across multiple locations and managed by different teams. Therefore, it is important to have a clear description of the operational infrastructure with all dependencies and prerequisites. The infrastructure management should be aligned with the overall strategy of the organization and the scope of the PKI.
+
+When the infrastructure and environment where the PKI is implemented are not effectively managed and maintained, the complexity of the environment increases and the risk of failure increases as well. The infrastructure is often one of the key targets for attackers, therefore it is important to ensure that it is properly secured and available.
+",M.7.1,Network and deployment infrastructure is documented,"The network and deployment documentation of the infrastructure should be aligned with the architecture and design of the PKI. In other terms, it provides details about how the implementation is done in the real environment.
+
+The network and deployment infrastructure should be properly documented and maintained. The documentation should include the following:
+- PKI components and their dependencies
+- Facilities and equipment
+- Deployment infrastructure description
+- Clustering and load balancing
+- Network topology and diagram
+- Communication and open ports requirements
+- Supporting cloud providers and services
+- Supporting systems and services (identity management, access control, logging, monitoring, etc.)
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Network topology and diagram
+- Deployment documentation
+- Sample configuration of network to compare with the documentation
+- Integration with supporting and other systems
+- Interview with the network administrators
+
+References
+- ISO/IEC 20000 and related standards
+- ISO/IEC 27001 - Information security management systems
+- Guidance for Containers and Container Orchestration Tools
+"
+M.7,Infrastructure management,"The PKI implementation is a combination of software, hardware, network service, and resources that are needed to operate and manage the environment.
+The environment can be hosted on-premise, in the cloud, or in a hybrid environment.
+
+Independent of the hosting model, the PKI environment needs to be properly managed and maintained, which requires resources and processes.
+The infrastructure management refers to management of the technical and operational components of the PKI environment, which includes software, hardware, network, equipment, facilities, and other related resources.
+
+The PKI components may be distributed across multiple locations and managed by different teams. Therefore, it is important to have a clear description of the operational infrastructure with all dependencies and prerequisites. The infrastructure management should be aligned with the overall strategy of the organization and the scope of the PKI.
+
+When the infrastructure and environment where the PKI is implemented are not effectively managed and maintained, the complexity of the environment increases and the risk of failure increases as well. The infrastructure is often one of the key targets for attackers, therefore it is important to ensure that it is properly secured and available.
+",M.7.2,Separation and segmentation principles are applied,"The PKI environment should be properly separated and segmented from other environments and systems. The separation and segmentation should be applied on all levels, including network, infrastructure, and application. The separation and segmentation should be applied based on the security requirements and risk assessment.
+Segmentation isolates the PKI environment from the remaining environment and reduces the risk of unauthorized access and data leakage. It also helps to reduce the impact of a potential compromise of the PKI environment from other systems and environments. Segmentation can be achieved using a number of physical or logical methods, such as:
+- Properly configured internal network security controls
+- Routers with strong access control lists
+- Other technologies that restrict access to a particular segment of a network
+For the proper maintenance of the infrastructure and deployed PKI components, the staging/testing environment should be available in the same configuration as the production environment. If needed, development environments can be used for testing and development purposes.
+Production, staging, and development environments should be logically separated and isolated from each other, including the data that is used in the environments.
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Network topology and diagram
+- Implementation of network isolation
+- Separation of production and testing environments
+- Sample data
+- Interview with the network administrators
+
+References
+- ISO/IEC 20000 and related standards
+- ISO/IEC 27001 - Information security management systems
+"
+M.7,Infrastructure management,"The PKI implementation is a combination of software, hardware, network service, and resources that are needed to operate and manage the environment.
+The environment can be hosted on-premise, in the cloud, or in a hybrid environment.
+
+Independent of the hosting model, the PKI environment needs to be properly managed and maintained, which requires resources and processes.
+The infrastructure management refers to management of the technical and operational components of the PKI environment, which includes software, hardware, network, equipment, facilities, and other related resources.
+
+The PKI components may be distributed across multiple locations and managed by different teams. Therefore, it is important to have a clear description of the operational infrastructure with all dependencies and prerequisites. The infrastructure management should be aligned with the overall strategy of the organization and the scope of the PKI.
+
+When the infrastructure and environment where the PKI is implemented are not effectively managed and maintained, the complexity of the environment increases and the risk of failure increases as well. The infrastructure is often one of the key targets for attackers, therefore it is important to ensure that it is properly secured and available.
+",M.7.3,Network vulnerability management is implemented and maintained,"The network vulnerability management is a process that is used to identify, classify, remediate, and mitigate vulnerabilities in the network infrastructure and protects PKI implementation from potential attacks. The process should be implemented and maintained in order to ensure that the network infrastructure is properly secured and protected from potential attacks.
+
+The network vulnerability management should include the following:
+- Included in the overall vulnerability management process
+- Periodical scanning of the network infrastructure
+- Identification of vulnerabilities
+- Categorization and prioritization of vulnerabilities and remediation
+- Updating and patching requirements
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Network vulnerability management process
+- Results from last network vulnerability scan
+- Remediation plan
+- Interview with the network administrators
+
+References
+- Common Vulnerability Scoring System (CVSS)
+- ISO/IEC 20000 and related standards
+- ISO/IEC 27001 - Information security management systems
+"
+M.7,Infrastructure management,"The PKI implementation is a combination of software, hardware, network service, and resources that are needed to operate and manage the environment.
+The environment can be hosted on-premise, in the cloud, or in a hybrid environment.
+
+Independent of the hosting model, the PKI environment needs to be properly managed and maintained, which requires resources and processes.
+The infrastructure management refers to management of the technical and operational components of the PKI environment, which includes software, hardware, network, equipment, facilities, and other related resources.
+
+The PKI components may be distributed across multiple locations and managed by different teams. Therefore, it is important to have a clear description of the operational infrastructure with all dependencies and prerequisites. The infrastructure management should be aligned with the overall strategy of the organization and the scope of the PKI.
+
+When the infrastructure and environment where the PKI is implemented are not effectively managed and maintained, the complexity of the environment increases and the risk of failure increases as well. The infrastructure is often one of the key targets for attackers, therefore it is important to ensure that it is properly secured and available.
+",M.7.4,Infrastructure recovery objectives controls,"In case of issues with the infrastructure, it should be possible to quickly identify the root cause and recover the infrastructure to the operational state. The recovery objectives should be defined and aligned with the overall business continuity and disaster recovery strategy of the organization.
+
+The infrastructure should be frequently backed up and the backups should be stored in a secure location. The backups should be tested and validated on a regular basis. Infrastructure managed as code may help to reduce complexity and increase the speed of recovery.
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Infrastructure recovery objectives
+- Backup and recovery plan
+- Infrastructure configuration as a code
+- Interview with the infrastructure administrators
+
+References
+- ISO/IEC 20000 and related standards
+- ISO/IEC 27001 - Information security management systems
+"
+M.7,Infrastructure management,"The PKI implementation is a combination of software, hardware, network service, and resources that are needed to operate and manage the environment.
+The environment can be hosted on-premise, in the cloud, or in a hybrid environment.
+
+Independent of the hosting model, the PKI environment needs to be properly managed and maintained, which requires resources and processes.
+The infrastructure management refers to management of the technical and operational components of the PKI environment, which includes software, hardware, network, equipment, facilities, and other related resources.
+
+The PKI components may be distributed across multiple locations and managed by different teams. Therefore, it is important to have a clear description of the operational infrastructure with all dependencies and prerequisites. The infrastructure management should be aligned with the overall strategy of the organization and the scope of the PKI.
+
+When the infrastructure and environment where the PKI is implemented are not effectively managed and maintained, the complexity of the environment increases and the risk of failure increases as well. The infrastructure is often one of the key targets for attackers, therefore it is important to ensure that it is properly secured and available.
+",M.7.5,Infrastructure activities are periodically reviewed,"Infrastructure management related activities should be periodically reviewed, updated and approved. The frequency of review should be based on the organizational risks and needs to be protected against current and future trends.
+
+Periodical review helps to keep the infrastructure management accurate and helps to maintain required skills and knowledge.
+It provides assurance that the expected controls are active and working as intended.
+
+The review can include the following:
+- Changes made to the infrastructure
+- Regular checks of firewall rules
+- Review of the network topology
+- Review of the network segmentation
+- Regular checks of access control lists
+- Vulnerability reports and timely remediation
+- Review and correlation of logs
+- And other activities related to the infrastructure management
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Infrastructure management activities review frequency
+- Organizational implementation of review process
+- Validation of documentation, reports, records, and reviews
+
+References
+- ISO/IEC 20000 and related standards
+- ISO/IEC 27001 - Information security management systems
+"
+M.8,Change management and agility,"Change management and agility is important to control the PKI implementation and configuration changes, adjustments, modifications, and improvements. Technologies are changing fast and the PKI needs to be able to adapt to the changes.
+ The same applies for security vulnerabilities, deprecation of algorithms, and other changes that can significantly affect the PKI.
+
+The change management should provide a robust and reliable process to ensure that every change is properly assessed, approved, and implemented. The process should be aligned with the organizational change management process and should be followed by all stakeholders.
+
+Agility means that the PKI is able to adapt to the changes quickly and efficiently. Agility is applied to technologies, processes, algorithms, and other parts of the PKI implementation. Efficient adaptation to the changes makes the PKI more reliable and trustworthy, reducing operational risks.
+",M.8.1,The policy for change management and agility is documented,"The policy for change management and agility should be documented and approved by the management. The policy contains principles and boundaries for the implementation of the change management and agility requirements. Typically, it can be documented on the organizational level and applied to all systems and services, including the PKI implementation.
+
+The PKI may have specific requirements for change management and agility, and therefore it may be recommended to have a separate policy for the PKI implementation. The policy should be aligned with organizational policy and should be approved by the responsible personnel for the PKI.
+
+The policy contains the following information:
+- Approach to change management and agility
+- Principles and boundaries for change management and agility
+- Roles and responsibilities
+- Requirements for change management and agility
+- Tools and technologies used for change management
+- And other relevant information
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Documented policy for change management and agility
+- Alignment with organizational policy
+- Approval by the management
+- Understanding of the policy by the PKI personnel
+- And other relevant evidence
+
+References
+- COBIT (Control Objectives for Information and Related Technologies)
+- ISO/IEC 20000 and related standards
+- The Information Technology Infrastructure Library (ITIL)
+"
+M.8,Change management and agility,"Change management and agility is important to control the PKI implementation and configuration changes, adjustments, modifications, and improvements. Technologies are changing fast and the PKI needs to be able to adapt to the changes.
+ The same applies for security vulnerabilities, deprecation of algorithms, and other changes that can significantly affect the PKI.
+
+The change management should provide a robust and reliable process to ensure that every change is properly assessed, approved, and implemented. The process should be aligned with the organizational change management process and should be followed by all stakeholders.
+
+Agility means that the PKI is able to adapt to the changes quickly and efficiently. Agility is applied to technologies, processes, algorithms, and other parts of the PKI implementation. Efficient adaptation to the changes makes the PKI more reliable and trustworthy, reducing operational risks.
+",M.8.2,Request for change structure is documented and followed,"The request for change structure is the basic stone of each change management process. It provides information about a change, its scope, and other relevant data. The request for change structure should be formally documented and followed by all stakeholders involved.
+
+Request for change can contain any change that can affect the PKI implementation, including:
+- PKI upgrades, updates, and patches
+- New components or functionalities
+- Changes in the configuration of the PKI
+- Changes in the algorithms and protocols
+
+Request for change structure should cover the following information:
+- Description of the change
+- Scope of the change
+- Category of the change
+- Impacted systems and services
+- Back-out procedure in case of failure
+- Testing requirements
+- And other relevant information
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Documented request for change structure
+- Sample of change request
+- Review implemented changes and compare with the request for change
+
+References
+- COBIT (Control Objectives for Information and Related Technologies)
+- ISO/IEC 20000 and related standards
+- The Information Technology Infrastructure Library (ITIL)
+"
+M.8,Change management and agility,"Change management and agility is important to control the PKI implementation and configuration changes, adjustments, modifications, and improvements. Technologies are changing fast and the PKI needs to be able to adapt to the changes.
+ The same applies for security vulnerabilities, deprecation of algorithms, and other changes that can significantly affect the PKI.
+
+The change management should provide a robust and reliable process to ensure that every change is properly assessed, approved, and implemented. The process should be aligned with the organizational change management process and should be followed by all stakeholders.
+
+Agility means that the PKI is able to adapt to the changes quickly and efficiently. Agility is applied to technologies, processes, algorithms, and other parts of the PKI implementation. Efficient adaptation to the changes makes the PKI more reliable and trustworthy, reducing operational risks.
+",M.8.3,The change management process is documented and implemented,"The change management process is the core of the change management and agile systems. It provides a robust and reliable process to ensure that every change is properly assessed, approved, implemented, and eventually reviewed.
+
+The change management process should be documented, communicated, and integrated into the organization. The process states how a request for change can be submitted and how it is processed, which includes assessment and approval of the change, implementation of the change, functional testing after the change, and review of the change.
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Documented change management process
+- Sample of change request
+- Steps involved in the change management process
+- Interview with the responsible personnel
+
+References
+- COBIT (Control Objectives for Information and Related Technologies)
+- ISO/IEC 20000 and related standards
+- The Information Technology Infrastructure Library (ITIL)
+"
+M.8,Change management and agility,"Change management and agility is important to control the PKI implementation and configuration changes, adjustments, modifications, and improvements. Technologies are changing fast and the PKI needs to be able to adapt to the changes.
+ The same applies for security vulnerabilities, deprecation of algorithms, and other changes that can significantly affect the PKI.
+
+The change management should provide a robust and reliable process to ensure that every change is properly assessed, approved, and implemented. The process should be aligned with the organizational change management process and should be followed by all stakeholders.
+
+Agility means that the PKI is able to adapt to the changes quickly and efficiently. Agility is applied to technologies, processes, algorithms, and other parts of the PKI implementation. Efficient adaptation to the changes makes the PKI more reliable and trustworthy, reducing operational risks.
+",M.8.4,Requirements for agility are identified,"Agility provides the ability to adapt to changes quickly and efficiently. Agility and change management are closely related and should be considered together. The future-proof PKI implementation should be able to identify the requirements for agility and implement them in a timely manner.
+
+Agility can be considered on operational and technical levels. Operational agility means that the PKI is able to adapt to changes in the operational environment, including any changes to the organizational structure, processes, and other operational aspects. Technical agility means that the PKI is able to adapt to changes in the technologies, algorithms, protocols, and other technical aspects.
+
+Identification of requirements where agility is needed is important to ensure changes are implemented when needed.
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Agility requirements of the PKI implementation
+- Configuration changes
+- Changes in the operational environment
+- Changes in the technologies
+- And other relevant evidence
+
+References
+- COBIT (Control Objectives for Information and Related Technologies)
+- ISO/IEC 20000 and related standards
+- The Information Technology Infrastructure Library (ITIL)
+"
+M.8,Change management and agility,"Change management and agility is important to control the PKI implementation and configuration changes, adjustments, modifications, and improvements. Technologies are changing fast and the PKI needs to be able to adapt to the changes.
+ The same applies for security vulnerabilities, deprecation of algorithms, and other changes that can significantly affect the PKI.
+
+The change management should provide a robust and reliable process to ensure that every change is properly assessed, approved, and implemented. The process should be aligned with the organizational change management process and should be followed by all stakeholders.
+
+Agility means that the PKI is able to adapt to the changes quickly and efficiently. Agility is applied to technologies, processes, algorithms, and other parts of the PKI implementation. Efficient adaptation to the changes makes the PKI more reliable and trustworthy, reducing operational risks.
+",M.8.5,Change management and agility is periodically reviewed,"The change management and agility requirements should be periodically reviewed to ensure that they are still valid and relevant. The review should be performed by the responsible personnel and should be documented. A good practice is to review the change management and agility requirements at least once a year, however, the frequency of the review can be different depending on the PKI implementation.
+","Assessment
+- Change management review frequency
+- Implementation of review process and documentation
+- Interview with the responsible personnel
+
+References
+- COBIT (Control Objectives for Information and Related Technologies)
+- ISO/IEC 20000 and related standards
+- The Information Technology Infrastructure Library (ITIL)
+"
+O.9,Resilience,"Resilience is the key for any organization wanting to thrive in an ever-changing world, which is obviously s very important factor for any PKI implementation. The PKI is planned to be trusted for multiple years, if not decades. Therefore, the ability to absorb and adapt to the unpredictability, while continuing to deliver on the objectives is becoming mandatory.
+
+A robust resilience framework helps organizations future-proof their PKI oriented business, detailing key principles, attributes and activities that are followed to ensure that the PKI implementation will be trusted, secure, and effective all the time.
+",O.9.1,Risk assessment and business impact analysis,"Proper risk assessment provides robust understanding about the risks and their impact on the business and organization PKI. The risk assessment results (for example potential loss scenarios) are documented and serves as input for the business impact analysis to identify the critical PKI-related business processes and their dependencies.
+
+Documented results of the business impact analysis are used to develop recovery strategies for the PKI implementation with required resources and availability.
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Risk management and assessment process
+- Documented risk assessment results
+- Documented business impact analysis results
+- Documented recovery strategies
+- Understanding of the resilience and approval of the results
+- Interview with the PKI management
+
+References
+- ISO/IEC 27005 - Guidance on managing information security risks
+- NIST Risk Management Framework
+- ISO/TS 22317 - Guidelines for business impact analysis
+"
+O.9,Resilience,"Resilience is the key for any organization wanting to thrive in an ever-changing world, which is obviously s very important factor for any PKI implementation. The PKI is planned to be trusted for multiple years, if not decades. Therefore, the ability to absorb and adapt to the unpredictability, while continuing to deliver on the objectives is becoming mandatory.
+
+A robust resilience framework helps organizations future-proof their PKI oriented business, detailing key principles, attributes and activities that are followed to ensure that the PKI implementation will be trusted, secure, and effective all the time.
+",O.9.2,Cyber-security management and incident planning,"Cyber-security management covers activities to ensure that the PKI is protected against known and zero-day vulnerabilities, cyberattacks and other threats. The operational procedures and technologies are evolving and the PKI needs to be able to adapt to the changes. Without knowing the threats and vulnerabilities, it is not possible to plan for the resilience and properly plan for incident response.
+
+Incident response planning helps to ensure that the organization is able to respond to the suspected incidents. Incident response plans should be documented and tested regularly. The result of executed incident response plans should be documented and used to improve the plan, even if it was a false alarm.
+
+Cyber-security management and incident planning covers important aspects such as vulnerability management and security operations center (SOC) identification and response to potential incidents.
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Documented vulnerability management
+- Vulnerability scanning results
+- Documented incident response plans
+- Documented incident response test results
+- Monitoring of cyber-security threats
+- Interview with the security operations team
+
+References
+- ISO/IEC 27001 - Information security management systems
+- Common Vulnerabilities and Exposures (CVE) Program
+- NIST Special Publication 800-61 Revision 2 - Computer Security Incident Handling Guide
+- SANS Guide to Security Operations
+"
+O.9,Resilience,"Resilience is the key for any organization wanting to thrive in an ever-changing world, which is obviously s very important factor for any PKI implementation. The PKI is planned to be trusted for multiple years, if not decades. Therefore, the ability to absorb and adapt to the unpredictability, while continuing to deliver on the objectives is becoming mandatory.
+
+A robust resilience framework helps organizations future-proof their PKI oriented business, detailing key principles, attributes and activities that are followed to ensure that the PKI implementation will be trusted, secure, and effective all the time.
+",O.9.3,Business continuity planning and disaster recovery,"The business continuity planning and disaster recovery are the key activities to ensure availability of the PKI operations. The business continuity planning is used to define the recovery time objectives (RTO) and recovery point objectives (RPO) for the PKI. The RTO and RPO are used to define the required resources and their availability.
+
+Requirements for the business continuity and disaster recovery should be properly defined. It contains backups of the PKI resources, such as hardware security modules (HSM), databases, configuration files, etc. The availability of backups should be tested regularly to ensure that the backups are available when needed, especially during the disaster.
+
+Proper measures are applied to identify the disaster and a communication matrix is maintained to ensure that the right people are informed about the disaster on time and the recovery process can be started.
+
+The following parts are typically covered:
+- Scope of the business continuity and disaster recovery
+- Roles and responsibilities
+- Activation of disaster recovery
+- Physical locations
+- Communication matrix
+- Other requirements and information needed
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Documented business continuity and disaster recovery plans
+- Documented recovery time objectives (RTO) and recovery point objectives (RPO)
+- Documented backup and recovery procedures
+- Communication matrix and contact information
+- Availability of backups and other requirements to execute the disaster recovery procedure
+- Periodically tested effectiveness of the disaster recovery
+
+References
+- ISO/IEC 22301 - Business continuity management systems
+- NIST Special Publication 800-34 Revision 1 - Contingency Planning Guide for Federal Information Systems
+"
+O.9,Resilience,"Resilience is the key for any organization wanting to thrive in an ever-changing world, which is obviously s very important factor for any PKI implementation. The PKI is planned to be trusted for multiple years, if not decades. Therefore, the ability to absorb and adapt to the unpredictability, while continuing to deliver on the objectives is becoming mandatory.
+
+A robust resilience framework helps organizations future-proof their PKI oriented business, detailing key principles, attributes and activities that are followed to ensure that the PKI implementation will be trusted, secure, and effective all the time.
+",O.9.4,Technology future proofing,"Applicable technology should always be future proofed to ensure that the PKI is able to adapt to changes, and will support the organization PKI in the future when new standards, algorithms, and approach will be developed.
+
+When deciding to apply new technologies, or evaluating if the current technology is still suitable and support the goals of the PKI implementation, the following should be considered:
+- Technology is supported by the vendor
+- Industry standards are applied for interoperability and security
+- Review and references on the vendor and technology
+- Applicability of the technology for long-term use
+- Vulnerabilities and security reports of the technology
+- Integration capabilities and customizations needed
+- Open source vs. proprietary technology
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Interview with the CTO or CIO
+- Documentation of the technology future proofing
+- RFI and RFP documents
+- Vendor and technology check
+
+References
+- ISO 223XX Security and resilience standards
+- ISO/IEC 22301 - Business continuity management systems
+"
+O.9,Resilience,"Resilience is the key for any organization wanting to thrive in an ever-changing world, which is obviously s very important factor for any PKI implementation. The PKI is planned to be trusted for multiple years, if not decades. Therefore, the ability to absorb and adapt to the unpredictability, while continuing to deliver on the objectives is becoming mandatory.
+
+A robust resilience framework helps organizations future-proof their PKI oriented business, detailing key principles, attributes and activities that are followed to ensure that the PKI implementation will be trusted, secure, and effective all the time.
+",O.9.5,Competence and information sharing,"Organization environments may change over time. The impact of changes can be in various forms, for example:
+- personnel can rotate in their positions, new people can be hired, or people can leave the organization
+- technologies are changing, therefore required skills and knowledge may change
+- procedures and eventually management of the PKI will be adjusted
+
+The organization needs to ensure that the competence of the personnel is maintained and the information is shared to not lose the knowledge introduced by changes within known and unknown variables. The organization should have a plan to ensure that the competence is maintained for the most critical parts of the PKI.
+
+The competence and information sharing is an important part to achieve the resilience of the PKI implementation by having relevant information and competencies ready when needed.
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Documentation and collaboration
+- Onboarding and offboarding procedures
+- Building competence and knowledge sharing
+
+References
+- ISO 223XX Security and resilience standards
+"
+O.9,Resilience,"Resilience is the key for any organization wanting to thrive in an ever-changing world, which is obviously s very important factor for any PKI implementation. The PKI is planned to be trusted for multiple years, if not decades. Therefore, the ability to absorb and adapt to the unpredictability, while continuing to deliver on the objectives is becoming mandatory.
+
+A robust resilience framework helps organizations future-proof their PKI oriented business, detailing key principles, attributes and activities that are followed to ensure that the PKI implementation will be trusted, secure, and effective all the time.
+",O.9.6,Continual review and improvement,"The resilience of the PKI implementation should be reviewed and improved regularly. The review and improvement process should be documented and the results should be used to improve the resilience of the PKI implementation. The frequency of review should be based on the organizational risks and needs to be protected against current and future trends.
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Resilience effectiveness review frequency
+- Implementation of review process
+- Validation of documentation and reviews
+- Training records
+
+References
+- ISO 223XX Security and resilience standards
+- NIST Special Publications 800 - 30, 34, 37, 46, 53, 84
+"
+O.10,Automation,"Automation of certificate management is the process of using technology to perform tasks with reduced human assistance. Automation is used to improve the efficiency of the PKI management and to reduce the risk of human error. Automation can be used to perform tasks that are repetitive, time-consuming, or difficult to perform manually.
+
+On the other hand the automation can introduce new risks and challenges. The automation should be used only for tasks that are well-defined and that can be performed in a reliable way.
+
+Justified, well-designed, and documented automation of certificate lifecycle management can significantly contribute to the efficiency of the PKI management while reducing the risk of human error. However, automation is not a silver bullet and should be controlled, monitored, and audited to prevent the risk of misuse.
+",O.10.1,Process automation description,"Every automated certificate management process should be properly described and documented. The documentation should contain information relevant to the process automation and understanding the reasons for automation. Monitoring, auditing, and potential measures and controls would be ineffective without proper description and understanding of the automation process.
+
+The description can include for example the following:
+- Use-case or process to be automated
+- Reasons for automation
+- Description of the automation process
+- Involved tools and technologies
+- Monitoring and auditing requirements
+- Potential measures and controls
+- Exceptions
+- Logging and reporting
+- Any other relevant information and requirements
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Process automation description
+- Interview with the process owner
+- Interview with administrators
+- Sample of automated process logs
+
+References
+N/A
+"
+O.10,Automation,"Automation of certificate management is the process of using technology to perform tasks with reduced human assistance. Automation is used to improve the efficiency of the PKI management and to reduce the risk of human error. Automation can be used to perform tasks that are repetitive, time-consuming, or difficult to perform manually.
+
+On the other hand the automation can introduce new risks and challenges. The automation should be used only for tasks that are well-defined and that can be performed in a reliable way.
+
+Justified, well-designed, and documented automation of certificate lifecycle management can significantly contribute to the efficiency of the PKI management while reducing the risk of human error. However, automation is not a silver bullet and should be controlled, monitored, and audited to prevent the risk of misuse.
+",O.10.2,Monitoring and auditing of automated process,"The automated process of certificate management can cause significant damage if misused or misconfigured. The monitoring and auditing of the automated process is essential to prevent the risk of misuse and to detect any potential issues, inefficiencies, or exceptions.
+
+The monitoring and auditing should be performed on a regular basis and should be aligned with the overall monitoring and auditing strategy of the organization.
+It should provide sufficient information to detect any potential issues with the automated process. For successful detection or identification of issues, proper expectations should be based on the description of the automated process.
+","Assessment
+Monitoring of automated processes should be supported by monitoring tools and technologies that can provide the necessary overview, reporting, and potential alerting in case of issues.
+The following is sample evidence that can be used to assess the requirement:
+- Documented monitoring and auditing measures
+- Monitoring and auditing tools and technologies applied
+- Sample report or dashboard from monitoring
+- Interview with responsible personnel
+- Simulate failure of the automated certificate management process and verify that the failure is detected and reported
+
+References
+N/A
+"
+O.10,Automation,"Automation of certificate management is the process of using technology to perform tasks with reduced human assistance. Automation is used to improve the efficiency of the PKI management and to reduce the risk of human error. Automation can be used to perform tasks that are repetitive, time-consuming, or difficult to perform manually.
+
+On the other hand the automation can introduce new risks and challenges. The automation should be used only for tasks that are well-defined and that can be performed in a reliable way.
+
+Justified, well-designed, and documented automation of certificate lifecycle management can significantly contribute to the efficiency of the PKI management while reducing the risk of human error. However, automation is not a silver bullet and should be controlled, monitored, and audited to prevent the risk of misuse.
+",O.10.3,Incidents and exceptions handling,"No automation is perfect and covers everything. There can be edge cases and other situations that were not part of the initial analysis or were simply forgotten. Therefore, there will always be exceptions and incidents that will require manual intervention. The automated process should be able to handle such exceptions and incidents in a way that will not cause any significant damage or disruption to the service.
+
+It may happen that some certificates are required to be handled manually and therefore the exception should be approved and documented. 
+
+Handling of exceptional situations should be covered in the documentation, stating what should be done in case of an exception or incident:
+- Communication of the exception
+- Approval of the exception
+- Incident handling and reporting
+- Any other relevant information
+
+The handling of exceptions should be tested and verified on a regular basis to ensure that the process is working as expected.
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Documented exceptions
+- Interview with responsible personnel about how to handle exceptions or incidents
+
+References
+N/A
+"
+O.11,Interoperability,"Interoperability means the ability of two or more systems or components to exchange information and to use the information that has been exchanged.
+
+A PKI is composed of multiple components, which are often provided by different vendors, or can be developed and maintained in-house. Interoperability keeps the PKI components working together and allows the PKI to function properly in the long term.
+
+Adopting open standards and protocols helps to ensure interoperability between PKI components and Relying Party (RP) applications and avoids vendor lock-in that may lead to interoperability issues in the future, especially when the PKI needs to be trusted for a long time, may have no control over RPs or needs to be scaled.
+
+Interoperability includes the following aspects:
+- Interface specifications
+- Data formats
+- Communication protocols
+- Algorithms
+- Open standards
+
+Main principles of interoperability are:
+- Transparency and openness
+- Technology neutrality
+- Reusability and scalability
+- Security and privacy
+- Accessibility
+- Sustainability
+- Portability and extensibility
+",O.11.1,Maintain PKI interoperability strategy,"The interoperability strategy defines the interoperability requirements and the approach to achieve interoperability between the PKI components to ensure the PKI implementation is able to adopt new technologies and standards in the future, and will not be locked-in to a specific vendor.
+
+PKI interoperability strategy should be maintained, documented, and integrated in the organization. It should cover at least the following information:
+- Application of interoperability
+- Using open standards and protocols
+- Conditions for PKI components to be interoperable
+- Restrictions on the use of proprietary interfaces
+- Interoperability testing
+- Requirements for migration to new technologies
+- Requirements for vendors
+- Other relevant information
+","Assessment
+The following evidence should be available for the assessment of the requirement:
+- Documented and approved interoperability strategy
+- Interoperability strategy is integrated in the organization
+- Interview with the responsible person(s) to verify understanding of the interoperability strategy
+- Review documentation for PKI components to verify the requirements for interoperability
+
+References
+- The Open Group Architecture Framework (TOGAF)
+"
+O.11,Interoperability,"Interoperability means the ability of two or more systems or components to exchange information and to use the information that has been exchanged.
+
+A PKI is composed of multiple components, which are often provided by different vendors, or can be developed and maintained in-house. Interoperability keeps the PKI components working together and allows the PKI to function properly in the long term.
+
+Adopting open standards and protocols helps to ensure interoperability between PKI components and Relying Party (RP) applications and avoids vendor lock-in that may lead to interoperability issues in the future, especially when the PKI needs to be trusted for a long time, may have no control over RPs or needs to be scaled.
+
+Interoperability includes the following aspects:
+- Interface specifications
+- Data formats
+- Communication protocols
+- Algorithms
+- Open standards
+
+Main principles of interoperability are:
+- Transparency and openness
+- Technology neutrality
+- Reusability and scalability
+- Security and privacy
+- Accessibility
+- Sustainability
+- Portability and extensibility
+",O.11.2,Documented integration guidance,"To have effective interoperability between PKI components, it is important to have a proper integration in place that serves the purpose and does not expose any potential risks. Available and documented integration guidance for the developers and administrators should be maintained and updated regularly.
+
+The integration guidance should be available for all critical PKI components and should cover at least the following information:
+- Integration requirements and prerequisites
+- Applicable standards and protocols
+- Integration architecture
+- Integration testing
+","Assessment
+The following evidence should be available for the assessment of the requirement:
+- Documented integration guidance for all critical PKI components
+- Interview with the system administrators and developers
+- Review of the integration guidance
+- System configuration review
+
+References
+- The Open Group Architecture Framework (TOGAF)
+- Integration instructions provided by the vendors
+"
+O.11,Interoperability,"Interoperability means the ability of two or more systems or components to exchange information and to use the information that has been exchanged.
+
+A PKI is composed of multiple components, which are often provided by different vendors, or can be developed and maintained in-house. Interoperability keeps the PKI components working together and allows the PKI to function properly in the long term.
+
+Adopting open standards and protocols helps to ensure interoperability between PKI components and Relying Party (RP) applications and avoids vendor lock-in that may lead to interoperability issues in the future, especially when the PKI needs to be trusted for a long time, may have no control over RPs or needs to be scaled.
+
+Interoperability includes the following aspects:
+- Interface specifications
+- Data formats
+- Communication protocols
+- Algorithms
+- Open standards
+
+Main principles of interoperability are:
+- Transparency and openness
+- Technology neutrality
+- Reusability and scalability
+- Security and privacy
+- Accessibility
+- Sustainability
+- Portability and extensibility
+",O.11.3,Adoption and application of open standards,"Open standards are publicly available standards that are developed and maintained by communities or standardization bodies. Open standards are developed through a consensus-based process and are available to everyone without any restrictions. Open standards are usually free to use and implement.
+
+The open standards are important for interoperability as they are typically technology-agnostic and are supported by technologies and solutions. Open standards are applicable for interfaces, communication protocols, cryptographic algorithms, data formats, automation and orchestration, and other aspects of the PKI.
+
+The adoption of open standards significant increase interoperability and reduce the risk of vendor lock-in.
+","Assessment
+The following evidence should be available for the assessment of the requirement:
+- Documented list of open standards used by the PKI
+- Policies requiring the use of open standards
+- Interview with the responsible person to verify understanding of the open standards
+- Review of training materials
+
+References
+- Open Standards Principles
+- IETF Request for Comments (RFC)
+- OASIS Standards
+- ISO Standards
+- ITU Standards
+- NIST Standards
+- ETSI Standards
+"
+O.12,Monitoring and auditing,"Monitoring and auditing establish the necessary controls to detect and respond to security events and to provide evidence of compliance with the disclosed business practices.
+The events and logs typically serves as a basis for incident response and forensic analysis in case of security incidents, however, they can also be used for other purposes, such as performance analysis, capacity planning, and troubleshooting.
+
+Monitoring and auditing provide reasonable assurance that:
+- Unauthorized PKI system usage is detected
+- Critical high impact events are monitored
+- Appropriate logs are collected and relevant issues are alerted
+- The confidentiality and integrity of current and archived audit logs are maintained for the required period of time
+- Audit logs are completely and confidentially archived in accordance with disclosed business practices
+- Events and logs are reviewed periodically by authorized personnel
+
+The outputs from the monitoring and auditing activities are typically used as inputs for the risk assessment and management activities, including incident response management and investigation of high impact events.
+",O.12.1,Monitoring events and logging requirements are defined and documented,"The monitoring and logging requirements should be defined and documented in the CP, CPS, or other relevant documents. The requirements should be aligned with the overall PKI policies and statements, and should be based on the risk assessment and management activities.
+
+The requirements can typically include:
+- Events to be monitored
+- Frequency of monitoring
+- Logs to be collected
+- Retention period for logs
+- Audit trail requirements
+- Audit log protection requirements
+- Formatting and interpretation of logs (syslog, JSON, XML, CEF, etc.)
+- And other relevant requirements
+","Assessment
+- Documented monitoring and logging requirements
+- Policies and procedures for monitoring and logging
+- Review of records
+- Interviews with personnel
+
+References
+- ISO/IEC 27001 - Information security management systems
+- ISO/IEC 20000 and related standards
+- ISO/IEC 27099 - Public key infrastructure
+"
+O.12,Monitoring and auditing,"Monitoring and auditing establish the necessary controls to detect and respond to security events and to provide evidence of compliance with the disclosed business practices.
+The events and logs typically serves as a basis for incident response and forensic analysis in case of security incidents, however, they can also be used for other purposes, such as performance analysis, capacity planning, and troubleshooting.
+
+Monitoring and auditing provide reasonable assurance that:
+- Unauthorized PKI system usage is detected
+- Critical high impact events are monitored
+- Appropriate logs are collected and relevant issues are alerted
+- The confidentiality and integrity of current and archived audit logs are maintained for the required period of time
+- Audit logs are completely and confidentially archived in accordance with disclosed business practices
+- Events and logs are reviewed periodically by authorized personnel
+
+The outputs from the monitoring and auditing activities are typically used as inputs for the risk assessment and management activities, including incident response management and investigation of high impact events.
+",O.12.2,Event logs from systems are collected,"The event logs from systems should be collected and available for analysis, including correlation with other records. Centralized logging is recommended to ensure that the logs are collected and stored consistently. Solution like security information and event management (SIEM) can be used to collect and analyze the logs.
+
+The availability of records for analysis depends on understanding logging format and interpretation of the information, therefore each system should provide logs in a consistent format that can be further processed and analyzed (or automated).
+
+Logs and events should be collected from all systems that are relevant for the PKI implementation, such as key life cycle management events.
+
+The event should contain sufficient information to identify the event, including:
+- User identification
+- Type of event
+- Date and time
+- Success or failure indication
+- Origination of event
+- Identity or name of affected data, system component, or resource
+- Additional details
+","Assessment
+- Logs are collected from systems
+- Logs have a consistent format and can be further processed and analyzed
+- Review of records and their formatting
+- Review of configuration standards for logging
+- Interviews with personnel to check the understanding of logging format and interpretation of the information
+
+References
+- ISO/IEC 27001 - Information security management systems
+- ISO/IEC 20000 and related standards
+- NIST - Guide to Computer Security Log Management
+- ISO/IEC 27099 - Public key infrastructure
+"
+O.12,Monitoring and auditing,"Monitoring and auditing establish the necessary controls to detect and respond to security events and to provide evidence of compliance with the disclosed business practices.
+The events and logs typically serves as a basis for incident response and forensic analysis in case of security incidents, however, they can also be used for other purposes, such as performance analysis, capacity planning, and troubleshooting.
+
+Monitoring and auditing provide reasonable assurance that:
+- Unauthorized PKI system usage is detected
+- Critical high impact events are monitored
+- Appropriate logs are collected and relevant issues are alerted
+- The confidentiality and integrity of current and archived audit logs are maintained for the required period of time
+- Audit logs are completely and confidentially archived in accordance with disclosed business practices
+- Events and logs are reviewed periodically by authorized personnel
+
+The outputs from the monitoring and auditing activities are typically used as inputs for the risk assessment and management activities, including incident response management and investigation of high impact events.
+",O.12.3,Audit trail can be reconstructed from audit logs,"Audit logging should be implemented to ensure that the audit trail can be reconstructed from audit logs any time. Audit logs are typically recorded for any user executed events that are important for security of the PKI implementation. Audit logs should be stored in a secure location. The audit logs should be protected against unauthorized access, modification, and deletion.
+
+Typically, the following events are important for security of the PKI implementation:
+- All individual user accesses to sensitive data
+- All actions taken by any individual with root or administrative privileges
+- Access to all audit trails
+- Invalid logical access attempts
+- Use of and changes to identification and authentication mechanisms - including but not limited to creation of new accounts and elevation of privileges - and all changes, additions, or deletions to accounts with root or administrative privileges
+- Initialization, stopping, or pausing of the audit logs
+- Creation and deletion of system-level objects
+","Assessment
+- Audit trail can be reconstructed from audit logs
+- Audit logs are stored in a secure location
+- Audit logs are protected against unauthorized access, modification, and deletion
+- Review of records
+- Interviews with personnel to understand the audit logging implementation
+
+References
+- RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework
+- NIST - Guide to Computer Security Log Management
+- ISO/IEC 27001 - Information security management systems
+- ISO/IEC 27099 - Public key infrastructure
+"
+O.12,Monitoring and auditing,"Monitoring and auditing establish the necessary controls to detect and respond to security events and to provide evidence of compliance with the disclosed business practices.
+The events and logs typically serves as a basis for incident response and forensic analysis in case of security incidents, however, they can also be used for other purposes, such as performance analysis, capacity planning, and troubleshooting.
+
+Monitoring and auditing provide reasonable assurance that:
+- Unauthorized PKI system usage is detected
+- Critical high impact events are monitored
+- Appropriate logs are collected and relevant issues are alerted
+- The confidentiality and integrity of current and archived audit logs are maintained for the required period of time
+- Audit logs are completely and confidentially archived in accordance with disclosed business practices
+- Events and logs are reviewed periodically by authorized personnel
+
+The outputs from the monitoring and auditing activities are typically used as inputs for the risk assessment and management activities, including incident response management and investigation of high impact events.
+",O.12.4,Monitoring of operational and security events is implemented,"Monitoring of operational and security events should be implemented to ensure that the PKI implementation is operating as expected and that the security events are detected and responded to in a timely manner and that evidence of any malicious event is identified. The monitoring should be implemented for all critical systems and components, including the CA, RA, OCSP, HSM, and other relevant systems.
+
+Monitoring should be aligned with the monitoring and auditing requirements defined in the CP, CPS, and other relevant documents. The monitoring should be implemented to ensure that the requirements are met.
+","Assessment
+- Monitoring of operational and security events is implemented according to the requirements
+- Review of monitoring implementation, including CA key life cycle management related events, security sensitive events, and other relevant events
+- Review of monitoring events and alerts
+- Interviews with personnel responsible for monitoring
+
+References
+- ISO/IEC 27001 - Information security management systems
+- ISO/IEC 20000 and related standards
+- ISO/IEC 27099 - Public key infrastructure
+"
+O.12,Monitoring and auditing,"Monitoring and auditing establish the necessary controls to detect and respond to security events and to provide evidence of compliance with the disclosed business practices.
+The events and logs typically serves as a basis for incident response and forensic analysis in case of security incidents, however, they can also be used for other purposes, such as performance analysis, capacity planning, and troubleshooting.
+
+Monitoring and auditing provide reasonable assurance that:
+- Unauthorized PKI system usage is detected
+- Critical high impact events are monitored
+- Appropriate logs are collected and relevant issues are alerted
+- The confidentiality and integrity of current and archived audit logs are maintained for the required period of time
+- Audit logs are completely and confidentially archived in accordance with disclosed business practices
+- Events and logs are reviewed periodically by authorized personnel
+
+The outputs from the monitoring and auditing activities are typically used as inputs for the risk assessment and management activities, including incident response management and investigation of high impact events.
+",O.12.5,Critical events are immediately alerted and resolved according to incident response plans,"Critical events should be immediately alerted and resolved according to incident response plans. Monitoring implementation should ensure that critical events are detected and alerted in a timely manner. This can be done manually or in an automated way.
+","Assessment
+- Review of requirements for alerting on critical event, including security sensitive events
+- Review of monitoring implementation
+- Review of documentation of critical events
+- Interviews with personnel to check the understanding of critical events and their handling
+
+References
+- ISO/IEC 27001 - Information security management systems
+- ISO/IEC 20000 and related standards
+- ISO/IEC 27099 - Public key infrastructure
+"
+O.12,Monitoring and auditing,"Monitoring and auditing establish the necessary controls to detect and respond to security events and to provide evidence of compliance with the disclosed business practices.
+The events and logs typically serves as a basis for incident response and forensic analysis in case of security incidents, however, they can also be used for other purposes, such as performance analysis, capacity planning, and troubleshooting.
+
+Monitoring and auditing provide reasonable assurance that:
+- Unauthorized PKI system usage is detected
+- Critical high impact events are monitored
+- Appropriate logs are collected and relevant issues are alerted
+- The confidentiality and integrity of current and archived audit logs are maintained for the required period of time
+- Audit logs are completely and confidentially archived in accordance with disclosed business practices
+- Events and logs are reviewed periodically by authorized personnel
+
+The outputs from the monitoring and auditing activities are typically used as inputs for the risk assessment and management activities, including incident response management and investigation of high impact events.
+",O.12.6,Review of events and logs is periodically performed,"Logs and events should be reviewed frequently, preferably automatically, to determine security related issues, potential systems failure, identify anomalies or suspected activity. Regular review should be confirmed by authorized personnel who can proactively identify issues before they become problems.
+
+The review of logs and events should be performed periodically and the frequency should be based on the risk assessment. Any potential issues should be reported and resolved according to the incident response plans.
+","Assessment
+- Review of logs and events is performed periodically
+- Review of logs and events is performed according to the requirements
+- Review of logs and events is confirmed by authorized personnel
+- Interview with personnel responsible for review of logs and events
+
+References
+- ISO/IEC 27001 - Information security management systems
+- ISO/IEC 20000 and related standards
+- NIST - Guide to Computer Security Log Management
+- ISO/IEC 27099 - Public key infrastructure
+"
+R.13,Sourcing,"PKI is a complex system that requires a lot of resources to be managed and maintained. Proper sourcing of the resources is one of the key factors of a mature infrastructure that can maintain and improve trust over the time. The resources can be:
+- Financial resources needed to maintain the PKI
+- Computing resources like hardware, software, tools, technologies
+- Human resources (personnel)
+- Management resources like processes and procedures 
+
+Sourcing is a process of defining the required resources and their specification, availability, and management. Sourcing requires monitoring and periodic review of the resources needed and alignment with the overall strategy of the organization and scope of the PKI.
+",R.13.1,Resources are identified and documented,"Resources needed for proper management of the PKI are identified and documented. Resources should be aligned with the PKI scope and use-case(s) that should be supported. The main question to answer here is ""Do we know what resources we need to manage the PKI?"".
+","Assessment
+The following is sample evidence that can be used to assess the requirement:
+- Resource management process
+- Documented requirements on the resources
+- Categorization of resources (an example can be people, processes, procedures, tools, technologies)
+- Alignment with the scope of the use-case
+
+References
+N/A
+"
+R.13,Sourcing,"PKI is a complex system that requires a lot of resources to be managed and maintained. Proper sourcing of the resources is one of the key factors of a mature infrastructure that can maintain and improve trust over the time. The resources can be:
+- Financial resources needed to maintain the PKI
+- Computing resources like hardware, software, tools, technologies
+- Human resources (personnel)
+- Management resources like processes and procedures 
+
+Sourcing is a process of defining the required resources and their specification, availability, and management. Sourcing requires monitoring and periodic review of the resources needed and alignment with the overall strategy of the organization and scope of the PKI.
+",R.13.2,Resources are clearly defined,"Identified resources should be properly defined and specified. The specification depends on the type of the resource and can include for example the following:
+- People: required skills to perform the tasks, roles, and responsibilities
+- Tools: description, supported technologies
+- Technologies: required functionality and performance
+- Financial resources: required budget, funding sources
+- Management resources: processes and procedures, inputs, outputs
+- Other resources: description, specification, requirements
+
+Without clearly defined resources, there could be misuse of the organization’s assets or inconsistent interaction with personnel and other parties, leading to insecure and untrusted implementation of the PKI.
+","Assessment
+The following is a sample evidence that can be used to assess the requirement:
+- Resource management process
+- Documented requirements on the resources
+- Categorization of resources (an example can be: people, processes, procedures, tools, technologies)
+- Alignment with the scope of the use-case
+- Interview personnel in various roles
+
+References
+- ISO/IEC 20000 and related standards
+"
+R.13,Sourcing,"PKI is a complex system that requires a lot of resources to be managed and maintained. Proper sourcing of the resources is one of the key factors of a mature infrastructure that can maintain and improve trust over the time. The resources can be:
+- Financial resources needed to maintain the PKI
+- Computing resources like hardware, software, tools, technologies
+- Human resources (personnel)
+- Management resources like processes and procedures 
+
+Sourcing is a process of defining the required resources and their specification, availability, and management. Sourcing requires monitoring and periodic review of the resources needed and alignment with the overall strategy of the organization and scope of the PKI.
+",R.13.3,Availability of resources,"Identified and defined resources should be available at the required capacity. The availability of the resources should be aligned with the overall strategy of the organization and scope of the PKI. The availability of the resources should be controlled to ensure that the resources are available when needed.
+","Assessment
+- Review of the resource management process
+- Review of the capacity or demand management process
+- Alignment with the strategy of the organization and scope of the PKI
+- Review of the assignment of the resources to the tasks
+- Utilization and performance of the services
+
+References
+- ISO/IEC 20000 and related standards
+"
+R.13,Sourcing,"PKI is a complex system that requires a lot of resources to be managed and maintained. Proper sourcing of the resources is one of the key factors of a mature infrastructure that can maintain and improve trust over the time. The resources can be:
+- Financial resources needed to maintain the PKI
+- Computing resources like hardware, software, tools, technologies
+- Human resources (personnel)
+- Management resources like processes and procedures 
+
+Sourcing is a process of defining the required resources and their specification, availability, and management. Sourcing requires monitoring and periodic review of the resources needed and alignment with the overall strategy of the organization and scope of the PKI.
+",R.13.4,Resources are periodically reviewed,"Resource should be periodically reviewed to ensure the accurate use of the resources and secure operations. Frequency of the review depends on the complexity and criticality of the infrastructure. Good practice is to perform reviews at least once a year.
+
+Review includes the following (but not limited to)
+- Analysis that the resources continue to match with the scope and capacity required to provide the services
+- Review of the specifications of the resources to continue support of the PKI
+- Review announcements and technology trends (for example “end of life” plans for a technology)
+- Documentation of any remediation plan, updates to sourcing of the PKI, that should be approved by the management
+","Assessment
+- Review of changes to the PKI scope
+- Review of the capacity or available resources
+- Vendor announcements
+- Technology trends
+- Skills and knowledge of the personnel
+
+References
+N/A
+"
+R.14,Knowledge and training,"The purpose of this category is to ensure that the PKI personnel have the required knowledge and skills to perform their duties and responsibilities.
+Education and continuous gathering of required knowledge and skills to manage the PKI is important to be aware and properly react to current trends and threats that may impact the PKI.
+
+Each of the personnel should be aware of the PKI policies and procedures, and should be able to perform their duties and responsibilities in accordance with the PKI policies and procedures.
+",R.14.1,Establish training plan,"The training plan should be established and maintained to ensure that personnel have the required knowledge and skills to perform their duties and responsibilities. It should reflect the current state of the PKI implementation and be updated when the PKI implementation changes, and provide necessary information for all personnel that are involved in the PKI implementation.
+
+Training plan is built with PKI needs and requirements in mind and should cover:
+- Training prerequisites
+- Training matrix (who needs to be trained and what training should be received)
+- Training schedule
+- Training format and methods
+- Requirements on training reports and records
+- Training plan review and update
+
+There can be different methods of training, depending on the needs and requirements:
+- Instructor-led training
+- Internal or external webinars
+- Coaching
+- Self-paced training
+- Online resources
+- Shadowing or reverse-shadowing
+","Assessment
+- Documented training plan
+- Training plan is up-to-date
+- Training plan is approved and communicated to all personnel
+- Training plan is integrated in organization
+
+References
+- NIST SP 800-16 Information Technology Security Training Requirements: a Role- and Performance-Based Model
+- NIST SP 800-50 Building an Information Technology Security Awareness and Training Program
+- European Cybersecurity Skills Framework (ECSF)
+"
+R.14,Knowledge and training,"The purpose of this category is to ensure that the PKI personnel have the required knowledge and skills to perform their duties and responsibilities.
+Education and continuous gathering of required knowledge and skills to manage the PKI is important to be aware and properly react to current trends and threats that may impact the PKI.
+
+Each of the personnel should be aware of the PKI policies and procedures, and should be able to perform their duties and responsibilities in accordance with the PKI policies and procedures.
+",R.14.2,Responsible personnel receive training,"The responsible personnel should be aware of the current policies and procedures that are related to the context of the PKI implementation. Training should be provided to personnel that are responsible for the management, operation, and administration of the PKI.
+
+Training is provided in accordance with the current and approved training plan.
+
+Methods and training content can vary, depending on personnel roles and covers:
+- New hires as part of the onboarding process
+- Periodic training for all personnel (the frequency of the training depends on the role and responsibilities)
+
+For each training, attendance should be recorded and documented, and in case the training is not completed, the reason should be documented.
+In case there are requirements for score or threshold to be achieved, the results should be documented.
+","Assessment
+- Review training matrix
+- Review documented training results
+- Review training records
+- Relevancy of the training content
+- Training is provided in accordance with the training plan
+- Training completeness
+
+References
+- NIST SP 800-16 Information Technology Security Training Requirements: a Role- and Performance-Based Model
+- NIST SP 800-50 Building an Information Technology Security Awareness and Training Program
+- European Cybersecurity Skills Framework (ECSF)
+"
+R.14,Knowledge and training,"The purpose of this category is to ensure that the PKI personnel have the required knowledge and skills to perform their duties and responsibilities.
+Education and continuous gathering of required knowledge and skills to manage the PKI is important to be aware and properly react to current trends and threats that may impact the PKI.
+
+Each of the personnel should be aware of the PKI policies and procedures, and should be able to perform their duties and responsibilities in accordance with the PKI policies and procedures.
+",R.14.3,Perform security awareness training,"Security awareness education is an ongoing activity. The security awareness program is implemented to make all personnel aware of their role in protecting the security and establishing trust by the PKI implementation. It should stay up to date to reflect latest security trends, threats, and challenges.
+
+Security awareness should ensure that personnel are knowledgeable about the threat landscape, their responsibility for the operation of relevant security controls, and are able to access assistance and guidance when required.
+
+Different methods can be applied to provide security awareness, for example:
+- Posters and letters with the specific topic
+- Team meetings and webinars
+- Security incentives and rewards
+- Training and education
+","Assessment
+- Examine security awareness program
+- Interview personnel to verify that they are aware of their responsibilities
+- Review security awareness training records
+- Security awareness training is provided in accordance with the training plan
+- Review content of the security awareness training
+
+References
+- NIST SP 800-50 Building an Information Technology Security Awareness and Training Program
+- PCI SSC - Best Practices for Implementing a
+  Security Awareness Program
+- Raising Awareness of Cybersecurity
+"
+R.14,Knowledge and training,"The purpose of this category is to ensure that the PKI personnel have the required knowledge and skills to perform their duties and responsibilities.
+Education and continuous gathering of required knowledge and skills to manage the PKI is important to be aware and properly react to current trends and threats that may impact the PKI.
+
+Each of the personnel should be aware of the PKI policies and procedures, and should be able to perform their duties and responsibilities in accordance with the PKI policies and procedures.
+",R.14.4,Establish education plan,"Proper education plan is required to stay up to date with the development of the latest technologies, security practices, and controls that have impact on the PKI and its future development. 
+
+The education plan should establish a robust base for the personnel to gain relevant knowledge that are out of scope of the internal training plan, but should be aligned with it to ensure that the personnel are able to perform their duties and responsibilities. The education plan should cover:
+- Education requirements and prerequisites
+- Recommended education approach and methods
+- Approach to monitor and assess the education results
+
+Methods to provide education can vary:
+- Internal or external courses
+- Incentives and rewards
+- Mentoring, coaching, and shadowing
+- Competitions and challenges
+","Assessment
+- Review education plan and its alignment with the training plan
+- Interview personnel to verify their educational goals
+- Validate education records
+
+References
+- NIST SP 800-16 Information Technology Security Training Requirements: a Role- and Performance-Based Model
+- NIST SP 800-50 Building an Information Technology Security Awareness and Training Program
+- European Cybersecurity Skills Framework (ECSF)
+"
+R.14,Knowledge and training,"The purpose of this category is to ensure that the PKI personnel have the required knowledge and skills to perform their duties and responsibilities.
+Education and continuous gathering of required knowledge and skills to manage the PKI is important to be aware and properly react to current trends and threats that may impact the PKI.
+
+Each of the personnel should be aware of the PKI policies and procedures, and should be able to perform their duties and responsibilities in accordance with the PKI policies and procedures.
+",R.14.5,Periodically review knowledge,"The training plan should be reviewed and updated periodically to ensure that it is up-to-date and covers all aspects of the specific PKI implementation.
+
+Periodical review of the training plans helps to maintain required skills and knowledge for the responsible personnel.
+It provides assurance that the expected controls are active and working as intended.
+","Assessment
+- Training plan review process
+- Implementation of review process
+- Validation of documentation and reviews
+
+References
+- NIST SP 800-16 Information Technology Security Training Requirements: a Role- and Performance-Based Model
+- NIST SP 800-50 Building an Information Technology Security Awareness and Training Program
+- European Cybersecurity Skills Framework (ECSF)
+"
+R.15,Awareness,"Providing awareness about the PKI and its purpose in the organization and outside ensures that each PKI participant understands it properly and is timely informed about any important events that may impact the participant.
+
+The awareness is important for all PKI participants to know how to handle exceptional situations and how to react to them. It is also important to know how to communicate and when so as to not misunderstand any issues or incidents.
+",R.15.1,Establish and maintain awareness plan,"Awareness plan should be established and maintained to ensure that the PKI participants are aware of all relevant events related to the PKI implementation and its purpose in the organization and outside. It should cover at lease the following information:
+- How the organization discloses information to PKI participants
+- Contact information
+- How are changes communicated
+- Who is responsible for accurate awareness
+- Resolving communication issues and incidents
+
+Every PKI participant should receive information and relevant resource in a timely manner according to the awareness plan.
+","Assessment
+- Documented awareness plan
+- Awareness plan is up-to-date
+- Review awareness content to ensure that it is contains relevant information
+- Awareness plan is approved and communicated to all PKI participants
+- Awareness plan is integrated in the organization
+
+References
+- RFC 3647 Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework
+- ETSI EN 319 401 - General Policy Requirements for Trust Service Providers
+"
+R.15,Awareness,"Providing awareness about the PKI and its purpose in the organization and outside ensures that each PKI participant understands it properly and is timely informed about any important events that may impact the participant.
+
+The awareness is important for all PKI participants to know how to handle exceptional situations and how to react to them. It is also important to know how to communicate and when so as to not misunderstand any issues or incidents.
+",R.15.2,Disclose PKI information,"Information about the policies, processes, and procedures that are maintained by the PKI should be disclosed to the PKI participants. This information should be available on a timely basis and in a form that is understandable to the PKI participants.
+
+Organization maintaining the PKI implementation should disclose the following information on a website or other appropriate media that can be reached by the PKI participants:
+- Certificate Policy
+- Certification Practice Statement
+- Revocation information
+- Valid CA certificates
+- Vulnerability reports
+- Audit reports
+- Contact information
+- Obligations of the PKI participants
+- Legal liability of the PKI participants
+- Warranty information
+- Disclaimer information
+- Privacy and data protection information
+- Other relevant information
+","Assessment
+- Review disclosure statement content to ensure that it is contains relevant information
+- Disclosure statement is approved and communicated to all PKI participants
+- Information is available to all PKI participants
+- Information is up-to-date
+
+References
+- RFC 3647 Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework
+- ETSI EN 319 401 - General Policy Requirements for Trust Service Providers
+"
+R.15,Awareness,"Providing awareness about the PKI and its purpose in the organization and outside ensures that each PKI participant understands it properly and is timely informed about any important events that may impact the participant.
+
+The awareness is important for all PKI participants to know how to handle exceptional situations and how to react to them. It is also important to know how to communicate and when so as to not misunderstand any issues or incidents.
+",R.15.3,Establish single point of contact,"The single point of contact (SPOC) provides a convenient way for any PKI participant to contact the organization and responsible personnel of the PKI implementation. The single point of contact should be available 24/7 and should be able to provide relevant information and trigger appropriate procedures if needed based on the situation.
+
+Contact information for the SPOC should be disclosed to all PKI participants.
+The SPOC may be reached through different communication channels, such as:
+- Email
+- Phone
+- Web site form
+- Other
+","Assessment
+- Contact SPOC to ensure that it is available and responds in a timely manner
+- Review that the SPOC communicates according to the awareness plan
+- Review that the SPOC is able to provide relevant information and trigger appropriate procedures if needed based on the situation
+
+References
+- RFC 3647 Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework
+- ETSI EN 319 401 - General Policy Requirements for Trust Service Providers
+"
+R.15,Awareness,"Providing awareness about the PKI and its purpose in the organization and outside ensures that each PKI participant understands it properly and is timely informed about any important events that may impact the participant.
+
+The awareness is important for all PKI participants to know how to handle exceptional situations and how to react to them. It is also important to know how to communicate and when so as to not misunderstand any issues or incidents.
+",R.15.4,Timely communication of important information,"In the event of an incident with high impact to the security and established trust of the PKI implementation, the organization should communicate the information to the PKI participants in a timely manner to avoid increased escalation of the event and inform participants of further actions that may be required to execute.
+
+Example of events that require timely communication may be:
+- Compromise of the private key
+- Changes in the Certificate Policy
+- Changes in the Certification Practice Statement
+- Security breach
+- Other events that may require immediate action by the PKI participants
+","Assessment
+- Documented procedures to timely inform PKI participants about high impact events
+- Review that the procedures are followed
+- Interview personnel to ensure that they are aware of the procedures and know how to communicate the information
+
+References
+- RFC 3647 Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework
+- ETSI EN 319 401 - General Policy Requirements for Trust Service Providers
+"
