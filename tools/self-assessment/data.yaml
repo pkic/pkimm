@@ -1,0 +1,529 @@
+version: "1.0"
+modules:
+  - id: "G"
+    name: "Governance"
+    description: |
+      Consist of the leadership, overall structures, and processes to enable the organization to use the PKI in a sustainable way. It also consists of having strategy and objectives and proper decision making
+    categories:
+      - id: "1"
+        weight: 5
+        name: "Strategy and Vision"
+        description: |
+          Trusted and secure PKI must be properly managed and supported by the organization. The existence of a strategy and vision for the PKI is one of the key factors for the success of the PKI and contributes to the overall maturity. The strategy and vision should be aligned with the organizational goals and approach and should be followed and measured regularly.
+
+          Formal documentation about the business drivers, scope, and design of the PKI helps to ensure that the PKI is properly aligned and understood to support the organizational. The documentation should be reviewed and updated regularly to ensure that the PKI is aligned with the organizational goals and needs.
+
+          Undefined or unclear understanding and leadership can cause loss of the established trust and can lead to the failure of the PKI quickly.
+        levels:
+          - number: 1
+            name: "1 - Initial"
+            description: |
+              There are no leadership responsibilities and vision defined. The design is managed ad-hoc.
+          - number: 2
+            name: "2 - Basic"
+            description: |
+              Basic vision has been developed but not followed. The scope and business drivers are not fully documented and understood.
+          - number: 3
+            name: "3 - Advanced"
+            description: |
+              There is a responsible sponsor of the PKI. Strategy has been defined and approved.
+          - number: 4
+            name: "4 - Managed"
+            description: |
+              Strategy and vision are followed and regularly measured to improve. The scope, business drivers, and design are documented and reviewed regularly.
+          - number: 5
+            name: "5 - Optimized"
+            description: |
+              Strategy and vision are fully in line with the organizational strategy and helps business to achieve future development through continuous improvement.
+      - id: "2"
+        weight: 4
+        name: "Policies and documentation"
+        description: |
+          Documented policies plays an important role in the secure and consistent management of the PKI. The goal is to minimize financial and operational threats and risks in the digital world. Well-described policies and security measures increase overall trust in the ecosystem of trust services and are a condition for successful operation. The basis for these matters lies in relevant laws and regulations, international standards and best practices.
+
+          It consists of:
+          - formal policies and practice statements for supported PKI services and use-cases
+          - formal management of agreements between parties involved in the PKI
+          - certificate and key management rules
+          - roles and responsibilities in the management of the PKI
+          - documented disclosure statements
+          - maintenance and review of policies and documentation
+          - code of practice for information security management, techniques and risk management
+
+          Properly documented policies keeps the PKI assets trusted over the time and serves as a basis for integrated processes and procedures. It is a living management system that is continuously updated and changed as technologies, security, and compliance requirements change.
+
+          The Certificate Policy (CP) defines the overall policies and requirements of a PKI, the Certification Practice Statement (CPS) provides detailed operational procedures followed by the Certification Authority (CA), and the disclosure statement offers transparency about the CA's identity and services to relying parties.
+        levels:
+          - number: 1
+            name: "1 - Initial"
+            description: |
+              There are no or limited policies and documentation.
+          - number: 2
+            name: "2 - Basic"
+            description: |
+              The scope of policies is defined. Documented policies are not in the full scope and are not fully implemented and followed.
+          - number: 3
+            name: "3 - Advanced"
+            description: |
+              Documentation and policies are in the full scope implemented, including CP and CPS.
+          - number: 4
+            name: "4 - Managed"
+            description: |
+              Disclosure of information contains all relevant policies and documentation. CP and CPS are published and available. There is a documentation management in place that covers the policies and documentation.
+          - number: 5
+            name: "5 - Optimized"
+            description: |
+              Policies are periodically reviewed and updated according to the changes in the PKI and its environment, and organizational strategy and goals. Policies are followed and enforced, communicated and understood.
+      - id: "3"
+        weight: 2
+        name: "Compliance"
+        description: |
+          Compliance refers to the ability of an organization to adhere to relevant laws, regulations, and standards related to the scope of the PKI. A properly implemented PKI Compliance program ensures that an organization's PKI is protected from threats and risks that could result in financial loss, reputational damage, legal liabilities, or eventually in the loss of trust.
+
+          The compliance process helps to manage a PKI in a way that meets legal and regulatory requirements, and ensures information is used and protected appropriately, according to defined and documented policies and practices statements.
+
+          Compliance is important for several reasons, including:
+          - It supports the risk management process associated with the PKI assets
+          - Minimize reputation issues that can lead to the loss of trust
+          - Provides assurance for the relying parties and subscribers
+          - Proves adherence to legal requirements
+
+          Overall, compliance and related procedures help to ensure that the PKI is managed and maintained according to the relevant laws, regulations, and standards. This minimizes the risk of loss of trust and provides assurance to PKI participants.
+        levels:
+          - number: 1
+            name: "1 - Initial"
+            description: |
+              There is no compliance program in place. The organization is not aware of the relevant laws, regulations, and standards, and is exposed to significant risks.
+          - number: 2
+            name: "2 - Basic"
+            description: |
+              The compliance responsibility is established and assigned. The organization is aware of the relevant laws, regulations, and standards that should be followed.
+          - number: 3
+            name: "3 - Advanced"
+            description: |
+              Compliance policy is defined, implemented, and communicated. Compliance program is established.
+          - number: 4
+            name: "4 - Managed"
+            description: |
+              Compliance program and policy is established and maintained by responsible personnel. Procedures are in place and followed to ensure compliance with relevant laws, regulations, and standards.
+          - number: 5
+            name: "5 - Optimized"
+            description: |
+              Organization is aware of the relevant laws, regulations, and standards and is able to demonstrate compliance over the time. Compliance program is continuously maintained and improved.
+      - id: "4"
+        weight: 3
+        name: "Processes and procedures"
+        description: |
+          Proper and effective processes and procedures related to PKI operations and management are essential for the successful implementation of the PKI. The processes and procedures should be aligned with the overall organizational policies and statements.
+
+          Process is a set of activities that are performed in a specific order to achieve a specific goal. The process should be documented and measured. The process is also repeatable and can be improved over time, based on the evaluation, feedback, or risk assessment. The scope of the processes is defined by the policies.
+
+          Procedure is a set of instructions that describe how to perform a specific task. The procedure should be also documented and can be used as a reference for the process. Procedure can include specific instructions for the process, such as how to perform a specific task, or how to use a specific tool.
+
+          Processes and procedure typically cover (but are not limited to) the following areas:
+          - infrastructure management
+          - data privacy and security
+          - business continuity, disaster recovery, contingency planning
+          - supply chain management
+          - physical security and access control
+          - incident management
+          - audit and compliance, evidence and reporting, archiving
+          - risk management and assessment
+        levels:
+          - number: 1
+            name: "1 - Initial"
+            description: |
+              Processes and procedures are not formally defined and documented. Ad-hoc reactions to the events.
+          - number: 2
+            name: "2 - Basic"
+            description: |
+              Processes and procedures are formally defined and documented, but not in the full scope and fully implemented and followed.
+          - number: 3
+            name: "3 - Advanced"
+            description: |
+              The scope of the processes and procedures covers entire PKI implementation and policies, and is documented and followed.
+          - number: 4
+            name: "4 - Managed"
+            description: |
+              The evidence from the processes and procedures is collected and maintained. Recurring activities are defined and executed by responsible roles.
+          - number: 5
+            name: "5 - Optimized"
+            description: |
+              The processes and procedures, that are aligned with policies and organizational goals, are reviewed and updated on a regular basis. Evidence is properly managed and controlled.
+  - id: "M"
+    name: "Management"
+    description: |
+      Translates the governance into actions that support the PKI, management of the resources to maintain the required level of trust
+    categories:
+      - id: "5"
+        weight: 4
+        name: "Key management"
+        description: |
+          Key management is the set of techniques and procedures supporting the establishment and maintenance of keying relationships between parties and components in the public key infrastructure. Key management encompasses techniques and procedures supporting:
+          - Initialization of system users and components;
+          - Generation, distribution, and installation of keying material;
+          - Controlling the use of keying material;
+          - Update, revocation, and destruction of keying material; and
+          - Storage, backup/recovery, and archival of keying material.
+
+          The key management is important for the PKI to maintain trust. It should be an integral part of the PKI procedures. Proper key management is one of the basic stones on which the PKI stands and relies on.
+        levels:
+          - number: 1
+            name: "1 - Initial"
+            description: |
+              No key management is defined. There are no key management responsibilities defined and assigned.
+          - number: 2
+            name: "2 - Basic"
+            description: |
+              Responsibilities and roles for key management are defined. Key management is managed ad-hoc and there is no documentation and inventory of cryptographic keys maintained.
+          - number: 3
+            name: "3 - Advanced"
+            description: |
+              Key management and lifecycle is documented and maintained. Inventory of cryptographic keys and devices is avaialble. Procedures are formally followed.
+          - number: 4
+            name: "4 - Managed"
+            description: |
+              Encryption and key management policies are documented, followed, and integrated in the organization. Inventory of cryptographic keys and devices is maintained and validated. Responsibilities and roles are assigned and aware of all processes and procedures.
+          - number: 5
+            name: "5 - Optimized"
+            description: |
+              Key management is periodically reviewed and updated. Inventory of cryptographic keys and devices is complete, maintained and frequently validated. Process and procedures are formally approved, integrated and followed in the organization.
+      - id: "6"
+        weight: 4
+        name: "Certificate management"
+        description: |
+          Certificate management is the set of techniques and procedures supporting certificate lifecycle management. Certificate management encompasses techniques and procedures supporting:
+          - Definition of certificate profiles
+          - Generation of certificates
+          - Installation and orchestration of certificates
+          - Inventory of certificates
+          - State management of certificates, i.e. expiration and revocation
+          - Discovery of certificates
+
+          The techniques can be applied to an organization that makes use of PKI, or from an organization (or part of an organization) that operates a PKI for others. This category primarily targets an organization from a usage perspective, albeit the certificate lifecycle management is equally important for an organization that operates a PKI for someone else.
+        levels:
+          - number: 1
+            name: "1 - Initial"
+            description: |
+              Certificates are ad-hoc managed, without proper control and always reactive. Inventory is not available.
+          - number: 2
+            name: "2 - Basic"
+            description: |
+              Certificates are managed, but not according to industry standards and regulations. Inventory of certificates is not maintained.
+          - number: 3
+            name: "3 - Advanced"
+            description: |
+              Certificate profiles and attributes are documented and enforced. Certificate lifecycle management is documented and followed. Inventory of certificates is maintained with up-to-date information. Certificate management procedures and controls on are in place but not fully followed and understood.
+          - number: 4
+            name: "4 - Managed"
+            description: |
+              Certificate profiles, attributes, cipher suites, and tooling is properly documented and applied in the organization. Certificate management procedures are well designed and followed to maintain up-to-date inventory of certificates, including its state and location.
+          - number: 5
+            name: "5 - Optimized"
+            description: |
+              Certificate lifecycle is properly documented and maintained. Up-to-date inventory is available and periodically updated according to defined procedures and certificate management controls. Discovery of certificates is often executed to provide assurance of the inventory completeness. Certificate management is integrated with the organizational governance.
+      - id: "8"
+        weight: 2
+        name: "Infrastructure management"
+        description: |
+          The PKI implementation is a combination of software, hardware, network service, and resources that are needed to operate and manage the environment.
+          The environment can be hosted on-premise, in the cloud, or in a hybrid environment.
+
+          Independent of the hosting model, the PKI environment needs to be properly managed and maintained, which requires resources and processes.
+          The infrastructure management refers to management of the technical and operational components of the PKI environment, which includes software, hardware, network, equipment, facilities, and other related resources.
+
+          The PKI components may be distributed across multiple locations and managed by different teams. Therefore, it is important to have a clear description of the operational infrastructure with all dependencies and prerequisites. The infrastructure management should be aligned with the overall strategy of the organization and the scope of the PKI.
+
+          When the infrastructure and environment where the PKI is implemented are not effectively managed and maintained, the complexity of the environment increases and the risk of failure increases as well. The infrastructure is often one of the key targets for attackers, therefore it is important to ensure that it is properly secured and available.
+        levels:
+          - number: 1
+            name: "1 - Initial"
+            description: |
+              Flat network with no segmentation. No separation of environments. No network vulnerability management. No infrastructure recovery objectives. No periodic review of infrastructure activities.
+          - number: 2
+            name: "2 - Basic"
+            description: |
+              Network and deployment infrastructure is documented and known by the infrastructure team.
+          - number: 3
+            name: "3 - Advanced"
+            description: |
+              Infrastructure is documented and managed. Network vulnerability management is implemented. Responsibility for infrastructure is defined and approved by the management.
+          - number: 4
+            name: "4 - Managed"
+            description: |
+              The infrastructure is properly design, documented, and maintained, including procedures for vulnerability management, recovery and continuity.
+          - number: 5
+            name: "5 - Optimized"
+            description: |
+              Processes and procedures are formally followed and periodically reviewed. The infrastructure is properly designed, documented, and maintained by responsible personnel and integrated into the overall organizational strategy.
+      - id: "9"
+        weight: 3
+        name: "Change management and agility"
+        description: |
+          Change management and agility is important to control the PKI implementation and configuration changes, adjustments, modifications, and improvements. Technologies are changing fast and the PKI needs to be able to adapt to the changes.
+           The same applies for security vulnerabilities, deprecation of algorithms, and other changes that can significantly affect the PKI.
+
+          The change management should provide a robust and reliable process to ensure that every change is properly assessed, approved, and implemented. The process should be aligned with the organizational change management process and should be followed by all stakeholders.
+
+          Agility means that the PKI is able to adapt to the changes quickly and efficiently. Agility is applied to technologies, processes, algorithms, and other parts of the PKI implementation. Efficient adaptation to the changes makes the PKI more reliable and trustworthy, reducing operational risks.
+        levels:
+          - number: 1
+            name: "1 - Initial"
+            description: |
+              Change management is not defined and agility is not considered and applied.
+          - number: 2
+            name: "2 - Basic"
+            description: |
+              Change management does not have documented and followed structure and is often ad-hoc. Agility is not formally cosnidered, however, it is applied in some cases.
+          - number: 3
+            name: "3 - Advanced"
+            description: |
+              Processes for change management and agility are defined and designed to support the PKI implementation. The procedures and not always followed.
+          - number: 4
+            name: "4 - Managed"
+            description: |
+              Change management is integrated with the organizational change management process. Requirements for the agility are identified and implemented. Procedures are followed and monitored.
+          - number: 5
+            name: "5 - Optimized"
+            description: |
+              Approved change management policy and agility processes are followed and monitored. It is continuously improved and adapted to the changes.
+  - id: "O"
+    name: "Operations"
+    description: |
+      Includes day to day business as usual activities that lead to a secure and future-proof PKI in accordance with the organization goals
+    categories:
+      - id: "15"
+        weight: 4
+        name: "Resilience"
+        description: |
+          Resilience is the key for any organization wanting to thrive in an ever-changing world, which is obviously s very important factor for any PKI implementation. The PKI is planned to be trusted for multiple years, if not decades. Therefore, the ability to absorb and adapt to the unpredictability, while continuing to deliver on the objectives is becoming mandatory.
+
+          A robust resilience framework helps organizations future-proof their PKI oriented business, detailing key principles, attributes and activities that are followed to ensure that the PKI implementation will be trusted, secure, and effective all the time.
+        levels:
+          - number: 1
+            name: "1 - Initial"
+            description: |
+              There is no resilience strategy or requirements in place.
+          - number: 2
+            name: "2 - Basic"
+            description: |
+              Risk assessment and business impact analysis is performed. Results are documented and used to develop resilience strategy, however, the strategy is not fully defined and implemented.
+          - number: 3
+            name: "3 - Advanced"
+            description: |
+              Resilience strategy is defined and implemented. Business continuity planning and disaster recovery is executed on a regular basis.
+          - number: 4
+            name: "4 - Managed"
+            description: |
+              The infrastructure resilience is often proven and tested through the competence management and results are used to improve the resilience planning and documentation.
+          - number: 5
+            name: "5 - Optimized"
+            description: |
+              Analysis and assessment is regularly updated with the latest information and used to improve the resilience strategy. Incident response plans are tested and improved, including disaster recovery plans and procedures. Resilience is fully aligned with the organizational goals and policies.
+      - id: "13"
+        weight: 2
+        name: "Automation"
+        description: |
+          Automation of certificate management is the process of using technology to perform tasks with reduced human assistance. Automation is used to improve the efficiency of the PKI management and to reduce the risk of human error. Automation can be used to perform tasks that are repetitive, time-consuming, or difficult to perform manually.
+
+          On the other hand the automation can introduce new risks and challenges. The automation should be used only for tasks that are well-defined and that can be performed in a reliable way.
+
+          Justified, well-designed, and documented automation of certificate lifecycle management can significantly contribute to the efficiency of the PKI management while reducing the risk of human error. However, automation is not a silver bullet and should be controlled, monitored, and audited to prevent the risk of misuse.
+        levels:
+          - number: 1
+            name: "1 - Initial"
+            description: |
+              No automation in place.
+          - number: 2
+            name: "2 - Basic"
+            description: |
+              Automation is used for some tasks, however, it is not described and it is not reliable or repeatable.
+          - number: 3
+            name: "3 - Advanced"
+            description: |
+              Automation is used for most of the tasks, where it makes sense. Automation is described but not monitoring or audited.
+          - number: 4
+            name: "4 - Managed"
+            description: |
+              Automation is used for all tasks, where it makes sense. Automation is described, followed and monitored or audited.
+          - number: 5
+            name: "5 - Optimized"
+            description: |
+              Automation is analyzed and designed to apply the best practices. Automation is described, followed, monitored, and audited. Procedures are in place to handle exceptions and incidents related to automation.
+      - id: "7"
+        weight: 2
+        name: "Interoperability"
+        description: |
+          Interoperability means the ability of two or more systems or components to exchange information and to use the information that has been exchanged.
+
+          A PKI is composed of multiple components, which are often provided by different vendors, or can be developed and maintained in-house. Interoperability keeps the PKI components working together and allows the PKI to function properly in the long term.
+
+          Adopting open standards and protocols helps to ensure interoperability between PKI components and Relying Party (RP) applications and avoids vendor lock-in that may lead to interoperability issues in the future, especially when the PKI needs to be trusted for a long time, may have no control over RPs or needs to be scaled.
+
+          Interoperability includes the following aspects:
+          - Interface specifications
+          - Data formats
+          - Communication protocols
+          - Algorithms
+          - Open standards
+
+          Main principles of interoperability are:
+          - Transparency and openness
+          - Technology neutrality
+          - Reusability and scalability
+          - Security and privacy
+          - Accessibility
+          - Sustainability
+          - Portability and extensibility
+        levels:
+          - number: 1
+            name: "1 - Initial"
+            description: |
+              There is no interoperability strategy or requirements.
+          - number: 2
+            name: "2 - Basic"
+            description: |
+              Interoperability strategy is not completely defined and formal. Some integration guidance is available but not maintained.
+          - number: 3
+            name: "3 - Advanced"
+            description: |
+              Interoperability strategy is defined and integrated within the infrastructure, covering all necessary components.
+          - number: 4
+            name: "4 - Managed"
+            description: |
+              Interoperability strategy is defined, integrated and maintained, with open standards and protocols applied to avoid vendor lock-in.
+          - number: 5
+            name: "5 - Optimized"
+            description: |
+              Interoperability requirements, strategy and guidance are well defined, integrated and maintained. Adoption of open standards and protocols is applied to avoid vendor lock-in, where possible. Interoperability is periodically tested and improved.
+      - id: "12"
+        weight: 2
+        name: "Monitoring and auditing"
+        description: |
+          Monitoring and auditing establish the necessary controls to detect and respond to security events and to provide evidence of compliance with the disclosed business practices.
+          The events and logs typically serves as a basis for incident response and forensic analysis in case of security incidents, however, they can also be used for other purposes, such as performance analysis, capacity planning, and troubleshooting.
+
+          Monitoring and auditing provide reasonable assurance that:
+          - Unauthorized PKI system usage is detected
+          - Critical high impact events are monitored
+          - Appropriate logs are collected and relevant issues are alerted
+          - The confidentiality and integrity of current and archived audit logs are maintained for the required period of time
+          - Audit logs are completely and confidentially archived in accordance with disclosed business practices
+          - Events and logs are reviewed periodically by authorized personnel
+
+          The outputs from the monitoring and auditing activities are typically used as inputs for the risk assessment and management activities, including incident response management and investigation of high impact events.
+        levels:
+          - number: 1
+            name: "1 - Initial"
+            description: |
+              There is no or limited monitoring and auditing capabilities in place.
+          - number: 2
+            name: "2 - Basic"
+            description: |
+              Logs are collected, however, they are not reviewed, nor correlated with other records.
+          - number: 3
+            name: "3 - Advanced"
+            description: |
+              Documeneted requirements for monitoring and auditing are defined and implemented. Logs are centrally collected and correlated with other records.
+          - number: 4
+            name: "4 - Managed"
+            description: |
+              Centrally collected logs are reviewed and monitored periodically according to documented policy and requirements. Audit trail can be constructed for critical events from audit logs.
+          - number: 5
+            name: "5 - Optimized"
+            description: |
+              Monitoring and auditing requirements are periodically reviewed and improved. Documented policy and system requirements are in place and followed. Critical events are immediately alerted and resolved according to incident response plans.
+  - id: "R"
+    name: "Resources"
+    description: |
+      Ensures that the activities related to the PKI are performed with a proper knowledge and experience, with enough capacities, and that it provides complete and accurate information to relying parties
+    categories:
+      - id: "10"
+        weight: 4
+        name: "Sourcing"
+        description: |
+          PKI is a complex system that requires a lot of resources to be managed and maintained. Proper sourcing of the resources is one of the key factors of a mature infrastructure that can maintain and improve trust over the time. The resources can be:
+          - Financial resources needed to maintain the PKI
+          - Computing resources like hardware, software, tools, technologies
+          - Human resources (personnel)
+          - Management resources like processes and procedures 
+
+          Sourcing is a process of defining the required resources and their specification, availability, and management. Sourcing requires monitoring and periodic review of the resources needed and alignment with the overall strategy of the organization and scope of the PKI.
+        levels:
+          - number: 1
+            name: "1 - Initial"
+            description: |
+              The resources needed for the PKI are not defined and documented. There is a risk of unavailable resources causing the PKI to be unavailable.
+          - number: 2
+            name: "2 - Basic"
+            description: |
+              Resource are identified and documented. The resources and their specification are not clearly defined, which can lead to misuse of resources.
+          - number: 3
+            name: "3 - Advanced"
+            description: |
+              Resources are identified, documented, and clearly defined. The capacity of resources is aligned with the PKI scope and use-case(s).
+          - number: 4
+            name: "4 - Managed"
+            description: |
+              Resources are identified, documented, and clearly defined. Resource management process ensures that the resources are available when needed.
+          - number: 5
+            name: "5 - Optimized"
+            description: |
+              Resources are periodically reviewed and updated to ensure that the required capacity is available and aligned with the PKI scope and organization strategy.
+      - id: "11"
+        weight: 3
+        name: "Knowledge and training"
+        description: |
+          The purpose of this category is to ensure that the PKI personnel have the required knowledge and skills to perform their duties and responsibilities.
+          Education and continuous gathering of required knowledge and skills to manage the PKI is important to be aware and properly react to current trends and threats that may impact the PKI.
+
+          Each of the personnel should be aware of the PKI policies and procedures, and should be able to perform their duties and responsibilities in accordance with the PKI policies and procedures.
+        levels:
+          - number: 1
+            name: "1 - Initial"
+            description: |
+              There is no training plan or education plan for the PKI personnel.
+          - number: 2
+            name: "2 - Basic"
+            description: |
+              Training plan is defined, however, there is no responsibility for the execution of the plan.
+          - number: 3
+            name: "3 - Advanced"
+            description: |
+              Training plan is defined and integrated in the organization. PKI personnel are aware of the training plan and their responsibilities.
+          - number: 4
+            name: "4 - Managed"
+            description: |
+              Training plan is defined, maintained and integrated in the organization. It is executed and requirements on the knowledge and proficiency are monitored.
+          - number: 5
+            name: "5 - Optimized"
+            description: |
+              Training plan is periodically reviewed and updated. Education plan is defined and maintained. PKI personnel are aware of the training plan and their responsibilities that are fully aligned with the PKI policies and procedures.
+      - id: "14"
+        weight: 3
+        name: "Awareness"
+        description: |
+          Providing awareness about the PKI and its purpose in the organization and outside ensures that each PKI participant understands it properly and is timely informed about any important events that may impact the participant.
+
+          The awareness is important for all PKI participants to know how to handle exceptional situations and how to react to them. It is also important to know how to communicate and when so as to not misunderstand any issues or incidents.
+        levels:
+          - number: 1
+            name: "1 - Initial"
+            description: |
+              No awareness is provided. No program is established.
+          - number: 2
+            name: "2 - Basic"
+            description: |
+              Incomplete awareness plan is defined, and it is not often followed and communicated. It is mainly ad-hoc and not maintained, without proper planning and monitoring.
+          - number: 3
+            name: "3 - Advanced"
+            description: |
+              The awareness plan is defined, followed and communicated to all PKI participants. The awareness is not integrated in the organization and is not periodically reviewed and improved.
+          - number: 4
+            name: "4 - Managed"
+            description: |
+              The awareness program is designed to support the PKI participants. The awareness plan is defined, followed and communicated to all PKI participants. It is maintained and monitored over the time.
+          - number: 5
+            name: "5 - Optimized"
+            description: |
+              Information is disclosed and properly communicated to all PKI participant according to the awareness plan. The awareness plan is well designed and continuously improved. Participant are properly informed about important information and how to behave.
