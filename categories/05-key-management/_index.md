@@ -36,8 +36,7 @@ The key management is important for the PKI to maintain trust. It should be an i
 |                   [2](#inventory-of-cryptographic-keys-is-documented-and-maintained) | Inventory of cryptographic keys is documented and maintained                   |      2 |
 |                [3](#inventory-of-cryptographic-devices-is-documented-and-maintained) | Inventory of cryptographic devices is documented and maintained                |      1 |
 |      [4](#each-cryptographic-key-is-defined-and-has-documented-lifecycle-procedures) | Each cryptographic key is defined and has documented lifecycle procedures      |      2 |
-|        [5](#cryptographic-cipher-suites-and-protocols-are-documented-and-maintained) | Cryptographic cipher suites and protocols are documented and maintained        |      2 |
-|                            [6](#key-management-is-periodically-reviewed-and-updated) | Key management is periodically reviewed and updated                            |      3 |
+|                            [5](#key-management-is-periodically-reviewed-and-updated) | Key management is periodically reviewed and updated                            |      3 |
 
 ## Details
 
@@ -144,29 +143,6 @@ The lifecycle phases contains appropriate description of the procedure such as:
 
 - [NIST SP 800-57 Recommendation for Key Management](https://csrc.nist.gov/projects/key-management/key-management-guidelines)
 - [ISO/IEC 11770 Key Management](https://www.iso.org/standard/53456.html)
-
-### Cryptographic cipher suites and protocols are documented and maintained
-
-#### Guidance
-
-Protocols and encryption strengths may quickly change or be deprecated due to identification of vulnerabilities or design flaws. In order to support current and future data security needs, the organization should know where cryptography is used and understand how they would be able to respond rapidly to changes impacting the strength of their cryptographic implementations.
-
-Specific rules and boundaries to be applied for cryptographic cipher suites and protocols should be documented in encryption management policy that reflect the current status of cryptography practice.
-
-Cipher suites and protocols should be regularly checked against the implemented technology and configuration. Any deviation from the documented and allowed protocols should be fixed.
-
-#### Assessment
-
-- Documented encryption management policy
-- Validation of implementation and used protocols against what is documented
-- Accuracy of the description
-- Security and vulnerabilities of applicable cipher suites and protocols
-
-#### References
-
-- [NIST SP 800-57 Recommendation for Key Management](https://csrc.nist.gov/projects/key-management/key-management-guidelines)
-- [ISO/IEC 11770 Key Management](https://www.iso.org/standard/53456.html)
-- [NIST SP 800-131A Transitioning the Use of Cryptographic Algorithms and Key Lengths](https://csrc.nist.gov/publications/detail/sp/800-131a/rev-2/final)
 
 ### Key management is periodically reviewed and updated
 
