@@ -24,7 +24,7 @@ Extensions are optional and independent. They can be added or removed without ch
 > 
 > An extension introduces an additional maturity signal (**Relevance**) and adjusts importance (**Overlays**).\
 > Think of extension scoring as:\
-> **Baseline PKI MM maturity + Extension maturity signal × Extension emphasis**
+> **Baseline PKI MM maturity blended with an Extension maturity signal, weighted by Extension emphasis**
 
 ```mermaid
 flowchart TD
@@ -173,7 +173,7 @@ In self-assessment mode:
 
 > 🔧 **Implementation detail**
 >
-> Requirement overlays cannot be applied in self-assessment because requirement-level inputs are not present.
+> Requirement overlays are applied to the model weights but do not depend on requirement-level user inputs in self-assessment.
 > Category overlays apply normally.
 
 > 📌 **Example – Why scoring stays consistent**
@@ -195,6 +195,14 @@ The PKI MM calculates maturity in two stages:
 
 Extensions reuse this same model to ensure consistency.
 
+> 🔧 **Normative Rule**
+>
+> Extensions MUST NOT modify the baseline category level calculation or the PKI MM aggregation model.
+>
+> Extensions may influence scoring only through:
+> - relevance definitions (including relevance weights)
+> - overlays (weight multipliers applied to PKI MM items)
+
 ### Extension Category Level
 
 The extension category level blends the baseline category maturity with the extension relevance maturity.
@@ -202,6 +210,7 @@ The extension category level blends the baseline category maturity with the exte
 Let:
 
 - `Level_C` be the baseline PKI MM category level
+- `WeightSum_C` be the baseline aggregation weight of the category, calculated as the sum of effective requirement weights after overlays. This value depends only on the PKI MM model and overlay multipliers and does **not** depend on user-selected maturity levels.
 - `RelLevel_C` be the relevance maturity level
 - `RelWeight_C` be the relevance weight
 
@@ -210,9 +219,9 @@ The extension category level is calculated as:
 ```
 ExtensionCategoryLevel_C =
 
-(Level_C + RelLevel_C × RelWeight_C)
+(Level_C × WeightSum_C + RelLevel_C × RelWeight_C)
 ------------------------------------
-(1 + RelWeight_C)
+(WeightSum_C + RelWeight_C)
 ```
 
 If relevance is not defined for a category:
@@ -221,19 +230,24 @@ If relevance is not defined for a category:
 
 > 💡 **Concept**
 >
-> Relevance behaves like an additional category-level maturity signal.
-> It does not modify requirement maturity values.
+> `WeightSum_C` represents the baseline aggregation strength of the category.
+> It is derived from requirement weights and overlays and does **not** represent the PKI MM category weight (`effective_category_weight`)
+used during overall score aggregation.
+>
+> Relevance behaves like an additional weighted maturity signal added
+> at the category aggregation stage.
 
 > 📌 **Example – Extension category level**
 >
-> Baseline category level = 3.6  
-> Relevance level = 2  
-> Relevance weight = 2
+> Baseline category level (`Level_C`) = `3.6`  
+> Baseline aggregation weight (`WeightSum_C`) = `7.5`  
+> Relevance level (`RelLevel_C`) = `2`  
+> Relevance weight (`RelWeight_Cz`) = `2`  
 >
-> ExtensionCategoryLevel =
-> (3.6 + 2×2) / (1+2)
-> = 7.6 / 3
-> = 2.53
+> ExtensionCategoryLevel = `(3.6×7.5 + 2×2) / (7.5 + 2)`  
+> = `(27 + 4) / 9.5`  
+> = `31 / 9.5`  
+> = `3.26`
 
 ### Category Weight
 
@@ -261,12 +275,12 @@ ExtensionScore =
 
 > 📌 **Example – Extension score**
 >
-> Category G.1 level = 2.53 with weight 4  
-> Category G.2 level = 3.0 with weight 6
+> Category `G.1` level = `2.53` with weight `4`  
+> Category `G.2` level = `3.0` with weight `6`  
 >
-> ExtensionScore =
-> (2.53×4 + 3×6) / (4+6)
-> = 2.81
+> ExtensionScore = `(2.53×4 + 3×6) / (4 + 6)`  
+> = `(10.12 + 18) / 10`  
+> = `2.81`  
 
 ### Extension Floor Score (Optional)
 
@@ -304,35 +318,29 @@ Because the input resolution differs, the numerical result may differ slightly, 
 >
 > Category maturity derived from requirements:
 >
-> ```
-> Level_C = 3.6
-> ```
+> Baseline category level (`Level_C`) = `3.6`  
+> Baseline aggregation weight (`WeightSum_C`) = `7.5`  
+> Relevance level (`RelLevel_C`) = `2`  
+> Relevance weight (`RelWeight_C`) = `2`  
 >
-> Relevance level = 2  
-> Relevance weight = 2
->
-> ```
-> ExtensionCategoryLevel =
-> (3.6×7.5 + 2×2) / (7.5+2)
-> = 3.26
-> ```
+> ExtensionCategoryLevel = `(3.6×7.5 + 2×2) / (7.5 + 2)`  
+> = `(27 + 4) / 9.5`  
+> = `31 / 9.5`  
+> = `3.26`  
 
 > 📌 **Self-Assessment Example**
 >
 > In the self-assessment application, the user selects a discrete maturity level:
 >
-> ```
-> Level_C = 4
-> ```
+> Baseline category level (`Level_C`) = **`4`**  
+> Baseline aggregation weight (`WeightSum_C`) = `7.5`  
+> Relevance level (`RelLevel_C`) = `2`  
+> Relevance weight (`RelWeight_C`) = `2`
 >
-> Relevance level = 2  
-> Relevance weight = 2
->
-> ```
-> ExtensionCategoryLevel =
-> (4×7.5 + 2×2) / (7.5+2)
-> = 3.68
-> ```
+> ExtensionCategoryLevel = `(4×7.5 + 2×2) / (7.5 + 2)`  
+> = `(30 + 4) / 9.5`  
+> = `34 / 9.5`  
+> = `3.58`  
 
 #### Consistency Clarification
 
