@@ -1,0 +1,117 @@
+{
+  "type": "object",
+  "required": ["extension", "relevance", "overlays"],
+  "properties": {
+    "extension": {
+      "type": "object",
+      "required": ["id", "name", "version", "description"],
+      "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "version": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+          },
+          "description": { "type": "string" }
+      }
+    },
+    "relevance": {
+      "type": "object",
+      "properties": {
+        "modules": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "categories"],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[GMOR]$"
+              },
+              "categories": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["id", "weight", "guidance", "assessment", "references", "levels"],
+                  "properties": {
+                    "id": { "type": "string" },
+                    "weight": { "type": "integer" },
+                    "guidance": { "type": "string" },
+                    "assessment": { "type": "string" },
+                    "references": { "type": "string" },
+                    "levels": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": ["number", "name", "description"],
+                        "properties": {
+                          "number": { "type": "integer" },
+                          "name": { "type": "string" },
+                          "description": { "type": "string" }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "overlays": {
+      "type": "object",
+      "properties": {
+        "modules": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "categories"],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[GMOR]$"
+              },
+              "categories": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["id"],
+                  "properties": {
+                    "id": { "type": "string" },
+                    "type": {
+                      "type": "string",
+                      "enum": ["multiplier", "addition", "override"]
+                    },
+                    "multiplier": { "type": "number" },
+                    "addition": { "type": "number" },
+                    "override": { "type": "number" },
+                    "rationale": { "type": "string" },
+                    "requirements": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": ["id", "type", "rationale"],
+                        "properties": {
+                          "id": { "type": "string" },
+                          "type": {
+                            "type": "string",
+                            "enum": ["multiplier", "addition", "override"]
+                          },
+                          "multiplier": { "type": "number" },
+                          "addition": { "type": "number" },
+                          "override": { "type": "number" },
+                          "rationale": { "type": "string" }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

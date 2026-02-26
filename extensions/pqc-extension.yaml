@@ -1,0 +1,193 @@
+extension:
+  id: "pqc"
+  name: "PQC Readiness Extension"
+  version: "1.0.0"
+  description: >
+    Adds PQC readiness requirements and PQC-specific weight overlays.
+
+relevance:
+  modules:
+    - id: "G"
+      categories:
+        - id: "1"
+          weight: 3
+          guidance: |
+            Strategy and vision form the foundation for quantum-safe transition. Without executive sponsorship recognizing the quantum threat, PQC migration will lack resources and priority. The Dutch Migration Handbook identifies organizational personas ranging from 'unaware' to 'frontrunner,' with most European organizations currently in early awareness stages. Strategic planning must address the Mosca inequality: if data sensitivity lifespan plus migration time exceeds time until cryptographically relevant quantum computers (CRQC), action is required now.
+          assessment: |
+            Key Probes:
+              - Can executives articulate the quantum threat to PKI operations?
+              - Is PQC mentioned in strategic planning documents?
+              - Has the organization assessed its Mosca inequality position?
+              - What regulatory deadlines has the organization identified as applicable?
+              - Is budget allocated specifically for PQC activities?
+            Critical Transitions:
+              - Level 2→3: 'Awareness to Action' - formal strategy incorporation, executive sponsorship extended, working group established
+              - Level 4→5: 'Execution to Leadership' - competitive positioning, ecosystem contribution, crypto-agility as ongoing capability
+            Warning Signs:
+              - 'We'll address it when vendors are ready' - vendor timelines may not align with regulatory requirements
+              - No executive able to discuss quantum risk - indicates awareness gap at leadership level
+              - PQC treated as purely technical matter - missing governance and strategic dimensions
+              - Assuming extended timeline - UK NCSC sets migration milestones through 2028/2031/2035; financial sector guidance warns risk could materialize within 10-15 years or sooner
+            Evidence Examples by Level:
+              - Level 2: Email/meeting notes showing PQC discussed; informal awareness materials
+              - Level 3: Board presentation on quantum risk; PQC working group charter; budget line item for PQC; Mosca analysis document
+              - Level 4: Quarterly PQC steering committee minutes; ERM risk register with quantum risk entry; KRI dashboard showing PQC metrics; multi-year migration budget approval
+              - Level 5: Published thought leadership; standards body participation records; regulator consultation responses; crypto-agility architecture documentation
+          references: |
+            - CNSA 2.0: NSA Commercial National Security Algorithm Suite 2.0 (2022)
+            - NIST FIPS 203: Module-Lattice-Based Key-Encapsulation Mechanism Standard. NIST, August 2024. https://csrc.nist.gov/pubs/fips/203/final
+          levels:
+            - number: 1
+              name: "1 - Initial"
+              description: |
+                - No awareness of quantum computing threat to PKI cryptographic foundations
+                - PKI strategy documents silent on algorithm longevity or transition planning
+                - Executive sponsors unaware of PQC as a strategic consideration
+                - No recognition that current cryptographic choices have finite security lifespan
+            - number: 2
+              name: "2 - Basic"
+              description: |
+                - General awareness that quantum computing may impact cryptographic security
+                - PQC mentioned informally but not incorporated into PKI strategy
+                - Executive sponsors aware of quantum threat but not prioritizing action
+                - No formal assessment of organization's quantum risk exposure
+                - 'Wait and see' stance toward PQC standards and vendor solutions
+            - number: 3
+              name: "3 - Advanced"
+              description: |
+                - PKI strategy explicitly addresses PQC migration as strategic priority
+                - Executive sponsorship formally extended to cover quantum-safe transition
+                - Mosca inequality assessed for key data assets and certificate types
+                - Organization has identified its persona per Dutch Migration Handbook framework
+                - Strategic roadmap includes PQC milestones aligned to regulatory timelines
+                - Board/governance body briefed on quantum risk and migration requirements
+                - Budget allocation for PQC assessment and initial planning activities
+                - Cross-functional PQC working group or steering committee established
+            - number: 4
+              name: "4 - Managed"
+              description: |
+                - PQC migration fully integrated into PKI strategic planning cycle
+                - Executive sponsorship active and sustained (not just initial approval)
+                - Cascading sponsorship established across affected business units
+                - Quantum risk integrated into Enterprise Risk Management framework
+                - Key Risk Indicators (KRIs) defined for PQC migration progress
+                - Strategy reviewed and updated quarterly against regulatory developments
+                - Board receives regular quantum readiness updates as governance matter
+                - Multi-year budget secured for complete migration programme
+                - Strategy explicitly addresses hybrid vs pure PQ approach with rationale
+            - number: 5
+              name: "5 - Optimized"
+              description: |
+                - PQC strategy recognized as competitive differentiator and trust enabler
+                - Organization positioned as quantum-ready ahead of regulatory mandates
+                - Strategic planning anticipates cryptographic evolution beyond current PQC standards
+                - Executive sponsors actively engaged in industry PQC initiatives
+                - Contributing to standards development and industry best practices
+                - Strategy enables crypto-agility as ongoing capability, not one-time transition
+                - Proactive engagement with regulators on PQC implementation approaches
+                - Strategic partnerships with quantum-safe technology providers established
+        - id: "2"
+          weight: 4
+          guidance: |
+            RFC 3647 governs Certificate Policy and CPS structure. PQC migration requires fundamental policy updates: algorithm specifications must expand to include NIST FIPS 203/204/205 (ML-KEM, ML-DSA, SLH-DSA), deprecation schedules must align with SP 800-131A Rev 3 and regional requirements, hybrid vs pure PQC strategy must be documented, and Cryptographic Bill of Materials (CBOM) requirements are emerging as compliance necessity.
+            Multi-jurisdiction complexity creates policy challenges: European regulators (BSI, ANSSI) require hybrid signatures during transition, while CNSA 2.0 recommends pure PQ for US National Security Systems. Key management policies must address larger key sizes, HSM PQC support requirements, and stateful hash-based signature state management where applicable.
+          assessment: |
+            Key Probes:
+              - When was CP/CPS last updated? Does it reference PQC algorithms?
+              - Does approved algorithm list include deprecation dates?
+              - Can the organization produce a CBOM?
+              - How does Key Management Policy address PQC key sizes and HSM requirements?
+              - How are regional regulatory differences (EU hybrid vs US pure PQ) addressed?
+            Warning Signs:
+              - CP/CPS last updated before August 2024 (pre-NIST standardization)
+              - Algorithm list lacks deprecation dates
+              - 'We'll update when vendors support PQC' - reactive rather than proactive stance
+              - No awareness of regional requirement differences
+              - CBOM mentioned but no artifacts produced
+            Evidence Examples by Level:
+              - Level 2: Internal memo acknowledging CP/CPS needs updating; informal algorithm inventory
+              - Level 3: CP/CPS amendment project plan; approved algorithm list with PQC entries and deprecation dates; CBOM generation tool deployed; hybrid strategy decision document
+              - Level 4: Published CP/CPS with PQC provisions; algorithm governance meeting minutes; CBOM integrated with CI/CD pipeline; compliance audit report including algorithm verification
+              - Level 5: Policy templates shared with industry; algorithm governance anticipating draft standards; CBOM feeding into ERM dashboard; multi-jurisdiction policy variant management system
+          references: |
+            - ANSSI: Views on the Post-Quantum Cryptography Transition. ANSSI, January 2022; Follow-up October 2023. https://cyber.gouv.fr/en/publications/anssi-views-post-quantum-cryptography-transition
+            - BSI: Migration to Post-Quantum Cryptography. BSI, 2024. https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Quantentechnologien-und-Post-Quanten-Kryptografie/Post-Quanten-Kryptografie/post-quanten-kryptografie_node.html
+          levels:
+            - number: 1
+              name: "1 - Initial"
+              description: |
+                - CP/CPS silent on algorithm longevity or quantum vulnerability
+                - No approved algorithm list with deprecation schedules
+                - Key Management Policy does not reference algorithm transitions
+                - No CBOM or cryptographic inventory documentation exists
+            - number: 2
+              name: "2 - Basic"
+              description: |
+                - Awareness that CP/CPS will need PQC updates, but no changes made
+                - Algorithm lists exist but without deprecation schedules or PQC additions
+                - No documented hybrid vs pure PQC strategy decision
+                - Cryptographic inventory exists informally but not in CBOM format
+                - Regional regulatory requirements not mapped to policy
+            - number: 3
+              name: "3 - Advanced"
+              description: |
+                - CP/CPS formally under review with PQC amendment project initiated
+                  - Approved algorithm list explicitly includes:
+                  - Current classical algorithms with deprecation dates aligned to SP 800-131A
+                  - PQC algorithms (ML-KEM, ML-DSA, SLH-DSA) with implementation timeline
+                  - Hybrid requirements per applicable regulatory framework
+                - Hybrid vs pure PQC strategy documented with regulatory rationale
+                - Key Management Policy updated for PQC considerations (larger keys, HSM support, stateful HBS state management)
+                - CBOM framework adopted; initial cryptographic inventory underway
+                - Multi-jurisdiction policy alignment documented
+            - number: 4
+              name: "4 - Managed"
+              description: |
+                - CP/CPS formally updated with PQC provisions published
+                - Algorithm governance process established with quarterly review and formal add/deprecate procedures
+                - CBOM generated and maintained, integrated with SDLC
+                - Policy compliance monitoring established (audits verify algorithm usage)
+                - Cross-functional policy governance (legal/compliance, architecture, procurement)
+            - number: 5
+              name: "5 - Optimized"
+              description: |
+                - Policy documentation treated as strategic asset enabling competitive positioning
+                - Algorithm governance anticipates regulatory changes through standards body participation
+                - CBOM integrated with ERM, supply chain security, incident response
+                - Policy enables crypto-agility (abstract specifications, modular structure, tested migration procedures)
+                - Multi-jurisdiction complexity managed proactively with maintained policy variants
+                - Contributing to ecosystem (policy templates shared, lessons learned published)
+
+overlays:
+  modules:
+    - id: "G"
+      categories:
+        - id: "3"
+          requirements:
+            - id: "4"
+              type: "multiplier"
+              multiplier: 1.0
+              rationale: "Already highest weight"
+    - id: "M"
+      categories:
+        - id: "4"
+          requirements:
+            - id: "1"
+              type: "multiplier"
+              multiplier: 1.25
+              rationale: |
+                PQC migration represents a multi-year change programme. Robust change management policy enables controlled algorithm transitions and rollback procedures. The modest multiplier reflects that this is already appropriately weighted at 4 in core PKIMM.
+            - id: "4"
+              type: "multiplier"
+              multiplier: 2.5
+              rationale: |
+                NIST CSWP 39 establishes crypto-agility as fundamental to PQC transition. At base weight 2, this requirement is significantly underweighted for quantum readiness assessment. The 2.5× multiplier elevates its effective contribution to match its criticality for PQC without altering core PKIMM.
+    - id: "R"
+      categories:
+        - id: "2"
+          requirements:
+            - id: "2"
+              type: "multiplier"
+              multiplier: 2.0
+              rationale: |
+                PQC introduces fundamentally new cryptographic concepts. Staff competency directly impacts migration success. The 2.0× multiplier reflects the elevated importance of training specifically for quantum readiness.
