@@ -9,6 +9,8 @@ heroDescription: The PKI Maturity Model draws inspiration from the renowned Capa
 
 tags:
   - resource
+aliasses:
+  - /pkimm
 
 ---
 
