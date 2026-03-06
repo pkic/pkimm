@@ -13,7 +13,7 @@ The organization defines how it governs the selection, approval, documentation, 
 
 The cryptographic policy and strategic direction should be established. It ensures that cryptographic choices are deliberate, consistent, risk-based, and adaptable over time.
 
-Organization should separate cryptographic decision-making from cryptographic execution.
+The organization should separate cryptographic governance (what is allowed and why) from cryptographic implementation (how cryptography is used in systems):
 - It defines what cryptography is allowed and why
 - It does not define how keys or certificates are technically managed
 - It provides a single authoritative source for cryptographic rules
@@ -24,13 +24,13 @@ This category does not address the operational lifecycle of cryptographic keys o
 
 ## Category maturity levels description
 
-| Maturity level    | Description                                                                                                                                                                                                                                                                               |
-|:------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **1 - Initial**   | Cryptographic algorithms and protocols are chosen locally by teams or products with little or no centralized guidance. Documentation is informal or inconsistent, and cryptographic decisions are largely reactive.                                                                       |
-| **2 - Basic**     | Basic cryptographic rules exist, such as preferred algorithms or minimum key sizes. However, documentation is incomplete, visibility into cryptographic usage is limited, and cryptographic decisions are not consistently enforced.                                                      |
-| **3 - Advanced**  | The organization documents approved cryptographic algorithms, parameters, and protocols. Cryptographic terminology is standardized, cryptographic profiles are defined, and visibility into cryptographic usage exists for critical systems.                                              |                               
-| **4 - Managed**   | Cryptographic governance is comprehensive and consistently applied. The organization actively manages cryptographic lifecycles, monitors cryptographic usage, and plans cryptographic transitions based on risk, standards evolution, and business impact.                                | 
-| **5 - Optimized** | Cryptographic governance is proactive and adaptive. The organization continuously assesses cryptographic risks, practices cryptographic agility, and integrates cryptographic transition planning (including emerging technologies) into enterprise risk and change management processes. |
+| Maturity level    | Description                                                                                                                                                                                                                                                                                           |
+|:------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1 - Initial**   | Cryptographic algorithms and protocols are chosen locally by teams or products with little or no centralized guidance. Documentation is informal or inconsistent, and cryptographic decisions are largely reactive.                                                                                   |
+| **2 - Basic**     | Basic cryptographic rules exist, such as preferred algorithms or minimum key sizes. However, documentation is incomplete, visibility into cryptographic usage is limited, and cryptographic decisions are not consistently enforced.                                                                  |
+| **3 - Advanced**  | The organization documents approved cryptographic algorithms, parameters, and protocols. Cryptographic terminology is standardized, cryptographic profiles are defined, and visibility into cryptographic usage exists for critical systems.                                                          |                               
+| **4 - Managed**   | Cryptographic governance is comprehensive and consistently applied. The organization actively manages cryptographic lifecycles, monitors cryptographic usage, and plans cryptographic transitions based on risk, standards evolution, and business impact.                                            | 
+| **5 - Optimized** | Cryptographic governance is proactive and adaptive. The organization continuously assesses cryptographic risks, governs and practices cryptographic agility, and integrates cryptographic transition planning (including emerging technologies) into enterprise risk and change management processes. |
 
 ## Requirements
 
@@ -41,7 +41,7 @@ This category does not address the operational lifecycle of cryptographic keys o
 |    [3](#cryptographic-protocols-and-versions-are-documented-and-approved) | Cryptographic protocols and versions are documented and approved    |      3 |
 |   [4](#visibility-into-cryptographic-usage-is-established-and-maintained) | Visibility into cryptographic usage is established and maintained   |      5 |
 |           [5](#cryptographic-lifecycle-and-deprecation-rules-are-defined) | Cryptographic lifecycle and deprecation rules are defined           |      4 |
-|                                [6](#cryptographic-agility-is-established) | Cryptographic agility is established                                |      5 |
+|                       [6](#cryptographic-agility-is-defined-and-governed) | Cryptographic agility is defined and governed                       |      5 |
 
 ## Details
 
@@ -157,18 +157,22 @@ The organization should define rules for:
 - [NIST SP 800-131A Rev. 2 - Transitioning the Use of Cryptographic Algorithms and Key Lengths](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf)
 - [NIST SP 800-57 Part 1 Rev. 5 - Recommendation for Key Management](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf)
 
-### Cryptographic agility is established
+### Cryptographic agility is defined and governed
 
 #### Guidance
 
-Cryptographic change is inevitable. Organizations that established cryptographic agility can respond in a controlled and timely manner, reducing operational risk and business disruption.
+Cryptographic change is inevitable. Organizations that define and govern cryptographic agility can respond to algorithm compromise, deprecation, and emerging requirements in a controlled and timely manner.
 
-The organization should maintain plans to respond to cryptographic change drivers such as algorithm compromise, deprecation, regulatory change, or emerging cryptographic requirements.
+The organization should define governance and planning for responding to cryptographic change drivers such as:
+- algorithm compromise
+- algorithm deprecation
+- regulatory change
+- emerging cryptographic requirements
 
 #### Assessment
 
-- Cryptographic transition plans exist.
-- Plans align with change management processes.
+- Governance for cryptographic transitions is documented.
+- Transition planning aligns with organizational change management.
 - Preparedness for cryptographic transitions can be demonstrated.
 
 #### References
