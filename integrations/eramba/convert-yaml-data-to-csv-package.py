@@ -5,9 +5,17 @@ import jsonschema
 import json
 
 # Load the YAML content from the uploaded file
-file_path = '../../data/pkimm-model.yaml'
+model_version = '1.0.0'
+file_path = f'../../data/pkimm-model-{model_version}.yaml'
 with open(file_path, 'r') as file:
     data = yaml.safe_load(file)
+
+# Sanity-check that the filename and the YAML's version field agree
+if data.get('version') != model_version:
+    raise ValueError(
+        f"Version mismatch: filename declares {model_version}, "
+        f"YAML declares {data.get('version')!r}"
+    )
 
 # Load the JSON schema from the uploaded file
 schema_file_path = '../../data/pkimm-model.schema.json'
@@ -65,7 +73,7 @@ result_df = pd.merge(chapters_df, items_df, on="Chapter ID")
 result_df.drop_duplicates(inplace=True)
 
 # Save the final dataframe to CSV without the header
-csv_file_path_no_header = 'pkimm-v1.0.csv'
+csv_file_path_no_header = f'pkimm-{model_version}.csv'
 result_df.to_csv(csv_file_path_no_header, index=False, header=False, lineterminator='\n')
 
 # Provide the path for download
