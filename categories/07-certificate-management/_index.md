@@ -1,11 +1,11 @@
 ---
 date: 2023-03-21T7:00:00Z
-title: 6 - Certificate management
-weight: 6
+title: 7 - Certificate management
+weight: 7
 
 ---
 
-# 6 - Certificate management
+# 7 - Certificate management
 
 ## Overview
 
@@ -34,12 +34,11 @@ The techniques can be applied to an organization that makes use of PKI, or from 
 |                                                                 # | Requirement                                                 | Weight |
 |------------------------------------------------------------------:|-------------------------------------------------------------|-------:|
 |                         [1](#certificate-profiles-are-documented) | Certificate profiles are documented                         |      2 |
-|                    [2](#certificate-cipher-suites-are-documented) | Certificate cipher suites are documented                    |      3 |
-|              [3](#certificate-lifecycle-management-is-documented) | Certificate lifecycle management is documented              |      4 |
-|              [4](#inventory-of-issued-certificates-is-documented) | Inventory of issued certificates is documented              |      3 |
-|                 [5](#certificate-discovery-process-is-documented) | Certificate discovery process is documented                 |      2 |
-| [6](#certificate-management-is-periodically-reviewed-and-updated) | Certificate management is periodically reviewed and updated |      4 |
-|                               [7](#organizational-PKI-governance) | Organizational PKI governance                               |      2 |
+|              [2](#certificate-lifecycle-management-is-documented) | Certificate lifecycle management is documented              |      4 |
+|              [3](#inventory-of-issued-certificates-is-documented) | Inventory of issued certificates is documented              |      3 |
+|                 [4](#certificate-discovery-process-is-documented) | Certificate discovery process is documented                 |      2 |
+| [5](#certificate-management-is-periodically-reviewed-and-updated) | Certificate management is periodically reviewed and updated |      4 |
+|                               [6](#organizational-PKI-governance) | Organizational PKI governance                               |      2 |
 
 ## Details
 

@@ -34,6 +34,7 @@ classDiagram
     Policies and documentation
     Compliance
     Processes and procedures
+    Cryptography
   }
   class Management["Management module"]{
     Key Management

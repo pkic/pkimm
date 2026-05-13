@@ -6,4 +6,4 @@ fullwidth: true
 
 ---
 
-{{< self-assessment data-url="data.yaml" config-url="config.yaml" >}}
+{{< self-assessment data-url="data-1.1.0.yaml" config-url="config.yaml" >}}

@@ -1,11 +1,11 @@
 ---
 date: 2023-07-06T7:00:00Z
-title: 12 - Monitoring and auditing
-weight: 12
+title: 13 - Monitoring and auditing
+weight: 13
 
 ---
 
-# 12 - Monitoring and auditing
+# 13 - Monitoring and auditing
 
 Monitoring and auditing establish the necessary controls to detect and respond to security events and to provide evidence of compliance with the disclosed business practices.
 The events and logs typically serves as a basis for incident response and forensic analysis in case of security incidents, however, they can also be used for other purposes, such as performance analysis, capacity planning, and troubleshooting.

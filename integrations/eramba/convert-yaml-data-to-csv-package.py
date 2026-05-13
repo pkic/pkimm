@@ -5,7 +5,7 @@ import jsonschema
 import json
 
 # Load the YAML content from the uploaded file
-model_version = '1.0.0'
+model_version = '1.1.0'
 file_path = f'../../data/pkimm-model-{model_version}.yaml'
 with open(file_path, 'r') as file:
     data = yaml.safe_load(file)

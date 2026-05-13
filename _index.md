@@ -38,7 +38,7 @@ The adoption of the PKI maturity model must be very easy and therefore the model
 
 The [PKI Maturity Model](./model/) defines 5 levels of the PKI maturity based on different indicators and associated risks.
 
-The model is divided into **4** [Modules](./model/maturity-modules/) and **15** [Categories](./model/maturity-categories) that covers aspects and activities related to the PKI (people, process, technology). The overall maturity level is determined based on the maturity of the categories.
+The model is divided into **4** [Modules](./model/maturity-modules/) and **16** [Categories](./model/maturity-categories) that covers aspects and activities related to the PKI (people, process, technology). The overall maturity level is determined based on the maturity of the categories.
 
 ## Assessment process
 
@@ -60,6 +60,7 @@ mindmap
       Policies and documentation
       Compliance
       Processes and procedures
+      Cryptography
     {{Management}}
       Key Management
       Certificate Management
