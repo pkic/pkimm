@@ -23,6 +23,14 @@ Below you can find answers to frequently asked questions about the PKI maturity 
 - [Do I need to assess all modules and categories?](#do-i-need-to-assess-all-modules-and-categories)
 - [Where can I post questions and discuss the PKI MM?](#where-can-i-post-questions-and-discuss-the-pki-mm)
 
+**Extension framework**
+
+- [Why must an extension be non-destructive?](#why-must-an-extension-be-non-destructive)
+- [What happens when multiple extensions are active at the same time?](#what-happens-when-multiple-extensions-are-active-at-the-same-time)
+- [How does `floorScore` behave under multiple extensions?](#how-does-floorscore-behave-under-multiple-extensions)
+- [Can my organization tune the overlay weights for our own context?](#can-my-organization-tune-the-overlay-weights-for-our-own-context)
+- [Why does the schema constrain overlay `multiplier` and `override` to be non-negative?](#why-does-the-schema-constrain-overlay-multiplier-and-override-to-be-non-negative)
+
 
 ## How can I benefit from PKI MM?
 
@@ -108,3 +116,41 @@ For more information on the scope of the assessment and guidance on selecting th
 You can post questions and discuss the PKI MM in the [PKI maturity model community discussion](https://github.com/orgs/pkic/discussions/categories/pki-maturity-model-pkimm), where you can engage with other PKI professionals, share your experiences, and learn from others in the community. The community forums are a valuable resource for asking questions, seeking advice, and participating in discussions related to PKI MM.
 
 To actively participate in the PKI MM initiative, you can join [PKI Consortium](https://www.pkic.org/) and participate in the working groups and activities related to PKI MM.
+
+
+---
+
+<a id="extension-framework"></a>
+**Extension framework**
+
+These questions address the [Extension framework](../extensions/) and apply to all extensions of the PKI Maturity Model.
+
+## Why must an extension be non-destructive?
+
+The non-destructive principle preserves three properties that the framework depends on:
+
+- **A stable baseline.** Baseline PKI MM maturity is the reference an organization measures itself against year-over-year and compares to peers. If an extension could modify category weights, requirement counts, or scoring logic in the baseline, two organizations using different extensions would no longer be comparing the same baseline.
+- **Composability across extensions.** Multiple extensions can be installed alongside the baseline. If extensions were allowed to mutate the baseline, the order in which they are loaded would change the result, and reasoning about composition would require knowledge of every extension in the registry.
+- **Tool predictability.** A tool can compute baseline maturity once and then layer each extension on top independently. Extensions that mutated the baseline would force the tool to re-run the baseline aggregation per extension, with no shared starting point.
+
+The constraint does not prevent an extension from disagreeing with the baseline or raising the importance of a specific area — that is exactly what overlays and relevance are for. It only prevents the baseline itself from being silently overwritten.
+
+## What happens when multiple extensions are active at the same time?
+
+Each extension is scored **independently** against the same baseline maturity values. There is no aggregate "all extensions" score, no cross-extension overlay combining, and no shared floor.
+
+In practice, a tool that loads two extensions presents the baseline once and the two extension scorings side by side. Differences between the two extension scorings reflect each extension's emphasis — they are not "added up".
+
+## How does `floorScore` behave under multiple extensions?
+
+Each extension declares `floorScore` on itself. When set to `true`, that extension reports its own floor score (the minimum `ExtensionCategoryLevel_C` across the categories it covers). Different extensions can independently enable or disable their own floor. Floors from different extensions are **not** combined into a single aggregate value.
+
+## Can my organization tune the overlay weights for our own context?
+
+The framework currently treats overlays as part of the extension specification: every consumer of a given extension sees the same overlay values. Local re-tuning per organization is a candidate enhancement under discussion for a future version of the framework.
+
+If you want to express a different emphasis today, the supported path is to publish a derived extension — one that copies the relevance criteria and supplies the overlay values that match your operating context. Tools can then load the derived extension instead of, or in addition to, the original.
+
+## Why does the schema constrain overlay `multiplier` and `override` to be non-negative?
+
+A negative weight has no defined meaning in a weighted average — it would invert the contribution of an item, which the framework does not support. `multiplier` and `override` both produce final effective weights and are constrained to be `>= 0`. `addition` is allowed to be negative because it shifts a base weight rather than producing the final value, and a downward shift to a positive base is meaningful (subject to the resulting effective weight remaining non-negative, which a tool should clamp at zero).

@@ -1,7 +1,16 @@
 {
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PKI Maturity Model schema",
+  "description": "Schema for the machine-readable PKI Maturity Model definition (data/pkimm-model-<version>.yaml). See https://pkic.org/wg/pkimm/model/ for the human-readable model.",
+  "version": "1.0.0",
   "type": "object",
-  "required": ["version", "modules"],
+  "required": ["schemaVersion", "version", "modules"],
   "properties": {
+    "schemaVersion": {
+      "description": "Version of the schema this file conforms to. Used by tools to load the matching schema for validation.",
+      "type": "string",
+      "const": "1.0.0"
+    },
     "version": {
       "type": "string",
       "pattern": "^\\d+\\.\\d+\\.\\d+$"
