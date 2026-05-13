@@ -1,11 +1,11 @@
 ---
 date: 2023-05-10T9:00:00Z
-title: 9 - Resilience
-weight: 9
+title: 10 - Resilience
+weight: 10
 
 ---
 
-# 9 - Resilience
+# 10 - Resilience
 
 ## Overview
 

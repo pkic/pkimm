@@ -1,11 +1,11 @@
 ---
 date: 2026-02-09T7:00:00Z
-title: 16 - Cryptography
-weight: 16
+title: 5 - Cryptography
+weight: 5
 
 ---
 
-# 16 - Cryptography
+# 5 - Cryptography
 
 ## Overview
 

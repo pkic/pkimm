@@ -1,11 +1,11 @@
 ---
 date: 2023-03-21T7:00:00Z
-title: 6 - Certificate management
-weight: 6
+title: 7 - Certificate management
+weight: 7
 
 ---
 
-# 6 - Certificate management
+# 7 - Certificate management
 
 ## Overview
 
