@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PKIMM References Catalog schema",
+  "description": "Schema for the shared references catalog (data/pkimm-references.yaml). The catalog is independently versioned from the model so reference-metadata updates do not require model releases.",
+  "version": "1.0.0",
+  "type": "object",
+  "required": ["schemaVersion", "version", "references"],
+  "properties": {
+    "schemaVersion": { "type": "string", "const": "1.0.0" },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+          "title": { "type": "string" },
+          "authority": { "type": "string" },
+          "regions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9-]*$",
+              "description": "ISO 3166-1 alpha-2 country code (e.g., US, FR, JP) or supra-national token (e.g., GLOBAL, EU, EEA)."
+            }
+          },
+          "url": { "type": "string", "format": "uri" },
+          "deprecated": { "type": "boolean" },
+          "supersededBy": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" }
+        }
+      }
+    }
+  }
+}

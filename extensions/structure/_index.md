@@ -18,7 +18,7 @@ Scoring is defined separately from the extension structure to ensure that extens
 
 **Overlay** is a **weight adjustment** attached to an existing PKI MM category or requirement. An overlay declares a `type` (`multiplier`, `addition`, or `override`) and a matching value, plus a `rationale`. Overlays change how strongly an item contributes to extension scoring; they never change baseline maturity values entered by users.
 
-The full structure is described by the [extension JSON Schema](../extension.schema.json) and follows this shape:
+The full structure is described by the [extension JSON Schema](../extension.schema-1.0.0.json) and follows this shape:
 
 ```yaml
 extension:
@@ -27,7 +27,7 @@ extension:
   version: "1.0.0"
   description: "Short summary of what the extension covers."
   compatibility:
-    - "1.1.0"
+    - "2.0.0"
   documentation: "https://example.org/extensions/example"
   floorScore: true
 
@@ -35,7 +35,7 @@ relevance:
   modules:
     - id: "G"
       categories:
-        - id: "1"
+        - id: "strategy-and-vision"
           weight: 4
           guidance: |
             ...
@@ -53,12 +53,12 @@ overlays:
   modules:
     - id: "M"
       categories:
-        - id: "7"
+        - id: "infrastructure-management"
           type: "multiplier"
           multiplier: 1.5
           rationale: "..."
           requirements:
-            - id: "1"
+            - id: "infra-documentation"
               type: "addition"
               addition: 1
               rationale: "..."
@@ -74,7 +74,7 @@ Defines metadata describing the extension:
 | `name`          | yes      | Human-readable name.                                                                                                                                                                     |
 | `version`       | yes      | Extension version in [Semantic Versioning](https://semver.org/) form (`MAJOR.MINOR.PATCH`).                                                                                              |
 | `description`   | yes      | One- to two-sentence summary of what the extension covers.                                                                                                                               |
-| `compatibility` | yes      | List of PKI MM model versions this extension is compatible with, e.g. `["1.1.0"]`. Tools use this to decide whether the extension applies to a given baseline assessment.                |
+| `compatibility` | yes      | List of PKI MM model versions this extension is compatible with, e.g. `["2.0.0"]`. Tools use this to decide whether the extension applies to a given baseline assessment.                |
 | `documentation` | yes      | URL to detailed documentation explaining the extension's purpose, scope, and design.                                                                                                     |
 | `floorScore`    | no       | When `true`, the extension reports a floor score (minimum extension category level) alongside the aggregate score.                                                                       |
 

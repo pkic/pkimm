@@ -14,4 +14,4 @@ Extensions follow a consistent documentation structure so readers know what to e
 
 | Extension | Version | Short description | Documentation |
 |---|---|---|---|
-| **PQC Readiness Extension** <span class="badge text-bg-warning">Under development</span> | 0.1.0 | Adds Post-Quantum Cryptography readiness criteria and overlays to evaluate strategic, policy, compliance, and operational preparedness for quantum-safe PKI transition. | [Details](./pqc/) |
+| **PQC Readiness Extension** <span class="badge text-bg-warning">Under development</span> | 0.2.0 | Adds Post-Quantum Cryptography readiness criteria and overlays to evaluate strategic, policy, compliance, and operational preparedness for quantum-safe PKI transition. | [Details](./pqc/) |

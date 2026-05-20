@@ -14,7 +14,7 @@ Following overall maturity levels are defined for the PKI maturity model:
 | # | **Maturity level**                         | **Short description**                                                                                        |
 |---|--------------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | 1 | **[Initial](#initial-maturity-level)**     | Unpredictable process with poor control and always reactive                                                  |
-| 2 | **[Basic](#basic-maturity-level)**         | Process is characterized by each particular case or project and controls are often reactive                  |
+| 2 | **[Foundational](#foundational-maturity-level)** | Process is characterized by each particular case or project and controls are often reactive          |
 | 3 | **[Advanced](#advanced-maturity-level)**   | Process is characterized by organizational standards and controls are proactive                              |
 | 4 | **[Managed](#managed-maturity-level)**     | Processes are measured and controlled, proactive approach                                                    |
 | 5 | **[Optimized](#optimized-maturity-level)** | Continuous improvement of the processes and procedures, proactive approach for future technology improvement |
@@ -37,7 +37,7 @@ Each maturity level is described in more detail with associated indicators and r
 - High probability of operational issues
 - No trust
 
-## Basic maturity level
+## Foundational maturity level
 
 ### Indicators
 
@@ -104,7 +104,7 @@ classDiagram
 
     class PKIMM["PKI maturity levels"]{
         Initial
-        Basic
+        Foundational
         Advanced
         Managed
         Optimized
@@ -121,13 +121,13 @@ classDiagram
         High probability of operational issues
         No trust
     }
-    class Basic_Indicators["Basic level indicators"]{
+    class Foundational_Indicators["Foundational level indicators"]{
         PKI is ad-hoc managed, often reactive
         There are defined processes and procedures which are followed
         PKI is not managed according to industry standards and regulations
         Insufficient knowledge
     }
-    class Basic_Risks["Basic level risks"]{
+    class Foundational_Risks["Foundational level risks"]{
         High probability of operational issues
         Medium probability of compromise
         No trust
@@ -167,8 +167,8 @@ classDiagram
     
     PKIMM <-- Initial_Indicators
     Initial_Indicators -- Initial_Risks
-    PKIMM <-- Basic_Indicators
-    Basic_Indicators -- Basic_Risks
+    PKIMM <-- Foundational_Indicators
+    Foundational_Indicators -- Foundational_Risks
     PKIMM <-- Advanced_Indicators
     Advanced_Indicators -- Advanced_Risks
     PKIMM <-- Managed_Indicators

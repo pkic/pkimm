@@ -16,7 +16,7 @@ This extension is **under development**.
 
 - **Complete** — Governance module (categories 1 – 4): full Level 1–5 criteria, assessor guidance, evidence examples, and overlay weights are defined.
 - **Outline** — Management, Operations, and Resources modules: PQC-critical considerations identified, but Level 1–5 criteria are not yet developed.
-- **YAML version** — `0.1.0`. The extension version will move to `1.0.0` when all modules reach full Level 1–5 development and the working group endorses the content.
+- **YAML version** — `0.2.0`. The extension version will move to `1.0.0` when all modules reach full Level 1–5 development and the working group endorses the content.
 
 ### Open question
 
@@ -43,7 +43,7 @@ The four Governance categories receive full PQC-specific Level 1–5 criteria; t
 
 ### Governance — Module G
 
-#### Strategy and vision (G:1)
+#### Strategy and vision (G.strategy-and-vision)
 
 Strategic direction for PQC transition: executive sponsorship of the quantum threat, the Mosca inequality applied to data lifetimes, organizational persona per the Dutch Migration Handbook, board-level visibility, and budget for PQC activities.
 
@@ -51,15 +51,15 @@ Strategic direction for PQC transition: executive sponsorship of the quantum thr
 - Level 2 → 3 — "Awareness to Action": formal strategy incorporation, executive sponsorship extended, working group established.
 - Level 4 → 5 — "Execution to Leadership": competitive positioning, ecosystem contribution, crypto-agility as ongoing capability.
 
-#### Policies and documentation (G:2)
+#### Policies and documentation (G.policies-and-documentation)
 
 Policy framework for PQC: CP/CPS updates to incorporate NIST FIPS 203/204/205, deprecation schedules aligned with SP 800-131A Rev 3, hybrid-vs-pure PQC strategy, key management policy adjustments (larger keys, HSM support, stateful HBS state management), CBOM adoption, and multi-jurisdiction policy alignment (BSI / ANSSI hybrid versus CNSA 2.0 pure PQ).
 
-#### Compliance (G:3)
+#### Compliance (G.compliance)
 
 Regulatory mapping and audit scope for PQC requirements: DORA ICT risk management (EU financial services from January 2025), eIDAS 2.0 cryptographic requirements, CNSA 2.0 timelines (US National Security Systems), NIS2 implementing measures, and the 18 EU Member States Joint Statement recommendations. Audit criteria evolution under WebTrust and ETSI scopes is tracked here.
 
-#### Processes and procedures (G:4)
+#### Processes and procedures (G.processes-and-procedures)
 
 Operational procedures transformed for PQC: key ceremony evolution (hybrid generation, quorum, HSM activation, stateful HBS state management), crypto-agility procedures per NIST CSWP 39, quantum risk assessment with Mosca inequality, change management for phased migration, incident response for cryptographic events, and extended segregation of duties for PQC-specific roles.
 
@@ -69,23 +69,23 @@ The following PQC-critical considerations are identified for the remaining modul
 
 #### Management — Module M (PQC technical considerations)
 
-- **Key Management (M:6)** — algorithm inventory and CBOM generation; PQC key lifecycle (larger keys, longer generation times); stateful hash-based signature state management (XMSS, LMS); hybrid key management; HSM PQC algorithm support verification.
-- **Certificate Management (M:7)** — hybrid certificate issuance (composite signatures, external keys); certificate validity periods versus algorithm security lifetimes; revocation strategy for quantum-vulnerable certificates; template updates; cross-certification for hybrid PKI.
-- **Infrastructure Management (M:8)** — HSM firmware upgrade roadmaps; network capacity for larger PQC keys and signatures; storage for larger certificates; performance testing.
-- **Change Management and Agility (M:9)** — crypto-agility architecture enabling algorithm substitution; transition procedures; rollback for failed PQC deployments; configuration management for cryptographic parameters.
+- **Key Management (M.key-management)** — algorithm inventory and CBOM generation; PQC key lifecycle (larger keys, longer generation times); stateful hash-based signature state management (XMSS, LMS); hybrid key management; HSM PQC algorithm support verification.
+- **Certificate Management (M.certificate-management)** — hybrid certificate issuance (composite signatures, external keys); certificate validity periods versus algorithm security lifetimes; revocation strategy for quantum-vulnerable certificates; template updates; cross-certification for hybrid PKI.
+- **Infrastructure Management (M.infrastructure-management)** — HSM firmware upgrade roadmaps; network capacity for larger PQC keys and signatures; storage for larger certificates; performance testing.
+- **Change Management and Agility (M.change-management-and-agility)** — crypto-agility architecture enabling algorithm substitution; transition procedures; rollback for failed PQC deployments; configuration management for cryptographic parameters.
 
 #### Operations — Module O (PQC security considerations)
 
-- **Resilience (O:10)** — quantum threat in business continuity planning; recovery procedures for cryptographic compromise; redundancy for PQC algorithm availability.
-- **Automation (O:11)** — automated cryptographic inventory discovery; automated certificate replacement for PQC migration; CI/CD integration for PQC algorithm validation.
-- **Interoperability (O:12)** — PQC interoperability testing with relying parties; hybrid certificate compatibility verification; cross-vendor PQC algorithm interoperability; protocol-version negotiation.
-- **Monitoring and Auditing (O:13)** — algorithm usage monitoring and reporting; quantum-vulnerable algorithm detection; CBOM drift monitoring; audit trail for algorithm transitions.
+- **Resilience (O.resilience)** — quantum threat in business continuity planning; recovery procedures for cryptographic compromise; redundancy for PQC algorithm availability.
+- **Automation (O.automation)** — automated cryptographic inventory discovery; automated certificate replacement for PQC migration; CI/CD integration for PQC algorithm validation.
+- **Interoperability (O.interoperability)** — PQC interoperability testing with relying parties; hybrid certificate compatibility verification; cross-vendor PQC algorithm interoperability; protocol-version negotiation.
+- **Monitoring and Auditing (O.monitoring-and-auditing)** — algorithm usage monitoring and reporting; quantum-vulnerable algorithm detection; CBOM drift monitoring; audit trail for algorithm transitions.
 
 #### Resources — Module R (PQC people and sourcing considerations)
 
-- **Sourcing (R:14)** — vendor PQC roadmap assessment in procurement; contract requirements for PQC support timelines; third-party certificate provider PQC readiness; supply-chain security for cryptographic components.
-- **Knowledge and Training (R:15)** — PQC technical training for PKI operations staff; executive education on quantum risk; certification programs incorporating PQC; knowledge transfer from PQC migration projects.
-- **Awareness (R:16)** — organization-wide quantum-threat awareness; developer education on PQC implications; stakeholder communication for migration activities.
+- **Sourcing (R.sourcing)** — vendor PQC roadmap assessment in procurement; contract requirements for PQC support timelines; third-party certificate provider PQC readiness; supply-chain security for cryptographic components.
+- **Knowledge and Training (R.knowledge-and-training)** — PQC technical training for PKI operations staff; executive education on quantum risk; certification programs incorporating PQC; knowledge transfer from PQC migration projects.
+- **Awareness (R.awareness)** — organization-wide quantum-threat awareness; developer education on PQC implications; stakeholder communication for migration activities.
 
 ## Product and service dependency
 

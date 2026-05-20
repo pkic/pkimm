@@ -1,7 +1,9 @@
 ---
 date: 2023-03-21T7:00:00Z
 title: Template
-draft: true
+_build:
+  render: never
+  list: never
 
 ---
 
@@ -33,11 +35,11 @@ The calculation of the overall maturity level for the category follows the weigh
 
 | Maturity level    | Description     |
 |:------------------|:----------------|
-| **1 - Initial**   | *[Description]* |
-| **2 - Basic**     | *[Description]* |
-| **3 - Advanced**  | *[Description]* |
-| **4 - Managed**   | *[Description]* |
-| **5 - Optimized** | *[Description]* |
+| **1 - Initial**       | *[Description]* |
+| **2 - Foundational**  | *[Description]* |
+| **3 - Advanced**      | *[Description]* |
+| **4 - Managed**       | *[Description]* |
+| **5 - Optimized**     | *[Description]* |
 
 ## Requirements
 
@@ -47,9 +49,9 @@ The calculation of the overall maturity level for the category follows the weigh
 > **Note**
 > The overview of requirements can be also used for quick assessment and reporting, because it contains references to requirements and may be filled with the assessment level.
 
-|                      # | Requirement                 |     Weight |
-| ---------------------: | --------------------------- | ---------: |
-| *[Requirement number]* | *[Requirement description]* | *[Weight]* |
+| ID | Requirement | Weight |
+|----|-------------|-------:|
+| [`requirement-kebab-id`](#requirement-kebab-id) | *[Requirement description]* | *[Weight]* |
 
 > **Note**
 > The weights can be evenly distributed to have each requirement with the same impact.
@@ -62,6 +64,7 @@ The calculation of the overall maturity level for the category follows the weigh
 > **Note**
 > Details about each requirement in consistent structure, containing guidance for the users how to assess the requirements and what is required to have.
 
+<a id="requirement-kebab-id"></a>
 ### *[Requirement description]*
 
 #### Guidance

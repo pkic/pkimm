@@ -1,0 +1,210 @@
+---
+date: 2026-05-20T00:00:00Z
+title: Certificate management
+weight: 7
+---
+
+# Certificate management
+
+Certificate management is the set of techniques and procedures supporting certificate lifecycle management. Certificate management encompasses techniques and procedures supporting:
+- Definition of certificate profiles
+- Generation of certificates
+- Installation and orchestration of certificates
+- Inventory of certificates
+- State management of certificates, i.e. expiration and revocation
+- Discovery of certificates
+
+The techniques can be applied to an organization that makes use of PKI, or from an organization (or part of an organization) that operates a PKI for others. This category primarily targets an organization from a usage perspective, albeit the certificate lifecycle management is equally important for an organization that operates a PKI for someone else.
+
+## Category maturity levels description
+
+| Maturity level    | Description |
+|:------------------|:------------|
+| **1 - Initial** | Certificates are ad-hoc managed, without proper control and always reactive. Inventory is not available. |
+| **2 - Foundational** | Certificates are managed, but not according to industry standards and regulations. Inventory of certificates is not maintained. |
+| **3 - Advanced** | Certificate profiles and attributes are documented and enforced. Certificate lifecycle management is documented and followed. Inventory of certificates is maintained with up-to-date information. Certificate management procedures and controls on are in place but not fully followed and understood. |
+| **4 - Managed** | Certificate profiles, attributes, cryptographic algorithms and parameters, and tooling are properly documented and applied in the organization. Certificate management procedures are well designed and followed to maintain an up-to-date inventory of certificates, including their state and location. |
+| **5 - Optimized** | Certificate lifecycle is properly documented and maintained. Up-to-date inventory is available and periodically updated according to defined procedures and certificate management controls. Discovery of certificates is often executed to provide assurance of the inventory completeness. Certificate management is integrated with the organizational governance. |
+
+## Requirements
+
+| ID | Requirement | Weight |
+|----|-------------|-------:|
+| [`cert-profiles`](#cert-profiles) | Certificate profiles are documented | 2 |
+| [`cert-lifecycle`](#cert-lifecycle) | Certificate lifecycle management is documented | 4 |
+| [`cert-inventory`](#cert-inventory) | Inventory of issued certificates is documented | 3 |
+| [`cert-discovery`](#cert-discovery) | Certificate discovery process is documented | 2 |
+| [`cert-mgmt-review`](#cert-mgmt-review) | Certificate management is periodically reviewed and updated | 4 |
+| [`pki-governance`](#pki-governance) | Organizational PKI governance | 2 |
+
+## Details
+
+<a id="cert-profiles"></a>
+### Certificate profiles are documented
+
+#### Guidance
+
+Certificate profiles specify the contents of certificates for one or more use cases. It defines things such as:
+- Certificate use case(s) for certificates covered by specific profiles
+- Naming standards for subject distinguished name and subject alternative names, which are allowed and mandatory fields.
+- Certificate validity periods
+- Certificate extensions, mandatory and allowed extensions, their criticality and possible values
+- Allowed key types and signature algorithms
+- Revocation profiles, i.e. CRL and/or OCSP
+
+#### Assessment
+
+- Documented scope of applicability
+- Documented and approved certificate profiles
+- Content of the profiles is complete and unambiguous
+- Certificate profiles are implemented in certificattion authority
+- Certificate profiles are enforced by certification authority
+- Certificate profiles are compatible with RFC5280, or deviations are well documented
+- Profiles for CRLs and/or OCSP usage, i.e. validity periods, issuance intervals, max revocation time delay, etc
+
+#### References
+
+- [RFC 5280 - Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile](https://datatracker.ietf.org/doc/html/rfc5280)
+- [CA/B Forum baseline requirements](https://cabforum.org/baseline-requirements/)
+- [ETSI Qualified Certificate Profiles](https://portal.etsi.org/TB-SiteMap/ESI/Trust-Service-Providers)
+- [ETSI EN 319 411-1 - Policy and security requirements for Trust Service Providers issuing certificates](https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/01.03.01_60/en_31941101v010301p.pdf)
+- [ETSI 319-411-2](https://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.03.01_60/en_31941102v020301p.pdf)
+- [3GPP 33.310 - Network Domain Security (NDS); Authentication Framework (AF)](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2293)
+- [UNISIG SUBSET-137](https://www.era.europa.eu/system/files/2022-11/index083_-_subset-137_v100.pdf)
+
+<a id="cert-lifecycle"></a>
+### Certificate lifecycle management is documented
+
+#### Guidance
+
+Issuance of certificates follow specific procedures, be it manual processes or automated processes using standard or non-standard PKI protocol. An organization should be clear about the full life cycle management of certificates:
+1. Certificate Application and the validation procedures used, by RAs and CAs
+2. Certificate Issuance and protocols used for enrollment, on-line and off-line
+3. Certificate Renewal, Re-key and Modification, upon expiration or other causes
+  - Process of monitoring certificates for expiration and timely renewal processes prevent common issues
+4. Certificate Revocation
+  - When certificates need to be revoked it is important to have a well-defined certificate revocation process:
+    - How subjects can request a certificate be revoked
+    - How to report misuse of certificates
+    - Expected time for revocation to be completed after a revocation request
+5. Certificate status dissemination
+  - How revocation information is disseminated to relying parties
+6. Key escrow and recovery
+7. Trust anchor management
+  - Trust anchors on machines and devices are a key point of trust management in the organization. Unmanaged trust stores can cause both outages and security issues.
+
+#### Assessment
+
+- Documented application and validation rules
+- Documented process for issuing certificates
+  - configuration of protocols
+- Documented Certificate Acceptance and certificate subject installation procedures
+- Documented renewal criteria, where re-key is nessecary and which certificate modifications are allowed
+  - Documented criticality of expiration for different use cases
+  - Automated monitoring and alerting of expiration for critical systems
+  - Automated certificate renewal
+- Documented revocation process
+  - Documented revocation procedures, both for subjects and administrators
+  - If suspension is used the process to lift (or remove) suspension
+  - Documented contact points for reports in the organizations or from relying parties
+  - List of relying parties that depend on updated revocation information
+- Documented Certificate status service
+  - OCSP and/or CRLs
+  - Documentation how relying parties get access to revocation information
+- Documented process for key escrow and recovery when encryption keys need to be stored centrally
+- Documented trust anchor management
+  - Distribution of new and updated trust anchors (Root CA certificates)
+
+#### References
+
+- [RFC 4210 - Internet X.509 Public Key Infrastructure Certificate Management Protocol (CMP)](https://datatracker.ietf.org/doc/html/rfc4210/)
+- [CA/B Forum baseline requirements](https://cabforum.org/baseline-requirements/)
+- [3GPP 33.310 - Network Domain Security (NDS); Authentication Framework (AF)](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2293)
+- [UNISIG SUBSET-137](https://www.era.europa.eu/system/files/2022-11/index083_-_subset-137_v100.pdf)
+
+<a id="cert-inventory"></a>
+### Inventory of issued certificates is documented
+
+#### Guidance
+
+Certificate inventory consists of all known certificates and provides an overview of known certificates in the organization. Certificates in inventory are subject to certificate lifecycle management. The certificate inventory is important for the organization because:
+- It provides immediate access to the current status of certificates
+- Provides possibility to react on certificate-related events (compromise, change, expiration, etc.)
+- Understand impact of lifecycle changes
+- It gives information on all locations of certificates
+- Can enforce and maintain ownership of certificates
+
+The certificate inventory therefore consists of information related to certificate like certificate attributes, validity and validation information, fingerprint and serial number, trust chain, owner, public key, signature algorithm, certificate type, compliance information, certificate locations, change history, or any other attributes and properties of the certificates that is required.
+
+#### Assessment
+
+- Documented inventory
+  - How inventory is maintained across the organization
+- Documented certificate inventory management
+- Validation of certificate inventory records
+- Effectiveness of the certificate inventory implementation
+
+#### References
+
+- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://tools.ietf.org/html/rfc3647)
+- [NIST SP 800-57 Part 1 Rev. 5 - Recommendation for Key Management](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf)
+
+<a id="cert-discovery"></a>
+### Certificate discovery process is documented
+
+#### Guidance
+
+Certificate discovery process protects an organization from unknown certificates that may be deployed in the infrastructure. Unknown certificates may be further issued by unauthorized certification authorities and mislead users of services. Certificate discovery helps to maintain current inventory of certificates, but does not depend on the inventory and is not nessecary to maintain an inventory. Certificate discovery process should be implemented based on supported certificates and use-cases, for example:
+- To scan the network for certificates used on known protocols and ports to discover certificates that can potentially cause service outage or breach
+- Search for the certificates on file system to discover unauthorized or unsecured certificates
+
+Discovery process should be run frequently on the specified locations and the certificate inventory should be updated based on the results of the certificate discovery to keep it current.
+
+#### Assessment
+
+- Documented certificate discovery requirements
+- Documented certificate discovery process and frequency
+- The supporting tools for the certificate discovery
+- Certificate inventory is updated with discovered certificates
+
+#### References
+
+
+<a id="cert-mgmt-review"></a>
+### Certificate management is periodically reviewed and updated
+
+#### Guidance
+
+No certificate issuance and management system works over long periods of time without changes to use-cases, processes, protocols and algorithms. It is important that the certificate management is periodically reviewed and updated to avoid gaps. The frequency of review should be based on the organizational risks and needs to be protected against current and future trends.
+
+Periodical review helps to keep the certificate management accurate and helps to maintain required skills and knowledge.
+It provides assurance that the expected controls are active and working as intended.
+
+#### Assessment
+
+- Documented process for reviewing the certificate management process and systems
+- Ability to implement updates to certificate management system
+- Document management system and validation of review
+
+#### References
+
+- [ISO/IEC 27001 and related standards](https://www.iso.org/isoiec-27001-information-security.html)
+
+<a id="pki-governance"></a>
+### Organizational PKI governance
+
+#### Guidance
+
+Large organizations commonly have several PKI systems spread out in the organization. Some can be consolidated, but in many cases different PKI silos exists for good reasons. Having a central governance of PKIs across the organization will help to maintain best practices, ensure secure PKI operations, re-use PKI knowledge in the organization, ensure consistent profiles and avoid unnecessary duplication of effort.
+
+#### Assessment
+
+- Documented PKIs used in the organization
+  - Different PKI technologies used
+  - Installed PKI instances
+- Documented PKI best practices
+  - Installation procedures to avoid re-learning the same issues in different parts of the organization
+  - Configuration to ensure consistent and interoperable certificates where applicable
+  - Security to maintain a security base line across the whole organization
+
+#### References
