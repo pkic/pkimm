@@ -1,18 +1,47 @@
 name: Check model/docs consistency
 
 on:
+  workflow_call:
   pull_request:
   push:
     branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: "${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}"
+  cancel-in-progress: true
 
 jobs:
   consistency:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd #v6.0.2
-      - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 #v6.2.0
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
         with:
           python-version: "3.12"
-      - run: pip install -r scripts/requirements-dev.txt
-      - run: pytest scripts/ -q
-      - run: python scripts/check_model_docs_consistency.py --repo-root .
+
+      - name: Install validation dependencies
+        run: pip install -r scripts/requirements-dev.txt
+
+      - name: Run positive and negative tests
+        run: pytest scripts/ -q
+
+      - name: Validate data schemas
+        run: |
+          check-jsonschema --schemafile data/pkimm-model.schema-1.0.0.json data/pkimm-model-1.0.0.yaml
+          check-jsonschema --schemafile data/pkimm-model.schema-2.0.0.json data/pkimm-model-2.0.0.yaml
+          check-jsonschema --schemafile data/pkimm-references.schema-1.0.0.json data/pkimm-references.yaml
+
+      - name: Validate model and generated documentation
+        run: python scripts/check_model_docs_consistency.py --repo-root .
+
+      - name: Validate assessment profile compatibility
+        run: python scripts/validate_assessment_profile.py
+
+      - name: Check whitespace errors
+        run: git diff --check

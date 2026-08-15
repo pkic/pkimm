@@ -1,0 +1,339 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pkic.org/assessment-profile.schema-1.0.0.json",
+  "title": "Assessment runtime profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "profile",
+    "runtime",
+    "assurance",
+    "report",
+    "futureServices"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "version", "family", "model", "title", "description"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "version": { "$ref": "#/$defs/version" },
+        "family": {
+          "enum": ["maturity", "knowledge-diagnostic", "certification-exam"]
+        },
+        "model": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["id", "version"],
+          "properties": {
+            "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+            "version": { "$ref": "#/$defs/version" }
+          }
+        },
+        "title": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 1 }
+      }
+    },
+    "runtime": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["experience", "methodology", "subjectFields"],
+      "properties": {
+        "experience": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "methodology": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["strategy", "version", "parameters"],
+          "properties": {
+            "strategy": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+            "version": { "$ref": "#/$defs/version" },
+            "parameters": { "type": "object" }
+          }
+        },
+        "subjectFields": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 64,
+          "items": { "$ref": "#/$defs/subjectField" }
+        },
+        "subjectRules": {
+          "type": "array",
+          "maxItems": 64,
+          "items": { "$ref": "#/$defs/subjectRule" }
+        },
+        "criterion": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["statuses", "evidence"],
+          "properties": {
+            "statuses": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 64,
+              "items": { "$ref": "#/$defs/status" }
+            },
+            "evidence": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "requiredForStatuses",
+                "requiredFromLevel",
+                "statementLabel",
+                "statementHint",
+                "maxFileBytes",
+                "maxPackageBytes",
+                "acceptedMediaTypes",
+                "validators"
+              ],
+              "properties": {
+                "requiredForStatuses": {
+                  "type": "array",
+                  "maxItems": 64,
+                  "uniqueItems": true,
+                  "items": { "type": "string" }
+                },
+                "requiredFromLevel": { "type": "integer", "minimum": 0 },
+                "statementLabel": { "type": "string", "minLength": 1 },
+                "statementHint": { "type": "string", "minLength": 1 },
+                "maxFileBytes": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 26214400
+                },
+                "maxPackageBytes": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 104857600
+                },
+                "acceptedMediaTypes": {
+                  "type": "array",
+                  "minItems": 1,
+                  "maxItems": 64,
+                  "uniqueItems": true,
+                  "items": { "type": "string" }
+                },
+                "validators": {
+                  "type": "array",
+                  "minItems": 2,
+                  "maxItems": 2,
+                  "uniqueItems": true,
+                  "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+                }
+              }
+            }
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "experience": { "const": "evidence-gated-maturity" }
+            }
+          },
+          "then": { "required": ["criterion"] }
+        }
+      ]
+    },
+    "assurance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["defaultProfile", "profiles"],
+      "properties": {
+        "defaultProfile": { "type": "string" },
+        "profiles": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 64,
+          "items": { "$ref": "#/$defs/assuranceProfile" }
+        }
+      }
+    },
+    "report": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "claimLabel",
+        "machineAttachmentName",
+        "includeEvidenceAttachments",
+        "includeEvidenceManifest",
+        "includeAttestation"
+      ],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "claimLabel": { "type": "string", "minLength": 1 },
+        "machineAttachmentName": {
+          "type": "string",
+          "pattern": "^[a-zA-Z0-9._-]+$"
+        },
+        "includeEvidenceAttachments": { "type": "boolean" },
+        "includeEvidenceManifest": { "type": "boolean" },
+        "includeAttestation": { "type": "boolean" },
+        "signing": { "$ref": "#/$defs/reportSigningPolicy" }
+      }
+    },
+    "futureServices": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pkicSubmission"],
+      "properties": {
+        "pkicSubmission": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["implemented", "processingMayRequirePayment", "covers"],
+          "properties": {
+            "implemented": { "const": false },
+            "processingMayRequirePayment": { "type": "boolean" },
+            "covers": {
+              "type": "array",
+              "items": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "subjectField": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key", "label", "component", "required"],
+      "properties": {
+        "key": { "type": "string", "pattern": "^[a-z][a-zA-Z0-9]*$" },
+        "label": { "type": "string", "minLength": 1 },
+        "component": { "enum": ["text", "textarea", "date"] },
+        "required": { "type": "boolean" },
+        "rows": { "type": "integer", "minimum": 1 },
+        "hint": { "type": "string" },
+        "format": { "enum": ["cpe-2.3", "package-url", "uri"] }
+      }
+    },
+    "subjectRule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "fields", "message"],
+      "properties": {
+        "kind": { "const": "at-least-one" },
+        "fields": {
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^[a-z][a-zA-Z0-9]*$" }
+        },
+        "message": { "type": "string", "minLength": 1 }
+      }
+    },
+    "status": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "label"],
+      "properties": {
+        "value": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "label": { "type": "string", "minLength": 1 }
+      }
+    },
+    "assuranceProfile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "label",
+        "reportLabel",
+        "availability",
+        "independentVerification",
+        "certification",
+        "requiredFacets",
+        "notice"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "label": { "type": "string", "minLength": 1 },
+        "reportLabel": { "type": "string", "minLength": 1 },
+        "availability": { "enum": ["browser", "external-workflow"] },
+        "independentVerification": { "type": "boolean" },
+        "certification": { "type": "boolean" },
+        "requiredFacets": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "identity",
+              "organization-binding",
+              "role-authority",
+              "document-signature",
+              "trusted-time",
+              "evidence-review",
+              "assessor-qualification",
+              "certification-issuance"
+            ]
+          }
+        },
+        "notice": { "type": "string", "minLength": 1 },
+        "attestation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["enabled", "signerRole", "method", "declaration"],
+          "properties": {
+            "enabled": { "type": "boolean" },
+            "signerRole": { "type": "string", "minLength": 1 },
+            "method": {
+              "enum": [
+                "electronic-acknowledgement",
+                "external-digital-signature"
+              ]
+            },
+            "declaration": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    },
+    "reportSigningPolicy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "format",
+        "fields",
+        "allowAdditionalSignatures",
+        "targetLevel",
+        "trustedTime",
+        "acceptedAuthorityEvidence"
+      ],
+      "properties": {
+        "format": { "const": "PAdES" },
+        "fields": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/reportSignatureFieldPolicy" }
+        },
+        "allowAdditionalSignatures": { "type": "boolean" },
+        "targetLevel": { "enum": ["B-T", "B-LT", "B-LTA"] },
+        "trustedTime": { "const": "signature-or-document-timestamp" },
+        "acceptedAuthorityEvidence": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+        }
+      }
+    },
+    "reportSignatureFieldPolicy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "label", "role", "required"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "pattern": "^[a-zA-Z][a-zA-Z0-9._-]+$"
+        },
+        "label": { "type": "string", "minLength": 1 },
+        "role": { "type": "string", "minLength": 1 },
+        "required": { "type": "boolean" }
+      }
+    }
+  }
+}
