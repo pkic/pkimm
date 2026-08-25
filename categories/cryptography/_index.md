@@ -85,15 +85,22 @@ The organization should document:
 
 Each decision should include rationale and applicability.
 
+Where the organization operates under a regulatory regime or trust scheme that mandates a cryptographic catalog, approved algorithms and parameters should be traceable to that catalog rather than determined independently, and the applicable catalog should be identified.
+
 #### Assessment
 
 - Approved and prohibited algorithms are documented.
 - Parameter requirements are clearly defined.
+- Where externally mandated, the applicable catalog is identified and approvals are traceable to it.
 - Documentation is reviewed periodically.
 
 #### References
 
 - [NIST SP 800-131A Rev. 2 - Transitioning the Use of Cryptographic Algorithms and Key Lengths](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf)
+- [ETSI TS 119 312 - Cryptographic Suites](https://www.etsi.org/deliver/etsi_ts/119300_119399/119312)
+- [ECCG Agreed Cryptographic Mechanisms (ACM)](https://certification.enisa.europa.eu/publications/eucc-guidelines-cryptography_en)
+- [EUCC Guidelines on Cryptography](https://certification.enisa.europa.eu/publications/eucc-guidelines-cryptography_en)
+- [CNSA 2.0](https://media.defense.gov/2022/Sep/07/2003071834/-1/-1/0/CSA_CNSA_2.0_ALGORITHMS_.PDF)
 
 <a id="crypto-protocols"></a>
 ### Cryptographic protocols and versions are documented and approved
@@ -133,7 +140,6 @@ The organization should maintain visibility into where cryptography is used, inc
 #### References
 
 - [NIST Cybersecurity Framework - Identify Function](https://www.nist.gov/cyberframework/identify)
-- [EUCC Guidelines on Cryptography Inventory](https://certification.enisa.europa.eu/publications/eucc-guidelines-cryptography_en)
 - [CycloneDX Cryptography Bill of Materials (CBOM)](https://cyclonedx.org/capabilities/cbom/)
 
 <a id="crypto-lifecycle"></a>
@@ -159,6 +165,7 @@ The organization should define rules for:
 
 - [NIST SP 800-131A Rev. 2 - Transitioning the Use of Cryptographic Algorithms and Key Lengths](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf)
 - [NIST SP 800-57 Part 1 Rev. 5 - Recommendation for Key Management](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf)
+- [ETSI TS 119 312 - Cryptographic Suites](https://www.etsi.org/deliver/etsi_ts/119300_119399/119312)
 
 <a id="crypto-agility"></a>
 ### Cryptographic agility is defined and governed

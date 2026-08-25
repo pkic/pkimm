@@ -36,6 +36,9 @@ build/
 
 **/venv/
 .pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
 __pycache__/
 *.pyc
 .venv/

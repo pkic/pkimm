@@ -566,12 +566,19 @@ modules:
         - Restricted, deprecated, or prohibited algorithms
 
         Each decision should include rationale and applicability.
+
+        Where the organization operates under a regulatory regime or trust scheme that mandates a cryptographic catalog, approved algorithms and parameters should be traceable to that catalog rather than determined independently, and the applicable catalog should be identified.
       assessment: |
         - Approved and prohibited algorithms are documented.
         - Parameter requirements are clearly defined.
+        - Where externally mandated, the applicable catalog is identified and approvals are traceable to it.
         - Documentation is reviewed periodically.
       references:
       - nist-sp-800-131a
+      - etsi-119-312
+      - eccg-acm
+      - eucc-crypto-guidelines
+      - cnsa-2-0
     - id: crypto-protocols
       weight: 3
       description: Cryptographic protocols and versions are documented and approved
@@ -599,7 +606,6 @@ modules:
         - Gaps are identified and addressed.
       references:
       - nist-csf-identify
-      - eucc-crypto-inventory
       - cyclonedx-cbom
     - id: crypto-lifecycle
       weight: 4
@@ -619,6 +625,7 @@ modules:
       references:
       - nist-sp-800-131a
       - nist-sp-800-57
+      - etsi-119-312
     - id: crypto-agility
       weight: 5
       description: Cryptographic agility is defined and governed

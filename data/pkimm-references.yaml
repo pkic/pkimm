@@ -43,6 +43,12 @@ references:
   regions:
   - GLOBAL
   authority: OWASP
+- id: eccg-acm
+  title: ECCG Agreed Cryptographic Mechanisms (ACM)
+  authority: EU
+  url: https://certification.enisa.europa.eu/publications/eucc-guidelines-cryptography_en
+  regions:
+  - EU
 - id: ecsf
   title: European Cybersecurity Skills Framework (ECSF)
   url: https://www.enisa.europa.eu/topics/education/european-cybersecurity-skills-framework
@@ -61,6 +67,12 @@ references:
   regions:
   - EU
   authority: ENISA
+- id: etsi-119-312
+  title: ETSI TS 119 312 - Cryptographic Suites
+  authority: ETSI
+  url: https://www.etsi.org/deliver/etsi_ts/119300_119399/119312
+  regions:
+  - EU
 - id: etsi-319-401
   title: ETSI EN 319 401 - General Policy Requirements for Trust Service Providers
   authority: ETSI
@@ -87,8 +99,8 @@ references:
   authority: ETSI
   url: https://www.etsi.org/standards
   regions: *id001
-- id: eucc-crypto-inventory
-  title: EUCC Guidelines on Cryptography Inventory
+- id: eucc-crypto-guidelines
+  title: EUCC Guidelines on Cryptography
   url: https://certification.enisa.europa.eu/publications/eucc-guidelines-cryptography_en
   regions:
   - EU
@@ -313,6 +325,8 @@ references:
   regions:
   - EU
   authority: SOG-IS
+  deprecated: true
+  supersededBy: eccg-acm
 - id: togaf
   title: The Open Group Architecture Framework (TOGAF)
   url: https://www.opengroup.org/togaf
