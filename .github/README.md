@@ -10,10 +10,11 @@ This repository holds the PKI Maturity Model maintained by the PKI Consortium PK
 
 ## For contributors
 
-The authoritative content lives in two places:
+The authoritative machine-readable content uses three versioned contracts:
 
 - `data/pkimm-model-<version>.yaml` — the machine-readable model (modules, categories, requirements, levels). This is the source of truth for downstream tooling.
 - `data/pkimm-references.yaml` — the shared catalog of standards, regulations, and publications cited from the model. Independently versioned so reference-metadata updates do not require a model release.
+- `data/pkimm-self-assessment-profile-<version>.yaml` — versioned, declarative runtime configuration for the web assessment tool. It references a released model and defines the weighted scoring strategy, subject fields, assurance boundary, and report/signing policy without adding PKIMM-specific application code.
 
 The per-category markdown under `categories/` and the references summary at `model/references/_index.md` are **generated** from the YAML files. Edit the YAML, run the generator, commit both.
 
@@ -42,12 +43,13 @@ pip install -r scripts/requirements-dev.txt
 4. Run the consistency validator until it passes:
    ```sh
    python scripts/check_model_docs_consistency.py --repo-root .
+   python scripts/validate_assessment_profile.py
    ```
 5. Commit. The same checks run on every PR via [`.github/workflows/check-consistency.yml`](workflows/check-consistency.yml).
 
 ### Repository layout
 
-- `data/` — versioned model YAML files and their JSON schemas, plus the references catalog and its schema.
+- `data/` — versioned model and assessment-profile YAML files and their JSON schemas, plus the references catalog and its schema.
 - `categories/` — generated per-category markdown (one folder per category, named by stable kebab-case id).
 - `model/` — narrative pages: vocabulary, modules, categories overview, references summary.
 - `release-notes/` — per-version release notes. Each version subdirectory uses the template at `release-notes/templates/_index.md`.
@@ -56,6 +58,16 @@ pip install -r scripts/requirements-dev.txt
 - Converters that produce artifacts for downstream tools (e.g., Eramba CSV packages) live in the separate `pkimm-integrations` repository.
 - Excel-based assessment tools have been retired in favor of the web self-assessment; the last Excel tools remain available under the `1.0.0` tag / website section.
 - `scripts/` — authoring scripts (generator, validator) and their tests.
+
+### Assessment-tool compatibility
+
+The model and assessment profile are intentionally separate. The released model remains the normative source for modules, categories, levels, requirements, and weights. The profile selects the generic `weighted-maturity` experience and `weighted-average` strategy and provides tool and report policy. The web tool can therefore load PKIMM through the same model/profile interfaces used by other assessments, with no PKIMM-specific scoring branch.
+
+The browser profile exposes only self-assessment. Qualified third-party assessment and PKI Consortium certification remain external workflow states and cannot be self-selected in the browser. The profile declares optional executive and security-executive PAdES fields, permits additional signatures, and leaves actual signer identity and authority to the signing workflow.
+
+### Releases
+
+Semantic model tags use the existing `<model-version>` convention, for example `2.0.0`. The release workflow validates the model, generated pages, and assessment profile before publishing individual model/profile/schema assets, checksums, and complete `.tar.gz` and `.zip` source packages. Downstream builds should use a pinned GitHub release asset rather than an unversioned file from `main`.
 
 ### Conventions
 

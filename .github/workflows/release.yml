@@ -1,0 +1,81 @@
+name: Publish model release
+
+on:
+  push:
+    tags: ["[0-9]*.[0-9]*.[0-9]*"]
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    uses: ./.github/workflows/check-consistency.yml
+
+  release:
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - name: Build release package
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          test -f "data/pkimm-model-${RELEASE_TAG}.yaml"
+          test -f "data/pkimm-model.schema-${RELEASE_TAG}.json"
+          PACKAGE_DIR="dist/pkimm-${RELEASE_TAG}"
+          mkdir -p "${PACKAGE_DIR}"
+          cp -R assessment categories data extensions model release-notes "${PACKAGE_DIR}/"
+          cp _index.md LICENSE "${PACKAGE_DIR}/"
+          cp .github/README.md "${PACKAGE_DIR}/README.md"
+          cp "data/pkimm-model-${RELEASE_TAG}.yaml" dist/
+          cp "data/pkimm-model.schema-${RELEASE_TAG}.json" dist/
+          cp data/pkimm-references.yaml dist/
+          cp data/pkimm-references.schema-1.0.0.json dist/
+          cp data/pkimm-self-assessment-profile-1.0.0.yaml dist/
+          cp data/assessment-profile.schema-1.0.0.json dist/
+          SOURCE_DATE_EPOCH="$(git show -s --format=%ct)"
+          find "${PACKAGE_DIR}" -exec touch -d "@${SOURCE_DATE_EPOCH}" {} +
+          tar \
+            --sort=name \
+            --mtime="@${SOURCE_DATE_EPOCH}" \
+            --owner=0 \
+            --group=0 \
+            --numeric-owner \
+            -C dist \
+            -cf - \
+            "pkimm-${RELEASE_TAG}" \
+            | gzip -n > "dist/pkimm-${RELEASE_TAG}.tar.gz"
+          cd dist
+          find "pkimm-${RELEASE_TAG}" -type f -print \
+            | LC_ALL=C sort \
+            | zip -Xq "pkimm-${RELEASE_TAG}.zip" -@
+          sha256sum \
+            assessment-profile.schema-1.0.0.json \
+            "pkimm-model-${RELEASE_TAG}.yaml" \
+            "pkimm-model.schema-${RELEASE_TAG}.json" \
+            pkimm-references.schema-1.0.0.json \
+            pkimm-references.yaml \
+            pkimm-self-assessment-profile-1.0.0.yaml \
+            "pkimm-${RELEASE_TAG}.tar.gz" \
+            "pkimm-${RELEASE_TAG}.zip" > SHA256SUMS
+
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: >-
+          gh release create "${RELEASE_TAG}"
+          dist/assessment-profile.schema-1.0.0.json
+          "dist/pkimm-model-${RELEASE_TAG}.yaml"
+          "dist/pkimm-model.schema-${RELEASE_TAG}.json"
+          dist/pkimm-references.schema-1.0.0.json
+          dist/pkimm-references.yaml
+          dist/pkimm-self-assessment-profile-1.0.0.yaml
+          "dist/pkimm-${RELEASE_TAG}.tar.gz"
+          "dist/pkimm-${RELEASE_TAG}.zip"
+          dist/SHA256SUMS
+          --verify-tag
+          --generate-notes
+          --title "PKI Maturity Model ${RELEASE_TAG}"

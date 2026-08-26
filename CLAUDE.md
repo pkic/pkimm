@@ -12,7 +12,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repository is
 
-Content repository for the **PKI Maturity Model (PKIMM)**, maintained by the PKI Consortium PKIMM working group. The content is rendered at https://pkic.org/pkimm by an external Hugo-based site — this repo holds the source markdown, the canonical model data, and the assessment methodology pages. There is **no build system, no test suite, and no application code** here. Treat changes as documentation/data edits, not software changes.
+Content repository for the **PKI Maturity Model (PKIMM)**, maintained by the PKI Consortium PKIMM working group. The content is rendered at https://pkic.org/pkimm by an external Hugo-based site — this repo holds the source markdown, canonical model data, assessment runtime profile, and assessment methodology pages. There is no runtime application code here; Python scripts and tests validate authored data and generated documentation.
 
 ## Repository layout
 
@@ -27,6 +27,8 @@ Content repository for the **PKI Maturity Model (PKIMM)**, maintained by the PKI
 - `data/pkimm-model.schema-1.0.0.json` — JSON Schema for the 1.0.0 YAML shape (retroactively renamed from `pkimm-model.schema.json`).
 - `data/pkimm-references.yaml` — **independently-versioned references catalog**. Per-requirement `references` fields in the 2.0.0 model contain arrays of IDs from this catalog. Edit here to update reference metadata without touching the model YAML.
 - `data/pkimm-references.schema-1.0.0.json` — JSON Schema for the references catalog.
+- `data/pkimm-self-assessment-profile-1.0.0.yaml` — versioned generic assessment runtime configuration for PKIMM 2.0.0. It selects weighted-maturity behavior, subject fields, assurance states, and report/signing policy without introducing PKIMM-specific application logic.
+- `data/assessment-profile.schema-1.0.0.json` — shared JSON Schema for assessment runtime profiles.
 - `extensions/` — extension framework: schema (`extension.schema-1.0.0.json`), structure and scoring documentation. The extension framework defines the non-destructive, composable overlay/relevance model (schema/structure/scoring); the catalog of published extension YAML definitions now lives in the separate `pkimm-extensions` repository, rendered at https://pkic.org/wg/pkimm/extensions/.
 - `scripts/` — authoring and validation scripts (see "Authoring workflow" below).
 - Integration converters (e.g., the Eramba CSV package generators) now live in the separate `pkimm-integrations` repository, rendered at https://pkic.org/wg/pkimm/integrations/.
@@ -52,9 +54,10 @@ The markdown category pages and `data/pkimm-model-2.0.0.yaml` describe the same 
 2. **Regenerate markdown**: run `python scripts/generate_category_docs.py` to regenerate all category pages under `categories/` from the updated YAML.
 3. **Update narrative docs**: manually update `model/` pages, `_index.md` mindmap, and `release-notes/` notes if the change is consumer-facing.
 4. **Validate**: run `python scripts/check_model_docs_consistency.py --repo-root .` — must exit `0 error(s), 0 warning(s)` before committing.
-5. **Tag**: when releasing, bump `version` in `data/pkimm-model-2.0.0.yaml`, copy the file to `data/pkimm-model-<new>.yaml`, add a schema file for the new shape, and author release notes under `release-notes/<new>/`.
+5. **Validate the assessment profile**: run `python scripts/validate_assessment_profile.py` and confirm that the profile still references the model version and a supported generic methodology.
+6. **Tag**: when releasing, bump `version` in `data/pkimm-model-2.0.0.yaml`, copy the file to `data/pkimm-model-<new>.yaml`, add a schema file for the new shape, and author release notes under `release-notes/<new>/`.
 
-CI runs the validator on every PR and push to main (`.github/workflows/check-consistency.yml`).
+CI runs the tests and both validators on every PR and push to main (`.github/workflows/check-consistency.yml`). Model-version tags publish pinned release assets through `.github/workflows/release.yml`.
 
 **Key scripts in `scripts/`:**
 - `generate_category_docs.py` — regenerates `categories/` markdown from YAML.

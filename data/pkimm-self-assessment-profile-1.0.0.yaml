@@ -1,0 +1,121 @@
+schemaVersion: 1.0.0
+profile:
+  id: pkimm-self-assessment
+  version: 1.0.0
+  family: maturity
+  model:
+    id: pkimm
+    version: 2.0.0
+  title: PKIMM Assessment
+  description: Organization PKI maturity assessment. Data remains in this browser unless the user exports it.
+runtime:
+  experience: weighted-maturity
+  methodology:
+    strategy: weighted-average
+    version: 1.0.0
+    parameters:
+      minimumLevel: 0
+      maximumLevel: 5
+      rounding: floor
+      categoryWeightField: weight
+      requirementWeightField: weight
+      excludeNotApplicable: true
+  subjectFields:
+    - {
+        key: assessmentName,
+        label: Assessment name,
+        component: text,
+        required: false,
+      }
+    - {
+        key: organizationName,
+        label: Organization,
+        component: text,
+        required: false,
+      }
+    - { key: assessorName, label: Assessor, component: text, required: false }
+    - key: useCaseDescription
+      label: Description of the use case
+      component: textarea
+      rows: 4
+      required: false
+assurance:
+  defaultProfile: self
+  profiles:
+    - id: self
+      label: Self-assessment
+      reportLabel: Self-assessment — not independently verified — not PKI Consortium certified
+      availability: browser
+      independentVerification: false
+      certification: false
+      requiredFacets: []
+      notice: The maturity result is calculated from ratings supplied by the organization and has not been independently verified.
+    - id: qualified-third-party
+      label: Qualified third-party assessment
+      reportLabel: Qualified third-party assessment
+      availability: external-workflow
+      independentVerification: true
+      certification: false
+      requiredFacets:
+        [
+          identity,
+          organization-binding,
+          role-authority,
+          document-signature,
+          trusted-time,
+          evidence-review,
+          assessor-qualification,
+        ]
+      notice: Qualification and assessor signature must be verified by the PKI Consortium service before this assurance label can be issued.
+    - id: pkic-certified
+      label: PKI Consortium certified
+      reportLabel: PKI Consortium certified assessment
+      availability: external-workflow
+      independentVerification: true
+      certification: true
+      requiredFacets:
+        [
+          identity,
+          organization-binding,
+          role-authority,
+          document-signature,
+          trusted-time,
+          evidence-review,
+          assessor-qualification,
+          certification-issuance,
+        ]
+      notice: This status can only be issued by the future PKI Consortium review, signing, publication, and status service.
+report:
+  title: PKIMM Self-Assessment Report
+  claimLabel: Claimed maturity level
+  machineAttachmentName: pkimm-assessment-credential.json
+  includeEvidenceAttachments: true
+  includeEvidenceManifest: true
+  includeAttestation: true
+  signing:
+    format: PAdES
+    fields:
+      - name: ExecutiveApproval
+        label: Executive approval signature
+        role: CEO or accountable executive
+        required: false
+      - name: SecurityExecutiveApproval
+        label: Security executive approval signature
+        role: CISO or security executive
+        required: false
+    allowAdditionalSignatures: true
+    targetLevel: B-LTA
+    trustedTime: signature-or-document-timestamp
+    acceptedAuthorityEvidence:
+      [vlei-oor, vlei-ecr, eudi-wallet-credential, manually-verified-authority]
+futureServices:
+  pkicSubmission:
+    implemented: false
+    processingMayRequirePayment: true
+    covers:
+      - intake and validation
+      - qualified assessor verification
+      - human and AI-assisted evidence review
+      - formal digital signatures
+      - publication and status registry
+      - long-term report and evidence storage
