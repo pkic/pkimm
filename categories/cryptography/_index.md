@@ -67,9 +67,9 @@ Terminology should be used consistently across policies, standards, and procedur
 
 #### References
 
-- [NIST SP 800-57 Part 1 Rev. 5 - Recommendation for Key Management](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf)
+- [NIST SP 800-57 Part 1 Rev. 5 - Recommendation for Key Management](https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final)
 - [PCI Cryptography Guidance](https://docs-prv.pcisecuritystandards.org/Guidance%20Document/Cryptography/PCI-Cryptography-Guidance-v1_0.pdf)
-- [CycloneDX - Cryptography Registry](https://cyclonedx.org/registry/cryptography/)
+- [CycloneDX Cryptography Registry](https://cyclonedx.org/registry/cryptography/)
 
 <a id="crypto-algorithms"></a>
 ### Cryptographic algorithms and parameters are documented and approved
@@ -96,11 +96,11 @@ Where the organization operates under a regulatory regime or trust scheme that m
 
 #### References
 
-- [NIST SP 800-131A Rev. 2 - Transitioning the Use of Cryptographic Algorithms and Key Lengths](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf)
-- [ETSI TS 119 312 - Cryptographic Suites](https://www.etsi.org/deliver/etsi_ts/119300_119399/119312)
+- [NIST SP 800-131A Rev. 2 - Transitioning the Use of Cryptographic Algorithms and Key Lengths](https://csrc.nist.gov/pubs/sp/800/131/a/r2/final)
+- [ETSI TS 119 312 - Cryptographic Suites](https://www.etsi.org/deliver/etsi_ts/119300_119399/119312/)
 - [ECCG Agreed Cryptographic Mechanisms (ACM)](https://certification.enisa.europa.eu/publications/eucc-guidelines-cryptography_en)
-- [EUCC Guidelines on Cryptography](https://certification.enisa.europa.eu/publications/eucc-guidelines-cryptography_en)
-- [CNSA 2.0](https://media.defense.gov/2022/Sep/07/2003071834/-1/-1/0/CSA_CNSA_2.0_ALGORITHMS_.PDF)
+- [EUCC Guidelines on Cryptography](https://certification.enisa.europa.eu/document/download/f4657490-9757-4a97-8deb-fd4d6a1358ee_en?filename=EUCC_guidelines_Agreed%20Cryptographic%20Mechanisms%20v2.pdf)
+- [CNSA 2.0 - Commercial National Security Algorithm Suite 2.0](https://media.defense.gov/2025/May/30/2003728741/-1/-1/0/CSA_CNSA_2.0_ALGORITHMS.PDF)
 
 <a id="crypto-protocols"></a>
 ### Cryptographic protocols and versions are documented and approved
@@ -119,7 +119,7 @@ The organization should define which cryptographic protocols and protocol versio
 
 #### References
 
-- [NIST SP 800-52 Rev. 2 - Guidelines for the Selection, Configuration, and Use of Transport Layer Security (TLS) Implementations](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r2.pdf)
+- [NIST SP 800-52 Rev. 2 - Guidelines for the Selection, Configuration, and Use of Transport Layer Security (TLS) Implementations](https://csrc.nist.gov/pubs/sp/800/52/r2/final)
 - [OWASP Transport Layer Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html)
 
 <a id="crypto-visibility"></a>
@@ -139,7 +139,7 @@ The organization should maintain visibility into where cryptography is used, inc
 
 #### References
 
-- [NIST Cybersecurity Framework - Identify Function](https://www.nist.gov/cyberframework/identify)
+- [NIST Cybersecurity Framework (CSF) 2.0 - Identify function](https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final)
 - [CycloneDX Cryptography Bill of Materials (CBOM)](https://cyclonedx.org/capabilities/cbom/)
 
 <a id="crypto-lifecycle"></a>
@@ -163,9 +163,9 @@ The organization should define rules for:
 
 #### References
 
-- [NIST SP 800-131A Rev. 2 - Transitioning the Use of Cryptographic Algorithms and Key Lengths](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf)
-- [NIST SP 800-57 Part 1 Rev. 5 - Recommendation for Key Management](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf)
-- [ETSI TS 119 312 - Cryptographic Suites](https://www.etsi.org/deliver/etsi_ts/119300_119399/119312)
+- [NIST SP 800-131A Rev. 2 - Transitioning the Use of Cryptographic Algorithms and Key Lengths](https://csrc.nist.gov/pubs/sp/800/131/a/r2/final)
+- [NIST SP 800-57 Part 1 Rev. 5 - Recommendation for Key Management](https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final)
+- [ETSI TS 119 312 - Cryptographic Suites](https://www.etsi.org/deliver/etsi_ts/119300_119399/119312/)
 
 <a id="crypto-agility"></a>
 ### Cryptographic agility is defined and governed
@@ -188,4 +188,4 @@ The organization should define governance and planning for responding to cryptog
 
 #### References
 
-- [NIST CSWP 39 - Considerations for Achieving Cryptographic Agility: Strategies and Practices](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.39.pdf)
+- [NIST CSWP 39 - Considerations for Achieving Crypto Agility: Strategies and Practices](https://csrc.nist.gov/pubs/cswp/39/upd1/considerations-for-achieving-crypto-agility/final)

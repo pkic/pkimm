@@ -65,9 +65,8 @@ There can be different methods of training, depending on the needs and requireme
 
 #### References
 
-- [NIST SP 800-16 Information Technology Security Training Requirements: a Role- and Performance-Based Model](https://csrc.nist.gov/publications/detail/sp/800-16/final)
-- [NIST SP 800-50 Building an Information Technology Security Awareness and Training Program](https://csrc.nist.gov/publications/detail/sp/800-50/final)
-- [European Cybersecurity Skills Framework (ECSF)](https://www.enisa.europa.eu/topics/education/european-cybersecurity-skills-framework)
+- [NIST SP 800-50 Rev. 1 - Building a Cybersecurity and Privacy Learning Program](https://csrc.nist.gov/pubs/sp/800/50/r1/final)
+- [European Cybersecurity Skills Framework (ECSF)](https://www.enisa.europa.eu/topics/skills-and-competences/skills-development/european-cybersecurity-skills-framework-ecsf)
 
 <a id="personnel-training"></a>
 ### Responsible personnel receive training
@@ -96,9 +95,8 @@ In case there are requirements for score or threshold to be achieved, the result
 
 #### References
 
-- [NIST SP 800-16 Information Technology Security Training Requirements: a Role- and Performance-Based Model](https://csrc.nist.gov/publications/detail/sp/800-16/final)
-- [NIST SP 800-50 Building an Information Technology Security Awareness and Training Program](https://csrc.nist.gov/publications/detail/sp/800-50/final)
-- [European Cybersecurity Skills Framework (ECSF)](https://www.enisa.europa.eu/topics/education/european-cybersecurity-skills-framework)
+- [NIST SP 800-50 Rev. 1 - Building a Cybersecurity and Privacy Learning Program](https://csrc.nist.gov/pubs/sp/800/50/r1/final)
+- [European Cybersecurity Skills Framework (ECSF)](https://www.enisa.europa.eu/topics/skills-and-competences/skills-development/european-cybersecurity-skills-framework-ecsf)
 
 <a id="security-awareness-training"></a>
 ### Perform security awareness training
@@ -125,9 +123,9 @@ Different methods can be applied to provide security awareness, for example:
 
 #### References
 
-- [NIST SP 800-50 Building an Information Technology Security Awareness and Training Program](https://csrc.nist.gov/publications/detail/sp/800-50/final)
-- [PCI SSC - Best Practices for Implementing a Security Awareness Program](https://docs-prv.pcisecuritystandards.org/Guidance%20Document/Security%20Awareness%20Program/PCI_DSS_V1.0_Best_Practices_for_Implementing_Security_Awareness_Program.pdf)
-- [Raising Awareness of Cybersecurity](https://www.enisa.europa.eu/publications/raising-awareness-of-cybersecurity)
+- [NIST SP 800-50 Rev. 1 - Building a Cybersecurity and Privacy Learning Program](https://csrc.nist.gov/pubs/sp/800/50/r1/final)
+- [Best Practices for Implementing a Security Awareness Program](https://docs-prv.pcisecuritystandards.org/Guidance%20Document/Security%20Awareness%20Program/PCI_DSS_V1.0_Best_Practices_for_Implementing_Security_Awareness_Program.pdf)
+- [Raising Awareness of Cybersecurity: A Key Element of National Cybersecurity Strategies](https://www.enisa.europa.eu/publications/raising-awareness-of-cybersecurity)
 
 <a id="education-plan"></a>
 ### Establish education plan
@@ -155,9 +153,8 @@ Methods to provide education can vary:
 
 #### References
 
-- [NIST SP 800-16 Information Technology Security Training Requirements: a Role- and Performance-Based Model](https://csrc.nist.gov/publications/detail/sp/800-16/final)
-- [NIST SP 800-50 Building an Information Technology Security Awareness and Training Program](https://csrc.nist.gov/publications/detail/sp/800-50/final)
-- [European Cybersecurity Skills Framework (ECSF)](https://www.enisa.europa.eu/topics/education/european-cybersecurity-skills-framework)
+- [NIST SP 800-50 Rev. 1 - Building a Cybersecurity and Privacy Learning Program](https://csrc.nist.gov/pubs/sp/800/50/r1/final)
+- [European Cybersecurity Skills Framework (ECSF)](https://www.enisa.europa.eu/topics/skills-and-competences/skills-development/european-cybersecurity-skills-framework-ecsf)
 
 <a id="knowledge-review"></a>
 ### Periodically review knowledge
@@ -177,6 +174,5 @@ It provides assurance that the expected controls are active and working as inten
 
 #### References
 
-- [NIST SP 800-16 Information Technology Security Training Requirements: a Role- and Performance-Based Model](https://csrc.nist.gov/publications/detail/sp/800-16/final)
-- [NIST SP 800-50 Building an Information Technology Security Awareness and Training Program](https://csrc.nist.gov/publications/detail/sp/800-50/final)
-- [European Cybersecurity Skills Framework (ECSF)](https://www.enisa.europa.eu/topics/education/european-cybersecurity-skills-framework)
+- [NIST SP 800-50 Rev. 1 - Building a Cybersecurity and Privacy Learning Program](https://csrc.nist.gov/pubs/sp/800/50/r1/final)
+- [European Cybersecurity Skills Framework (ECSF)](https://www.enisa.europa.eu/topics/skills-and-competences/skills-development/european-cybersecurity-skills-framework-ecsf)

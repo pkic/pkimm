@@ -64,8 +64,8 @@ The following is a sample evidence and information that can be collected during 
 
 #### References
 
-- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://tools.ietf.org/html/rfc3647)
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://datatracker.ietf.org/doc/html/rfc3647)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
 
 <a id="process-documentation"></a>
 ### Processes and procedures are formally documented and followed
@@ -86,7 +86,7 @@ The following is sample evidence and information that can be collected during th
 
 #### References
 
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
 - [ENISA Publications](https://www.enisa.europa.eu/publications)
 
 <a id="bau-execution"></a>
@@ -111,8 +111,8 @@ The following is sample evidence and information that can be collected during th
 
 #### References
 
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
-- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://tools.ietf.org/html/rfc3647)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
+- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://datatracker.ietf.org/doc/html/rfc3647)
 
 <a id="process-evidence"></a>
 ### Evidence from procedures is collected and maintained
@@ -132,8 +132,8 @@ The following is sample evidence and information that can be collected during th
 
 #### References
 
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
-- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://tools.ietf.org/html/rfc3647)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
+- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://datatracker.ietf.org/doc/html/rfc3647)
 - [ENISA Publications](https://www.enisa.europa.eu/publications)
 
 <a id="process-improvement"></a>
@@ -154,6 +154,6 @@ The following is sample evidence and information that can be collected during th
 
 #### References
 
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
-- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://tools.ietf.org/html/rfc3647)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
+- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://datatracker.ietf.org/doc/html/rfc3647)
 - [ENISA Publications](https://www.enisa.europa.eu/publications)

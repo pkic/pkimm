@@ -199,6 +199,56 @@ def test_generate_writes_references_page(tmp_path: Path) -> None:
     assert "ISO/IEC 27001" in body
 
 
+def _references_page_rows(tmp_path: Path, references_yaml: str) -> dict[str, str]:
+    """Generate the references page from `references_yaml` and return its table
+    rows keyed by reference id."""
+    refs_path = tmp_path / "data" / "pkimm-references.yaml"
+    refs_path.parent.mkdir(parents=True, exist_ok=True)
+    refs_path.write_text(textwrap.dedent(references_yaml).lstrip())
+    categories_dir = tmp_path / "categories"
+    categories_dir.mkdir()
+    refs_md = tmp_path / "model" / "references" / "_index.md"
+
+    generate(
+        model_yaml_path=_write_model(tmp_path),
+        references_yaml_path=refs_path,
+        categories_dir=categories_dir,
+        references_md=refs_md,
+    )
+
+    rows: dict[str, str] = {}
+    for line in refs_md.read_text().splitlines():
+        if line.startswith("| `"):
+            rows[line.split("`")[1]] = line
+    return rows
+
+
+def test_references_page_marks_a_deprecated_entry_and_names_its_successor(tmp_path: Path) -> None:
+    rows = _references_page_rows(tmp_path, SAMPLE_REFERENCES_YAML + """\
+  - id: "old-standard"
+    title: "Old standard"
+    authority: "ISO/IEC"
+    url: "https://example.org/old"
+    deprecated: true
+    supersededBy: "iso-27001"
+""")
+
+    assert "deprecated" in rows["old-standard"].lower()
+    assert "`iso-27001`" in rows["old-standard"]
+    assert "deprecated" not in rows["iso-27001"].lower()
+
+
+def test_references_page_marks_a_deprecated_entry_without_successor(tmp_path: Path) -> None:
+    rows = _references_page_rows(tmp_path, SAMPLE_REFERENCES_YAML + """\
+  - id: "withdrawn-standard"
+    title: "Withdrawn standard"
+    authority: "ISO/IEC"
+    deprecated: true
+""")
+
+    assert "deprecated" in rows["withdrawn-standard"].lower()
+
+
 def test_generate_warns_on_missing_reference_id(tmp_path: Path) -> None:
     """A requirement cites an id that's not in the catalog — renderer must surface this gracefully."""
     refs_path = _write_refs(tmp_path)

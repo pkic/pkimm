@@ -65,7 +65,7 @@ The following is sample evidence that can be used to assess the requirement:
 
 - [COBIT (Control Objectives for Information and Related Technologies)](https://www.isaca.org/resources/cobit)
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
-- [The Information Technology Infrastructure Library (ITIL)](https://www.axelos.com/best-practice-solutions/itil)
+- [The Information Technology Infrastructure Library (ITIL)](https://www.axelos.com/certifications/itil-service-management)
 
 <a id="change-request"></a>
 ### Request for change structure is documented and followed
@@ -100,7 +100,7 @@ The following is sample evidence that can be used to assess the requirement:
 
 - [COBIT (Control Objectives for Information and Related Technologies)](https://www.isaca.org/resources/cobit)
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
-- [The Information Technology Infrastructure Library (ITIL)](https://www.axelos.com/best-practice-solutions/itil)
+- [The Information Technology Infrastructure Library (ITIL)](https://www.axelos.com/certifications/itil-service-management)
 
 <a id="change-process"></a>
 ### The change management process is documented and implemented
@@ -123,7 +123,7 @@ The following is sample evidence that can be used to assess the requirement:
 
 - [COBIT (Control Objectives for Information and Related Technologies)](https://www.isaca.org/resources/cobit)
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
-- [The Information Technology Infrastructure Library (ITIL)](https://www.axelos.com/best-practice-solutions/itil)
+- [The Information Technology Infrastructure Library (ITIL)](https://www.axelos.com/certifications/itil-service-management)
 
 <a id="agility-requirements"></a>
 ### Requirements for agility are identified
@@ -149,7 +149,7 @@ The following is sample evidence that can be used to assess the requirement:
 
 - [COBIT (Control Objectives for Information and Related Technologies)](https://www.isaca.org/resources/cobit)
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
-- [The Information Technology Infrastructure Library (ITIL)](https://www.axelos.com/best-practice-solutions/itil)
+- [The Information Technology Infrastructure Library (ITIL)](https://www.axelos.com/certifications/itil-service-management)
 
 <a id="change-mgmt-review"></a>
 ### Change management and agility is periodically reviewed
@@ -168,4 +168,4 @@ The change management and agility requirements should be periodically reviewed t
 
 - [COBIT (Control Objectives for Information and Related Technologies)](https://www.isaca.org/resources/cobit)
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
-- [The Information Technology Infrastructure Library (ITIL)](https://www.axelos.com/best-practice-solutions/itil)
+- [The Information Technology Infrastructure Library (ITIL)](https://www.axelos.com/certifications/itil-service-management)

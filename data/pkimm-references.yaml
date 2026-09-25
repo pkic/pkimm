@@ -2,317 +2,345 @@ schemaVersion: 1.0.0
 version: 1.0.0
 references:
 - id: cab-baseline-requirements
-  title: CA/B Forum baseline requirements
-  url: https://cabforum.org/baseline-requirements/
+  title: CA/Browser Forum Baseline Requirements for the Issuance and Management of Publicly-Trusted TLS Server Certificates
+  authority: CA/Browser Forum
+  url: https://cabforum.org/working-groups/server/baseline-requirements/documents/
   regions:
   - GLOBAL
-  authority: CA/Browser Forum
 - id: cnsa-2-0
-  title: CNSA 2.0
-  url: https://media.defense.gov/2022/Sep/07/2003071834/-1/-1/0/CSA_CNSA_2.0_ALGORITHMS_.PDF
+  title: CNSA 2.0 - Commercial National Security Algorithm Suite 2.0
+  authority: NSA
+  url: https://media.defense.gov/2025/May/30/2003728741/-1/-1/0/CSA_CNSA_2.0_ALGORITHMS.PDF
   regions:
   - US
-  authority: NSA
 - id: cobit
   title: COBIT (Control Objectives for Information and Related Technologies)
+  authority: ISACA
   url: https://www.isaca.org/resources/cobit
   regions:
   - GLOBAL
-  authority: ISACA
 - id: cve
   title: Common Vulnerabilities and Exposures (CVE) Program
+  authority: MITRE
   url: https://www.cve.org/About/Overview
   regions:
   - GLOBAL
-  authority: MITRE
 - id: cvss
   title: Common Vulnerability Scoring System (CVSS)
+  authority: FIRST
   url: https://www.first.org/cvss/
   regions:
   - GLOBAL
-  authority: FIRST
 - id: cyclonedx-cbom
   title: CycloneDX Cryptography Bill of Materials (CBOM)
+  authority: OWASP
   url: https://cyclonedx.org/capabilities/cbom/
   regions:
   - GLOBAL
-  authority: OWASP
 - id: cyclonedx-crypto-registry
-  title: CycloneDX - Cryptography Registry
+  title: CycloneDX Cryptography Registry
+  authority: OWASP
   url: https://cyclonedx.org/registry/cryptography/
   regions:
   - GLOBAL
-  authority: OWASP
 - id: eccg-acm
   title: ECCG Agreed Cryptographic Mechanisms (ACM)
-  authority: EU
+  authority: ECCG
   url: https://certification.enisa.europa.eu/publications/eucc-guidelines-cryptography_en
   regions:
   - EU
 - id: ecsf
   title: European Cybersecurity Skills Framework (ECSF)
-  url: https://www.enisa.europa.eu/topics/education/european-cybersecurity-skills-framework
+  authority: ENISA
+  url: https://www.enisa.europa.eu/topics/skills-and-competences/skills-development/european-cybersecurity-skills-framework-ecsf
   regions:
   - EU
-  authority: ENISA
 - id: enisa-cyber-awareness
-  title: Raising Awareness of Cybersecurity
+  title: 'Raising Awareness of Cybersecurity: A Key Element of National Cybersecurity Strategies'
+  authority: ENISA
   url: https://www.enisa.europa.eu/publications/raising-awareness-of-cybersecurity
   regions:
   - EU
-  authority: ENISA
 - id: enisa-publications
   title: ENISA Publications
+  authority: ENISA
   url: https://www.enisa.europa.eu/publications
   regions:
   - EU
-  authority: ENISA
 - id: etsi-119-312
   title: ETSI TS 119 312 - Cryptographic Suites
   authority: ETSI
-  url: https://www.etsi.org/deliver/etsi_ts/119300_119399/119312
+  url: https://www.etsi.org/deliver/etsi_ts/119300_119399/119312/
   regions:
   - EU
 - id: etsi-319-401
   title: ETSI EN 319 401 - General Policy Requirements for Trust Service Providers
   authority: ETSI
-  url: https://www.etsi.org/deliver/etsi_en/319400_319499/319401/02.03.01_60/en_319401v020301p.pdf
-  regions: &id001
+  url: https://www.etsi.org/deliver/etsi_en/319400_319499/319401/
+  regions:
   - EU
 - id: etsi-319-411-1
-  title: ETSI EN 319 411-1 - Policy and security requirements for Trust Service Providers issuing certificates
+  title: 'ETSI EN 319 411-1 - Policy and security requirements for Trust Service Providers issuing certificates; Part 1: General requirements'
   authority: ETSI
-  url: https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/01.03.01_60/en_31941101v010301p.pdf
-  regions: *id001
+  url: https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/
+  regions:
+  - EU
 - id: etsi-319-411-2
-  title: ETSI 319-411-2
+  title: 'ETSI EN 319 411-2 - Policy and security requirements for Trust Service Providers issuing certificates; Part 2: Requirements for trust service providers issuing EU qualified certificates'
   authority: ETSI
-  url: https://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.03.01_60/en_31941102v020301p.pdf
-  regions: *id001
+  url: https://www.etsi.org/deliver/etsi_en/319400_319499/31941102/
+  regions:
+  - EU
 - id: etsi-qualified-cert-profiles
-  title: ETSI Qualified Certificate Profiles
+  title: 'ETSI EN 319 412-5 - Certificate Profiles; Part 5: QCStatements'
   authority: ETSI
-  url: https://portal.etsi.org/TB-SiteMap/ESI/Trust-Service-Providers
-  regions: *id001
+  url: https://www.etsi.org/deliver/etsi_en/319400_319499/31941205/
+  regions:
+  - EU
 - id: etsi-standards
   title: ETSI Standards
   authority: ETSI
-  url: https://www.etsi.org/standards
-  regions: *id001
-- id: eucc-crypto-guidelines
-  title: EUCC Guidelines on Cryptography
-  url: https://certification.enisa.europa.eu/publications/eucc-guidelines-cryptography_en
+  url: https://www.etsi.org/standards/
   regions:
   - EU
-  authority: EU
+- id: eucc-crypto-guidelines
+  title: EUCC Guidelines on Cryptography
+  authority: ENISA
+  url: https://certification.enisa.europa.eu/document/download/f4657490-9757-4a97-8deb-fd4d6a1358ee_en?filename=EUCC_guidelines_Agreed%20Cryptographic%20Mechanisms%20v2.pdf
+  regions:
+  - EU
 - id: ietf-rfc
   title: IETF Request for Comments (RFC)
   authority: IETF
-  url: https://www.ietf.org/standards/rfcs/
-  regions: &id004
+  url: https://www.ietf.org/process/rfcs/
+  regions:
   - GLOBAL
 - id: iso-11770
-  title: ISO/IEC 11770 Key Management
+  title: 'ISO/IEC 11770-1 - Key management - Part 1: Framework'
   authority: ISO/IEC
   url: https://www.iso.org/standard/53456.html
-  regions: &id002
+  regions:
   - GLOBAL
 - id: iso-20000-related
   title: ISO/IEC 20000 and related standards
   authority: ISO/IEC
   url: https://www.iso.org/standard/70636.html
-  regions: *id002
+  regions:
+  - GLOBAL
 - id: iso-22301
-  title: ISO/IEC 22301 - Business continuity management systems
-  authority: ISO/IEC
-  url: https://www.iso.org/standard/50056.html
-  regions: *id002
+  title: ISO 22301 - Business continuity management systems - Requirements
+  authority: ISO
+  url: https://www.iso.org/standard/75106.html
+  regions:
+  - GLOBAL
 - id: iso-22317
   title: ISO/TS 22317 - Guidelines for business impact analysis
-  authority: ISO/IEC
+  authority: ISO
   url: https://www.iso.org/standard/79000.html
-  regions: *id002
+  regions:
+  - GLOBAL
 - id: iso-223xx
-  title: ISO 223XX Security and resilience standards
-  authority: ISO/IEC
-  url: https://www.iso.org/standard/77008.html
-  regions: *id002
+  title: ISO 223xx - Security and resilience standards
+  authority: ISO
+  url: https://www.iso.org/committee/5259148.html
+  regions:
+  - GLOBAL
 - id: iso-27001
-  title: ISO/IEC 27001 - Information security management systems
+  title: ISO/IEC 27001 - Information security management systems - Requirements
   authority: ISO/IEC
-  url: https://www.iso.org/standard/54534.html
-  regions: *id002
+  url: https://www.iso.org/standard/27001
+  regions:
+  - GLOBAL
 - id: iso-27001-related
-  title: ISO/IEC 27001 and related standards
+  title: ISO/IEC 27000 family - Information security management
   authority: ISO/IEC
-  url: https://www.iso.org/isoiec-27001-information-security.html
-  regions: *id002
+  url: https://www.iso.org/standard/iso-iec-27000-family
+  regions:
+  - GLOBAL
 - id: iso-27005
   title: ISO/IEC 27005 - Guidance on managing information security risks
   authority: ISO/IEC
   url: https://www.iso.org/standard/80585.html
-  regions: *id002
+  regions:
+  - GLOBAL
 - id: iso-27099
-  title: ISO/IEC 27099 - Public key infrastructure
+  title: ISO/IEC 27099 - Public key infrastructure - Practices and policy framework
   authority: ISO/IEC
   url: https://www.iso.org/standard/56590.html
-  regions: *id002
+  regions:
+  - GLOBAL
 - id: iso-37301
-  title: ISO 37301 - Compliance management systems and related standard
-  authority: ISO/IEC
+  title: ISO 37301 - Compliance management systems - Requirements with guidance for use
+  authority: ISO
   url: https://www.iso.org/standard/75080.html
-  regions: *id002
+  regions:
+  - GLOBAL
 - id: iso-standards
   title: ISO Standards
-  authority: ISO/IEC
+  authority: ISO
   url: https://www.iso.org/standards.html
-  regions: *id002
+  regions:
+  - GLOBAL
 - id: itil
   title: The Information Technology Infrastructure Library (ITIL)
-  url: https://www.axelos.com/best-practice-solutions/itil
+  authority: PeopleCert
+  url: https://www.axelos.com/certifications/itil-service-management
   regions:
   - GLOBAL
-  authority: AXELOS
 - id: itu-standards
-  title: ITU Standards
-  url: https://www.itu.int/en/ITU-T/standardization/
+  title: ITU-T Recommendations
+  authority: ITU
+  url: https://www.itu.int/en/ITU-T/publications/Pages/recs.aspx
   regions:
   - GLOBAL
-  authority: ITU
 - id: nist-csf-identify
-  title: NIST Cybersecurity Framework - Identify Function
+  title: NIST Cybersecurity Framework (CSF) 2.0 - Identify function
   authority: NIST
-  url: https://www.nist.gov/cyberframework/identify
-  regions: &id003
+  url: https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final
+  regions:
   - US
 - id: nist-cswp-39
-  title: 'NIST CSWP 39 - Considerations for Achieving Cryptographic Agility: Strategies and Practices'
+  title: 'NIST CSWP 39 - Considerations for Achieving Crypto Agility: Strategies and Practices'
   authority: NIST
-  url: https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.39.pdf
-  regions: *id003
+  url: https://csrc.nist.gov/pubs/cswp/39/upd1/considerations-for-achieving-crypto-agility/final
+  regions:
+  - US
 - id: nist-rmf
   title: NIST Risk Management Framework
   authority: NIST
   url: https://csrc.nist.gov/Projects/risk-management
-  regions: *id003
+  regions:
+  - US
 - id: nist-sp-800-131a
   title: NIST SP 800-131A Rev. 2 - Transitioning the Use of Cryptographic Algorithms and Key Lengths
   authority: NIST
-  url: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf
-  regions: *id003
+  url: https://csrc.nist.gov/pubs/sp/800/131/a/r2/final
+  regions:
+  - US
 - id: nist-sp-800-16
-  title: 'NIST SP 800-16 Information Technology Security Training Requirements: a Role- and Performance-Based Model'
+  title: 'NIST SP 800-16 - Information Technology Security Training Requirements: a Role- and Performance-Based Model'
   authority: NIST
-  url: https://csrc.nist.gov/publications/detail/sp/800-16/final
-  regions: *id003
+  url: https://csrc.nist.gov/pubs/sp/800/16/final
+  regions:
+  - US
+  deprecated: true
+  supersededBy: nist-sp-800-50
 - id: nist-sp-800-208
   title: NIST SP 800-208 - Recommendation for Stateful Hash-Based Signature Schemes
   authority: NIST
-  url: https://csrc.nist.gov/publications/detail/sp/800-208/final
-  regions: *id003
+  url: https://csrc.nist.gov/pubs/sp/800/208/final
+  regions:
+  - US
 - id: nist-sp-800-34
-  title: NIST Special Publication 800-34 Revision 1 - Contingency Planning Guide for Federal Information Systems
+  title: NIST SP 800-34 Rev. 1 - Contingency Planning Guide for Federal Information Systems
   authority: NIST
-  url: https://csrc.nist.gov/publications/detail/sp/800-34/rev-1/final
-  regions: *id003
+  url: https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
+  regions:
+  - US
 - id: nist-sp-800-50
-  title: NIST SP 800-50 Building an Information Technology Security Awareness and Training Program
+  title: NIST SP 800-50 Rev. 1 - Building a Cybersecurity and Privacy Learning Program
   authority: NIST
-  url: https://csrc.nist.gov/publications/detail/sp/800-50/final
-  regions: *id003
+  url: https://csrc.nist.gov/pubs/sp/800/50/r1/final
+  regions:
+  - US
 - id: nist-sp-800-52
   title: NIST SP 800-52 Rev. 2 - Guidelines for the Selection, Configuration, and Use of Transport Layer Security (TLS) Implementations
   authority: NIST
-  url: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r2.pdf
-  regions: *id003
+  url: https://csrc.nist.gov/pubs/sp/800/52/r2/final
+  regions:
+  - US
 - id: nist-sp-800-57
   title: NIST SP 800-57 Part 1 Rev. 5 - Recommendation for Key Management
   authority: NIST
-  url: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf
-  regions: *id003
+  url: https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final
+  regions:
+  - US
 - id: nist-sp-800-61
-  title: NIST Special Publication 800-61 Revision 2 - Computer Security Incident Handling Guide
+  title: 'NIST SP 800-61 Rev. 3 - Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile'
   authority: NIST
-  url: https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final
-  regions: *id003
+  url: https://csrc.nist.gov/pubs/sp/800/61/r3/final
+  regions:
+  - US
 - id: nist-sp-800-92
-  title: NIST - Guide to Computer Security Log Management
+  title: NIST SP 800-92 - Guide to Computer Security Log Management
   authority: NIST
-  url: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-92.pdf
-  regions: *id003
+  url: https://csrc.nist.gov/pubs/sp/800/92/final
+  regions:
+  - US
 - id: nist-sp-800-series
-  title: NIST Special Publications 800 - 30, 34, 37, 46, 53, 84
+  title: NIST SP 800-30, 800-34, 800-37, 800-46, 800-53 and 800-84
   authority: NIST
-  url: https://csrc.nist.gov/publications
-  regions: *id003
+  url: https://csrc.nist.gov/publications/sp800
+  regions:
+  - US
 - id: nist-standards
   title: NIST Standards
   authority: NIST
   url: https://www.nist.gov/standards
-  regions: *id003
-- id: nsa-suite-b
-  title: Suite B
-  url: https://apps.nsa.gov/iaarchive/programs/iad-initiatives/cnsa-suite.cfm
   regions:
   - US
-  authority: NSA
 - id: oasis-standards
   title: OASIS Standards
-  url: https://www.oasis-open.org/standards
+  authority: OASIS
+  url: https://www.oasis-open.org/standards/
   regions:
   - GLOBAL
-  authority: OASIS
 - id: open-standards-principles
   title: Open Standards Principles
+  authority: UK Cabinet Office
   url: https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles
   regions:
   - GB
-  authority: GOV UK
 - id: owasp-tls
   title: OWASP Transport Layer Security Cheat Sheet
+  authority: OWASP
   url: https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html
   regions:
   - GLOBAL
-  authority: OWASP
 - id: pci-container-guidance
   title: Guidance for Containers and Container Orchestration Tools
+  authority: PCI SSC
   url: https://docs-prv.pcisecuritystandards.org/Guidance%20Document/Containers%20and%20Container%20Orchestration%20Tools/Guidance-for-Containers-and-Container-Ochestration-Tools-v1_0.pdf
   regions:
   - GLOBAL
-  authority: PCI SSC
 - id: pci-crypto-guidance
   title: PCI Cryptography Guidance
+  authority: PCI SSC
   url: https://docs-prv.pcisecuritystandards.org/Guidance%20Document/Cryptography/PCI-Cryptography-Guidance-v1_0.pdf
   regions:
   - GLOBAL
-  authority: PCI SSC
 - id: pci-security-awareness
-  title: PCI SSC - Best Practices for Implementing a Security Awareness Program
+  title: Best Practices for Implementing a Security Awareness Program
+  authority: PCI SSC
   url: https://docs-prv.pcisecuritystandards.org/Guidance%20Document/Security%20Awareness%20Program/PCI_DSS_V1.0_Best_Practices_for_Implementing_Security_Awareness_Program.pdf
   regions:
   - GLOBAL
-  authority: PCI SSC
 - id: ref-3gpp-33-310
-  title: 3GPP 33.310 - Network Domain Security (NDS); Authentication Framework (AF)
+  title: 3GPP TS 33.310 - Network Domain Security (NDS); Authentication Framework (AF)
+  authority: 3GPP
   url: https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2293
   regions:
   - GLOBAL
-  authority: 3GPP
 - id: rfc-3647
   title: RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework
   authority: IETF
-  url: https://tools.ietf.org/html/rfc3647
-  regions: *id004
+  url: https://datatracker.ietf.org/doc/html/rfc3647
+  regions:
+  - GLOBAL
 - id: rfc-4210
   title: RFC 4210 - Internet X.509 Public Key Infrastructure Certificate Management Protocol (CMP)
   authority: IETF
-  url: https://datatracker.ietf.org/doc/html/rfc4210/
-  regions: *id004
+  url: https://datatracker.ietf.org/doc/html/rfc4210
+  regions:
+  - GLOBAL
+  deprecated: true
+  supersededBy: rfc-9810
 - id: rfc-5280
   title: RFC 5280 - Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile
   authority: IETF
   url: https://datatracker.ietf.org/doc/html/rfc5280
-  regions: *id004
+  regions:
+  - GLOBAL
 - id: rfc-6024
   title: RFC 6024 - Trust Anchor Management Requirements
   authority: IETF
@@ -320,7 +348,7 @@ references:
   regions:
   - GLOBAL
 - id: rfc-6960
-  title: RFC 6960 - X.509 Internet Public Key Infrastructure Online Certificate Status Protocol (OCSP)
+  title: RFC 6960 - X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP
   authority: IETF
   url: https://datatracker.ietf.org/doc/html/rfc6960
   regions:
@@ -331,29 +359,35 @@ references:
   url: https://datatracker.ietf.org/doc/html/rfc9525
   regions:
   - GLOBAL
-- id: sans-security-ops
-  title: SANS Guide to Security Operations
-  url: https://www.sans.org/posters/guide-to-security-operations/
+- id: rfc-9810
+  title: RFC 9810 - Internet X.509 Public Key Infrastructure - Certificate Management Protocol (CMP)
+  authority: IETF
+  url: https://datatracker.ietf.org/doc/html/rfc9810
   regions:
   - GLOBAL
+- id: sans-security-ops
+  title: SANS Guide to Security Operations
   authority: SANS
+  url: https://www.sans.org/posters/guide-to-security-operations
+  regions:
+  - GLOBAL
 - id: sogis-crypto
-  title: SOG-IS crypto algorithms
+  title: SOG-IS Agreed Cryptographic Mechanisms
+  authority: SOG-IS
   url: https://www.sogis.eu/uk/supporting_doc_en.html
   regions:
   - EU
-  authority: SOG-IS
   deprecated: true
   supersededBy: eccg-acm
 - id: togaf
   title: The Open Group Architecture Framework (TOGAF)
+  authority: The Open Group
   url: https://www.opengroup.org/togaf
   regions:
   - GLOBAL
-  authority: The Open Group
 - id: unisig-subset-137
-  title: UNISIG SUBSET-137
-  url: https://www.era.europa.eu/system/files/2022-11/index083_-_subset-137_v100.pdf
+  title: UNISIG SUBSET-137 - ERTMS/ETCS On-line Key Management FFFIS
+  authority: UNISIG
+  url: https://www.era.europa.eu/system/files/2023-09/index083_-_SUBSET-137_v400.pdf
   regions:
   - EU
-  authority: UNISIG

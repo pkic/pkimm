@@ -139,6 +139,12 @@ def _render_references_page(references: list[dict[str, Any]]) -> str:
         title = _flatten(ref["title"])
         url = ref.get("url")
         title_cell = f"[{title}]({url})" if url else title
+        # A deprecated entry stays listed so its id keeps resolving, but readers
+        # must be able to tell it apart from the references the model cites.
+        if ref.get("deprecated"):
+            successor = ref.get("supersededBy")
+            note = f"deprecated, superseded by `{successor}`" if successor else "deprecated"
+            title_cell += f" — *{note}*"
         authority = _flatten(ref.get("authority") or "—")
         regions = ", ".join(ref.get("regions", [])) or "—"
         lines.append(f"| `{ref['id']}` | {title_cell} | {authority} | {regions} |")
