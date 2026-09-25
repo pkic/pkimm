@@ -22,7 +22,7 @@ You can find more information about the working group and its goal in the [PKI M
 
 ## Applicability
 
-The PKI maturity model is intended for all entities that operates public key infrastructure, regardless of the size, industry, or use-case.
+The PKI maturity model is intended for all entities that operate public key infrastructure, regardless of the size, industry, or use-case.
 
 Whether the entity would like to follow this model is at the discretion of the entity. The model is not mandatory and does not impose any requirements on the entity.
 
