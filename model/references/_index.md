@@ -1,5 +1,5 @@
 ---
-date: 2026-05-21T00:00:00Z
+date: 2026-09-25T00:00:00Z
 title: References
 weight: 4
 ---
@@ -17,15 +17,17 @@ Canonical list of standards, regulations, and publications referenced by the mod
 | `cvss` | [Common Vulnerability Scoring System (CVSS)](https://www.first.org/cvss/) | FIRST | GLOBAL |
 | `cyclonedx-cbom` | [CycloneDX Cryptography Bill of Materials (CBOM)](https://cyclonedx.org/capabilities/cbom/) | OWASP | GLOBAL |
 | `cyclonedx-crypto-registry` | [CycloneDX - Cryptography Registry](https://cyclonedx.org/registry/cryptography/) | OWASP | GLOBAL |
+| `eccg-acm` | [ECCG Agreed Cryptographic Mechanisms (ACM)](https://certification.enisa.europa.eu/publications/eucc-guidelines-cryptography_en) | EU | EU |
 | `ecsf` | [European Cybersecurity Skills Framework (ECSF)](https://www.enisa.europa.eu/topics/education/european-cybersecurity-skills-framework) | ENISA | EU |
 | `enisa-cyber-awareness` | [Raising Awareness of Cybersecurity](https://www.enisa.europa.eu/publications/raising-awareness-of-cybersecurity) | ENISA | EU |
 | `enisa-publications` | [ENISA Publications](https://www.enisa.europa.eu/publications) | ENISA | EU |
+| `etsi-119-312` | [ETSI TS 119 312 - Cryptographic Suites](https://www.etsi.org/deliver/etsi_ts/119300_119399/119312) | ETSI | EU |
 | `etsi-319-401` | [ETSI EN 319 401 - General Policy Requirements for Trust Service Providers](https://www.etsi.org/deliver/etsi_en/319400_319499/319401/02.03.01_60/en_319401v020301p.pdf) | ETSI | EU |
 | `etsi-319-411-1` | [ETSI EN 319 411-1 - Policy and security requirements for Trust Service Providers issuing certificates](https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/01.03.01_60/en_31941101v010301p.pdf) | ETSI | EU |
 | `etsi-319-411-2` | [ETSI 319-411-2](https://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.03.01_60/en_31941102v020301p.pdf) | ETSI | EU |
 | `etsi-qualified-cert-profiles` | [ETSI Qualified Certificate Profiles](https://portal.etsi.org/TB-SiteMap/ESI/Trust-Service-Providers) | ETSI | EU |
 | `etsi-standards` | [ETSI Standards](https://www.etsi.org/standards) | ETSI | EU |
-| `eucc-crypto-inventory` | [EUCC Guidelines on Cryptography Inventory](https://certification.enisa.europa.eu/publications/eucc-guidelines-cryptography_en) | EU | EU |
+| `eucc-crypto-guidelines` | [EUCC Guidelines on Cryptography](https://certification.enisa.europa.eu/publications/eucc-guidelines-cryptography_en) | EU | EU |
 | `ietf-rfc` | [IETF Request for Comments (RFC)](https://www.ietf.org/standards/rfcs/) | IETF | GLOBAL |
 | `iso-11770` | [ISO/IEC 11770 Key Management](https://www.iso.org/standard/53456.html) | ISO/IEC | GLOBAL |
 | `iso-20000-related` | [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html) | ISO/IEC | GLOBAL |
