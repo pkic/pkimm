@@ -258,6 +258,43 @@ modules:
       - rfc-3647
       - iso-27001
       - etsi-319-401
+    - id: validation-requirements
+      weight: 5
+      description: Certificate validation requirements are documented, implemented, and verified
+      guidance: |
+        Trust decisions are only as strong as the rules used to make them. A component that consumes certificates makes a security decision every time it accepts one, and that decision is governed by the validation requirements applied to it, whether or not those requirements have been written down.
+
+        The applicable requirements may already exist in a certificate policy, a certification practice statement, a relying party agreement, a security standard, or an operational procedure. A separate document is not expected. What is expected is that the requirements are identified, that they are implemented in the components that consume certificates, and that the implementation is verified.
+
+        The requirements should cover:
+        - certification path construction and path validation, and the trust anchors accepted for each use case
+        - the enforcement of name constraints, key usage, and extended key usage
+        - the certificate policy identifiers that are required or rejected
+        - the verification that the certificate identifies the subject the consuming component expects
+        - the treatment of certificate validity, including rejection of expired or not yet valid certificates
+        - the revocation mechanisms that are used, the status freshness that is acceptable, and the behavior when the status cannot be determined
+
+        A valid certification path does not by itself establish that a certificate is the right one to accept. A correctly issued certificate for a different subject may pass path validation, because the identity the consuming component expects is not something the path itself expresses.
+
+        A trust anchor is trusted input to path validation rather than a certificate validated within the path. Trust in an anchor is therefore withdrawn by removing, replacing, disabling, or constraining it in the components that hold it, not by revocation.
+
+        A confirmed revoked status is not a decision to be taken; the certificate is rejected. The deliberate decision applies to the outcomes that leave the status undetermined, such as an unknown status, a stale or malformed response, an unreachable responder, or the absence of any usable status source. Validity and revocation are evaluated at the validation time that applies to the use case, which for long-term signature validation may be the time of signing rather than the present.
+
+        Approved algorithms and parameters are governed under the cryptography category. This requirement applies to the certificate-consuming components within the assessed PKI environment and its use cases.
+      assessment: |
+        - Documented validation requirements for the certificate-consuming components in scope, whether held in a dedicated document or in existing policies, agreements, standards, or procedures
+        - The documented requirements cover each use case and each class of certificate-consuming component in scope
+        - Evidence that the deployed trust stores and validation settings match the documented requirements
+        - Functional evidence that a certificate is rejected when the path, the subject identity, the intended purpose, or the validity does not meet the documented requirements
+        - Documented behavior when revocation status cannot be determined, with justification
+        - Documented and approved deviations from the requirements
+      references:
+      - rfc-5280
+      - rfc-6024
+      - rfc-6960
+      - rfc-9525
+      - nist-sp-800-52
+      - iso-27099
   - id: compliance
     weight: 2
     name: Compliance
@@ -884,7 +921,7 @@ modules:
       - unisig-subset-137
     - id: cert-inventory
       weight: 3
-      description: Inventory of issued certificates is documented
+      description: Inventory of certificates is documented
       guidance: |
         Certificate inventory consists of all known certificates and provides an overview of known certificates in the organization. Certificates in inventory are subject to certificate lifecycle management. The certificate inventory is important for the organization because:
         - It provides immediate access to the current status of certificates
@@ -894,6 +931,8 @@ modules:
         - Can enforce and maintain ownership of certificates
 
         The certificate inventory therefore consists of information related to certificate like certificate attributes, validity and validation information, fingerprint and serial number, trust chain, owner, public key, signature algorithm, certificate type, compliance information, certificate locations, change history, or any other attributes and properties of the certificates that is required.
+
+        Known certificates include the certificates the organization issues or holds, and the trust anchors it has approved for use. The approved trust anchors recorded here are the deployed counterpart of the set accepted by the certificate validation requirements, and comparing the two is what shows whether the deployed state still matches what was approved. A trust anchor found in a trust store but not approved is a finding for the discovery process, not content for the inventory.
       assessment: |
         - Documented inventory
           - How inventory is maintained across the organization
@@ -910,6 +949,7 @@ modules:
         Certificate discovery process protects an organization from unknown certificates that may be deployed in the infrastructure. Unknown certificates may be further issued by unauthorized certification authorities and mislead users of services. Certificate discovery helps to maintain current inventory of certificates, but does not depend on the inventory and is not nessecary to maintain an inventory. Certificate discovery process should be implemented based on supported certificates and use-cases, for example:
         - To scan the network for certificates used on known protocols and ports to discover certificates that can potentially cause service outage or breach
         - Search for the certificates on file system to discover unauthorized or unsecured certificates
+        - Examine the trust stores of systems and devices to discover trust anchors that have not been approved
 
         Discovery process should be run frequently on the specified locations and the certificate inventory should be updated based on the results of the certificate discovery to keep it current.
       assessment: |

@@ -12,7 +12,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repository is
 
-Content repository for the **PKI Maturity Model (PKIMM)**, maintained by the PKI Consortium PKIMM working group. The content is rendered at https://pkic.org/pkimm by an external Hugo-based site — this repo holds the source markdown, the canonical model data, and the assessment methodology pages. There is **no build system, no test suite, and no application code** here. Treat changes as documentation/data edits, not software changes.
+Content repository for the **PKI Maturity Model (PKIMM)**, maintained by the PKI Consortium PKIMM working group. The content is rendered at https://pkic.org/pkimm by an external Hugo-based site — this repo holds the source markdown, the canonical model data, and the assessment methodology pages. There is **no build system and no application code** here — treat changes as documentation/data edits, not software changes. The one exception is `scripts/`, which holds the authoring and validation tooling and is covered by pytest tests (`scripts/test_*.py`, dependencies in `scripts/requirements-dev.txt`).
 
 ## Repository layout
 
