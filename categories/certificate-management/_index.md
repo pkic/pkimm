@@ -32,7 +32,7 @@ The techniques can be applied to an organization that makes use of PKI, or from 
 |----|-------------|-------:|
 | [`cert-profiles`](#cert-profiles) | Certificate profiles are documented | 2 |
 | [`cert-lifecycle`](#cert-lifecycle) | Certificate lifecycle management is documented | 4 |
-| [`cert-inventory`](#cert-inventory) | Inventory of issued certificates is documented | 3 |
+| [`cert-inventory`](#cert-inventory) | Inventory of certificates is documented | 3 |
 | [`cert-discovery`](#cert-discovery) | Certificate discovery process is documented | 2 |
 | [`cert-mgmt-review`](#cert-mgmt-review) | Certificate management is periodically reviewed and updated | 4 |
 | [`pki-governance`](#pki-governance) | Organizational PKI governance | 2 |
@@ -123,7 +123,7 @@ Issuance of certificates follow specific procedures, be it manual processes or a
 - [UNISIG SUBSET-137](https://www.era.europa.eu/system/files/2022-11/index083_-_subset-137_v100.pdf)
 
 <a id="cert-inventory"></a>
-### Inventory of issued certificates is documented
+### Inventory of certificates is documented
 
 #### Guidance
 
@@ -135,6 +135,8 @@ Certificate inventory consists of all known certificates and provides an overvie
 - Can enforce and maintain ownership of certificates
 
 The certificate inventory therefore consists of information related to certificate like certificate attributes, validity and validation information, fingerprint and serial number, trust chain, owner, public key, signature algorithm, certificate type, compliance information, certificate locations, change history, or any other attributes and properties of the certificates that is required.
+
+Known certificates include the certificates the organization issues or holds, and the trust anchors it has approved for use. The approved trust anchors recorded here are the deployed counterpart of the set accepted by the certificate validation requirements, and comparing the two is what shows whether the deployed state still matches what was approved. A trust anchor found in a trust store but not approved is a finding for the discovery process, not content for the inventory.
 
 #### Assessment
 
@@ -157,6 +159,7 @@ The certificate inventory therefore consists of information related to certifica
 Certificate discovery process protects an organization from unknown certificates that may be deployed in the infrastructure. Unknown certificates may be further issued by unauthorized certification authorities and mislead users of services. Certificate discovery helps to maintain current inventory of certificates, but does not depend on the inventory and is not nessecary to maintain an inventory. Certificate discovery process should be implemented based on supported certificates and use-cases, for example:
 - To scan the network for certificates used on known protocols and ports to discover certificates that can potentially cause service outage or breach
 - Search for the certificates on file system to discover unauthorized or unsecured certificates
+- Examine the trust stores of systems and devices to discover trust anchors that have not been approved
 
 Discovery process should be run frequently on the specified locations and the certificate inventory should be updated based on the results of the certificate discovery to keep it current.
 

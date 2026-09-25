@@ -313,6 +313,24 @@ references:
   authority: IETF
   url: https://datatracker.ietf.org/doc/html/rfc5280
   regions: *id004
+- id: rfc-6024
+  title: RFC 6024 - Trust Anchor Management Requirements
+  authority: IETF
+  url: https://datatracker.ietf.org/doc/html/rfc6024
+  regions:
+  - GLOBAL
+- id: rfc-6960
+  title: RFC 6960 - X.509 Internet Public Key Infrastructure Online Certificate Status Protocol (OCSP)
+  authority: IETF
+  url: https://datatracker.ietf.org/doc/html/rfc6960
+  regions:
+  - GLOBAL
+- id: rfc-9525
+  title: RFC 9525 - Service Identity in TLS
+  authority: IETF
+  url: https://datatracker.ietf.org/doc/html/rfc9525
+  regions:
+  - GLOBAL
 - id: sans-security-ops
   title: SANS Guide to Security Operations
   url: https://www.sans.org/posters/guide-to-security-operations/

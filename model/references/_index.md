@@ -67,6 +67,9 @@ Canonical list of standards, regulations, and publications referenced by the mod
 | `rfc-3647` | [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://tools.ietf.org/html/rfc3647) | IETF | GLOBAL |
 | `rfc-4210` | [RFC 4210 - Internet X.509 Public Key Infrastructure Certificate Management Protocol (CMP)](https://datatracker.ietf.org/doc/html/rfc4210/) | IETF | GLOBAL |
 | `rfc-5280` | [RFC 5280 - Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile](https://datatracker.ietf.org/doc/html/rfc5280) | IETF | GLOBAL |
+| `rfc-6024` | [RFC 6024 - Trust Anchor Management Requirements](https://datatracker.ietf.org/doc/html/rfc6024) | IETF | GLOBAL |
+| `rfc-6960` | [RFC 6960 - X.509 Internet Public Key Infrastructure Online Certificate Status Protocol (OCSP)](https://datatracker.ietf.org/doc/html/rfc6960) | IETF | GLOBAL |
+| `rfc-9525` | [RFC 9525 - Service Identity in TLS](https://datatracker.ietf.org/doc/html/rfc9525) | IETF | GLOBAL |
 | `sans-security-ops` | [SANS Guide to Security Operations](https://www.sans.org/posters/guide-to-security-operations/) | SANS | GLOBAL |
 | `sogis-crypto` | [SOG-IS crypto algorithms](https://www.sogis.eu/uk/supporting_doc_en.html) | SOG-IS | EU |
 | `togaf` | [The Open Group Architecture Framework (TOGAF)](https://www.opengroup.org/togaf) | The Open Group | GLOBAL |
