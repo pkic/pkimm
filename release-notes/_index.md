@@ -22,5 +22,5 @@ The references catalog (`data/pkimm-references.yaml`) has its own independent ve
 
 | Version | Date | Headline change |
 |---------|------|-----------------|
-| [**2.0.0**](2.0.0/) | <span class="badge text-bg-warning">Under development</span> | Adds the Cryptography category; renames maturity level 2 to "Foundational"; introduces stable identifiers and a shared references catalog. |
+| [**2.0.0**](2.0.0/) | 2026-09-25 | Adds the Cryptography category; renames maturity level 2 to "Foundational"; introduces stable identifiers and a shared references catalog. |
 | [1.0.0](1.0.0/) | 2023-08-10 | Initial release. Four modules, 15 assessment categories, five-level maturity rubric. |
