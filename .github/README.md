@@ -66,7 +66,13 @@ pip install -r scripts/requirements-dev.txt
 
 ### Adding a reference
 
-Edit `data/pkimm-references.yaml`, append a new entry with a short kebab-case `id` (convention: `<authority>-<doc-id>`, e.g., `iso-27001`, `nist-fips-140-3`). Bump the catalog's `version:` field — patch for editorial fixes, minor for new entries, major for renames or removals (very rare). Cite the new id from any requirement's `references:` array.
+Edit `data/pkimm-references.yaml` and add a new entry, in `id` order, with a short kebab-case `id` (convention: `<authority>-<doc-id>`, e.g., `iso-27001`, `nist-fips-140-3`). Once the catalog version has been released, bump its `version:` field — patch for editorial fixes, minor for new entries, major for renames or removals (very rare). Cite the new id from any requirement's `references:` array.
+
+### Retiring a reference
+
+When a cited publication is revised under the same identifier, update its entry in place. When it is replaced by a publication with a different identifier, add the successor, cite it instead, and mark the old entry `deprecated: true` with `supersededBy: <id>`. The references page flags deprecated entries, and the validator rejects a requirement that cites one.
+
+Before a release, run `python scripts/check_reference_links.py` to find catalog links that no longer resolve. ISO and PCI SSC refuse automated clients, so their `BLOCKED` results need a check in a browser.
 
 ### Adding a category or requirement
 

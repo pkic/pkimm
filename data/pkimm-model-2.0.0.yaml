@@ -915,7 +915,7 @@ modules:
         - Documented trust anchor management
           - Distribution of new and updated trust anchors (Root CA certificates)
       references:
-      - rfc-4210
+      - rfc-9810
       - cab-baseline-requirements
       - ref-3gpp-33-310
       - unisig-subset-137
@@ -1936,7 +1936,6 @@ modules:
         - Training plan is approved and communicated to all personnel
         - Training plan is integrated in organization
       references:
-      - nist-sp-800-16
       - nist-sp-800-50
       - ecsf
     - id: personnel-training
@@ -1961,7 +1960,6 @@ modules:
         - Training is provided in accordance with the training plan
         - Training completeness
       references:
-      - nist-sp-800-16
       - nist-sp-800-50
       - ecsf
     - id: security-awareness-training
@@ -1996,7 +1994,6 @@ modules:
         - Interview personnel to verify their educational goals
         - Validate education records
       references:
-      - nist-sp-800-16
       - nist-sp-800-50
       - ecsf
     - id: knowledge-review
@@ -2012,7 +2009,6 @@ modules:
         - Implementation of review process
         - Validation of documentation and reviews
       references:
-      - nist-sp-800-16
       - nist-sp-800-50
       - ecsf
   - id: awareness

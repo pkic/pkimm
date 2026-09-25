@@ -53,7 +53,7 @@ The following is sample evidence that can be used to assess the requirement:
 
 #### References
 
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
 
 <a id="responsible-leadership"></a>
 ### Formal assignment of responsible leadership
@@ -69,7 +69,7 @@ Interview with the responsible person should confirm the understanding of the ro
 
 #### References
 
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
 
 <a id="scope-and-drivers"></a>
 ### Scope and business drivers for PKI
@@ -92,7 +92,7 @@ The following is sample evidence that can be used to assess the requirement:
 
 #### References
 
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
 - [The Open Group Architecture Framework (TOGAF)](https://www.opengroup.org/togaf)
 
 <a id="architecture"></a>
@@ -125,5 +125,5 @@ The following is sample evidence that can be used to assess the requirement:
 
 #### References
 
-- [ETSI EN 319 401 - General Policy Requirements for Trust Service Providers](https://www.etsi.org/deliver/etsi_en/319400_319499/319401/02.03.01_60/en_319401v020301p.pdf)
+- [ETSI EN 319 401 - General Policy Requirements for Trust Service Providers](https://www.etsi.org/deliver/etsi_en/319400_319499/319401/)
 - [The Open Group Architecture Framework (TOGAF)](https://www.opengroup.org/togaf)

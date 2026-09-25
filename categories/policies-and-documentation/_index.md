@@ -66,9 +66,9 @@ The scope can include the following:
 
 #### References
 
-- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://tools.ietf.org/html/rfc3647)
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
-- [ETSI EN 319 401 - General Policy Requirements for Trust Service Providers](https://www.etsi.org/deliver/etsi_en/319400_319499/319401/02.03.01_60/en_319401v020301p.pdf)
+- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://datatracker.ietf.org/doc/html/rfc3647)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
+- [ETSI EN 319 401 - General Policy Requirements for Trust Service Providers](https://www.etsi.org/deliver/etsi_en/319400_319499/319401/)
 
 <a id="certificate-policy"></a>
 ### Certificate policy is documented and published
@@ -106,9 +106,9 @@ In general a CP addresses the following items:
 
 #### References
 
-- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://tools.ietf.org/html/rfc3647)
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
-- [ETSI EN 319 411-1 - Policy and security requirements for Trust Service Providers issuing certificates](https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/01.03.01_60/en_31941101v010301p.pdf)
+- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://datatracker.ietf.org/doc/html/rfc3647)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
+- [ETSI EN 319 411-1 - Policy and security requirements for Trust Service Providers issuing certificates; Part 1: General requirements](https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/)
 
 <a id="practice-statement"></a>
 ### Certification practice statement is documented and published
@@ -128,9 +128,9 @@ The CPS covers the same items as the CP, but includes technical detail of how th
 
 #### References
 
-- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://tools.ietf.org/html/rfc3647)
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
-- [ETSI EN 319 411-1 - Policy and security requirements for Trust Service Providers issuing certificates](https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/01.03.01_60/en_31941101v010301p.pdf)
+- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://datatracker.ietf.org/doc/html/rfc3647)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
+- [ETSI EN 319 411-1 - Policy and security requirements for Trust Service Providers issuing certificates; Part 1: General requirements](https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/)
 
 <a id="disclosure-statement"></a>
 ### Disclosure statement is documented and published
@@ -161,7 +161,7 @@ The purpose of a DS is to provide transparency to relying parties, allowing them
 
 #### References
 
-- [ETSI EN 319 411-1 - Policy and security requirements for Trust Service Providers issuing certificates](https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/01.03.01_60/en_31941101v010301p.pdf)
+- [ETSI EN 319 411-1 - Policy and security requirements for Trust Service Providers issuing certificates; Part 1: General requirements](https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/)
 
 <a id="policy-review"></a>
 ### Policies are periodically reviewed and updated
@@ -180,9 +180,9 @@ Policies are living documents that are continuously updated and changed as techn
 
 #### References
 
-- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://tools.ietf.org/html/rfc3647)
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
-- [ETSI EN 319 401 - General Policy Requirements for Trust Service Providers](https://www.etsi.org/deliver/etsi_en/319400_319499/319401/02.03.01_60/en_319401v020301p.pdf)
+- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://datatracker.ietf.org/doc/html/rfc3647)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
+- [ETSI EN 319 401 - General Policy Requirements for Trust Service Providers](https://www.etsi.org/deliver/etsi_en/319400_319499/319401/)
 
 <a id="validation-requirements"></a>
 ### Certificate validation requirements are documented, implemented, and verified
@@ -222,7 +222,7 @@ Approved algorithms and parameters are governed under the cryptography category.
 
 - [RFC 5280 - Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile](https://datatracker.ietf.org/doc/html/rfc5280)
 - [RFC 6024 - Trust Anchor Management Requirements](https://datatracker.ietf.org/doc/html/rfc6024)
-- [RFC 6960 - X.509 Internet Public Key Infrastructure Online Certificate Status Protocol (OCSP)](https://datatracker.ietf.org/doc/html/rfc6960)
+- [RFC 6960 - X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP](https://datatracker.ietf.org/doc/html/rfc6960)
 - [RFC 9525 - Service Identity in TLS](https://datatracker.ietf.org/doc/html/rfc9525)
-- [NIST SP 800-52 Rev. 2 - Guidelines for the Selection, Configuration, and Use of Transport Layer Security (TLS) Implementations](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r2.pdf)
-- [ISO/IEC 27099 - Public key infrastructure](https://www.iso.org/standard/56590.html)
+- [NIST SP 800-52 Rev. 2 - Guidelines for the Selection, Configuration, and Use of Transport Layer Security (TLS) Implementations](https://csrc.nist.gov/pubs/sp/800/52/r2/final)
+- [ISO/IEC 27099 - Public key infrastructure - Practices and policy framework](https://www.iso.org/standard/56590.html)

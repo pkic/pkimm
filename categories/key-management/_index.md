@@ -63,7 +63,7 @@ Naming or assignment records should contain relevant information such as:
 
 #### References
 
-- [ISO/IEC 27001 and related standards](https://www.iso.org/isoiec-27001-information-security.html)
+- [ISO/IEC 27000 family - Information security management](https://www.iso.org/standard/iso-iec-27000-family)
 
 <a id="key-inventory"></a>
 ### Inventory of cryptographic keys is documented and maintained
@@ -88,8 +88,8 @@ Inventory should follow procedures and business as usual activities to keep it a
 
 #### References
 
-- [NIST SP 800-57 Part 1 Rev. 5 - Recommendation for Key Management](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf)
-- [ISO/IEC 11770 Key Management](https://www.iso.org/standard/53456.html)
+- [NIST SP 800-57 Part 1 Rev. 5 - Recommendation for Key Management](https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final)
+- [ISO/IEC 11770-1 - Key management - Part 1: Framework](https://www.iso.org/standard/53456.html)
 
 <a id="device-inventory"></a>
 ### Inventory of cryptographic devices is documented and maintained
@@ -116,8 +116,8 @@ The inventory of cryptographic devices should contain relevant information such 
 
 #### References
 
-- [NIST SP 800-57 Part 1 Rev. 5 - Recommendation for Key Management](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf)
-- [ISO/IEC 11770 Key Management](https://www.iso.org/standard/53456.html)
+- [NIST SP 800-57 Part 1 Rev. 5 - Recommendation for Key Management](https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final)
+- [ISO/IEC 11770-1 - Key management - Part 1: Framework](https://www.iso.org/standard/53456.html)
 
 <a id="key-lifecycle"></a>
 ### Each cryptographic key is defined and has documented lifecycle procedures
@@ -142,8 +142,8 @@ The lifecycle phases contains appropriate description of the procedure such as:
 
 #### References
 
-- [NIST SP 800-57 Part 1 Rev. 5 - Recommendation for Key Management](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf)
-- [ISO/IEC 11770 Key Management](https://www.iso.org/standard/53456.html)
+- [NIST SP 800-57 Part 1 Rev. 5 - Recommendation for Key Management](https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final)
+- [ISO/IEC 11770-1 - Key management - Part 1: Framework](https://www.iso.org/standard/53456.html)
 
 <a id="key-mgmt-review"></a>
 ### Key management is periodically reviewed and updated
@@ -163,4 +163,4 @@ It provides assurance that the expected controls are active and working as inten
 
 #### References
 
-- [ISO/IEC 27001 and related standards](https://www.iso.org/isoiec-27001-information-security.html)
+- [ISO/IEC 27000 family - Information security management](https://www.iso.org/standard/iso-iec-27000-family)

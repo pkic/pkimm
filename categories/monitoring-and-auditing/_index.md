@@ -68,9 +68,9 @@ The requirements can typically include:
 
 #### References
 
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
-- [ISO/IEC 27099 - Public key infrastructure](https://www.iso.org/standard/56590.html)
+- [ISO/IEC 27099 - Public key infrastructure - Practices and policy framework](https://www.iso.org/standard/56590.html)
 
 <a id="log-collection"></a>
 ### Event logs from systems are collected
@@ -102,10 +102,10 @@ The event should contain sufficient information to identify the event, including
 
 #### References
 
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
-- [NIST - Guide to Computer Security Log Management](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-92.pdf)
-- [ISO/IEC 27099 - Public key infrastructure](https://www.iso.org/standard/56590.html)
+- [NIST SP 800-92 - Guide to Computer Security Log Management](https://csrc.nist.gov/pubs/sp/800/92/final)
+- [ISO/IEC 27099 - Public key infrastructure - Practices and policy framework](https://www.iso.org/standard/56590.html)
 
 <a id="audit-trail"></a>
 ### Audit trail can be reconstructed from audit logs
@@ -133,10 +133,10 @@ Typically, the following events are important for security of the PKI implementa
 
 #### References
 
-- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://tools.ietf.org/html/rfc3647)
-- [NIST - Guide to Computer Security Log Management](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-92.pdf)
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
-- [ISO/IEC 27099 - Public key infrastructure](https://www.iso.org/standard/56590.html)
+- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://datatracker.ietf.org/doc/html/rfc3647)
+- [NIST SP 800-92 - Guide to Computer Security Log Management](https://csrc.nist.gov/pubs/sp/800/92/final)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
+- [ISO/IEC 27099 - Public key infrastructure - Practices and policy framework](https://www.iso.org/standard/56590.html)
 
 <a id="event-monitoring"></a>
 ### Monitoring of operational and security events is implemented
@@ -156,9 +156,9 @@ Monitoring should be aligned with the monitoring and auditing requirements defin
 
 #### References
 
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
-- [ISO/IEC 27099 - Public key infrastructure](https://www.iso.org/standard/56590.html)
+- [ISO/IEC 27099 - Public key infrastructure - Practices and policy framework](https://www.iso.org/standard/56590.html)
 
 <a id="critical-event-alerting"></a>
 ### Critical events are immediately alerted and resolved according to incident response plans
@@ -176,9 +176,9 @@ Critical events should be immediately alerted and resolved according to incident
 
 #### References
 
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
-- [ISO/IEC 27099 - Public key infrastructure](https://www.iso.org/standard/56590.html)
+- [ISO/IEC 27099 - Public key infrastructure - Practices and policy framework](https://www.iso.org/standard/56590.html)
 
 <a id="log-review"></a>
 ### Review of events and logs is periodically performed
@@ -198,7 +198,7 @@ The review of logs and events should be performed periodically and the frequency
 
 #### References
 
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
-- [NIST - Guide to Computer Security Log Management](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-92.pdf)
-- [ISO/IEC 27099 - Public key infrastructure](https://www.iso.org/standard/56590.html)
+- [NIST SP 800-92 - Guide to Computer Security Log Management](https://csrc.nist.gov/pubs/sp/800/92/final)
+- [ISO/IEC 27099 - Public key infrastructure - Practices and policy framework](https://www.iso.org/standard/56590.html)

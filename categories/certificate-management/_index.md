@@ -65,12 +65,12 @@ Certificate profiles specify the contents of certificates for one or more use ca
 #### References
 
 - [RFC 5280 - Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile](https://datatracker.ietf.org/doc/html/rfc5280)
-- [CA/B Forum baseline requirements](https://cabforum.org/baseline-requirements/)
-- [ETSI Qualified Certificate Profiles](https://portal.etsi.org/TB-SiteMap/ESI/Trust-Service-Providers)
-- [ETSI EN 319 411-1 - Policy and security requirements for Trust Service Providers issuing certificates](https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/01.03.01_60/en_31941101v010301p.pdf)
-- [ETSI 319-411-2](https://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.03.01_60/en_31941102v020301p.pdf)
-- [3GPP 33.310 - Network Domain Security (NDS); Authentication Framework (AF)](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2293)
-- [UNISIG SUBSET-137](https://www.era.europa.eu/system/files/2022-11/index083_-_subset-137_v100.pdf)
+- [CA/Browser Forum Baseline Requirements for the Issuance and Management of Publicly-Trusted TLS Server Certificates](https://cabforum.org/working-groups/server/baseline-requirements/documents/)
+- [ETSI EN 319 412-5 - Certificate Profiles; Part 5: QCStatements](https://www.etsi.org/deliver/etsi_en/319400_319499/31941205/)
+- [ETSI EN 319 411-1 - Policy and security requirements for Trust Service Providers issuing certificates; Part 1: General requirements](https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/)
+- [ETSI EN 319 411-2 - Policy and security requirements for Trust Service Providers issuing certificates; Part 2: Requirements for trust service providers issuing EU qualified certificates](https://www.etsi.org/deliver/etsi_en/319400_319499/31941102/)
+- [3GPP TS 33.310 - Network Domain Security (NDS); Authentication Framework (AF)](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2293)
+- [UNISIG SUBSET-137 - ERTMS/ETCS On-line Key Management FFFIS](https://www.era.europa.eu/system/files/2023-09/index083_-_SUBSET-137_v400.pdf)
 
 <a id="cert-lifecycle"></a>
 ### Certificate lifecycle management is documented
@@ -117,10 +117,10 @@ Issuance of certificates follow specific procedures, be it manual processes or a
 
 #### References
 
-- [RFC 4210 - Internet X.509 Public Key Infrastructure Certificate Management Protocol (CMP)](https://datatracker.ietf.org/doc/html/rfc4210/)
-- [CA/B Forum baseline requirements](https://cabforum.org/baseline-requirements/)
-- [3GPP 33.310 - Network Domain Security (NDS); Authentication Framework (AF)](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2293)
-- [UNISIG SUBSET-137](https://www.era.europa.eu/system/files/2022-11/index083_-_subset-137_v100.pdf)
+- [RFC 9810 - Internet X.509 Public Key Infrastructure - Certificate Management Protocol (CMP)](https://datatracker.ietf.org/doc/html/rfc9810)
+- [CA/Browser Forum Baseline Requirements for the Issuance and Management of Publicly-Trusted TLS Server Certificates](https://cabforum.org/working-groups/server/baseline-requirements/documents/)
+- [3GPP TS 33.310 - Network Domain Security (NDS); Authentication Framework (AF)](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2293)
+- [UNISIG SUBSET-137 - ERTMS/ETCS On-line Key Management FFFIS](https://www.era.europa.eu/system/files/2023-09/index083_-_SUBSET-137_v400.pdf)
 
 <a id="cert-inventory"></a>
 ### Inventory of certificates is documented
@@ -148,8 +148,8 @@ Known certificates include the certificates the organization issues or holds, an
 
 #### References
 
-- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://tools.ietf.org/html/rfc3647)
-- [NIST SP 800-57 Part 1 Rev. 5 - Recommendation for Key Management](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf)
+- [RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework](https://datatracker.ietf.org/doc/html/rfc3647)
+- [NIST SP 800-57 Part 1 Rev. 5 - Recommendation for Key Management](https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final)
 
 <a id="cert-discovery"></a>
 ### Certificate discovery process is documented
@@ -191,7 +191,7 @@ It provides assurance that the expected controls are active and working as inten
 
 #### References
 
-- [ISO/IEC 27001 and related standards](https://www.iso.org/isoiec-27001-information-security.html)
+- [ISO/IEC 27000 family - Information security management](https://www.iso.org/standard/iso-iec-27000-family)
 
 <a id="pki-governance"></a>
 ### Organizational PKI governance

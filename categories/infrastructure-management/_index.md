@@ -67,7 +67,7 @@ The following is sample evidence that can be used to assess the requirement:
 #### References
 
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
 - [Guidance for Containers and Container Orchestration Tools](https://docs-prv.pcisecuritystandards.org/Guidance%20Document/Containers%20and%20Container%20Orchestration%20Tools/Guidance-for-Containers-and-Container-Ochestration-Tools-v1_0.pdf)
 
 <a id="network-segmentation"></a>
@@ -95,7 +95,7 @@ The following is sample evidence that can be used to assess the requirement:
 #### References
 
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
 
 <a id="vulnerability-management"></a>
 ### Network vulnerability management is implemented and maintained
@@ -123,7 +123,7 @@ The following is sample evidence that can be used to assess the requirement:
 
 - [Common Vulnerability Scoring System (CVSS)](https://www.first.org/cvss/)
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
 
 <a id="recovery-objectives"></a>
 ### Infrastructure recovery objectives controls
@@ -145,7 +145,7 @@ The following is sample evidence that can be used to assess the requirement:
 #### References
 
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
 
 <a id="infra-review"></a>
 ### Infrastructure activities are periodically reviewed
@@ -177,4 +177,4 @@ The following is sample evidence that can be used to assess the requirement:
 #### References
 
 - [ISO/IEC 20000 and related standards](https://www.iso.org/standard/70636.html)
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)

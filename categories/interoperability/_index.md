@@ -124,9 +124,9 @@ The following evidence should be available for the assessment of the requirement
 #### References
 
 - [Open Standards Principles](https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles)
-- [IETF Request for Comments (RFC)](https://www.ietf.org/standards/rfcs/)
-- [OASIS Standards](https://www.oasis-open.org/standards)
+- [IETF Request for Comments (RFC)](https://www.ietf.org/process/rfcs/)
+- [OASIS Standards](https://www.oasis-open.org/standards/)
 - [ISO Standards](https://www.iso.org/standards.html)
-- [ITU Standards](https://www.itu.int/en/ITU-T/standardization/)
+- [ITU-T Recommendations](https://www.itu.int/en/ITU-T/publications/Pages/recs.aspx)
 - [NIST Standards](https://www.nist.gov/standards)
-- [ETSI Standards](https://www.etsi.org/standards)
+- [ETSI Standards](https://www.etsi.org/standards/)

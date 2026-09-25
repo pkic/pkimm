@@ -81,10 +81,10 @@ The following is sample evidence that can be used to assess the requirement:
 
 #### References
 
-- [ISO/IEC 27001 - Information security management systems](https://www.iso.org/standard/54534.html)
+- [ISO/IEC 27001 - Information security management systems - Requirements](https://www.iso.org/standard/27001)
 - [Common Vulnerabilities and Exposures (CVE) Program](https://www.cve.org/About/Overview)
-- [NIST Special Publication 800-61 Revision 2 - Computer Security Incident Handling Guide](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final)
-- [SANS Guide to Security Operations](https://www.sans.org/posters/guide-to-security-operations/)
+- [NIST SP 800-61 Rev. 3 - Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile](https://csrc.nist.gov/pubs/sp/800/61/r3/final)
+- [SANS Guide to Security Operations](https://www.sans.org/posters/guide-to-security-operations)
 
 <a id="business-continuity"></a>
 ### Business continuity planning and disaster recovery
@@ -117,8 +117,8 @@ The following is sample evidence that can be used to assess the requirement:
 
 #### References
 
-- [ISO/IEC 22301 - Business continuity management systems](https://www.iso.org/standard/50056.html)
-- [NIST Special Publication 800-34 Revision 1 - Contingency Planning Guide for Federal Information Systems](https://csrc.nist.gov/publications/detail/sp/800-34/rev-1/final)
+- [ISO 22301 - Business continuity management systems - Requirements](https://www.iso.org/standard/75106.html)
+- [NIST SP 800-34 Rev. 1 - Contingency Planning Guide for Federal Information Systems](https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final)
 
 <a id="future-proofing"></a>
 ### Technology future proofing
@@ -146,8 +146,8 @@ The following is sample evidence that can be used to assess the requirement:
 
 #### References
 
-- [ISO 223XX Security and resilience standards](https://www.iso.org/standard/77008.html)
-- [ISO/IEC 22301 - Business continuity management systems](https://www.iso.org/standard/50056.html)
+- [ISO 223xx - Security and resilience standards](https://www.iso.org/committee/5259148.html)
+- [ISO 22301 - Business continuity management systems - Requirements](https://www.iso.org/standard/75106.html)
 
 <a id="competence-sharing"></a>
 ### Competence and information sharing
@@ -172,7 +172,7 @@ The following is sample evidence that can be used to assess the requirement:
 
 #### References
 
-- [ISO 223XX Security and resilience standards](https://www.iso.org/standard/77008.html)
+- [ISO 223xx - Security and resilience standards](https://www.iso.org/committee/5259148.html)
 
 <a id="continual-improvement"></a>
 ### Continual review and improvement
@@ -191,5 +191,5 @@ The following is sample evidence that can be used to assess the requirement:
 
 #### References
 
-- [ISO 223XX Security and resilience standards](https://www.iso.org/standard/77008.html)
-- [NIST Special Publications 800 - 30, 34, 37, 46, 53, 84](https://csrc.nist.gov/publications)
+- [ISO 223xx - Security and resilience standards](https://www.iso.org/committee/5259148.html)
+- [NIST SP 800-30, 800-34, 800-37, 800-46, 800-53 and 800-84](https://csrc.nist.gov/publications/sp800)

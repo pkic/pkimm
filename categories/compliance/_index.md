@@ -66,7 +66,7 @@ The compliance policies typically include:
 
 #### References
 
-- [ISO 37301 - Compliance management systems and related standard](https://www.iso.org/standard/75080.html)
+- [ISO 37301 - Compliance management systems - Requirements with guidance for use](https://www.iso.org/standard/75080.html)
 - [NIST Risk Management Framework](https://csrc.nist.gov/Projects/risk-management)
 
 <a id="compliance-monitoring"></a>
@@ -88,7 +88,7 @@ The monitoring process may include reviewing documentation, conducting interview
 
 #### References
 
-- [ISO 37301 - Compliance management systems and related standard](https://www.iso.org/standard/75080.html)
+- [ISO 37301 - Compliance management systems - Requirements with guidance for use](https://www.iso.org/standard/75080.html)
 - [NIST Risk Management Framework](https://csrc.nist.gov/Projects/risk-management)
 
 <a id="compliance-responsibilities"></a>
@@ -107,7 +107,7 @@ Documenting specifically "who" shall be responsible for ensuring PKI policies ar
 
 #### References
 
-- [ISO 37301 - Compliance management systems and related standard](https://www.iso.org/standard/75080.html)
+- [ISO 37301 - Compliance management systems - Requirements with guidance for use](https://www.iso.org/standard/75080.html)
 - [NIST Risk Management Framework](https://csrc.nist.gov/Projects/risk-management)
 
 <a id="regulatory-inventory"></a>
@@ -136,5 +136,5 @@ And, many times, a PKI will make use of hardware cryptographic modules for key g
 
 #### References
 
-- [ISO 37301 - Compliance management systems and related standard](https://www.iso.org/standard/75080.html)
+- [ISO 37301 - Compliance management systems - Requirements with guidance for use](https://www.iso.org/standard/75080.html)
 - [NIST Risk Management Framework](https://csrc.nist.gov/Projects/risk-management)

@@ -25,7 +25,7 @@ Content repository for the **PKI Maturity Model (PKIMM)**, maintained by the PKI
 - `data/pkimm-model-1.0.0.yaml` — archived 1.0.0 model; validated by `data/pkimm-model.schema-1.0.0.json`.
 - `data/pkimm-model.schema-2.0.0.json` — JSON Schema for the 2.0.0 YAML shape. Category and requirement `id` fields are kebab-case strings; `requirements[].references` is an array of catalog IDs.
 - `data/pkimm-model.schema-1.0.0.json` — JSON Schema for the 1.0.0 YAML shape (retroactively renamed from `pkimm-model.schema.json`).
-- `data/pkimm-references.yaml` — **independently-versioned references catalog**. Per-requirement `references` fields in the 2.0.0 model contain arrays of IDs from this catalog. Edit here to update reference metadata without touching the model YAML.
+- `data/pkimm-references.yaml` — **independently-versioned references catalog**. Per-requirement `references` fields in the 2.0.0 model contain arrays of IDs from this catalog. Edit here to update reference metadata without touching the model YAML. Entries are sorted by `id` and use a fixed key order: `id`, `title`, `authority`, `url`, `regions`, then the optional `deprecated` and `supersededBy`. Write every entry out in full — no YAML anchors or aliases. The validator warns when either convention drifts and rejects unknown keys. Where a publication has an identifier, its title takes the form `<identifier> - <title>` (e.g., `NIST SP 800-61 Rev. 3 - …`, `ISO 22301 - …`); `authority` names the publisher, e.g., `ISO` for ISO-only work and `ISO/IEC` for joint JTC 1 standards.
 - `data/pkimm-references.schema-1.0.0.json` — JSON Schema for the references catalog.
 - `extensions/` — extension framework: schema (`extension.schema-1.0.0.json`), structure and scoring documentation. The extension framework defines the non-destructive, composable overlay/relevance model (schema/structure/scoring); the catalog of published extension YAML definitions now lives in the separate `pkimm-extensions` repository, rendered at https://pkic.org/wg/pkimm/extensions/.
 - `scripts/` — authoring and validation scripts (see "Authoring workflow" below).
@@ -58,7 +58,10 @@ CI runs the validator on every PR and push to main (`.github/workflows/check-con
 
 **Key scripts in `scripts/`:**
 - `generate_category_docs.py` — regenerates `categories/` markdown from YAML.
-- `check_model_docs_consistency.py` — validates YAML ↔ markdown parity, vocabulary, counts, references, and schema consistency. Run this before every commit.
+- `check_model_docs_consistency.py` — validates YAML ↔ markdown parity, vocabulary, counts, references, JSON Schema conformance of the model and the catalog, and schema consistency. Run this before every commit.
+- `check_reference_links.py` — checks that every catalog URL still resolves. Manual-run, not part of CI: it makes network calls, and publishers such as ISO and PCI SSC refuse automated clients while serving the same documents fine in a browser. Those come back as `BLOCKED` and need a manual check rather than a fix; only `BROKEN` fails the run. NSA's CDN refuses browser versions older than about a year: if NSA links start coming back `BLOCKED`, bump the Chrome version in `BROWSER_USER_AGENT`. Run the checker, and review whether cited publications have been revised or withdrawn, before each release.
+
+**Retiring a reference:** when a cited publication gets a new revision, edition, or version under the same identifier, update the entry in place. When it is replaced by a publication with a different identifier, add the successor, move the model's citations to it, and mark the old entry `deprecated: true` with `supersededBy: <catalog-id>` for as long as its publisher still hosts it; the references page flags it as superseded. Remove an entry outright once nothing cites it and its publisher no longer publishes it. The validator rejects a requirement citing a deprecated entry, and a `supersededBy` that names an unknown id or appears without `deprecated: true`.
 
 ## Contribution constraints
 
